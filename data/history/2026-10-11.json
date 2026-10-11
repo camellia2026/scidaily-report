@@ -1,0 +1,2184 @@
+{
+ "date": "2026-10-11",
+ "generated_at": "2026-10-11 12:51 CST",
+ "backend": "rule",
+ "sent": false,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "本次以规则模式生成，共 81 条。未调用大模型，摘要为原文截取。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Advancing regulatory variant effect prediction with AlphaGenome",
+   "headline_zh": "Advancing regulatory variant effect prediction with AlphaGe…",
+   "summary_zh": "Abstract Deep learning models that predict functional genomic measurements from DNA sequences are powerful tools for deciphering the genetic regulatory code. Existing methods involve a trade-off betw…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "hot",
+     "title": "Advancing regulatory variant effect prediction with AlphaGenome",
+     "url": "https://doi.org/10.1038/s41586-025-10014-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-10014-0",
+     "published": "2026-01-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Homogenized chlorine distribution for >27% power conversion efficiency in perovskite solar cells",
+   "headline_zh": "Homogenized chlorine distribution for >27% power conversion…",
+   "summary_zh": "The spatial heterogeneity of halogen distribution in perovskite thin films represents a critical factor currently limiting both the power conversion efficiency and stability of solar cells. We identi…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "hot",
+     "title": "Homogenized chlorine distribution for >27% power conversion efficiency in perovskite solar cells",
+     "url": "https://doi.org/10.1126/science.adw8780",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adw8780",
+     "published": "2025-11-06T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Global, regional, and national burden of chronic kidney disease in adults, 1990–2023, and its attributable risk factors: a systematic analysis for the Global Burden of Disease Study 2023",
+   "headline_zh": "Global, regional, and national burden of chronic kidney dis…",
+   "summary_zh": "BACKGROUND: Chronic kidney disease (CKD) is common and ranks among the leading causes of mortality and morbidity. This analysis aimed to present global CKD estimates using the Global Burden of Diseas…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "hot",
+     "title": "Global, regional, and national burden of chronic kidney disease in adults, 1990–2023, and its attributable risk factors: a systematic analysis for the Global Burden of Disease Study 2023",
+     "url": "https://doi.org/10.1016/s0140-6736(25)01853-7",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/s0140-6736(25)01853-7",
+     "published": "2025-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Global burden of 292 causes of death in 204 countries and territories and 660 subnational locations, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
+   "headline_zh": "Global burden of 292 causes of death in 204 countries and t…",
+   "summary_zh": "BACKGROUND: Timely and comprehensive analyses of causes of death stratified by age, sex, and location are essential for shaping effective health policies aimed at reducing global mortality. The Globa…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "hot",
+     "title": "Global burden of 292 causes of death in 204 countries and territories and 660 subnational locations, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
+     "url": "https://doi.org/10.1016/s0140-6736(25)01917-8",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/s0140-6736(25)01917-8",
+     "published": "2025-10-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "The EAT–Lancet Commission on healthy, sustainable, and just food systems",
+   "headline_zh": "The EAT–Lancet Commission on healthy, sustainable, and just…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "hot",
+     "title": "The EAT–Lancet Commission on healthy, sustainable, and just food systems",
+     "url": "https://doi.org/10.1016/s0140-6736(25)01201-2",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/s0140-6736(25)01201-2",
+     "published": "2025-10-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
+   "headline_zh": "Burden of 375 diseases and injuries, risk-attributable burd…",
+   "summary_zh": "BACKGROUND: For more than three decades, the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) has provided a framework to quantify health loss due to diseases, injuries, and associat…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "hot",
+     "title": "Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
+     "url": "https://doi.org/10.1016/s0140-6736(25)01637-x",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/s0140-6736(25)01637-x",
+     "published": "2025-10-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+   "headline_zh": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforc…",
+   "summary_zh": "Abstract General reasoning represents a long-standing and formidable challenge in artificial intelligence (AI). Recent breakthroughs, exemplified by large language models (LLMs) 1,2 and chain-of-thou…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "hot",
+     "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+     "url": "https://doi.org/10.1038/s41586-025-09422-z",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-09422-z",
+     "published": "2025-09-17T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Neoadjuvant and Adjuvant Pembrolizumab in Locally Advanced Head and Neck Cancer",
+   "headline_zh": "Neoadjuvant and Adjuvant Pembrolizumab in Locally Advanced…",
+   "summary_zh": "BACKGROUND: The benefit of the addition of perioperative pembrolizumab to standard care with surgery and adjuvant therapy for patients with locally advanced head and neck squamous-cell carcinoma (HNS…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "hot",
+     "title": "Neoadjuvant and Adjuvant Pembrolizumab in Locally Advanced Head and Neck Cancer",
+     "url": "https://doi.org/10.1056/nejmoa2415434",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2415434",
+     "published": "2025-06-18T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Impacts of climate change on global agriculture accounting for adaptation",
+   "headline_zh": "Impacts of climate change on global agriculture accounting…",
+   "summary_zh": "Climate change threatens global food systems1, but the extent to which adaptation will reduce losses remains unknown and controversial2. Even within the well-studied context of US agriculture, some a…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "hot",
+     "title": "Impacts of climate change on global agriculture accounting for adaptation",
+     "url": "https://doi.org/10.1038/s41586-025-09085-w",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-09085-w",
+     "published": "2025-06-18T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Structured Exercise after Adjuvant Chemotherapy for Colon Cancer",
+   "headline_zh": "Structured Exercise after Adjuvant Chemotherapy for Colon C…",
+   "summary_zh": "BACKGROUND: Preclinical and observational studies suggest that exercise may improve cancer outcomes. However, definitive level 1 evidence is lacking. METHODS: In this phase 3, randomized trial conduc…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "hot",
+     "title": "Structured Exercise after Adjuvant Chemotherapy for Colon Cancer",
+     "url": "https://doi.org/10.1056/nejmoa2502760",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2502760",
+     "published": "2025-06-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "Patient-Specific In Vivo Gene Editing to Treat a Rare Genetic Disease",
+   "headline_zh": "Patient-Specific In Vivo Gene Editing to Treat a Rare Genet…",
+   "summary_zh": "Base editors can correct disease-causing genetic variants. After a neonate had received a diagnosis of severe carbamoyl-phosphate synthetase 1 deficiency, a disease with an estimated 50% mortality in…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "hot",
+     "title": "Patient-Specific In Vivo Gene Editing to Treat a Rare Genetic Disease",
+     "url": "https://doi.org/10.1056/nejmoa2504747",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2504747",
+     "published": "2025-05-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "Tirzepatide as Compared with Semaglutide for the Treatment of Obesity",
+   "headline_zh": "Tirzepatide as Compared with Semaglutide for the Treatment…",
+   "summary_zh": "BACKGROUND: Tirzepatide and semaglutide are highly effective medications for obesity management. The efficacy and safety of tirzepatide as compared with semaglutide in adults with obesity but without…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "hot",
+     "title": "Tirzepatide as Compared with Semaglutide for the Treatment of Obesity",
+     "url": "https://doi.org/10.1056/nejmoa2416394",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2416394",
+     "published": "2025-05-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Quantum Generative Diffusion Model: A Fully Quantum-Mechanical Model for Generating Quantum State Ensemble",
+   "headline_zh": "Quantum Generative Diffusion Model: A Fully Quantum-Mechani…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Quantum Generative Diffusion Model: A Fully Quantum-Mechanical Model for Generating Quantum State Ensemble",
+     "url": "https://doi.org/10.1109/tpami.2026.3718311",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3718311",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "E\n                    <sup>3</sup>\n                    NeRF: Efficient Event-Enhanced Neural Radiance Fields From Blurry Images",
+   "headline_zh": "E\n                    <sup>3</sup>\n                    NeRF…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "E\n                    <sup>3</sup>\n                    NeRF: Efficient Event-Enhanced Neural Radiance Fields From Blurry Images",
+     "url": "https://doi.org/10.1109/tpami.2026.3722771",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3722771",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "How Powerful are Hypergraph Neural Networks?",
+   "headline_zh": "How Powerful are Hypergraph Neural Networks?",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "How Powerful are Hypergraph Neural Networks?",
+     "url": "https://doi.org/10.1109/tpami.2026.3724944",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3724944",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Exposition on Over-Squashing Problem of GNNs: Current Methods, Benchmarks and Challenges",
+   "headline_zh": "Exposition on Over-Squashing Problem of GNNs: Current Metho…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Exposition on Over-Squashing Problem of GNNs: Current Methods, Benchmarks and Challenges",
+     "url": "https://doi.org/10.1109/tpami.2026.3725957",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3725957",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "DeltaGNN: Graph Neural Network With Information Flow Control",
+   "headline_zh": "DeltaGNN: Graph Neural Network With Information Flow Control",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "DeltaGNN: Graph Neural Network With Information Flow Control",
+     "url": "https://doi.org/10.1109/tpami.2026.3725398",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3725398",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "NP-Hardness of Minimizing Neurons in Two-Hidden-Layer ReLU Neural Networks",
+   "headline_zh": "NP-Hardness of Minimizing Neurons in Two-Hidden-Layer ReLU…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "paper",
+     "title": "NP-Hardness of Minimizing Neurons in Two-Hidden-Layer ReLU Neural Networks",
+     "url": "https://doi.org/10.1109/tpami.2026.3711513",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3711513",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "RingMo-Agent: A Unified Remote Sensing Foundation Model for Multi-Platform and Multi-Modal Reasoning",
+   "headline_zh": "RingMo-Agent: A Unified Remote Sensing Foundation Model for…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "paper",
+     "title": "RingMo-Agent: A Unified Remote Sensing Foundation Model for Multi-Platform and Multi-Modal Reasoning",
+     "url": "https://doi.org/10.1109/tpami.2026.3718699",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3718699",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "PRIMEdit: Probability Redistribution for Instance-Aware Multi-Object Video Editing With a New Benchmark Dataset",
+   "headline_zh": "PRIMEdit: Probability Redistribution for Instance-Aware Mul…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "paper",
+     "title": "PRIMEdit: Probability Redistribution for Instance-Aware Multi-Object Video Editing With a New Benchmark Dataset",
+     "url": "https://doi.org/10.1109/tpami.2026.3722239",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3722239",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "Bridging the Gap in Exam Handwritten Text Recognition: Dataset, Benchmark, and Modeling",
+   "headline_zh": "Bridging the Gap in Exam Handwritten Text Recognition: Data…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "paper",
+     "title": "Bridging the Gap in Exam Handwritten Text Recognition: Dataset, Benchmark, and Modeling",
+     "url": "https://doi.org/10.1109/tpami.2026.3721731",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721731",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "ShadowNet for Data-Centric Quantum System Learning",
+   "headline_zh": "ShadowNet for Data-Centric Quantum System Learning",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "paper",
+     "title": "ShadowNet for Data-Centric Quantum System Learning",
+     "url": "https://doi.org/10.1109/tpami.2026.3724021",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3724021",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    23
+   ],
+   "title_en": "Foundation Models Based Scene Graph Generation",
+   "headline_zh": "Foundation Models Based Scene Graph Generation",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 23,
+     "channel": "paper",
+     "title": "Foundation Models Based Scene Graph Generation",
+     "url": "https://doi.org/10.1109/tpami.2026.3712094",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3712094",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "AI-Empowered Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects",
+   "headline_zh": "AI-Empowered Quantum Circuit Synthesis and Compilation Opti…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "paper",
+     "title": "AI-Empowered Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects",
+     "url": "https://doi.org/10.1109/tpami.2026.3715237",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3715237",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "QSMnet-INR: Single-Orientation Quantitative Susceptibility Mapping via Implicit Neural Representation in k-Space",
+   "headline_zh": "QSMnet-INR: Single-Orientation Quantitative Susceptibility…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "paper",
+     "title": "QSMnet-INR: Single-Orientation Quantitative Susceptibility Mapping via Implicit Neural Representation in k-Space",
+     "url": "https://doi.org/10.1109/tpami.2026.3717996",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3717996",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "Quantum at the Edge: Scalable Standalone FPGA Emulator for QAOA-Based Weighted-MaxCut",
+   "headline_zh": "Quantum at the Edge: Scalable Standalone FPGA Emulator for…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "paper",
+     "title": "Quantum at the Edge: Scalable Standalone FPGA Emulator for QAOA-Based Weighted-MaxCut",
+     "url": "https://doi.org/10.1109/tc.2026.3724836",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3724836",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    27
+   ],
+   "title_en": "Grad-ECLIP: Gradient-Based Visual and Textual Explanations for CLIP",
+   "headline_zh": "Grad-ECLIP: Gradient-Based Visual and Textual Explanations…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 27,
+     "channel": "paper",
+     "title": "Grad-ECLIP: Gradient-Based Visual and Textual Explanations for CLIP",
+     "url": "https://doi.org/10.1109/tpami.2026.3714444",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3714444",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    28
+   ],
+   "title_en": "The Hitchhiker’s Guide to Autonomous Research: A Survey of Scientific Agents",
+   "headline_zh": "The Hitchhiker’s Guide to Autonomous Research: A Survey of…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 28,
+     "channel": "paper",
+     "title": "The Hitchhiker’s Guide to Autonomous Research: A Survey of Scientific Agents",
+     "url": "https://doi.org/10.1109/tpami.2026.3721500",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721500",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "Propagating Cross-View Semantics for Multi-View Clustering: A Unified Anchor Refinement Paradigm",
+   "headline_zh": "Propagating Cross-View Semantics for Multi-View Clustering:…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "paper",
+     "title": "Propagating Cross-View Semantics for Multi-View Clustering: A Unified Anchor Refinement Paradigm",
+     "url": "https://doi.org/10.1109/tpami.2026.3713020",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3713020",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "DIVER: Reinforced Diffusion Breaks Imitation Bottlenecks in End-to-End Autonomous Driving",
+   "headline_zh": "DIVER: Reinforced Diffusion Breaks Imitation Bottlenecks in…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "paper",
+     "title": "DIVER: Reinforced Diffusion Breaks Imitation Bottlenecks in End-to-End Autonomous Driving",
+     "url": "https://doi.org/10.1109/tpami.2026.3708096",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3708096",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "AnimateAnyMesh++: A Flexible Feed-Forward Framework for High-Fidelity Text-Driven Mesh Animation",
+   "headline_zh": "AnimateAnyMesh++: A Flexible Feed-Forward Framework for Hig…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "paper",
+     "title": "AnimateAnyMesh++: A Flexible Feed-Forward Framework for High-Fidelity Text-Driven Mesh Animation",
+     "url": "https://doi.org/10.1109/tpami.2026.3724593",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3724593",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "<i>DeepForgeSeal:</i>\n                    Latent Space-Driven Semi-Fragile Watermarking for Deepfake Detection Using Adversarial Reinforcement Learning",
+   "headline_zh": "<i>DeepForgeSeal:</i>\n                    Latent Space-Driv…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "paper",
+     "title": "<i>DeepForgeSeal:</i>\n                    Latent Space-Driven Semi-Fragile Watermarking for Deepfake Detection Using Adversarial Reinforcement Learning",
+     "url": "https://doi.org/10.1109/tpami.2026.3721108",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721108",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "MambaX: Image Super-Resolution With State Predictive Control",
+   "headline_zh": "MambaX: Image Super-Resolution With State Predictive Control",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "paper",
+     "title": "MambaX: Image Super-Resolution With State Predictive Control",
+     "url": "https://doi.org/10.1109/tpami.2026.3721958",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721958",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "Multi-Round Meta-Learning for Label Purification Without Trusted Labels",
+   "headline_zh": "Multi-Round Meta-Learning for Label Purification Without Tr…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "paper",
+     "title": "Multi-Round Meta-Learning for Label Purification Without Trusted Labels",
+     "url": "https://doi.org/10.1109/tpami.2026.3718926",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3718926",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Afford-X: Generalizable and Slim Affordance Reasoning for Task-Oriented Manipulation",
+   "headline_zh": "Afford-X: Generalizable and Slim Affordance Reasoning for T…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "paper",
+     "title": "Afford-X: Generalizable and Slim Affordance Reasoning for Task-Oriented Manipulation",
+     "url": "https://doi.org/10.1109/tpami.2026.3722040",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3722040",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    36
+   ],
+   "title_en": "Happy++: Toward Stable and Unified Continual Generalized Category Discovery",
+   "headline_zh": "Happy++: Toward Stable and Unified Continual Generalized Ca…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 36,
+     "channel": "paper",
+     "title": "Happy++: Toward Stable and Unified Continual Generalized Category Discovery",
+     "url": "https://doi.org/10.1109/tpami.2026.3721625",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721625",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "Robust Audio-Visual Question Answering With Missing Modality in Training and Testing",
+   "headline_zh": "Robust Audio-Visual Question Answering With Missing Modalit…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "paper",
+     "title": "Robust Audio-Visual Question Answering With Missing Modality in Training and Testing",
+     "url": "https://doi.org/10.1109/tpami.2026.3723653",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3723653",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "Latent MeanFlow Policy Optimization for Offline Reinforcement Learning",
+   "headline_zh": "Latent MeanFlow Policy Optimization for Offline Reinforceme…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "paper",
+     "title": "Latent MeanFlow Policy Optimization for Offline Reinforcement Learning",
+     "url": "https://doi.org/10.1109/tpami.2026.3720530",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3720530",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    39
+   ],
+   "title_en": "ZeroPIE: Zero-Reference Polarization-Aware Low-Light Enhancement via Physically Derived Illumination-Invariant Priors",
+   "headline_zh": "ZeroPIE: Zero-Reference Polarization-Aware Low-Light Enhanc…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 39,
+     "channel": "paper",
+     "title": "ZeroPIE: Zero-Reference Polarization-Aware Low-Light Enhancement via Physically Derived Illumination-Invariant Priors",
+     "url": "https://doi.org/10.1109/tpami.2026.3721156",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721156",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    40
+   ],
+   "title_en": "Event-Triggered Gossip for Distributed Learning",
+   "headline_zh": "Event-Triggered Gossip for Distributed Learning",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 40,
+     "channel": "paper",
+     "title": "Event-Triggered Gossip for Distributed Learning",
+     "url": "https://doi.org/10.1109/tpami.2026.3718498",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3718498",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    41
+   ],
+   "title_en": "S$^{2}$Q-VDiT$^+$: Accurate Quantized Video Diffusion Transformer With Multi-Resolution\n                    <u>S</u>\n                    ampling and\n                    <u>S</u>\n                    tructural Distillation",
+   "headline_zh": "S$^{2}$Q-VDiT$^+$: Accurate Quantized Video Diffusion Trans…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 41,
+     "channel": "paper",
+     "title": "S$^{2}$Q-VDiT$^+$: Accurate Quantized Video Diffusion Transformer With Multi-Resolution\n                    <u>S</u>\n                    ampling and\n                    <u>S</u>\n                    tructural Distillation",
+     "url": "https://doi.org/10.1109/tpami.2026.3722360",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3722360",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    42
+   ],
+   "title_en": "MFSR: Multi-Fractal Feature for Super-Resolution Reconstruction With Fine Details Recovery",
+   "headline_zh": "MFSR: Multi-Fractal Feature for Super-Resolution Reconstruc…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 42,
+     "channel": "paper",
+     "title": "MFSR: Multi-Fractal Feature for Super-Resolution Reconstruction With Fine Details Recovery",
+     "url": "https://doi.org/10.1109/tpami.2026.3714205",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3714205",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    43
+   ],
+   "title_en": "Toward a Causally-Inspired Evolving World Model for Vision-and-Language Navigation in Continuous Environments",
+   "headline_zh": "Toward a Causally-Inspired Evolving World Model for Vision-…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 43,
+     "channel": "paper",
+     "title": "Toward a Causally-Inspired Evolving World Model for Vision-and-Language Navigation in Continuous Environments",
+     "url": "https://doi.org/10.1109/tpami.2026.3728426",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3728426",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    44
+   ],
+   "title_en": "Text2Loc++: Generalizing 3D Point Cloud Localization From Natural Language",
+   "headline_zh": "Text2Loc++: Generalizing 3D Point Cloud Localization From N…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 44,
+     "channel": "paper",
+     "title": "Text2Loc++: Generalizing 3D Point Cloud Localization From Natural Language",
+     "url": "https://doi.org/10.1109/tpami.2026.3723656",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3723656",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    45
+   ],
+   "title_en": "Generative Retrieval for Unsupervised Text-Based Person Search",
+   "headline_zh": "Generative Retrieval for Unsupervised Text-Based Person Sea…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 45,
+     "channel": "paper",
+     "title": "Generative Retrieval for Unsupervised Text-Based Person Search",
+     "url": "https://doi.org/10.1109/tpami.2026.3713379",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3713379",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    46
+   ],
+   "title_en": "Sensitivity Analysis in Translation Averaging",
+   "headline_zh": "Sensitivity Analysis in Translation Averaging",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 46,
+     "channel": "paper",
+     "title": "Sensitivity Analysis in Translation Averaging",
+     "url": "https://doi.org/10.1109/tpami.2026.3722795",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3722795",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    47
+   ],
+   "title_en": "Adapt in the Wild: Test-Time Entropy Minimization with Sharpness and Feature Regularization",
+   "headline_zh": "Adapt in the Wild: Test-Time Entropy Minimization with Shar…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 47,
+     "channel": "paper",
+     "title": "Adapt in the Wild: Test-Time Entropy Minimization with Sharpness and Feature Regularization",
+     "url": "https://doi.org/10.1109/tpami.2026.3721895",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721895",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    48
+   ],
+   "title_en": "Structure-Aware Attention Prototype Network for Cross-Modality Few-Shot Brain Tumor Segmentation",
+   "headline_zh": "Structure-Aware Attention Prototype Network for Cross-Modal…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 48,
+     "channel": "paper",
+     "title": "Structure-Aware Attention Prototype Network for Cross-Modality Few-Shot Brain Tumor Segmentation",
+     "url": "https://doi.org/10.1109/tpami.2026.3717881",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3717881",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    49
+   ],
+   "title_en": "RegTrack: Simplicity Beneath Complexity in Robust Multi-Modal 3D Multi-Object Tracking",
+   "headline_zh": "RegTrack: Simplicity Beneath Complexity in Robust Multi-Mod…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 49,
+     "channel": "paper",
+     "title": "RegTrack: Simplicity Beneath Complexity in Robust Multi-Modal 3D Multi-Object Tracking",
+     "url": "https://doi.org/10.1109/tpami.2026.3719678",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3719678",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    50
+   ],
+   "title_en": "Hyperbolic Hierarchical 3D Scene Representations for Open-Vocabulary 3D Scene Graph Generation",
+   "headline_zh": "Hyperbolic Hierarchical 3D Scene Representations for Open-V…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 50,
+     "channel": "paper",
+     "title": "Hyperbolic Hierarchical 3D Scene Representations for Open-Vocabulary 3D Scene Graph Generation",
+     "url": "https://doi.org/10.1109/tpami.2026.3721639",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721639",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    51
+   ],
+   "title_en": "Unlock the Benefits",
+   "headline_zh": "Unlock the Benefits",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 51,
+     "channel": "paper",
+     "title": "Unlock the Benefits",
+     "url": "https://doi.org/10.1109/tpami.2026.3741360",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3741360",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    52
+   ],
+   "title_en": "Sa2VA: Marrying SAM2 With MLLM for Dense Grounded Understanding of Images and Videos",
+   "headline_zh": "Sa2VA: Marrying SAM2 With MLLM for Dense Grounded Understan…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 52,
+     "channel": "paper",
+     "title": "Sa2VA: Marrying SAM2 With MLLM for Dense Grounded Understanding of Images and Videos",
+     "url": "https://doi.org/10.1109/tpami.2026.3720379",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3720379",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    53
+   ],
+   "title_en": "Robust Personalized Federated Continual Learning via Explainable Multi-Granularity Prompt",
+   "headline_zh": "Robust Personalized Federated Continual Learning via Explai…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 53,
+     "channel": "paper",
+     "title": "Robust Personalized Federated Continual Learning via Explainable Multi-Granularity Prompt",
+     "url": "https://doi.org/10.1109/tpami.2026.3711828",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3711828",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    54
+   ],
+   "title_en": "How Relation Enrichment Improves Clustering Ensemble Performance: A Second Order Induced Relation View",
+   "headline_zh": "How Relation Enrichment Improves Clustering Ensemble Perfor…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 54,
+     "channel": "paper",
+     "title": "How Relation Enrichment Improves Clustering Ensemble Performance: A Second Order Induced Relation View",
+     "url": "https://doi.org/10.1109/tpami.2026.3713520",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3713520",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    55
+   ],
+   "title_en": "Accelerating SAM2 With Efficient Memory Attention Module via Spatiotemporal Token Pruning",
+   "headline_zh": "Accelerating SAM2 With Efficient Memory Attention Module vi…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 55,
+     "channel": "paper",
+     "title": "Accelerating SAM2 With Efficient Memory Attention Module via Spatiotemporal Token Pruning",
+     "url": "https://doi.org/10.1109/tpami.2026.3723878",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3723878",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    56
+   ],
+   "title_en": "Agentic Designer: Progressive Multi-Agent Collaboration for Structure-Aware Interior Layout Generation",
+   "headline_zh": "Agentic Designer: Progressive Multi-Agent Collaboration for…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 56,
+     "channel": "paper",
+     "title": "Agentic Designer: Progressive Multi-Agent Collaboration for Structure-Aware Interior Layout Generation",
+     "url": "https://doi.org/10.1109/tpami.2026.3711762",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3711762",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    57
+   ],
+   "title_en": "BRFedTD: A Novel Framework for Federated Reinforcement Learning With Byzantine-Resilient Policy Evaluation",
+   "headline_zh": "BRFedTD: A Novel Framework for Federated Reinforcement Lear…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 57,
+     "channel": "paper",
+     "title": "BRFedTD: A Novel Framework for Federated Reinforcement Learning With Byzantine-Resilient Policy Evaluation",
+     "url": "https://doi.org/10.1109/tpami.2026.3713184",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3713184",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    58
+   ],
+   "title_en": "OneActor++: Consistent Multi-Subject Generation via Cluster-Conditioned Guidance",
+   "headline_zh": "OneActor++: Consistent Multi-Subject Generation via Cluster…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 58,
+     "channel": "paper",
+     "title": "OneActor++: Consistent Multi-Subject Generation via Cluster-Conditioned Guidance",
+     "url": "https://doi.org/10.1109/tpami.2026.3719827",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3719827",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    59
+   ],
+   "title_en": "Low-Precision Training of Large Language Models: Methods, Challenges, and Opportunities",
+   "headline_zh": "Low-Precision Training of Large Language Models: Methods, C…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 59,
+     "channel": "paper",
+     "title": "Low-Precision Training of Large Language Models: Methods, Challenges, and Opportunities",
+     "url": "https://doi.org/10.1109/tpami.2026.3718968",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3718968",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    60
+   ],
+   "title_en": "Contextrast++: Robust Multi-Scale Contextual Contrastive Learning for Semantic Segmentation",
+   "headline_zh": "Contextrast++: Robust Multi-Scale Contextual Contrastive Le…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 60,
+     "channel": "paper",
+     "title": "Contextrast++: Robust Multi-Scale Contextual Contrastive Learning for Semantic Segmentation",
+     "url": "https://doi.org/10.1109/tpami.2026.3721845",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721845",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    61
+   ],
+   "title_en": "Multi-Granularity Graph Contrastive Learning Framework via Granular Ball on Heterogeneous Graphs",
+   "headline_zh": "Multi-Granularity Graph Contrastive Learning Framework via…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 61,
+     "channel": "paper",
+     "title": "Multi-Granularity Graph Contrastive Learning Framework via Granular Ball on Heterogeneous Graphs",
+     "url": "https://doi.org/10.1109/tpami.2026.3720194",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3720194",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    62
+   ],
+   "title_en": "Mamba-FSCIL: Dynamic Adaptation With Selective State Space Model for Few-Shot Class Incremental Learning",
+   "headline_zh": "Mamba-FSCIL: Dynamic Adaptation With Selective State Space…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 62,
+     "channel": "paper",
+     "title": "Mamba-FSCIL: Dynamic Adaptation With Selective State Space Model for Few-Shot Class Incremental Learning",
+     "url": "https://doi.org/10.1109/tpami.2026.3719435",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3719435",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    63
+   ],
+   "title_en": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
+   "headline_zh": "Ultraviolet laser pulses engineer diamond defects selective…",
+   "summary_zh": "When we think about a diamond, we often think about a material whose value comes from its perfection. In my research, however, I am interested in something almost opposite: the tiny imperfections ins…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 63,
+     "channel": "news",
+     "title": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
+     "url": "https://phys.org/news/2026-10-ultraviolet-laser-pulses-diamond-defects.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T21:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    64
+   ],
+   "title_en": "New stability rules distinguish quantum phases of matter that an older method wrongly groups together",
+   "headline_zh": "New stability rules distinguish quantum phases of matter th…",
+   "summary_zh": "Most of us recognize basic phases of matter and their properties: solids maintain their shape, liquids flow freely with constant volume, and gases expand to fill their container. Quantum phases, on t…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 64,
+     "channel": "news",
+     "title": "New stability rules distinguish quantum phases of matter that an older method wrongly groups together",
+     "url": "https://phys.org/news/2026-10-stability-distinguish-quantum-phases-older.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T17:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    65
+   ],
+   "title_en": "Zimbabwe's dinosaurs were different from South Africa's: New species offers clues",
+   "headline_zh": "Zimbabwe's dinosaurs were different from South Africa's: Ne…",
+   "summary_zh": "Africa boasts up to 25% of Earth's animal and plant species. This diversity is driven by varied habitats: harsh deserts, vast grasslands, dense forests, towering mountains, lush coastlines and teemin…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 65,
+     "channel": "news",
+     "title": "Zimbabwe's dinosaurs were different from South Africa's: New species offers clues",
+     "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T00:30:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    66
+   ],
+   "title_en": "Hybrid quantum computer observes foundational quantum effect in a new setting",
+   "headline_zh": "Hybrid quantum computer observes foundational quantum effec…",
+   "summary_zh": "Physicists in the Department of Physics at the University of Oxford have used a hybrid quantum computer, made up of qubits and quantum oscillators, to observe the Aharonov–Bohm effect in a quantum si…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 66,
+     "channel": "news",
+     "title": "Hybrid quantum computer observes foundational quantum effect in a new setting",
+     "url": "https://phys.org/news/2026-10-hybrid-quantum-foundational-effect.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T10:57:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    67
+   ],
+   "title_en": "How to meal prep safely: A microbiologist's step‑by‑step guide",
+   "headline_zh": "How to meal prep safely: A microbiologist's step‑by‑step gu…",
+   "summary_zh": "Meal prepping is a great way to save money, spend less time in the kitchen and stick to a meal plan. But while cooking meals for the week ahead may be convenient, there can be real risks associated w…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 67,
+     "channel": "news",
+     "title": "How to meal prep safely: A microbiologist's step‑by‑step guide",
+     "url": "https://phys.org/news/2026-10-meal-prep-safely-microbiologist-stepbystep.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T21:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    68
+   ],
+   "title_en": "Adult acne is real, but there are ways to treat it. Here's what to know",
+   "headline_zh": "Adult acne is real, but there are ways to treat it. Here's…",
+   "summary_zh": "As a teenager, Gillian Maegan Montalbo's pimples weren't too bad—just a few bumps on her forehead and nose.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 68,
+     "channel": "news",
+     "title": "Adult acne is real, but there are ways to treat it. Here's what to know",
+     "url": "https://phys.org/news/2026-10-adult-acne-real-ways.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T19:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    69
+   ],
+   "title_en": "Nearly 300,000 at risk from Himalayan floods, as flood zone building accelerates",
+   "headline_zh": "Nearly 300,000 at risk from Himalayan floods, as flood zone…",
+   "summary_zh": "Nearly 300,000 people may live in areas at risk of flooding in the Nepalese, Indian and Chinese areas of the Himalayas. The results, from a study published in Scientific Reports, also indicate that t…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 69,
+     "channel": "news",
+     "title": "Nearly 300,000 at risk from Himalayan floods, as flood zone building accelerates",
+     "url": "https://phys.org/news/2026-10-himalayan-zone.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T18:00:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    70
+   ],
+   "title_en": "Scientists may have found a shortcut to fusion energy",
+   "headline_zh": "Scientists may have found a shortcut to fusion energy",
+   "summary_zh": "Princeton Plasma Physics Laboratory may have found a dramatically more efficient route to fusion energy by reversing the traditional approach: heating plasma first, then increasing its density. Their…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 70,
+     "channel": "news",
+     "title": "Scientists may have found a shortcut to fusion energy",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T18:57:27+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    71
+   ],
+   "title_en": "Loneliness may steal nearly 6 years of good health",
+   "headline_zh": "Loneliness may steal nearly 6 years of good health",
+   "summary_zh": "A large study suggests loneliness and social isolation can cost people years of healthy life, especially when it comes to mental health. Men experiencing both lost about 5.8 years free from depressio…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 71,
+     "channel": "news",
+     "title": "Loneliness may steal nearly 6 years of good health",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261006234514.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T18:57:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    72
+   ],
+   "title_en": "MIT astronomers catch a star in a feast that could last billions of years",
+   "headline_zh": "MIT astronomers catch a star in a feast that could last bil…",
+   "summary_zh": "Astronomers have discovered a bizarre star system about 300 light-years from Earth where a small star is slowly devouring a nearby brown dwarf, an object too massive to be a planet but too small to b…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 72,
+     "channel": "news",
+     "title": "MIT astronomers catch a star in a feast that could last billions of years",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261008005240.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T18:56:25+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    73
+   ],
+   "title_en": "Preschool boys favor bigger groups while adults' choices hint at political attitudes",
+   "headline_zh": "Preschool boys favor bigger groups while adults' choices hi…",
+   "summary_zh": "Two cartoon characters appear on a screen. One belongs to a group of three, and the other to a group of two. Which character would you rather play with?",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 73,
+     "channel": "news",
+     "title": "Preschool boys favor bigger groups while adults' choices hint at political attitudes",
+     "url": "https://phys.org/news/2026-10-preschool-boys-favor-bigger-groups.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T15:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    74
+   ],
+   "title_en": "One with the world? A new look at brains transformed by psychedelics.",
+   "headline_zh": "One with the world? A new look at brains transformed by psy…",
+   "summary_zh": "Participants meditated inside an MRI tube, with and without psilocybin.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 74,
+     "channel": "news",
+     "title": "One with the world? A new look at brains transformed by psychedelics.",
+     "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
+     "journal": "Ars Technica Science",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T11:15:35+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    75
+   ],
+   "title_en": "Against the odds: Why some ecosystems thrive",
+   "headline_zh": "Against the odds: Why some ecosystems thrive",
+   "summary_zh": "From coral reefs in Papua New Guinea to chimpanzees in West Africa, grizzly bears in Canada and albatross colonies off Tasmania, some ecosystems are thriving despite climate change, habitat loss and…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 75,
+     "channel": "news",
+     "title": "Against the odds: Why some ecosystems thrive",
+     "url": "https://phys.org/news/2026-10-odds-ecosystems.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T13:40:10+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    76
+   ],
+   "title_en": "Powerful waves lash California coast as storm threatens more damage",
+   "headline_zh": "Powerful waves lash California coast as storm threatens mor…",
+   "summary_zh": "Powerful waves thrashed communities along California's southern coast Friday, damaging homes and sending water cascading through streets as residents braced for more potential damage wrought by Tropi…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 76,
+     "channel": "news",
+     "title": "Powerful waves lash California coast as storm threatens more damage",
+     "url": "https://phys.org/news/2026-10-powerful-lash-california-coast-storm.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T12:20:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    77
+   ],
+   "title_en": "Tsunami alert after major earthquake rocks Panama",
+   "headline_zh": "Tsunami alert after major earthquake rocks Panama",
+   "summary_zh": "A magnitude 7.7 earthquake jolted Panama on Friday, setting off panic in the capital city and warnings of dangerous tsunami waves.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 77,
+     "channel": "news",
+     "title": "Tsunami alert after major earthquake rocks Panama",
+     "url": "https://phys.org/news/2026-10-tsunami-major-earthquake-panama.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T12:19:53+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    78
+   ],
+   "title_en": "Isaias downgraded to post-tropical cyclone after landfall in Florida",
+   "headline_zh": "Isaias downgraded to post-tropical cyclone after landfall i…",
+   "summary_zh": "Isaias weakened from a hurricane to a post-tropical cyclone early Saturday after it made landfall in northwestern Florida, where it lashed the U.S. Gulf Coast with heavy rain and strong winds, the Na…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 78,
+     "channel": "news",
+     "title": "Isaias downgraded to post-tropical cyclone after landfall in Florida",
+     "url": "https://phys.org/news/2026-10-isaias-downgraded-tropical-cyclone-landfall.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T12:10:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    79
+   ],
+   "title_en": "Why some young ants start hunting and caring for others early",
+   "headline_zh": "Why some young ants start hunting and caring for others ear…",
+   "summary_zh": "Some insects, including honeybees and ants, live in highly organized colonies where individuals take on specific roles. In many ant societies, young adult workers typically care for developing young…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 79,
+     "channel": "news",
+     "title": "Why some young ants start hunting and caring for others early",
+     "url": "https://phys.org/news/2026-10-young-ants-early.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T12:00:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    80
+   ],
+   "title_en": "New catalyst enables lower-temperature methane conversion with sustained performance",
+   "headline_zh": "New catalyst enables lower-temperature methane conversion w…",
+   "summary_zh": "Oxidative coupling of methane (OCM) is a chemical reaction that directly converts methane and oxygen, the main components of natural gas, into higher-value hydrocarbons such as ethane and ethylene. H…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 80,
+     "channel": "news",
+     "title": "New catalyst enables lower-temperature methane conversion with sustained performance",
+     "url": "https://phys.org/news/2026-10-catalyst-enables-temperature-methane-conversion.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T12:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    81
+   ],
+   "title_en": "Wildfire smoke shuts schools in Amazon's biggest city",
+   "headline_zh": "Wildfire smoke shuts schools in Amazon's biggest city",
+   "summary_zh": "The largest city in the Brazilian Amazon, Manaus, closed public schools on Friday as smoke from hundreds of wildfires blanketed the metropolis amid an intensifying El Niño event.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 81,
+     "channel": "news",
+     "title": "Wildfire smoke shuts schools in Amazon's biggest city",
+     "url": "https://phys.org/news/2026-10-wildfire-schools-amazon-biggest-city.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-10T11:59:42+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 273,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 2,
+   "dropped_by_window": 113,
+   "unique": 158,
+   "candidates": 50
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 56,
+   "candidates": 12
+  },
+  "news": {
+   "fetched": 160,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 141,
+   "unique": 19,
+   "candidates": 19
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 78,
+   "kept": 77,
+   "elapsed_s": 0.05,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 9.36,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.03,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 27,
+   "kept": 27,
+   "elapsed_s": 0.06,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.02,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 3,
+   "kept": 0,
+   "elapsed_s": 0.01,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.02,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 41,
+   "kept": 41,
+   "elapsed_s": 0.02,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.03,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.02,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.02,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.0,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.0,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 0.08,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 3,
+   "elapsed_s": 0.05,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.03,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.02,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 5.44,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 2.3,
+   "error": ""
+  }
+ ]
+}

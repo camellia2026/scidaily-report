@@ -1,0 +1,32 @@
+# 行尾与编码归一。
+#
+# 动机：在 Windows 上开发（工作副本习惯 CRLF），但 GitHub Actions 跑在
+# Linux 上（用 LF）。没有这份声明的话，每次提交都会因为行尾差异
+# 产生巨大的、无意义的 diff。
+#
+# text=auto：仓库里统一存 LF，检出时按平台转换。
+
+* text=auto
+
+*.py    text
+*.md    text
+*.yaml  text
+*.yml   text
+*.json  text
+*.txt   text
+*.html  text
+*.toml  text
+
+# 二进制：不做行尾转换
+*.docx  binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.zip   binary
+
+# 录制的 API 固件是机器生成的 JSON，对 diff 没有阅读价值，
+# 在 GitHub 上折叠显示，避免淹没真正需要 review 的改动。
+tests/fixtures/api/*.json  linguist-generated=true
+data/history/*.json        linguist-generated=true

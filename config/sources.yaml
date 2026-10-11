@@ -1,0 +1,85 @@
+# ============================================================
+# 科学要闻源（RSS / Atom）
+#
+# 与 journals.yaml 的分工：
+#   journals.yaml  期刊本身。它的 feed 里既有研究论文也有该刊新闻稿。
+#   sources.yaml   独立的科学媒体与新闻版，只产「要闻」，不产论文。
+#
+# ★ 本文件每一条的 enabled 状态都由 2026-10-01 的实测决定，
+#   跑 `python run.py --check-sources` 重新体检。
+#
+# 字段说明：
+#   kind          news = 要闻通道
+#   weight        预打分权重
+#   environments  local = 你本机，ci = GitHub runner
+#                 ★ 本机在境内，部分源不通；runner 在境外反而通。
+#   user_agent    browser | identify | none
+#                 ★ 三态是从原项目的全量对照实验继承的教训：
+#                   实测有些源「带了 UA 就 403」，有些「不带才 403」。
+#                   没有可推广的默认值，必须逐源实测。
+# ============================================================
+
+sources:
+
+  - id: science_news
+    name: Science News
+    url: https://www.science.org/rss/news_current.xml
+    kind: news
+    weight: 2.2
+    enabled: false
+    environments: [local, ci]
+    user_agent: browser
+    note: >
+      ★ 实测 403，且**不是 UA 问题**。同一时刻的对照实验：
+        curl（任意 UA）          200
+        httpx + 浏览器 UA        403
+        httpx + Accept: */*      403
+        httpx 默认头             403
+        httpx + HTTP/2           403
+      四种 curl 全通、五种 httpx 全拒，说明 science.org 做的是
+      TLS 指纹（JA3）层面的拦截，跟请求头无关。
+      这是原项目「User-Agent 三态」教训之外的另一类坑：
+      **换 header 解决不了的问题，换客户端才可能解决。**
+      选择性牺牲：本报告已有 4 个可用的要闻源，不值得为一条源引入
+      curl 子进程依赖。想救的话，用 curl 做传输层是唯一验证过可行的路。
+
+  - id: phys_org
+    name: Phys.org
+    url: https://phys.org/rss-feed/
+    kind: news
+    weight: 1.2
+    environments: [local, ci]
+    user_agent: browser
+    note: 量大、信噪比一般，靠关键词预打分压住。
+
+  - id: quanta
+    name: Quanta Magazine
+    url: https://www.quantamagazine.org/feed/
+    kind: news
+    weight: 2.0
+    environments: [local, ci]
+    user_agent: browser
+    note: 数学/物理/生物的深度报道，信噪比高。
+
+  - id: ars_science
+    name: Ars Technica Science
+    url: https://arstechnica.com/science/feed/
+    kind: news
+    weight: 1.4
+    environments: [local, ci]
+    user_agent: browser
+
+  - id: sciencedaily
+    name: ScienceDaily
+    url: https://www.sciencedaily.com/rss/top/science.xml
+    kind: news
+    weight: 1.0
+    environments: [local, ci]
+    user_agent: browser
+    note: 大学新闻稿的聚合，重复率高，权重压低。
+
+  # ---------- 墓碑：试过但不通，别再照着加 ----------
+  #   jamanetwork  https://jamanetwork.com/rss/site_3/67.xml   实测 403
+  #   cambridge    Cambridge Core 期刊 RSS                     实测 403
+  #   nature_news  Nature 的新闻稿已在 journals.yaml 的 nature.rss 里
+  #                （按 DOI 前缀 d41586- 分流），不在这里重复抓

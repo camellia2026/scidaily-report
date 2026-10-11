@@ -1,0 +1,149 @@
+# ============================================================
+# 被追踪的期刊清单
+#
+# ★ 本文件里每一条的 ISSN 与可用通道都是 2026-10-01 真跑出来的结果，
+#   不是抄来的清单。跑 `python run.py --check-sources` 可以重新体检。
+#
+# 字段说明：
+#   id                   内部标识
+#   name                 报告里显示的名字
+#   issn                 用于 Crossref / OpenAlex / PubMed 的期刊检索
+#   tier                 分级权重：T0 顶刊 / T1 一级 / T2 二级
+#                        进预打分：T0=3.0，T1=2.0，T2=1.4
+#   discipline           学科分区：综合 / 医学 / 计算机 / 数学与计算数学
+#                        决定它出现在报告的哪一节
+#   route                采集通道，按需组合：
+#                          openalex  主力。一次 OR 请求覆盖全部期刊 ISSN
+#                          pubmed    医学刊摘要的最佳来源
+#                          crossref  补漏（无摘要）
+#                          rss       该刊自带的 TOC feed
+#   feed                 该刊 TOC feed（仅 rss 通道用）
+#   research_doi_prefix  该 feed 里区分「研究论文」与「新闻稿」的 DOI 前缀。
+#                        支持逗号分隔多值；留空 = 全算研究论文。
+# ============================================================
+
+journals:
+
+  # ---------- T0 · 综合 ----------
+  - id: nature
+    name: Nature
+    issn: "0028-0836"
+    tier: T0
+    discipline: 综合
+    route: [openalex, rss]
+    feed: https://www.nature.com/nature.rss
+    research_doi_prefix: "10.1038/s41586-,10.1038/s41591-,10.1038/s41587-"
+    note: >
+      实测 feed 75 条。★ 一个 feed 里混着研究论文（10.1038/s41586-）和
+      新闻稿（10.1038/d41586-），只能靠 DOI 前缀区分——
+      不区分的话「蝴蝶为什么难抓」这种科普稿会和论文并排。
+      另注：Nature 的 RDF 条目没有 description 标签，摘要在 content:encoded 里。
+
+  - id: science
+    name: Science
+    issn: "0036-8075"
+    tier: T0
+    discipline: 综合
+    route: [openalex, crossref]
+    note: >
+      science.org 的 feed 只有新闻版（news_current.xml），没有研究论文 TOC，
+      所以 Science 的论文走 OpenAlex。它的新闻另有来源（见 sources.yaml）。
+
+  - id: cell
+    name: Cell
+    issn: "0092-8674"
+    tier: T0
+    discipline: 综合
+    route: [openalex, rss]
+    feed: https://www.cell.com/cell/current.rss
+    note: 实测 feed 26 条，DOI 在 dc:identifier 里。
+
+  # ---------- T0 · 医学 ----------
+  - id: nejm
+    name: New England Journal of Medicine
+    issn: "0028-4793"
+    tier: T0
+    discipline: 医学
+    route: [pubmed, openalex]
+    feed: https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm
+    research_doi_prefix: "10.1056/NEJMoa,10.1056/NEJMra"
+    note: >
+      feed 实测可用（95KB）。前缀区分原创论文 NEJMoa / 综述 NEJMra
+      与述评 NEJMp / 社论 NEJMe / 通讯 NEJMc。
+      PubMed 覆盖极好：2026 年收录 1098 条。
+
+  - id: lancet
+    name: The Lancet
+    issn: "0140-6736"
+    tier: T0
+    discipline: 医学
+    route: [pubmed, openalex, rss]
+    feed: https://www.thelancet.com/rssfeed/lancet_current.xml
+    note: 实测 feed 29 条，DOI 在 dc:identifier 里。
+
+  - id: jama
+    name: JAMA
+    issn: "0098-7484"
+    tier: T0
+    discipline: 医学
+    route: [pubmed, openalex]
+    note: >
+      ★ 没有 feed —— jamanetwork.com 的 RSS 实测 403。
+      走 PubMed（2026 年 1465 条）与 OpenAlex 兜底。
+      这一条的存在本身就是「必须逐源实测」的例子：
+      查得到地址，不代表拿得到数据。
+
+  # ---------- T1 · 计算机 ----------
+  - id: tpami
+    name: IEEE TPAMI
+    issn: "0162-8828"
+    tier: T1
+    discipline: 计算机
+    route: [openalex, crossref]
+    note: 实测 Crossref 一个月 229 条；无 feed。
+
+  - id: ieee_tc
+    name: IEEE Transactions on Computers
+    issn: "0018-9340"
+    tier: T1
+    discipline: 计算机
+    route: [openalex, crossref]
+
+  - id: ijcv
+    name: International Journal of Computer Vision
+    issn: "0920-5691"
+    tier: T1
+    discipline: 计算机
+    route: [openalex, crossref]
+
+  - id: jmlr
+    name: Journal of Machine Learning Research
+    issn: "1532-4435"
+    tier: T1
+    discipline: 计算机
+    route: [openalex]
+    note: >
+      ★ 只能走 OpenAlex —— 实测该刊在 Crossref 里 total=0（不在其索引体系内）。
+      但 OpenAlex 有 1298 篇。去掉 openalex 通道这一条就永远是空的。
+
+  # ---------- T2 · 数学与计算数学 ----------
+  - id: sisc
+    name: SIAM Journal on Scientific Computing
+    issn: "1064-8275"
+    tier: T2
+    discipline: 数学与计算数学
+    route: [openalex, crossref]
+    note: >
+      ★ 需求原文写的是「SSCL」，SIAM 名下没有这个刊；按 SISC 处理。
+      如果本意是别的刊，改这一行的 issn 与 name 即可。
+
+  - id: acta_numerica
+    name: Acta Numerica
+    issn: "0962-4929"
+    tier: T2
+    discipline: 数学与计算数学
+    route: [openalex, crossref]
+    note: >
+      ★ 年刊（一年一卷）。日报窗口里几乎永远是空的，这是正常的，
+      不是源坏了。它靠每周顶刊盘点（窗口自动放宽到 90 天）来覆盖。
+      Cambridge Core 的 RSS 实测 403，所以走 OpenAlex/Crossref。

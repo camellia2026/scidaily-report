@@ -1,0 +1,176 @@
+# ============================================================
+# 运行参数
+#
+# 「调行为」的地方，改完不用动代码。
+# 敏感的（key、邮箱授权码）在 .env / GitHub Secrets。
+# ============================================================
+
+# ---------- 采集窗口 ----------
+windows:
+  news: 24
+  # 科学要闻的滚动窗口。与原项目一致：北京早上跑的时候「今天」才过了几小时，
+  # 用滚动 24 小时才符合「日报」的直觉。
+
+  paper: 72
+  # ★ 论文窗口比新闻长，这是刻意的。
+  #   期刊不是均匀发布的：NEJM 每周四出刊，Nature 每天更新，TPAMI 按月。
+  #   24 小时窗口会让很多天「一篇论文都没有」，那不是没新闻，是窗口太窄。
+  #   72 小时在「不漏」和「不重复」之间更平衡——重复由 seen 状态兜住。
+
+  weekly_days: 14
+  # 每周顶刊盘点的回看窗口。
+
+  weekly_fallback_days: 90
+  # ★ 慢刊兜底：JMLR 不定期、Acta Numerica 一年一卷。
+  #   14 天窗口对它们几乎永远是空的，所以盘点一无所获时自动放宽到这个值，
+  #   而不是交一张白卷。
+
+# ---------- 报告规模 ----------
+report:
+  max_title_chars: 90        # 英文标题比中文长
+  max_summary_chars: 200
+  max_why_chars: 120
+
+# ---------- 四个通道，各自配额 ----------
+# ★ 分池分额是从原项目的教训直接继承的：
+#   当初 arXiv 单日 596 条共用一个 pubDate，24 小时窗口对它完全失效，
+#   不分开的话日报会退化成论文标题列表。
+channels:
+  news:
+    max_candidates: 40       # 送进 LLM 的候选上限
+    quota: 10                 # 报告里最终占的条数
+  paper:
+    max_candidates: 50
+    quota: 8
+  hot:
+    max_candidates: 12       # 引用速度热文（期刊，近 24 个月）
+    quota: 3
+  preprint:
+    max_candidates: 15       # arXiv 重点预印本
+    quota: 4
+  upgrade:
+    max_candidates: 10       # 预印本→正式发表（版本升级）
+    quota: 5                 # 这是稀缺事件，出现就尽量都报
+
+# ---------- 预印本 ----------
+preprints:
+  window_days: 60
+  # 回看窗口。比日报窗口长得多是有意的：预印本要靠「攒够引用」来证明
+  # 自己值得看，而这个信号天然滞后。
+
+  min_citations: 5
+  # 引用数阈值。实测近 60 天 arXiv 里 cited_by_count>4 的约 98 篇——
+  # 从每天 3800 篇砍到约 100 篇，这是把「信息洪流」变成「信号」的那一刀。
+  # 调低会更全但更吵，调高会更精但可能漏掉刚火的。
+
+  limit: 60
+
+  # ★ 关于 OpenAlex 对 arXiv 的收录滞后（实测）：
+  #     09-26 → 1028 篇   09-28 → 2465 篇
+  #     09-30 →  275 篇   10-01 →   12 篇
+  #   约 4-5 天才索引完整。所以「抓最近两天的新预印本」这条路在 OpenAlex 上
+  #   是走不通的——本通道因此改用「引用数阈值 + 60 天窗口」，
+  #   等一篇预印本攒够引用时，索引早已跟上。
+
+# ---------- 规则预打分 ----------
+prefilter:
+  max_candidates: 80
+  # 送进 LLM 之前的硬上限。这同时是成本杠杆、延迟杠杆，
+  # 也是反幻觉杠杆：上下文里的原始素材越少，可编造的空间越小。
+
+  freshness_half_life_h: 48
+  # ★ 论文的新鲜度半衰期（小时）。原项目新闻用的是 12 小时。
+  #   论文老化得慢——一篇三天前的 Nature 论文仍然值得看，
+  #   三天前的科技新闻就不一定了。
+
+  freshness_half_life_h_news: 12
+  # 科学要闻的半衰期，沿用原项目的 12 小时。
+
+  keyword_boost: 2.0
+  keywords:
+    - breakthrough
+    - first-in-class
+    - randomized
+    - phase 3
+    - clinical trial
+    - state of the art
+    - SOTA
+    - benchmark
+    - theorem
+    - proof
+    - convergence
+    - algorithm
+    - neural
+    - foundation model
+    - protein
+    - CRISPR
+    - quantum
+    - superconducting
+    - cryo-EM
+    - single-cell
+    - genome
+    - vaccine
+    - 突破
+    - 首次
+    - 机理
+    - 临床试验
+
+  keyword_penalty: 0.4
+  penalty_keywords:
+    - correction
+    - erratum
+    - retraction
+    - corrigendum
+    - author correction
+    - editorial board
+    - in this issue
+    - cover image
+    - table of contents
+    - podcast
+    - editor's summary
+    - editors' summary
+    - audio interview
+    - author interview
+    - this week in
+    - 更正
+    - 勘误
+    # 期刊 feed 里这类条目占比不低，且几乎没有信息量。
+    # ★ 这些词是实测攒出来的，不是想出来的：周度盘点漏进来过
+    #   JAMA 的 "Editors' Summary Podcast" 和 "Holding Hope"（人文小品）。
+    #   判据是「只命中惩罚词、且没命中任何正向词」才丢弃——
+    #   一篇讨论撤稿机制的研究论文不会被误伤。
+
+# ---------- 引用速度热文 ----------
+velocity:
+  max_age_months: 24
+  # ★ 这一条才是「热文」和「名篇」的分界线。
+  #   没有年龄上限的话，历年高引论文会永远霸榜——
+  #   那是「著名」，不是「热」。
+
+  recent_window_days: 90
+  # Tier B 精确统计「近 N 天被引」的窗口。
+
+  shortlist: 10
+  # 进入 Tier B 精查的篇数。每篇 1 个 OpenAlex 请求，所以要设上限。
+
+# ---------- 跨天去重状态 ----------
+state:
+  prune_days: 90
+  # 状态文件随天数线性增长（约 150 条/天 → 一年约 5 万条）。
+  # 90 天裁剪后稳态约 1.4 万条，每天提交进 git 完全可接受。
+
+# ---------- 推送 ----------
+notify:
+  channel: email             # email | console
+  subject_prefix: "[科学前沿]"
+  send_on_empty: false
+  # 「一条都没筛出来」时不推送，但仍然写报告文件和源状态表。
+  # 连续的报告序列比省下一条通知更有价值。
+  # 注意区分：源全挂 是故障，要 exit 1 并告警，不是静默。
+
+# ---------- 报告元信息 ----------
+report_meta:
+  timezone: Asia/Shanghai
+  # ★ 统一时区入口。不要裸用 datetime.now()，也不要依赖 TZ 环境变量。
+  #   cron 延迟跨过 UTC 午夜时，用错日期会把报告归档到错误的一天，
+  #   同时污染去重窗口。

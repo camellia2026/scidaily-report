@@ -1,0 +1,150 @@
+name: ci
+
+# ============================================================
+# 两层测试：
+#   1. pytest —— 单元级，零网络。钉住的是本项目已有的事故与边界
+#   2. 契约断言 —— 把运维教训变成回归测试（原项目用这套抓到了两个真 bug）
+#
+# 契约断言为什么写在 shell 里而不是 Python 里：
+#   它们要验证的是**退出码**和**日志内容**，那是进程级行为，
+#   pytest 里断言进程退出码会绕一大圈。
+# ============================================================
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "reports/**"
+      - "data/**"     # 机器人每天的提交只碰这两个目录，忽略掉避免自己触发自己
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUTF8: "1"
+  PYTHONIOENCODING: "utf-8"
+  SCIDAILY_ENV: ci
+  SCIDAILY_CONTACT: ci@example.com
+  LLM_PROVIDER: mock
+  # 关掉心跳，CI 里不该 ping 生产用的死手开关
+  HEALTHCHECK_URL: ""
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 单元测试
+        run: python -m pytest tests/ -q
+
+      # ---------------------------------------------------------------
+      # 离线冒烟：完全不联网，从 tests/fixtures 读固件
+      # ---------------------------------------------------------------
+      - name: 离线冒烟
+        run: python run.py --smoke --force
+
+      - name: 断言报告结构完整
+        run: |
+          set -e
+          f=$(ls reports/*.md | head -1)
+          echo "检查 $f"
+          grep -q "^# 每日科学前沿" "$f"
+          grep -q "## 今日综述" "$f"
+          grep -q "## 数据源状态" "$f"
+          grep -q "原文链接为准" "$f"
+
+      - name: 断言 json 孪生与 md 同日生成
+        run: |
+          set -e
+          d=$(TZ=Asia/Shanghai date +%F)
+          test -f "reports/$d.md"
+          test -f "data/history/$d.json"
+
+      - name: 断言没有产生真实推送
+        run: |
+          # --smoke 隐含 --dry-run，不该写 sent=true
+          set -e
+          d=$(TZ=Asia/Shanghai date +%F)
+          python - <<'PY'
+          import json, os, sys
+          d = os.popen("TZ=Asia/Shanghai date +%F").read().strip()
+          j = json.load(open(f"data/history/{d}.json", encoding="utf-8"))
+          assert j["sent"] is False, "dry-run 却标记为已推送"
+          assert j["backend"] != "rule", "mock 后端不该降级成 rule"
+          print("sent=False, backend=", j["backend"])
+          PY
+
+      # ---------------------------------------------------------------
+      # 契约：配置为空 = 启动时就报错，且必须点名缺失的变量
+      # ---------------------------------------------------------------
+      - name: 断言「配置为空 = 启动时就报错」
+        run: |
+          set +e
+          out=$(MAIL_USERNAME= MAIL_AUTH_CODE= python run.py 2>&1)
+          code=$?
+          set -e
+          if [ "$code" -eq 0 ]; then
+            echo "❌ 邮件配置为空却返回 0，这正是要防的「绿色但什么都没送出去」"
+            exit 1
+          fi
+          echo "$out" | grep -q "MAIL_AUTH_CODE" || {
+            echo "❌ 报错信息没有点名 MAIL_AUTH_CODE，用户无从下手"
+            echo "$out"
+            exit 1
+          }
+          echo "✅ 配置为空会失败，且点名了缺失变量"
+
+      # ---------------------------------------------------------------
+      # 契约：「送不出去 = 失败」
+      # 原项目 2026-09-25 的两次运行都是绿的，但一封邮件都没送达。
+      # ---------------------------------------------------------------
+      - name: 断言「送不出去 = 失败」
+        run: |
+          set +e
+          MAIL_SMTP_HOST=127.0.0.1 MAIL_SMTP_PORT=9 \
+            MAIL_USERNAME=a@b.c MAIL_AUTH_CODE=x MAIL_TO=a@b.c \
+            python run.py --force >/dev/null 2>&1
+          code=$?
+          set -e
+          if [ "$code" -eq 0 ]; then
+            echo "❌ SMTP 不可达却返回 0 —— 绿勾和「今天没新闻」必须长得不一样"
+            exit 1
+          fi
+          echo "✅ 推送失败返回 $code（非 0）"
+
+      - name: 断言 --dry-run 返回 0
+        run: python run.py --no-llm --dry-run --force
+
+      - name: 摘要模块可用
+        run: python -m scidaily.summary | head -20
+
+      - name: 把报告片段贴到 run 页面
+        if: always()
+        run: |
+          {
+            echo "## 报告片段"
+            echo '```'
+            head -40 "$(ls reports/*.md | head -1)" 2>/dev/null || echo "(无报告)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
