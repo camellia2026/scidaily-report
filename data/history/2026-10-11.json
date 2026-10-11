@@ -1,13 +1,13 @@
 {
  "date": "2026-10-11",
- "generated_at": "2026-10-11 12:51 CST",
- "backend": "rule",
- "sent": false,
+ "generated_at": "2026-10-11 14:49 CST",
+ "backend": "rule-fallback",
+ "sent": true,
  "window_hours": {
   "news": 24.0,
   "paper": 72.0
  },
- "overview_zh": "本次以规则模式生成，共 81 条。未调用大模型，摘要为原文截取。",
+ "overview_zh": "本次以规则模式生成，共 85 条。未调用大模型，摘要为原文截取。",
  "items": [
   {
    "refs": [
@@ -829,8 +829,8 @@
    "refs": [
     35
    ],
-   "title_en": "Afford-X: Generalizable and Slim Affordance Reasoning for Task-Oriented Manipulation",
-   "headline_zh": "Afford-X: Generalizable and Slim Affordance Reasoning for T…",
+   "title_en": "Latent MeanFlow Policy Optimization for Offline Reinforcement Learning",
+   "headline_zh": "Latent MeanFlow Policy Optimization for Offline Reinforceme…",
    "summary_zh": "(该源未提供摘要)",
    "why_it_matters_zh": "",
    "discipline": "计算机",
@@ -840,11 +840,11 @@
     {
      "ref": 35,
      "channel": "paper",
-     "title": "Afford-X: Generalizable and Slim Affordance Reasoning for Task-Oriented Manipulation",
-     "url": "https://doi.org/10.1109/tpami.2026.3722040",
+     "title": "Latent MeanFlow Policy Optimization for Offline Reinforcement Learning",
+     "url": "https://doi.org/10.1109/tpami.2026.3720530",
      "journal": "IEEE TPAMI",
      "tier": "T1",
-     "doi": "10.1109/tpami.2026.3722040",
+     "doi": "10.1109/tpami.2026.3720530",
      "published": "2026-11-01T00:00:00+00:00"
     }
    ]
@@ -852,30 +852,6 @@
   {
    "refs": [
     36
-   ],
-   "title_en": "Happy++: Toward Stable and Unified Continual Generalized Category Discovery",
-   "headline_zh": "Happy++: Toward Stable and Unified Continual Generalized Ca…",
-   "summary_zh": "(该源未提供摘要)",
-   "why_it_matters_zh": "",
-   "discipline": "计算机",
-   "importance": 5,
-   "tags": [],
-   "records": [
-    {
-     "ref": 36,
-     "channel": "paper",
-     "title": "Happy++: Toward Stable and Unified Continual Generalized Category Discovery",
-     "url": "https://doi.org/10.1109/tpami.2026.3721625",
-     "journal": "IEEE TPAMI",
-     "tier": "T1",
-     "doi": "10.1109/tpami.2026.3721625",
-     "published": "2026-11-01T00:00:00+00:00"
-    }
-   ]
-  },
-  {
-   "refs": [
-    37
    ],
    "title_en": "Robust Audio-Visual Question Answering With Missing Modality in Training and Testing",
    "headline_zh": "Robust Audio-Visual Question Answering With Missing Modalit…",
@@ -886,7 +862,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 37,
+     "ref": 36,
      "channel": "paper",
      "title": "Robust Audio-Visual Question Answering With Missing Modality in Training and Testing",
      "url": "https://doi.org/10.1109/tpami.2026.3723653",
@@ -899,10 +875,34 @@
   },
   {
    "refs": [
+    37
+   ],
+   "title_en": "Happy++: Toward Stable and Unified Continual Generalized Category Discovery",
+   "headline_zh": "Happy++: Toward Stable and Unified Continual Generalized Ca…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "paper",
+     "title": "Happy++: Toward Stable and Unified Continual Generalized Category Discovery",
+     "url": "https://doi.org/10.1109/tpami.2026.3721625",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721625",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
     38
    ],
-   "title_en": "Latent MeanFlow Policy Optimization for Offline Reinforcement Learning",
-   "headline_zh": "Latent MeanFlow Policy Optimization for Offline Reinforceme…",
+   "title_en": "Afford-X: Generalizable and Slim Affordance Reasoning for Task-Oriented Manipulation",
+   "headline_zh": "Afford-X: Generalizable and Slim Affordance Reasoning for T…",
    "summary_zh": "(该源未提供摘要)",
    "why_it_matters_zh": "",
    "discipline": "计算机",
@@ -912,11 +912,11 @@
     {
      "ref": 38,
      "channel": "paper",
-     "title": "Latent MeanFlow Policy Optimization for Offline Reinforcement Learning",
-     "url": "https://doi.org/10.1109/tpami.2026.3720530",
+     "title": "Afford-X: Generalizable and Slim Affordance Reasoning for Task-Oriented Manipulation",
+     "url": "https://doi.org/10.1109/tpami.2026.3722040",
      "journal": "IEEE TPAMI",
      "tier": "T1",
-     "doi": "10.1109/tpami.2026.3720530",
+     "doi": "10.1109/tpami.2026.3722040",
      "published": "2026-11-01T00:00:00+00:00"
     }
    ]
@@ -1477,8 +1477,8 @@
    "refs": [
     62
    ],
-   "title_en": "Mamba-FSCIL: Dynamic Adaptation With Selective State Space Model for Few-Shot Class Incremental Learning",
-   "headline_zh": "Mamba-FSCIL: Dynamic Adaptation With Selective State Space…",
+   "title_en": "Shared Latent Characteristic Anchored Hash Codes Generation for Efficient Fine-Grained Image Retrieval",
+   "headline_zh": "Shared Latent Characteristic Anchored Hash Codes Generation…",
    "summary_zh": "(该源未提供摘要)",
    "why_it_matters_zh": "",
    "discipline": "计算机",
@@ -1488,11 +1488,11 @@
     {
      "ref": 62,
      "channel": "paper",
-     "title": "Mamba-FSCIL: Dynamic Adaptation With Selective State Space Model for Few-Shot Class Incremental Learning",
-     "url": "https://doi.org/10.1109/tpami.2026.3719435",
+     "title": "Shared Latent Characteristic Anchored Hash Codes Generation for Efficient Fine-Grained Image Retrieval",
+     "url": "https://doi.org/10.1109/tpami.2026.3723930",
      "journal": "IEEE TPAMI",
      "tier": "T1",
-     "doi": "10.1109/tpami.2026.3719435",
+     "doi": "10.1109/tpami.2026.3723930",
      "published": "2026-11-01T00:00:00+00:00"
     }
    ]
@@ -1500,6 +1500,30 @@
   {
    "refs": [
     63
+   ],
+   "title_en": "Scientists build a nuclear clock that could make atomic clocks obsolete",
+   "headline_zh": "Scientists build a nuclear clock that could make atomic clo…",
+   "summary_zh": "Scientists in Vienna have achieved a major breakthrough in timekeeping by creating the world’s first self-stabilizing nuclear clock, a technology that could eventually surpass even the most precise a…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 63,
+     "channel": "news",
+     "title": "Scientists build a nuclear clock that could make atomic clocks obsolete",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T03:06:35+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    64
    ],
    "title_en": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
    "headline_zh": "Ultraviolet laser pulses engineer diamond defects selective…",
@@ -1510,7 +1534,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 63,
+     "ref": 64,
      "channel": "news",
      "title": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact",
      "url": "https://phys.org/news/2026-10-ultraviolet-laser-pulses-diamond-defects.html",
@@ -1523,7 +1547,7 @@
   },
   {
    "refs": [
-    64
+    65
    ],
    "title_en": "New stability rules distinguish quantum phases of matter that an older method wrongly groups together",
    "headline_zh": "New stability rules distinguish quantum phases of matter th…",
@@ -1534,7 +1558,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 64,
+     "ref": 65,
      "channel": "news",
      "title": "New stability rules distinguish quantum phases of matter that an older method wrongly groups together",
      "url": "https://phys.org/news/2026-10-stability-distinguish-quantum-phases-older.html",
@@ -1547,7 +1571,31 @@
   },
   {
    "refs": [
-    65
+    66
+   ],
+   "title_en": "The eye has a hidden cleanup system scientists never knew existed",
+   "headline_zh": "The eye has a hidden cleanup system scientists never knew e…",
+   "summary_zh": "Scientists have discovered a hidden cleanup system at the back of the eye that drains fluid and waste through a previously unknown pathway. The surprising finding, demonstrated in mice, could open th…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 66,
+     "channel": "news",
+     "title": "The eye has a hidden cleanup system scientists never knew existed",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261008005254.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T06:01:54+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    67
    ],
    "title_en": "Zimbabwe's dinosaurs were different from South Africa's: New species offers clues",
    "headline_zh": "Zimbabwe's dinosaurs were different from South Africa's: Ne…",
@@ -1558,7 +1606,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 65,
+     "ref": 67,
      "channel": "news",
      "title": "Zimbabwe's dinosaurs were different from South Africa's: New species offers clues",
      "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
@@ -1571,7 +1619,7 @@
   },
   {
    "refs": [
-    66
+    68
    ],
    "title_en": "Hybrid quantum computer observes foundational quantum effect in a new setting",
    "headline_zh": "Hybrid quantum computer observes foundational quantum effec…",
@@ -1582,7 +1630,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 66,
+     "ref": 68,
      "channel": "news",
      "title": "Hybrid quantum computer observes foundational quantum effect in a new setting",
      "url": "https://phys.org/news/2026-10-hybrid-quantum-foundational-effect.html",
@@ -1595,7 +1643,55 @@
   },
   {
    "refs": [
-    67
+    69
+   ],
+   "title_en": "Neanderthals may have used prehistoric glue as an ancient antibiotic",
+   "headline_zh": "Neanderthals may have used prehistoric glue as an ancient a…",
+   "summary_zh": "Neanderthals may have used a sticky substance made from birch bark to treat wounds thousands of years before antibiotics existed. Researchers recreated ancient birch tar production techniques and dis…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 69,
+     "channel": "news",
+     "title": "Neanderthals may have used prehistoric glue as an ancient antibiotic",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261008005256.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T00:45:37+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    70
+   ],
+   "title_en": "Scientists created a tiny device that can control your nerves to treat chronic pain",
+   "headline_zh": "Scientists created a tiny device that can control your nerv…",
+   "summary_zh": "Scientists have developed a tiny, injectable device that can control nerve activity without surgery, batteries, or wires, potentially transforming treatment for chronic pain and movement disorders. P…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 70,
+     "channel": "news",
+     "title": "Scientists created a tiny device that can control your nerves to treat chronic pain",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261008005253.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T00:23:19+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    71
    ],
    "title_en": "How to meal prep safely: A microbiologist's step‑by‑step guide",
    "headline_zh": "How to meal prep safely: A microbiologist's step‑by‑step gu…",
@@ -1606,7 +1702,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 67,
+     "ref": 71,
      "channel": "news",
      "title": "How to meal prep safely: A microbiologist's step‑by‑step guide",
      "url": "https://phys.org/news/2026-10-meal-prep-safely-microbiologist-stepbystep.html",
@@ -1619,7 +1715,7 @@
   },
   {
    "refs": [
-    68
+    72
    ],
    "title_en": "Adult acne is real, but there are ways to treat it. Here's what to know",
    "headline_zh": "Adult acne is real, but there are ways to treat it. Here's…",
@@ -1630,7 +1726,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 68,
+     "ref": 72,
      "channel": "news",
      "title": "Adult acne is real, but there are ways to treat it. Here's what to know",
      "url": "https://phys.org/news/2026-10-adult-acne-real-ways.html",
@@ -1643,7 +1739,7 @@
   },
   {
    "refs": [
-    69
+    73
    ],
    "title_en": "Nearly 300,000 at risk from Himalayan floods, as flood zone building accelerates",
    "headline_zh": "Nearly 300,000 at risk from Himalayan floods, as flood zone…",
@@ -1654,7 +1750,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 69,
+     "ref": 73,
      "channel": "news",
      "title": "Nearly 300,000 at risk from Himalayan floods, as flood zone building accelerates",
      "url": "https://phys.org/news/2026-10-himalayan-zone.html",
@@ -1667,7 +1763,7 @@
   },
   {
    "refs": [
-    70
+    74
    ],
    "title_en": "Scientists may have found a shortcut to fusion energy",
    "headline_zh": "Scientists may have found a shortcut to fusion energy",
@@ -1678,7 +1774,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 70,
+     "ref": 74,
      "channel": "news",
      "title": "Scientists may have found a shortcut to fusion energy",
      "url": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
@@ -1691,7 +1787,7 @@
   },
   {
    "refs": [
-    71
+    75
    ],
    "title_en": "Loneliness may steal nearly 6 years of good health",
    "headline_zh": "Loneliness may steal nearly 6 years of good health",
@@ -1702,7 +1798,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 71,
+     "ref": 75,
      "channel": "news",
      "title": "Loneliness may steal nearly 6 years of good health",
      "url": "https://www.sciencedaily.com/releases/2026/10/261006234514.htm",
@@ -1715,7 +1811,7 @@
   },
   {
    "refs": [
-    72
+    76
    ],
    "title_en": "MIT astronomers catch a star in a feast that could last billions of years",
    "headline_zh": "MIT astronomers catch a star in a feast that could last bil…",
@@ -1726,7 +1822,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 72,
+     "ref": 76,
      "channel": "news",
      "title": "MIT astronomers catch a star in a feast that could last billions of years",
      "url": "https://www.sciencedaily.com/releases/2026/10/261008005240.htm",
@@ -1739,7 +1835,7 @@
   },
   {
    "refs": [
-    73
+    77
    ],
    "title_en": "Preschool boys favor bigger groups while adults' choices hint at political attitudes",
    "headline_zh": "Preschool boys favor bigger groups while adults' choices hi…",
@@ -1750,7 +1846,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 73,
+     "ref": 77,
      "channel": "news",
      "title": "Preschool boys favor bigger groups while adults' choices hint at political attitudes",
      "url": "https://phys.org/news/2026-10-preschool-boys-favor-bigger-groups.html",
@@ -1763,7 +1859,7 @@
   },
   {
    "refs": [
-    74
+    78
    ],
    "title_en": "One with the world? A new look at brains transformed by psychedelics.",
    "headline_zh": "One with the world? A new look at brains transformed by psy…",
@@ -1774,7 +1870,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 74,
+     "ref": 78,
      "channel": "news",
      "title": "One with the world? A new look at brains transformed by psychedelics.",
      "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
@@ -1787,7 +1883,7 @@
   },
   {
    "refs": [
-    75
+    79
    ],
    "title_en": "Against the odds: Why some ecosystems thrive",
    "headline_zh": "Against the odds: Why some ecosystems thrive",
@@ -1798,7 +1894,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 75,
+     "ref": 79,
      "channel": "news",
      "title": "Against the odds: Why some ecosystems thrive",
      "url": "https://phys.org/news/2026-10-odds-ecosystems.html",
@@ -1811,7 +1907,7 @@
   },
   {
    "refs": [
-    76
+    80
    ],
    "title_en": "Powerful waves lash California coast as storm threatens more damage",
    "headline_zh": "Powerful waves lash California coast as storm threatens mor…",
@@ -1822,7 +1918,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 76,
+     "ref": 80,
      "channel": "news",
      "title": "Powerful waves lash California coast as storm threatens more damage",
      "url": "https://phys.org/news/2026-10-powerful-lash-california-coast-storm.html",
@@ -1835,7 +1931,7 @@
   },
   {
    "refs": [
-    77
+    81
    ],
    "title_en": "Tsunami alert after major earthquake rocks Panama",
    "headline_zh": "Tsunami alert after major earthquake rocks Panama",
@@ -1846,7 +1942,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 77,
+     "ref": 81,
      "channel": "news",
      "title": "Tsunami alert after major earthquake rocks Panama",
      "url": "https://phys.org/news/2026-10-tsunami-major-earthquake-panama.html",
@@ -1859,7 +1955,7 @@
   },
   {
    "refs": [
-    78
+    82
    ],
    "title_en": "Isaias downgraded to post-tropical cyclone after landfall in Florida",
    "headline_zh": "Isaias downgraded to post-tropical cyclone after landfall i…",
@@ -1870,7 +1966,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 78,
+     "ref": 82,
      "channel": "news",
      "title": "Isaias downgraded to post-tropical cyclone after landfall in Florida",
      "url": "https://phys.org/news/2026-10-isaias-downgraded-tropical-cyclone-landfall.html",
@@ -1883,7 +1979,7 @@
   },
   {
    "refs": [
-    79
+    83
    ],
    "title_en": "Why some young ants start hunting and caring for others early",
    "headline_zh": "Why some young ants start hunting and caring for others ear…",
@@ -1894,7 +1990,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 79,
+     "ref": 83,
      "channel": "news",
      "title": "Why some young ants start hunting and caring for others early",
      "url": "https://phys.org/news/2026-10-young-ants-early.html",
@@ -1907,7 +2003,7 @@
   },
   {
    "refs": [
-    80
+    84
    ],
    "title_en": "New catalyst enables lower-temperature methane conversion with sustained performance",
    "headline_zh": "New catalyst enables lower-temperature methane conversion w…",
@@ -1918,7 +2014,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 80,
+     "ref": 84,
      "channel": "news",
      "title": "New catalyst enables lower-temperature methane conversion with sustained performance",
      "url": "https://phys.org/news/2026-10-catalyst-enables-temperature-methane-conversion.html",
@@ -1931,7 +2027,7 @@
   },
   {
    "refs": [
-    81
+    85
    ],
    "title_en": "Wildfire smoke shuts schools in Amazon's biggest city",
    "headline_zh": "Wildfire smoke shuts schools in Amazon's biggest city",
@@ -1942,7 +2038,7 @@
    "tags": [],
    "records": [
     {
-     "ref": 81,
+     "ref": 85,
      "channel": "news",
      "title": "Wildfire smoke shuts schools in Amazon's biggest city",
      "url": "https://phys.org/news/2026-10-wildfire-schools-amazon-biggest-city.html",
@@ -1985,9 +2081,9 @@
    "dup_in_run": 0,
    "already_seen": 0,
    "dropped_by_penalty": 0,
-   "dropped_by_window": 141,
-   "unique": 19,
-   "candidates": 19
+   "dropped_by_window": 137,
+   "unique": 23,
+   "candidates": 23
   },
   "upgrade": {
    "fetched": 0,
@@ -2015,7 +2111,7 @@
    "status": "ok",
    "fetched": 78,
    "kept": 77,
-   "elapsed_s": 0.05,
+   "elapsed_s": 0.83,
    "error": ""
   },
   {
@@ -2024,7 +2120,7 @@
    "status": "ok",
    "fetched": 75,
    "kept": 75,
-   "elapsed_s": 9.36,
+   "elapsed_s": 0.25,
    "error": ""
   },
   {
@@ -2033,7 +2129,7 @@
    "status": "ok",
    "fetched": 22,
    "kept": 22,
-   "elapsed_s": 0.03,
+   "elapsed_s": 0.1,
    "error": ""
   },
   {
@@ -2042,7 +2138,7 @@
    "status": "ok",
    "fetched": 27,
    "kept": 27,
-   "elapsed_s": 0.06,
+   "elapsed_s": 0.15,
    "error": ""
   },
   {
@@ -2051,7 +2147,7 @@
    "status": "empty",
    "fetched": 0,
    "kept": 0,
-   "elapsed_s": 0.02,
+   "elapsed_s": 0.66,
    "error": ""
   },
   {
@@ -2060,7 +2156,7 @@
    "status": "empty",
    "fetched": 3,
    "kept": 0,
-   "elapsed_s": 0.01,
+   "elapsed_s": 0.76,
    "error": ""
   },
   {
@@ -2069,7 +2165,7 @@
    "status": "empty",
    "fetched": 0,
    "kept": 0,
-   "elapsed_s": 0.02,
+   "elapsed_s": 0.22,
    "error": ""
   },
   {
@@ -2078,7 +2174,7 @@
    "status": "ok",
    "fetched": 41,
    "kept": 41,
-   "elapsed_s": 0.02,
+   "elapsed_s": 0.45,
    "error": ""
   },
   {
@@ -2087,7 +2183,7 @@
    "status": "ok",
    "fetched": 121,
    "kept": 121,
-   "elapsed_s": 0.03,
+   "elapsed_s": 0.86,
    "error": ""
   },
   {
@@ -2096,7 +2192,7 @@
    "status": "ok",
    "fetched": 22,
    "kept": 22,
-   "elapsed_s": 0.02,
+   "elapsed_s": 0.37,
    "error": ""
   },
   {
@@ -2105,7 +2201,7 @@
    "status": "empty",
    "fetched": 0,
    "kept": 0,
-   "elapsed_s": 0.02,
+   "elapsed_s": 0.27,
    "error": ""
   },
   {
@@ -2114,7 +2210,7 @@
    "status": "empty",
    "fetched": 0,
    "kept": 0,
-   "elapsed_s": 0.0,
+   "elapsed_s": 0.3,
    "error": ""
   },
   {
@@ -2123,7 +2219,7 @@
    "status": "empty",
    "fetched": 0,
    "kept": 0,
-   "elapsed_s": 0.0,
+   "elapsed_s": 1.0,
    "error": ""
   },
   {
@@ -2132,7 +2228,7 @@
    "status": "ok",
    "fetched": 60,
    "kept": 59,
-   "elapsed_s": 0.08,
+   "elapsed_s": 1.62,
    "error": ""
   },
   {
@@ -2141,7 +2237,7 @@
    "status": "ok",
    "fetched": 60,
    "kept": 3,
-   "elapsed_s": 0.05,
+   "elapsed_s": 0.92,
    "error": ""
   },
   {
@@ -2150,7 +2246,7 @@
    "status": "ok",
    "fetched": 30,
    "kept": 30,
-   "elapsed_s": 0.03,
+   "elapsed_s": 0.14,
    "error": ""
   },
   {
@@ -2159,7 +2255,7 @@
    "status": "ok",
    "fetched": 5,
    "kept": 5,
-   "elapsed_s": 0.02,
+   "elapsed_s": 0.07,
    "error": ""
   },
   {
@@ -2168,7 +2264,7 @@
    "status": "ok",
    "fetched": 20,
    "kept": 20,
-   "elapsed_s": 5.44,
+   "elapsed_s": 0.51,
    "error": ""
   },
   {
@@ -2177,7 +2273,7 @@
    "status": "ok",
    "fetched": 60,
    "kept": 60,
-   "elapsed_s": 2.3,
+   "elapsed_s": 0.27,
    "error": ""
   }
  ]
