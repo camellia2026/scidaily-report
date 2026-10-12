@@ -1,0 +1,1992 @@
+{
+ "date": "2026-10-12",
+ "generated_at": "2026-10-12 08:40 CST",
+ "backend": "rule-fallback",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "本次以规则模式生成，共 73 条。未调用大模型，摘要为原文截取。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Global, regional, and national prevalence of adult overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021",
+   "headline_zh": "Global, regional, and national prevalence of adult overweig…",
+   "summary_zh": "BACKGROUND: Overweight and obesity is a global epidemic. Forecasting future trajectories of the epidemic is crucial for providing an evidence base for policy change. In this study, we examine the his…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "hot",
+     "title": "Global, regional, and national prevalence of adult overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021",
+     "url": "https://doi.org/10.1016/s0140-6736(25)00355-1",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/s0140-6736(25)00355-1",
+     "published": "2025-03-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Global, regional, and national prevalence of child and adolescent overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021",
+   "headline_zh": "Global, regional, and national prevalence of child and adol…",
+   "summary_zh": "BACKGROUND: Despite the well documented consequences of obesity during childhood and adolescence and future risks of excess body mass on non-communicable diseases in adulthood, coordinated global act…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "hot",
+     "title": "Global, regional, and national prevalence of child and adolescent overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021",
+     "url": "https://doi.org/10.1016/s0140-6736(25)00397-6",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/s0140-6736(25)00397-6",
+     "published": "2025-03-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Trends in the global, regional, and national burden of oral conditions from 1990 to 2021: a systematic analysis for the Global Burden of Disease Study 2021",
+   "headline_zh": "Trends in the global, regional, and national burden of oral…",
+   "summary_zh": "BACKGROUND: The WHO Global Oral Health Action Plan has set an overarching global target of achieving a 10% reduction in the prevalence of oral conditions by 2030. Robust and up-to-date information on…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "hot",
+     "title": "Trends in the global, regional, and national burden of oral conditions from 1990 to 2021: a systematic analysis for the Global Burden of Disease Study 2021",
+     "url": "https://doi.org/10.1016/s0140-6736(24)02811-3",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/s0140-6736(24)02811-3",
+     "published": "2025-02-27T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Hydrogenation of CO 2 for sustainable fuel and chemical production",
+   "headline_zh": "Hydrogenation of CO 2 for sustainable fuel and chemical pro…",
+   "summary_zh": "Catalytic carbon dioxide (CO 2 ) hydrogenation is a potential route for producing sustainable fuels and chemicals, but existing catalysts need improvement. In particular, identifying active sites and…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "hot",
+     "title": "Hydrogenation of CO 2 for sustainable fuel and chemical production",
+     "url": "https://doi.org/10.1126/science.adn9388",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adn9388",
+     "published": "2025-02-27T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Ultrastable supported oxygen evolution electrocatalyst formed by ripening-induced embedding",
+   "headline_zh": "Ultrastable supported oxygen evolution electrocatalyst form…",
+   "summary_zh": "The future deployment of terawatt-scale proton exchange membrane water electrolyzer (PEMWE) technology necessitates development of an efficient oxygen evolution catalyst with low cost and long lifeti…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "hot",
+     "title": "Ultrastable supported oxygen evolution electrocatalyst formed by ripening-induced embedding",
+     "url": "https://doi.org/10.1126/science.adr3149",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adr3149",
+     "published": "2025-02-13T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Neuromorphic computing at scale",
+   "headline_zh": "Neuromorphic computing at scale",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "hot",
+     "title": "Neuromorphic computing at scale",
+     "url": "https://doi.org/10.1038/s41586-024-08253-8",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-024-08253-8",
+     "published": "2025-01-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "Simulating 500 million years of evolution with a language model",
+   "headline_zh": "Simulating 500 million years of evolution with a language m…",
+   "summary_zh": "More than 3 billion years of evolution have produced an image of biology encoded into the space of natural proteins. Here, we show that language models trained at scale on evolutionary data can gener…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "hot",
+     "title": "Simulating 500 million years of evolution with a language model",
+     "url": "https://doi.org/10.1126/science.ads0018",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.ads0018",
+     "published": "2025-01-16T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "A generative model for inorganic materials design",
+   "headline_zh": "A generative model for inorganic materials design",
+   "summary_zh": "Abstract The design of functional materials with desired properties is essential in driving technological advances in areas such as energy storage, catalysis and carbon capture 1–3 . Generative model…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "hot",
+     "title": "A generative model for inorganic materials design",
+     "url": "https://doi.org/10.1038/s41586-025-08628-5",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-08628-5",
+     "published": "2025-01-16T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Accurate predictions on small data with a tabular foundation model",
+   "headline_zh": "Accurate predictions on small data with a tabular foundatio…",
+   "summary_zh": "Abstract Tabular data, spreadsheets organized in rows and columns, are ubiquitous across scientific fields, from biomedicine to particle physics to economics and climate science 1,2 . The fundamental…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "hot",
+     "title": "Accurate predictions on small data with a tabular foundation model",
+     "url": "https://doi.org/10.1038/s41586-024-08328-6",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-024-08328-6",
+     "published": "2025-01-08T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Tantalum-stabilized ruthenium oxide electrocatalysts for industrial water electrolysis",
+   "headline_zh": "Tantalum-stabilized ruthenium oxide electrocatalysts for in…",
+   "summary_zh": "The iridium oxide (IrO 2 ) catalyst for the oxygen evolution reaction used industrially (in proton exchange membrane water electrolyzers) is scarce and costly. Although ruthenium oxide (RuO 2 ) is a…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "hot",
+     "title": "Tantalum-stabilized ruthenium oxide electrocatalysts for industrial water electrolysis",
+     "url": "https://doi.org/10.1126/science.ado9938",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.ado9938",
+     "published": "2025-01-02T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "Acute kidney injury",
+   "headline_zh": "Acute kidney injury",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "hot",
+     "title": "Acute kidney injury",
+     "url": "https://doi.org/10.1016/s0140-6736(24)02385-7",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/s0140-6736(24)02385-7",
+     "published": "2025-01-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+   "headline_zh": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph C…",
+   "summary_zh": "We introduce Hyper-YOLO, a new object detection method that integrates hypergraph computations to capture the complex high-order correlations among visual features. Traditional YOLO models, while pow…",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "hot",
+     "title": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+     "url": "https://doi.org/10.1109/tpami.2024.3524377",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2024.3524377",
+     "published": "2024-12-30T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Channel-Wise Topology Refinement Graph Convolution for Skeleton-Based Action Recognition",
+   "headline_zh": "Channel-Wise Topology Refinement Graph Convolution for Skel…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Channel-Wise Topology Refinement Graph Convolution for Skeleton-Based Action Recognition",
+     "url": "https://doi.org/10.1109/tpami.2026.3718490",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3718490",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Label Distribution Enhancement-Based Label Completion for High-Noise-Ratio Crowdsourcing",
+   "headline_zh": "Label Distribution Enhancement-Based Label Completion for H…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "Label Distribution Enhancement-Based Label Completion for High-Noise-Ratio Crowdsourcing",
+     "url": "https://doi.org/10.1109/tpami.2026.3721048",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721048",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "FedAdOb: Privacy-Preserving\n                    <u>Fed</u>\n                    erated Deep Learning With\n                    <u>Ad</u>\n                    aptive\n                    <u>Ob</u>\n                    fuscation",
+   "headline_zh": "FedAdOb: Privacy-Preserving\n                    <u>Fed</u>…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "FedAdOb: Privacy-Preserving\n                    <u>Fed</u>\n                    erated Deep Learning With\n                    <u>Ad</u>\n                    aptive\n                    <u>Ob</u>\n                    fuscation",
+     "url": "https://doi.org/10.1109/tpami.2026.3715766",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3715766",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Kolmogorov-Arnold Causal Generative Models",
+   "headline_zh": "Kolmogorov-Arnold Causal Generative Models",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Kolmogorov-Arnold Causal Generative Models",
+     "url": "https://doi.org/10.1109/tpami.2026.3721159",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3721159",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting",
+   "headline_zh": "On the Design of Mixture-of-Experts for Dynamic Gaussian Sp…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting",
+     "url": "https://doi.org/10.1109/tpami.2026.3712736",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3712736",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "Oracle-Guided Masked Contrastive Reinforcement Learning for Visuomotor Policies",
+   "headline_zh": "Oracle-Guided Masked Contrastive Reinforcement Learning for…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "paper",
+     "title": "Oracle-Guided Masked Contrastive Reinforcement Learning for Visuomotor Policies",
+     "url": "https://doi.org/10.1109/tpami.2026.3711921",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3711921",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Toward Reliable Homography Estimation Under Adverse Degradations: An Optimization-Driven Approach",
+   "headline_zh": "Toward Reliable Homography Estimation Under Adverse Degrada…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "paper",
+     "title": "Toward Reliable Homography Estimation Under Adverse Degradations: An Optimization-Driven Approach",
+     "url": "https://doi.org/10.1109/tpami.2026.3720245",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3720245",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges",
+   "headline_zh": "SPD Matrix Learning for Neuroimaging Analysis: Perspectives…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "paper",
+     "title": "SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges",
+     "url": "https://doi.org/10.1109/tpami.2026.3726269",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3726269",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "UniNDM: A Unified Noise-Driven Detection and Mitigation Framework Against Sexual Content in Text-to-Image Generation",
+   "headline_zh": "UniNDM: A Unified Noise-Driven Detection and Mitigation Fra…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "paper",
+     "title": "UniNDM: A Unified Noise-Driven Detection and Mitigation Framework Against Sexual Content in Text-to-Image Generation",
+     "url": "https://doi.org/10.1109/tpami.2026.3713771",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3713771",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "STPP: Efficient and Progressive Structured Pruning via Enhanced Sparsification Paradigm",
+   "headline_zh": "STPP: Efficient and Progressive Structured Pruning via Enha…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "paper",
+     "title": "STPP: Efficient and Progressive Structured Pruning via Enhanced Sparsification Paradigm",
+     "url": "https://doi.org/10.1109/tpami.2026.3714012",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3714012",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    23
+   ],
+   "title_en": "TinyMem: Condensing Multimodal Memory for Long-Form Video Action Detection",
+   "headline_zh": "TinyMem: Condensing Multimodal Memory for Long-Form Video A…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 23,
+     "channel": "paper",
+     "title": "TinyMem: Condensing Multimodal Memory for Long-Form Video Action Detection",
+     "url": "https://doi.org/10.1109/tpami.2026.3718272",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3718272",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "EgoLoc: A Generalizable Solution for Temporal Interaction Localization in Egocentric Videos",
+   "headline_zh": "EgoLoc: A Generalizable Solution for Temporal Interaction L…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "paper",
+     "title": "EgoLoc: A Generalizable Solution for Temporal Interaction Localization in Egocentric Videos",
+     "url": "https://doi.org/10.1109/tpami.2026.3717912",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3717912",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "A Riemannian Framework for the Elastic Analysis of the Spatiotemporal Variability in the Shape and Structure of Tree-Like 4D Objects",
+   "headline_zh": "A Riemannian Framework for the Elastic Analysis of the Spat…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "paper",
+     "title": "A Riemannian Framework for the Elastic Analysis of the Spatiotemporal Variability in the Shape and Structure of Tree-Like 4D Objects",
+     "url": "https://doi.org/10.1109/tpami.2026.3726133",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3726133",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "High Frame Rate iToF-Flow-Based Depth Imaging Enabled by Local Linear Transfer",
+   "headline_zh": "High Frame Rate iToF-Flow-Based Depth Imaging Enabled by Lo…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "paper",
+     "title": "High Frame Rate iToF-Flow-Based Depth Imaging Enabled by Local Linear Transfer",
+     "url": "https://doi.org/10.1109/tpami.2026.3722249",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3722249",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    27
+   ],
+   "title_en": "A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+   "headline_zh": "A Survey on 3D Gaussian Splatting Applications: Segmentatio…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 27,
+     "channel": "paper",
+     "title": "A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+     "url": "https://doi.org/10.1109/tpami.2026.3704980",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3704980",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    28
+   ],
+   "title_en": "Universal Representation for Real-World Misaligned Infrared-Visible Image Fusion",
+   "headline_zh": "Universal Representation for Real-World Misaligned Infrared…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 28,
+     "channel": "paper",
+     "title": "Universal Representation for Real-World Misaligned Infrared-Visible Image Fusion",
+     "url": "https://doi.org/10.1109/tpami.2026.3720312",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3720312",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "PrefixQuant: Eliminating Outliers by Prefixed Tokens for Large Language Models Quantization",
+   "headline_zh": "PrefixQuant: Eliminating Outliers by Prefixed Tokens for La…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "paper",
+     "title": "PrefixQuant: Eliminating Outliers by Prefixed Tokens for Large Language Models Quantization",
+     "url": "https://doi.org/10.1109/tpami.2026.3711802",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3711802",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Consensus-Driven Distillation for Trustworthy Explanations in Self-Interpretable GNNs",
+   "headline_zh": "Consensus-Driven Distillation for Trustworthy Explanations…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "paper",
+     "title": "Consensus-Driven Distillation for Trustworthy Explanations in Self-Interpretable GNNs",
+     "url": "https://doi.org/10.1109/tpami.2026.3722391",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3722391",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "Early Stopping Without Validation Data in Weakly Supervised Learning",
+   "headline_zh": "Early Stopping Without Validation Data in Weakly Supervised…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "paper",
+     "title": "Early Stopping Without Validation Data in Weakly Supervised Learning",
+     "url": "https://doi.org/10.1109/tpami.2026.3712551",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3712551",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "Neurodynamic Approaches With Fixed-Step Optimality for Rank Minimization: A Data-Driven Framework",
+   "headline_zh": "Neurodynamic Approaches With Fixed-Step Optimality for Rank…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "paper",
+     "title": "Neurodynamic Approaches With Fixed-Step Optimality for Rank Minimization: A Data-Driven Framework",
+     "url": "https://doi.org/10.1109/tpami.2026.3717777",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3717777",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "Incomplete Multimodal Probability Flow Recovery for Emotion Recognition",
+   "headline_zh": "Incomplete Multimodal Probability Flow Recovery for Emotion…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "paper",
+     "title": "Incomplete Multimodal Probability Flow Recovery for Emotion Recognition",
+     "url": "https://doi.org/10.1109/tpami.2026.3713383",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3713383",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "SSpMV: A Sparsity-Aware Framework for Adaptive Sparse Matrix–Vector Multiplication",
+   "headline_zh": "SSpMV: A Sparsity-Aware Framework for Adaptive Sparse Matri…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "paper",
+     "title": "SSpMV: A Sparsity-Aware Framework for Adaptive Sparse Matrix–Vector Multiplication",
+     "url": "https://doi.org/10.1109/tc.2026.3730889",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3730889",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Function Reuse-Driven Serverless Workflow Provisioning With Constrained Bayesian Optimization",
+   "headline_zh": "Function Reuse-Driven Serverless Workflow Provisioning With…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "paper",
+     "title": "Function Reuse-Driven Serverless Workflow Provisioning With Constrained Bayesian Optimization",
+     "url": "https://doi.org/10.1109/tc.2026.3724178",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3724178",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    36
+   ],
+   "title_en": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check",
+   "headline_zh": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 36,
+     "channel": "paper",
+     "title": "System-Level Isolation for Mixed-Criticality RISC-V SoCs: A “World” Reality Check",
+     "url": "https://doi.org/10.1109/tc.2026.3724651",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3724651",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "Adaptive Management With Learning-Based Page-Level FTL for Flash-Based SSDs",
+   "headline_zh": "Adaptive Management With Learning-Based Page-Level FTL for…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "paper",
+     "title": "Adaptive Management With Learning-Based Page-Level FTL for Flash-Based SSDs",
+     "url": "https://doi.org/10.1109/tc.2026.3728873",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3728873",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "Differential Fault Attack on Atom: Bypassing the Double Key Filter Using Filtered Faults",
+   "headline_zh": "Differential Fault Attack on Atom: Bypassing the Double Key…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "paper",
+     "title": "Differential Fault Attack on Atom: Bypassing the Double Key Filter Using Filtered Faults",
+     "url": "https://doi.org/10.1109/tc.2026.3724423",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3724423",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    39
+   ],
+   "title_en": "Improving the Efficiency of Global EDF Exact Schedulability Test",
+   "headline_zh": "Improving the Efficiency of Global EDF Exact Schedulability…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 39,
+     "channel": "paper",
+     "title": "Improving the Efficiency of Global EDF Exact Schedulability Test",
+     "url": "https://doi.org/10.1109/tc.2026.3717057",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3717057",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    40
+   ],
+   "title_en": "ShBkDRL: Reliable Microservice Provision With Shared Backup in Dynamic Edge Computing",
+   "headline_zh": "ShBkDRL: Reliable Microservice Provision With Shared Backup…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 40,
+     "channel": "paper",
+     "title": "ShBkDRL: Reliable Microservice Provision With Shared Backup in Dynamic Edge Computing",
+     "url": "https://doi.org/10.1109/tc.2026.3724838",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3724838",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    41
+   ],
+   "title_en": "TFHEShield: Criticality-Aware Memory Reliability for TFHE",
+   "headline_zh": "TFHEShield: Criticality-Aware Memory Reliability for TFHE",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 41,
+     "channel": "paper",
+     "title": "TFHEShield: Criticality-Aware Memory Reliability for TFHE",
+     "url": "https://doi.org/10.1109/tc.2026.3725885",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3725885",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    42
+   ],
+   "title_en": "LIGHTeX: A Lightweight Framework for Extending Applications Into Trusted Execution",
+   "headline_zh": "LIGHTeX: A Lightweight Framework for Extending Applications…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 42,
+     "channel": "paper",
+     "title": "LIGHTeX: A Lightweight Framework for Extending Applications Into Trusted Execution",
+     "url": "https://doi.org/10.1109/tc.2026.3726050",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3726050",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    43
+   ],
+   "title_en": "CgDiff: A Context-Based Global Value Predictor With Tagged Geometric History Lengths",
+   "headline_zh": "CgDiff: A Context-Based Global Value Predictor With Tagged…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 43,
+     "channel": "paper",
+     "title": "CgDiff: A Context-Based Global Value Predictor With Tagged Geometric History Lengths",
+     "url": "https://doi.org/10.1109/tc.2026.3724502",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3724502",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    44
+   ],
+   "title_en": "PALIKV: PM-Resident Learned Index-Based Key-Value Store for the DRAM-PM-SSD Hierarchy",
+   "headline_zh": "PALIKV: PM-Resident Learned Index-Based Key-Value Store for…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 44,
+     "channel": "paper",
+     "title": "PALIKV: PM-Resident Learned Index-Based Key-Value Store for the DRAM-PM-SSD Hierarchy",
+     "url": "https://doi.org/10.1109/tc.2026.3724926",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3724926",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    45
+   ],
+   "title_en": "SIFMap: Parallel CNN Inference Using Sub-Input-Feature Maps in PIM",
+   "headline_zh": "SIFMap: Parallel CNN Inference Using Sub-Input-Feature Maps…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 45,
+     "channel": "paper",
+     "title": "SIFMap: Parallel CNN Inference Using Sub-Input-Feature Maps in PIM",
+     "url": "https://doi.org/10.1109/tc.2026.3727031",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3727031",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    46
+   ],
+   "title_en": "Constructing Virtual FIFOs in CPU Cache Hierarchy for Software Data Plane Orchestration",
+   "headline_zh": "Constructing Virtual FIFOs in CPU Cache Hierarchy for Softw…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 46,
+     "channel": "paper",
+     "title": "Constructing Virtual FIFOs in CPU Cache Hierarchy for Software Data Plane Orchestration",
+     "url": "https://doi.org/10.1109/tc.2026.3725652",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3725652",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    47
+   ],
+   "title_en": "Beyond Operator Patterns: Dependency-Centric Model Extraction From AOT-Compiled Deep Learning Binaries",
+   "headline_zh": "Beyond Operator Patterns: Dependency-Centric Model Extracti…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 47,
+     "channel": "paper",
+     "title": "Beyond Operator Patterns: Dependency-Centric Model Extraction From AOT-Compiled Deep Learning Binaries",
+     "url": "https://doi.org/10.1109/tc.2026.3725239",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3725239",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    48
+   ],
+   "title_en": "ROPSCON: Linear BFT From Schnorr Threshold Signatures",
+   "headline_zh": "ROPSCON: Linear BFT From Schnorr Threshold Signatures",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 48,
+     "channel": "paper",
+     "title": "ROPSCON: Linear BFT From Schnorr Threshold Signatures",
+     "url": "https://doi.org/10.1109/tc.2026.3724280",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3724280",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    49
+   ],
+   "title_en": "Trusted Runtime Customizable TEE on FPGA-SoC with User-Controllable TPM",
+   "headline_zh": "Trusted Runtime Customizable TEE on FPGA-SoC with User-Cont…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 49,
+     "channel": "paper",
+     "title": "Trusted Runtime Customizable TEE on FPGA-SoC with User-Controllable TPM",
+     "url": "https://doi.org/10.1109/tc.2026.3727630",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3727630",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    50
+   ],
+   "title_en": "High-Performance and Cache-Efficiency Adaptive Radix Tree for Disaggregated Memory",
+   "headline_zh": "High-Performance and Cache-Efficiency Adaptive Radix Tree f…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 50,
+     "channel": "paper",
+     "title": "High-Performance and Cache-Efficiency Adaptive Radix Tree for Disaggregated Memory",
+     "url": "https://doi.org/10.1109/tc.2026.3726609",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3726609",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    51
+   ],
+   "title_en": "Fast LM Head via Coarse-Fine Decomposition and Tile-Wise Weight Clustering",
+   "headline_zh": "Fast LM Head via Coarse-Fine Decomposition and Tile-Wise We…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 51,
+     "channel": "paper",
+     "title": "Fast LM Head via Coarse-Fine Decomposition and Tile-Wise Weight Clustering",
+     "url": "https://doi.org/10.1109/tc.2026.3725429",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3725429",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    52
+   ],
+   "title_en": "Scalable Stochastic Circuit Synthesis via Optimized Solution Space Exploration and Constrained Functional Transforms",
+   "headline_zh": "Scalable Stochastic Circuit Synthesis via Optimized Solutio…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 52,
+     "channel": "paper",
+     "title": "Scalable Stochastic Circuit Synthesis via Optimized Solution Space Exploration and Constrained Functional Transforms",
+     "url": "https://doi.org/10.1109/tc.2026.3724920",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3724920",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    53
+   ],
+   "title_en": "Leveraging the Error Margins of Approximate Adders for Fault Tolerance with Minimum Redundancy",
+   "headline_zh": "Leveraging the Error Margins of Approximate Adders for Faul…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 53,
+     "channel": "paper",
+     "title": "Leveraging the Error Margins of Approximate Adders for Fault Tolerance with Minimum Redundancy",
+     "url": "https://doi.org/10.1109/tc.2026.3725592",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3725592",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    54
+   ],
+   "title_en": "Secure Hardware Accelerator for Resilience Against Adversarial Attacks in ViTs",
+   "headline_zh": "Secure Hardware Accelerator for Resilience Against Adversar…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 54,
+     "channel": "paper",
+     "title": "Secure Hardware Accelerator for Resilience Against Adversarial Attacks in ViTs",
+     "url": "https://doi.org/10.1109/tc.2026.3729147",
+     "journal": "IEEE Transactions on Computers",
+     "tier": "T1",
+     "doi": "10.1109/tc.2026.3729147",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    55
+   ],
+   "title_en": "Health-Related Social Needs among Older Adults — Addressing Mismeasurement",
+   "headline_zh": "Health-Related Social Needs among Older Adults — Addressing…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 55,
+     "channel": "paper",
+     "title": "Health-Related Social Needs among Older Adults — Addressing Mismeasurement",
+     "url": "https://doi.org/10.1056/nejmp2608580",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2608580",
+     "published": "2026-10-10T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    56
+   ],
+   "title_en": "Who Counts as Infertile? A Missed Opportunity for Inclusion",
+   "headline_zh": "Who Counts as Infertile? A Missed Opportunity for Inclusion",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 56,
+     "channel": "paper",
+     "title": "Who Counts as Infertile? A Missed Opportunity for Inclusion",
+     "url": "https://doi.org/10.1056/nejmp2603604",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2603604",
+     "published": "2026-10-10T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    57
+   ],
+   "title_en": "Not Available in Your Country",
+   "headline_zh": "Not Available in Your Country",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 57,
+     "channel": "paper",
+     "title": "Not Available in Your Country",
+     "url": "https://doi.org/10.1056/nejmp2609409",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2609409",
+     "published": "2026-10-10T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    58
+   ],
+   "title_en": "Firearm-Related Discussions as an Age-Friendly Intervention",
+   "headline_zh": "Firearm-Related Discussions as an Age-Friendly Intervention",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 58,
+     "channel": "paper",
+     "title": "Firearm-Related Discussions as an Age-Friendly Intervention",
+     "url": "https://doi.org/10.1056/nejmp2608481",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2608481",
+     "published": "2026-10-10T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    59
+   ],
+   "title_en": "Flushing in Carcinoid Syndrome",
+   "headline_zh": "Flushing in Carcinoid Syndrome",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 59,
+     "channel": "paper",
+     "title": "Flushing in Carcinoid Syndrome",
+     "url": "https://doi.org/10.1056/nejmicm2606144",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmicm2606144",
+     "published": "2026-10-10T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    60
+   ],
+   "title_en": "[Comment] Closing the gap on mortality for adolescents living with HIV",
+   "headline_zh": "[Comment] Closing the gap on mortality for adolescents livi…",
+   "summary_zh": "Despite major advancements in antiretroviral therapy (ART), a substantial mortality gap remains for adolescents living with HIV compared with the general population.1 Adolescents’ access to ART lags…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 60,
+     "channel": "paper",
+     "title": "[Comment] Closing the gap on mortality for adolescents living with HIV",
+     "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01952-5/fulltext?rss=yes",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/S0140-6736(26",
+     "published": "2026-10-10T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    61
+   ],
+   "title_en": "Quantum 'birthmarks' hold lasting traces of a system's past",
+   "headline_zh": "Quantum 'birthmarks' hold lasting traces of a system's past",
+   "summary_zh": "Some classical physical systems can explore many configurations over time until their long-term behavior no longer reveals their starting conditions. The sampling of available configurations accordin…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 61,
+     "channel": "news",
+     "title": "Quantum 'birthmarks' hold lasting traces of a system's past",
+     "url": "https://phys.org/news/2026-10-quantum-birthmarks.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T18:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    62
+   ],
+   "title_en": "New algorithm could predict Arctic sea ice up to 9 months ahead, offering new climate insights",
+   "headline_zh": "New algorithm could predict Arctic sea ice up to 9 months a…",
+   "summary_zh": "Researchers at the Mubadala Arabian Center for Climate and Environmental Sciences (ACCESS) at NYU Abu Dhabi have developed a new algorithm that can forecast Arctic sea ice extent up to nine months in…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 62,
+     "channel": "news",
+     "title": "New algorithm could predict Arctic sea ice up to 9 months ahead, offering new climate insights",
+     "url": "https://phys.org/news/2026-10-algorithm-arctic-sea-ice-months.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T13:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    63
+   ],
+   "title_en": "Wildlife populations have declined 73% since 1970—but many of the world's animals still aren't being counted",
+   "headline_zh": "Wildlife populations have declined 73% since 1970—but many…",
+   "summary_zh": "Wildlife populations around the world have declined by an average of 73% since 1970. That's according to the WWF's new 2026 Living Planet Index—a major estimate, updated every two years, of the chang…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 63,
+     "channel": "news",
+     "title": "Wildlife populations have declined 73% since 1970—but many of the world's animals still aren't being counted",
+     "url": "https://phys.org/news/2026-10-wildlife-populations-declined-world-animals.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-12T00:30:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    64
+   ],
+   "title_en": "'DNA Typewriter' records cells' history in developing mouse embryo",
+   "headline_zh": "'DNA Typewriter' records cells' history in developing mouse…",
+   "summary_zh": "Scientists have succeeded in reconstructing the family tree of cells in a developing mouse embryo. They recorded cells' relationships, starting when the fertilized egg first split in two and ending a…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 64,
+     "channel": "news",
+     "title": "'DNA Typewriter' records cells' history in developing mouse embryo",
+     "url": "https://phys.org/news/2026-10-dna-typewriter-cells-history-mouse.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T22:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    65
+   ],
+   "title_en": "New study shows effects of hypoxia in Florida's Banana River",
+   "headline_zh": "New study shows effects of hypoxia in Florida's Banana River",
+   "summary_zh": "A new study by Florida Tech assistant professor of marine sciences Austin Fox, Ph.D. '15, found that low oxygen levels are contributing to the rerelease of nutrients buried on the river floor that fe…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 65,
+     "channel": "news",
+     "title": "New study shows effects of hypoxia in Florida's Banana River",
+     "url": "https://phys.org/news/2026-10-effects-hypoxia-florida-banana-river.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T18:00:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    66
+   ],
+   "title_en": "Conservation groups alarmed at marine mammals' deaths in Spain",
+   "headline_zh": "Conservation groups alarmed at marine mammals' deaths in Sp…",
+   "summary_zh": "Conservation groups on Sunday condemned the death of a dolphin transferred from France to a Spanish marine park, saying it added to the deaths of other sea mammals recently moved to Spain from Canada.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 66,
+     "channel": "news",
+     "title": "Conservation groups alarmed at marine mammals' deaths in Spain",
+     "url": "https://phys.org/news/2026-10-groups-alarmed-marine-mammals-deaths.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T17:31:37+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    67
+   ],
+   "title_en": "Indonesia releases eight orangutans rescued from fires to protected forest",
+   "headline_zh": "Indonesia releases eight orangutans rescued from fires to p…",
+   "summary_zh": "Eight orangutans rescued in recent weeks from blazes that tore through Borneo island have been released into a protected forest, Indonesian authorities and rescuers said on Sunday.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 67,
+     "channel": "news",
+     "title": "Indonesia releases eight orangutans rescued from fires to protected forest",
+     "url": "https://phys.org/news/2026-10-indonesia-orangutans-forest.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T16:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    68
+   ],
+   "title_en": "At least 4 dead as cyclone Isaias drenches southern U.S.",
+   "headline_zh": "At least 4 dead as cyclone Isaias drenches southern U.S.",
+   "summary_zh": "Four people died in the southeastern United States as post-tropical cyclone Isaias posed flooding and tornado risks Saturday as it moved northward after making landfall on Florida's Gulf Coast.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 68,
+     "channel": "news",
+     "title": "At least 4 dead as cyclone Isaias drenches southern U.S.",
+     "url": "https://phys.org/news/2026-10-dead-cyclone-isaias-drenches-southern.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T16:20:04+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    69
+   ],
+   "title_en": "Jurassic fossil reveals ancient origins of how mammals drink milk",
+   "headline_zh": "Jurassic fossil reveals ancient origins of how mammals drin…",
+   "summary_zh": "An international team of researchers has uncovered new evidence illuminating the evolutionary origins of one of the defining features of mammals: the ability to suckle and consume milk during infancy…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 69,
+     "channel": "news",
+     "title": "Jurassic fossil reveals ancient origins of how mammals drink milk",
+     "url": "https://phys.org/news/2026-10-jurassic-fossil-reveals-ancient-mammals.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T16:00:04+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    70
+   ],
+   "title_en": "Hurricane Simon strengthens as it nears western Mexico",
+   "headline_zh": "Hurricane Simon strengthens as it nears western Mexico",
+   "summary_zh": "Hurricane Simon strengthened into a powerful Category 4 storm and was expected to make landfall or skirt the coast of west-central Mexico on Sunday, according to the U.S. National Hurricane Center.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 70,
+     "channel": "news",
+     "title": "Hurricane Simon strengthens as it nears western Mexico",
+     "url": "https://phys.org/news/2026-10-hurricane-simon-nears-western-mexico.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T16:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    71
+   ],
+   "title_en": "South Korea completes trial of Arctic shipping route",
+   "headline_zh": "South Korea completes trial of Arctic shipping route",
+   "summary_zh": "A South Korean container ship returned on Sunday from a trial voyage through the Arctic, testing an alternative route opened by melting sea ice as conflict in the Middle East disrupts global shipping.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 71,
+     "channel": "news",
+     "title": "South Korea completes trial of Arctic shipping route",
+     "url": "https://phys.org/news/2026-10-south-korea-trial-arctic-shipping.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T15:40:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    72
+   ],
+   "title_en": "Egypt's Fayoum mummy portraits to travel abroad for first time after restoration",
+   "headline_zh": "Egypt's Fayoum mummy portraits to travel abroad for first t…",
+   "summary_zh": "Egypt unveiled Sunday a restored version of the \"Tondo of the Two Brothers,\" a prized second-century painting from the famed Fayoum portraits.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 72,
+     "channel": "news",
+     "title": "Egypt's Fayoum mummy portraits to travel abroad for first time after restoration",
+     "url": "https://phys.org/news/2026-10-egypt-fayoum-mummy-portraits.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T15:26:35+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    73
+   ],
+   "title_en": "Spinach nanoparticles help failing rat hearts via 'borrowed photosynthesis'",
+   "headline_zh": "Spinach nanoparticles help failing rat hearts via 'borrowed…",
+   "summary_zh": "A spinach leaf can turn light into chemical energy. A struggling heart cannot. Researchers in China have brought part of the leaf's energy-making machinery into rat heart cells to test whether borrow…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 73,
+     "channel": "news",
+     "title": "Spinach nanoparticles help failing rat hearts via 'borrowed photosynthesis'",
+     "url": "https://phys.org/news/2026-10-spinach-nanoparticles-rat-hearts-photosynthesis.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-11T11:40:01+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 217,
+   "dup_in_run": 0,
+   "already_seen": 100,
+   "dropped_by_penalty": 1,
+   "dropped_by_window": 68,
+   "unique": 48,
+   "candidates": 48
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 24,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 32,
+   "candidates": 12
+  },
+  "news": {
+   "fetched": 160,
+   "dup_in_run": 0,
+   "already_seen": 3,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 144,
+   "unique": 13,
+   "candidates": 13
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 21,
+   "elapsed_s": 0.66,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 1.14,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.42,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 27,
+   "kept": 27,
+   "elapsed_s": 0.47,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.36,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.82,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.39,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.33,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 1.0,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.1,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 3,
+   "elapsed_s": 0.48,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.42,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.32,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.25,
+   "error": ""
+  }
+ ]
+}
