@@ -1,0 +1,973 @@
+{
+ "date": "2026-10-16",
+ "generated_at": "2026-10-16 07:45 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今天的候选条目里，最值得一线研究者关注的是三条主线。第一，体细胞嵌合（somatic mosaicism）集中爆发：Cell 同期刊出 SMaHT Network 的基准测试、全基因组体细胞突变图谱和 FIRE 长读长表观基因组方法，加上一条端粒到端粒的黑色素瘤突变图谱，构成一个方法+资源+生物学发现的完整包。第二，植物免疫的糖识别出现结构性突破：Science 同期发表 IGP1 感知纤维素降解产物、CHIP 类受体的大小选择性几丁质识别，以及一对介导广谱真菌抗性的壳聚糖受体。第三，临床医学有多项高影响力随机试验结果，涉及脓毒症休克血管加压素启动阈值、吸入异氟烷镇静、间歇 vs 持续肾脏替代治疗等，其中部分试验因安全性信号提前终止。此外，RFdiffusion3 的原子级功能位点脚手架、宏观声学谐振子中的确定性多体纠缠、以及单层 TMDC 逐层硫族取代构建模块化 MOSFET，是方法与器件方向值得精读的工作。",
+ "items": [
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network",
+   "headline_zh": "SMaHT Network 发布体细胞突变检测的首个系统性基准",
+   "summary_zh": "Somatic Mosaicism across Human Tissues (SMaHT) Network 对多种测序与分析流程进行了基准测试，评估其在非癌组织中系统性发现各类体细胞突变的能力。结果显示，当前测序与分析方法已能在全基因组范围（端粒到端粒）内、跨多种突变类型实现较全面的检测。",
+   "why_it_matters_zh": "体细胞突变研究长期缺乏统一基准，不同平台和流程的结果难以横向比较。这项工作为领域提供了可参照的评估框架，使非癌组织中低频突变的发现从个案走向系统化。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "体细胞嵌合",
+    "基准测试",
+    "SMaHT",
+    "长读长测序"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01135-9?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.09.037",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Somatic epimutations cap genetic determinism in the human diploid chromatin epigenome",
+   "headline_zh": "FIRE 方法揭示普遍存在的体细胞表观突变",
+   "summary_zh": "FIRE 是一种长读长 Fiber-seq 方法，可在单条 DNA 分子上分别解析父源和母源染色质的可及性，从而实现二倍体表观基因组的全面评估。研究发现 HLA 位点在免疫细胞中具有最密集的单倍型选择性染色质，并解析了 X 染色体失活逃逸的调控原则；同时揭示了普遍存在、有丝分裂稳定的体细胞表观突变。",
+   "why_it_matters_zh": "该工作表明表观状态并非完全由遗传序列决定，体细胞表观突变构成了对“遗传决定论”的上限约束。这为理解发育、衰老和疾病中非遗传因素的作用提供了直接的单分子证据。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "Fiber-seq",
+    "二倍体表观基因组",
+    "体细胞表观突变",
+    "X失活"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Somatic epimutations cap genetic determinism in the human diploid chromatin epigenome",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01137-2?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.09.034",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "A telomere-to-telomere map of somatic mutation burden and functional impact in a cancer",
+   "headline_zh": "端粒到端粒组装揭示癌症中 16% 的体细胞变异位于 GRCh38 缺失区域",
+   "summary_zh": "研究将一个近端粒到端粒的二倍体组装与匹配黑色素瘤的深度长读长测序配对，发现 16% 的体细胞变异位于 GRCh38 参考基因组缺失的序列中。卫星重复序列吸收 UV 损伤，动粒结合域同时累积遗传和表观遗传变异，体细胞表观突变主导了改变的调控景观。",
+   "why_it_matters_zh": "参考基因组不完整会系统性遗漏突变负荷，这项工作量化了遗漏的规模（16%），并指出重复序列和动粒区域是突变与表观变异的热点。对依赖 GRCh38 的癌症基因组分析流程是一个直接的警示。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "T2T组装",
+    "黑色素瘤",
+    "卫星重复",
+    "体细胞表观突变"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "A telomere-to-telomere map of somatic mutation burden and functional impact in a cancer",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01136-0?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.09.033",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "Glycan recognition by a plant damage-sensing immune receptor",
+   "headline_zh": "IGP1 受体感知纤维素降解产物的结构机制",
+   "summary_zh": "研究解析了 IGP1 受体胞外多结构域在 apo 状态和结合纤维素来源 DAMP（纤维三糖）状态下的结构。LRR-malectin 结构域的组成性相互作用使受体预先配置好以识别配体，LRR 结构域中的糖结合口袋能区分聚糖结构的细微差异。IGP1 通过直接感知纤维寡糖，将病原体引起的细胞壁降解与免疫警报连接起来。",
+   "why_it_matters_zh": "这是植物细胞壁损伤感知从“现象”到“结构机制”的关键一步。明确了受体如何区分不同长度的聚糖，为设计识别特定损伤信号的工程化受体提供了结构模板。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "DAMP",
+    "细胞壁",
+    "LRR受体",
+    "纤维三糖"
+   ],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "paper",
+     "title": "Glycan recognition by a plant damage-sensing immune receptor",
+     "url": "https://doi.org/10.1126/science.aec6740",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aec6740",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "Structural basis for size-selective perception of chitin in plants",
+   "headline_zh": "CHIP 类受体大小选择性感知几丁质的结构基础",
+   "summary_zh": "研究阐明了长链几丁质寡糖特异性识别的机制，鉴定出 CHIP 受体类特有的桥连结构域。通过受体-配体复合物结构分析、生物化学和植物体内抑制性纳米抗体功能研究，揭示了 Lotus japonicus 和 Medicago truncatula 中大小选择性、高亲和力几丁质感知的机制，并将 CERK 类鉴定为低亲和力但必需的共受体，提出了配体诱导的核心信号异源复合物模型。",
+   "why_it_matters_zh": "植物如何区分不同长度的几丁质片段以触发免疫或共生反应，此前缺乏结构解释。该工作建立了差异几丁质感知与受体复合物组装的结构与机制基础，对理解植物-微生物互作的信号特异性有直接意义。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "几丁质",
+    "LysM受体",
+    "CHIP",
+    "CERK",
+    "共生"
+   ],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "paper",
+     "title": "Structural basis for size-selective perception of chitin in plants",
+     "url": "https://doi.org/10.1126/science.adz4600",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adz4600",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "A pair of chitosan receptors confer broad-spectrum fungal resistance",
+   "headline_zh": "OsFID1-OsFID2 受体复合物赋予广谱真菌抗性",
+   "summary_zh": "研究鉴定出 OsFID1，一个位于质外体的 DUF26 结构域蛋白，作为壳聚糖结合受体，是壳聚糖触发免疫所必需的。OsFID1 与质膜定位的 DUF26 受体激酶 OsFID2 形成受体复合物，介导壳聚糖感知和免疫激活，需要 OsFID2 磷酸化才能发挥功能。该复合物赋予广谱真菌抗性；OsFID1 同源物在陆生植物中保守，单子叶和双子叶植物均显示壳聚糖结合活性。在水稻和小麦中异源表达 OsFID1 增强了真菌抗性且无生长代价。",
+   "why_it_matters_zh": "壳聚糖是主要真菌细胞壁成分，其感知机制此前未知。该工作不仅填补了这一空白，还展示了跨物种工程化应用的可行性——在小麦和玉米中表达即可增强抗性且不影响生长，对作物抗病育种有直接价值。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "壳聚糖",
+    "DUF26",
+    "广谱抗性",
+    "作物工程"
+   ],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "paper",
+     "title": "A pair of chitosan receptors confer broad-spectrum fungal resistance",
+     "url": "https://doi.org/10.1126/science.ady7647",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.ady7647",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "Atomic functional site scaffolding in biopolymers with RFdiffusion3",
+   "headline_zh": "RFdiffusion3 实现原子级精度的生物聚合物功能位点设计",
+   "summary_zh": "RFD3 是一种用于生物聚合物的生成式 AI 方法，采用自由原子扩散来满足复杂原子约束集，在酶设计和 RNA 结构设计等任务上比此前方法更快更准确。实验验证方面，研究设计了含有复杂活性位点架构（包括配位两个金属离子的氨甲酰化赖氨酸）的从头磷酸三酯酶，以及针对参与淀粉样疾病的转甲状腺素蛋白的特异性锌蛋白酶；在零样本条件下，96 个构建体设计活动中均获得活性催化剂。",
+   "why_it_matters_zh": "从“设计能折叠的骨架”到“设计能催化的原子级活性位点”，这是蛋白质设计能力的一次实质性跃迁。零样本成功率意味着设计-测试循环可以大幅压缩，对酶工程和药物设计有直接推动作用。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "RFdiffusion",
+    "酶设计",
+    "扩散模型",
+    "零样本"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "Atomic functional site scaffolding in biopolymers with RFdiffusion3",
+     "url": "https://doi.org/10.1126/science.aeh2982",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh2982",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Deterministic generation and distribution of genuine multipartite entanglement in macroscopic acoustic resonators",
+   "headline_zh": "宏观声学谐振子中确定性生成与传输多体纠缠",
+   "summary_zh": "研究在两个多模声学谐振子之间生成并传输了真正的多模纠缠。制备了涉及 2、4、6 个模式的真正多体纠缠态，保真度分别为 0.912 ± 0.003、0.790 ± 0.003 和 0.570 ± 0.001；进一步演示了 2 模和 4 模纠缠态在谐振子之间的传输，保真度分别为 0.785 ± 0.006 和 0.601 ± 0.006。",
+   "why_it_matters_zh": "在宏观机械系统中确定性生成和传输多体纠缠，是机械量子网络的关键前提。该架构硬件效率高且可扩展，将宏观机械系统的量子控制边界向前推进了一步。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "多体纠缠",
+    "声学谐振子",
+    "宏观量子",
+    "量子网络"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Deterministic generation and distribution of genuine multipartite entanglement in macroscopic acoustic resonators",
+     "url": "https://doi.org/10.1126/science.aeh4273",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh4273",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Modular van der Waals MOSFETs through layer-by-layer chalcogen substitutions",
+   "headline_zh": "逐层硫族取代实现单材料体系内的模块化晶体管",
+   "summary_zh": "研究从 p 型 WSe₂ 多层出发，通过逐层气相硫族取代，局部转化为绝缘 WOₓ、n 型 WS₂ 和半金属 WTe₂，在垂直和横向方向上无缝集成不同电子相，构建了模块化范德华半导体异质结构。作为演示，集成了 WOₓ/WSe₂ 局部栅堆叠构建超缩放 MOSFET，在亚纳米等效氧化层厚度下实现了前所未有的亚阈值摆幅。",
+   "why_it_matters_zh": "传统晶体管需要多种不同材料集成，在原子尺度下越来越困难。该工作展示了在单一材料体系内“写入”不同电子相的可能性，为原子尺度器件的单片集成提供了一条新路径。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "TMDC",
+    "范德华异质结",
+    "MOSFET",
+    "硫族取代"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "paper",
+     "title": "Modular van der Waals MOSFETs through layer-by-layer chalcogen substitutions",
+     "url": "https://doi.org/10.1126/science.aei2693",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aei2693",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Frequency encoding regulates cell type composition in the small intestine",
+   "headline_zh": "Hes1 振荡频率编码小肠细胞命运信息",
+   "summary_zh": "研究揭示了 Notch 靶蛋白 Hes1 的振荡表达以频率依赖方式控制细胞命运决定。内源性荧光 Hes1 报告系统显示，沿隐窝-绒毛轴存在细胞类型特异的振荡频率梯度，受细胞周期时相以及 Wnt 和 Notch 信号活性调控。研究开发了微流控系统在类器官中调控 Notch 信号振荡，发现振荡频率调节细胞类型组成的平衡。",
+   "why_it_matters_zh": "这是“频率编码”在哺乳动物组织稳态中的直接证据——细胞命运信息不只编码在信号强度里，也编码在振荡频率中。对理解组织如何维持细胞比例、以及如何通过调控信号动力学干预再生有启示。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "Hes1",
+    "Notch振荡",
+    "频率编码",
+    "肠道稳态"
+   ],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "Frequency encoding regulates cell type composition in the small intestine",
+     "url": "https://doi.org/10.1126/science.adt1928",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adt1928",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Dendritic computation for abstract rule-based flexible decision-making",
+   "headline_zh": "树突区室分别编码抽象规则与感觉刺激",
+   "summary_zh": "研究结合基于规则的灵活决策任务、小鼠听觉皮层体内双光子成像和光遗传学，发现单个第 5 层端脑外神经元的顶树突优先编码推断出的抽象规则，胞体优先表征感觉刺激，而选择信号在两个区室中均存在。光遗传学树突抑制损害了规则依赖的胞体选择编码。",
+   "why_it_matters_zh": "该结果说明树突不仅是感觉处理的调制器，还承担灵活认知功能中的规则表征。为“树突计算如何贡献于高级认知”提供了因果性证据，对理解皮层信息处理的分区逻辑有直接意义。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "树突计算",
+    "抽象规则",
+    "听觉皮层",
+    "光遗传学"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "paper",
+     "title": "Dendritic computation for abstract rule-based flexible decision-making",
+     "url": "https://doi.org/10.1126/science.adz5323",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adz5323",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "Effect of Vasopressin Initiation Threshold on Septic Shock Mortality",
+   "headline_zh": "脓毒症休克中血管加压素启动阈值的集群随机试验",
+   "summary_zh": "这是一项在 Idaho 和 Utah 13 家医院进行的集群随机、交叉、实用性临床策略试验，纳入接受血管加压药治疗的成人脓毒症休克患者。医院层面实施两种策略：当其他血管加压药总剂量达到 0.1 µg/kg/min 去甲肾上腺素当量时启动固定剂量血管加压素（低阈值），或达到 0.4 µg/kg/min 时启动（高阈值）。主要结局为 28 天死亡率，共纳入 3959 名患者。",
+   "why_it_matters_zh": "第二血管加压药的最佳启动时机长期不确定，指南推荐缺乏高质量证据。该试验以医院为随机单位、实用性设计，直接回答了一个日常临床决策问题。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "脓毒症休克",
+    "血管加压素",
+    "随机试验",
+    "启动阈值"
+   ],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "paper",
+     "title": "Effect of Vasopressin Initiation Threshold on Septic Shock Mortality",
+     "url": "https://doi.org/10.1001/jama.2026.21333",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21333",
+     "published": "2026-10-14T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Isoflurane-Based Inhaled Sedation in Mechanically Ventilated Adults With Acute Hypoxemic Respiratory Failure",
+   "headline_zh": "吸入异氟烷镇静 vs 静脉镇静的随机优效性试验",
+   "summary_zh": "这是一项在加拿大 14 个 ICU 进行的实用性、开放标签、优效性随机临床试验，纳入接受机械通气、因非 COVID 或 COVID 呼吸衰竭导致 AHRF 的成人患者。患者随机接受异氟烷吸入镇静策略（必要时辅以静脉药物）或常规静脉镇静。主要结局为全因住院死亡率，共 786 名患者随机化，780 名纳入主要分析。",
+   "why_it_matters_zh": "吸入镇静在 ICU 中的应用缺乏严格证据。该试验以住院死亡率为主要终点，若显示优效将直接改变镇静实践；若为中性，则为现有实践提供高质量的安全性数据。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "异氟烷",
+    "吸入镇静",
+    "ARDS",
+    "随机试验"
+   ],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Isoflurane-Based Inhaled Sedation in Mechanically Ventilated Adults With Acute Hypoxemic Respiratory Failure",
+     "url": "https://doi.org/10.1001/jama.2026.18471",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.18471",
+     "published": "2026-10-14T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Intraoperative Dobutamine Plus Norepinephrine to Prevent Postoperative Acute Kidney Injury in Septic Shock",
+   "headline_zh": "术中多巴酚丁胺联合去甲肾上腺素未能显著降低术后 AKI",
+   "summary_zh": "这是一项在中国 39 家三级医院进行的随机、开放标签临床试验，纳入接受手术源控制的成人脓毒症休克患者。干预为术中静脉输注多巴酚丁胺（最高 5 µg/kg/min）联合去甲肾上腺素 vs 单用去甲肾上腺素。主要结局为术后 7 天内新发 AKI 或术前 AKI 恶化（KDIGO 标准）。共 584 名患者纳入，多巴酚丁胺组 AKI 发生率为 22.8%（66/290）。",
+   "why_it_matters_zh": "国际指南基于极低确定性证据推荐多巴酚丁胺用于脓毒症休克伴心功能障碍，但缺乏随机试验。该试验直接检验了术中联合用药对肾脏结局的影响，为指南更新提供了证据。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "脓毒症休克",
+    "多巴酚丁胺",
+    "AKI",
+    "随机试验"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "Intraoperative Dobutamine Plus Norepinephrine to Prevent Postoperative Acute Kidney Injury in Septic Shock",
+     "url": "https://doi.org/10.1001/jama.2026.21322",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21322",
+     "published": "2026-10-14T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    50
+   ],
+   "title_en": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury",
+   "headline_zh": "间歇血液透析相比持续肾脏替代治疗显示更高死亡率信号，试验提前终止",
+   "summary_zh": "这是一项多中心、开放标签、非劣效性试验，将需要肾脏替代治疗的危重 AKI 成人随机分配至间歇血液透析或持续肾脏替代治疗作为初始治疗。主要结局为 90 天内主要不良肾脏事件（死亡、依赖肾脏替代治疗或血清肌酐超过基线 25%）。因序贯中期分析显示间歇血液透析死亡率持续偏高，试验提前终止。554 名患者随机化，535 名纳入意向治疗分析。90 天主要不良肾脏事件发生率分别为 78.1% 和 71.6%（调整绝对风险差 6.28 个百分点，95% CI −1.22 至 13.79）；90 天死亡率分别为 63.1% 和 53.5%（HR 1.30，95% CI 1.04 至 1.63）。",
+   "why_it_matters_zh": "该试验因安全性信号提前终止，且死亡率差异在统计学上触及显著性边界。这对此前认为两种方式可互换的临床实践构成了直接挑战，可能影响 AKI 初始治疗方式的选择。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "AKI",
+    "肾脏替代治疗",
+    "间歇血液透析",
+    "非劣效性试验"
+   ],
+   "records": [
+    {
+     "ref": 50,
+     "channel": "paper",
+     "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury",
+     "url": "https://doi.org/10.1056/nejmoa2608397",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2608397",
+     "published": "2026-10-14T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "In situ structure of the human ciliary transition zone links linker defects to primary ciliary dyskinesia",
+   "headline_zh": "人纤毛过渡区原位结构揭示连接蛋白缺陷导致原发性纤毛运动障碍",
+   "summary_zh": "研究应用原位冷冻电子断层扫描和子断层平均技术，在人多纤毛上皮细胞中解析了过渡区特异性二联体微管的亚纳米分辨率结构，鉴定出 9 个组成蛋白。发现 ECT2L 和 DZANK1 形成相邻过渡区二联体微管之间的主要连接复合物；任一基因的双等位功能缺失变异均导致原发性纤毛运动障碍，破坏过渡区结构、引起微管异常和球状纤毛尖端，损害黏液纤毛清除功能。",
+   "why_it_matters_zh": "该工作建立了过渡区结构缺陷与人类运动性纤毛病之间的直接遗传联系，展示了原位结构生物学如何从原子分辨率结构出发发现人类疾病机制。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "冷冻电子断层扫描",
+    "过渡区",
+    "原发性纤毛运动障碍",
+    "ECT2L",
+    "DZANK1"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "In situ structure of the human ciliary transition zone links linker defects to primary ciliary dyskinesia",
+     "url": "https://doi.org/10.1126/science.aei5957",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aei5957",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Electrically driven chiral emission from plasmonic tunnel junctions",
+   "headline_zh": "等离子体隧道结实现电驱动纳米尺度手性光发射",
+   "summary_zh": "研究将隧道结与手性等离子体纳米螺旋体集成，在单颗粒水平实现了电诱导的纳米尺度手性光产生。隧道驱动的纳米螺旋体手性偶极模式共振激发，导致发射出同时具有自旋角动量（手性选择性超过 0.8）和轨道角动量（大小相等、符号相反）的涡旋光束。",
+   "why_it_matters_zh": "在纳米尺度上电驱动产生手性光子，为光子自旋的工程化控制提供了新手段，对显示技术、量子信息处理和光化学有潜在应用价值。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "隧道结",
+    "手性发射",
+    "等离激元",
+    "涡旋光束"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Electrically driven chiral emission from plasmonic tunnel junctions",
+     "url": "https://doi.org/10.1126/science.aeh4015",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh4015",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Airflows redefine the cost of aerial transport in the wild",
+   "headline_zh": "利用大气流动，飞行可能比游泳更省能",
+   "summary_zh": "研究利用高分辨率运动数据估算了 50 种鸟类和蝙蝠在野外飞行时的运输成本。结果修正了经典的 locomotion 成本排序：飞行可能比游泳更便宜，但几乎与奔跑一样昂贵，具体取决于物理环境、形态和行为之间的相互作用。将运输成本与大气条件关联，为预测风场变化如何重塑飞行动物的能量学、移动和分布提供了机制基础。",
+   "why_it_matters_zh": "此前关于动物飞行成本的估计来自实验室，将大气视为恒定。该工作表明野外的飞行成本被系统性高估，且大气流动是可利用的能量来源。这对预测气候变化下物种分布变化有直接意义。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "飞行成本",
+    "大气流动",
+    "鸟类",
+    "蝙蝠",
+    "风场"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "paper",
+     "title": "Airflows redefine the cost of aerial transport in the wild",
+     "url": "https://doi.org/10.1126/science.aee6550",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aee6550",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    36
+   ],
+   "title_en": "Empirical constraints on ice cliff calving",
+   "headline_zh": "15,330 个冰崖的激光测高观测约束海洋冰崖不稳定性",
+   "summary_zh": "研究利用激光测高测量了地球冰盖边缘 15,330 个冰崖的特征。结果显示冰崖高度与混杂岩厚度、水深和裂隙高度相关。高冰崖的崩解速度比参数化假设的更快，但动态减薄和向低冰厚度梯度区域的退缩阻止了失控退缩。这些观测表明模型可能低估了亚年尺度的冰崖崩解速率，但不稳定性潜力取决于多个额外量，而不仅仅是冰崖高度。",
+   "why_it_matters_zh": "海洋冰崖不稳定性是冰盖模型中的关键不确定性来源。该工作用大规模观测数据约束了崩解速率，同时指出失控退缩的条件比单纯“高度阈值”更复杂，对冰盖预测模型有直接修正意义。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "冰崖崩解",
+    "海洋冰崖不稳定性",
+    "激光测高",
+    "冰盖"
+   ],
+   "records": [
+    {
+     "ref": 36,
+     "channel": "paper",
+     "title": "Empirical constraints on ice cliff calving",
+     "url": "https://doi.org/10.1126/science.aee0658",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aee0658",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "Engineering ordered two-dimensional defect phases to strengthen structural alloys",
+   "headline_zh": "预变形加时效构建有序缺陷相，显著提升合金强度与抗蠕变",
+   "summary_zh": "研究展示预变形后时效可将平面缺陷转化为设计好的有序缺陷相架构。在单晶钴镍基高温合金和多晶钴铬钨合金中，该处理形成了致密的共格、原子级薄的有序缺陷限域相网络。室温强度提升超过 200 MPa，高温合金最小蠕变速率降低三倍以上。电镜和模拟表明局部化学有序放大了强化效果，有序缺陷相在阻碍滑移传递的同时仍可被剪切。",
+   "why_it_matters_zh": "平面缺陷通常只在变形或服役中形成，密度和化学难以控制。该工作将缺陷从“变形的后果”转变为“可设计的强化特征”，为结构合金的强度-蠕变协同优化提供了新路径。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "缺陷工程",
+    "高温合金",
+    "蠕变",
+    "有序缺陷相"
+   ],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "paper",
+     "title": "Engineering ordered two-dimensional defect phases to strengthen structural alloys",
+     "url": "https://doi.org/10.1126/science.aeh1409",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh1409",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Gate-tunable chiral spin mode in WSe2/WS2 moiré superlattices",
+   "headline_zh": "莫尔超晶格中可栅控的手性自旋模式",
+   "summary_zh": "研究在近 0° 扭转的 WSe₂/WS₂ 双层中报道了出现在导带 SOC 劈裂微带之间的可栅控手性自旋模式（CSM）。该模式在拉曼光谱的赝矢量对称通道中表现为具有巨大拉曼效率的尖锐共振。通过改变填充，CSM 从手性自旋激子转变为激子极化子。塞曼效应直接确认了自旋翻转性质，填充依赖性表明在整数填充时存在电荷转移绝缘体。",
+   "why_it_matters_zh": "该工作表明 TMDC 莫尔超晶格是探索奇异低能集体激发的肥沃平台，手性自旋模式的可栅控性为自旋电子学和量子模拟提供了新自由度。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "莫尔超晶格",
+    "手性自旋模式",
+    "拉曼光谱",
+    "自旋轨道耦合"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "paper",
+     "title": "Gate-tunable chiral spin mode in WSe\n                    <sub>2</sub>\n                    /WS\n                    <sub>2</sub>\n                    moiré superlattices",
+     "url": "https://doi.org/10.1126/science.adq6530",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adq6530",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    52
+   ],
+   "title_en": "Showing versus Doing: Teaching by Demonstration",
+   "headline_zh": "贝叶斯模型区分“教学示范”与“单纯执行”（预印本）",
+   "summary_zh": "该预印本（尚未经同行评审）提出了一个用于教学示范的贝叶斯模型。当示范者有意教学（“展示”）与仅仅执行任务（“做”）时，模型预测会出现显著差异。两项实验表明，人类参与者的教学行为修改与模型预测一致；此外，标准 IRL 算法在从“展示”而非“做”中学习时表现更好。",
+   "why_it_matters_zh": "该工作将教学示范的计算建模与逆强化学习联系起来，指出示范者的意图状态是学习效率的关键变量。对设计更高效的人机教学交互有启示。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "逆强化学习",
+    "教学示范",
+    "贝叶斯模型",
+    "预印本"
+   ],
+   "records": [
+    {
+     "ref": 52,
+     "channel": "preprint",
+     "title": "Showing versus Doing: Teaching by Demonstration",
+     "url": "https://doi.org/10.48550/arxiv.2610.14004",
+     "journal": "arXiv (Cornell University)",
+     "tier": "T2",
+     "doi": "10.48550/arxiv.2610.14004",
+     "published": "2026-09-27T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    54
+   ],
+   "title_en": "Silicon qubits surpass 99.99% gate fidelity while operating three at once",
+   "headline_zh": "硅自旋量子比特并行操作三个时门保真度仍超 99.99%",
+   "summary_zh": "硅自旋量子比特与现有半导体制造技术兼容，但通常在多个量子比特并行控制时精度下降。该报道称新工作实现了三个量子比特同时操作且门保真度超过 99.99%，解决了并行控制下的精度损失问题。",
+   "why_it_matters_zh": "并行操作下的精度保持是可扩展量子计算的核心要求。若该结果经同行评审确认，将显著增强硅自旋平台作为规模化量子计算候选路线的竞争力。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "硅自旋量子比特",
+    "门保真度",
+    "并行控制",
+    "可扩展性"
+   ],
+   "records": [
+    {
+     "ref": 54,
+     "channel": "news",
+     "title": "Silicon qubits surpass 99.99% gate fidelity while operating three at once",
+     "url": "https://phys.org/news/2026-10-silicon-qubits-surpass-gate-fidelity.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-15T21:20:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "Nearly half of reef-building corals face elevated relative risk of extinction",
+   "headline_zh": "近半数造礁珊瑚面临更高的相对灭绝风险",
+   "summary_zh": "该 Nature 报道指出，近半数造礁珊瑚面临更高的相对灭绝风险。相关全球研究显示 44% 的造礁珊瑚物种受到灭绝威胁，并警告真实数字可能更高。",
+   "why_it_matters_zh": "珊瑚礁是海洋生物多样性的基石。该评估为生物多样性保护和气候政策提供了量化的风险基线。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "珊瑚礁",
+    "灭绝风险",
+    "生物多样性",
+    "气候变化"
+   ],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "Nearly half of reef-building corals face elevated relative risk of extinction",
+     "url": "https://www.nature.com/articles/s41586-026-11263-3",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11263-3",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Regulation of target gene expression by chromatin-associated protein-coding transcripts in plants",
+   "headline_zh": "植物蛋白编码转录本通过 RNA-DNA 三链体调控靶基因",
+   "summary_zh": "研究在拟南芥中全基因组分析了 RNA-染色质相互作用，发现蛋白编码转录本与不同基因组位点广泛关联。BT2 和 GSL8 转录本独立于其蛋白产物、通过不同机制调控靶基因转录：BT2 转录本通过形成 RNA-DNA 三链体抑制 CEP2 和 MRF4 的转录，从而限制根生长并促进开花；GSL8 则通过不依赖三链体的途径发挥作用。",
+   "why_it_matters_zh": "该发现挑战了 mRNA 仅作为 DNA 到蛋白质信息流中间体的经典定义，模糊了编码与非编码 RNA 在基因组进化背景下的功能界限。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "RNA-DNA三链体",
+    "蛋白编码转录本",
+    "染色质",
+    "基因调控"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "Regulation of target gene expression by chromatin-associated protein-coding transcripts in plants",
+     "url": "https://doi.org/10.1126/science.adz4903",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adz4903",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "SMaHT Network 后续论文（refs 3, 4, 17）：Cell 同期发表的基准测试、体细胞突变图谱和 FIRE 方法构成一个资源包，后续可能有更多组织特异性的体细胞突变图谱和疾病关联分析发布，值得持续跟踪。",
+  "AI 与数学的交叉进展（refs 26, 42）：Science 报道了 AI 生成的近 400 个数学问题解决方案，包括黎曼假设相关进展，但具体方法和有效性尚未明确。数学界对此反应不一，值得关注后续的同行评审和形式化验证结果。",
+  "硅量子比特并行操作（refs 54）：三个量子比特同时操作且保真度超过 99.99% 的报道若经同行评审确认，将是硅自旋平台可扩展性的重要里程碑。需关注是否有正式论文发表及独立复现。",
+  "吸入异氟烷镇静试验的完整结果（refs 13）：该试验以住院死亡率为主要终点，结果尚未在摘要中给出。若显示优效或中性，都将对 ICU 镇静实践产生直接影响，值得等待完整数据发表。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 310,
+   "dup_in_run": 0,
+   "already_seen": 195,
+   "dropped_by_penalty": 6,
+   "dropped_by_window": 16,
+   "unique": 93,
+   "candidates": 50
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 55,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 1,
+   "candidates": 1
+  },
+  "news": {
+   "fetched": 157,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 111,
+   "unique": 46,
+   "candidates": 40
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 1,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 1,
+   "candidates": 1
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 82,
+   "kept": 81,
+   "elapsed_s": 1.02,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.52,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 34,
+   "kept": 34,
+   "elapsed_s": 0.37,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 13,
+   "kept": 0,
+   "elapsed_s": 0.92,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.25,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 41,
+   "kept": 41,
+   "elapsed_s": 0.63,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.39,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 8,
+   "kept": 8,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.27,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 4,
+   "elapsed_s": 0.87,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.4,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.5,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.26,
+   "error": ""
+  }
+ ]
+}
