@@ -1,0 +1,765 @@
+{
+ "date": "2026-10-18",
+ "generated_at": "2026-10-18 07:14 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今天的候选条目以科学媒体转述为主，顶刊通道多为新闻简讯而非研究论文，真正可解读的一手研究集中在物理、天文、生物医学与地球科学。量子计算方面出现了首次硬件层面的“魔法态净化”实验；二维材料中电控滑动切换磁性状态展示了非易失性调控的新路径。天文观测亮点包括 FAST 发现的孤立暗星系候选体、JWST 对系外行星大气不对称性的测绘，以及 Enceladus 冰下海洋盐类线索。生物医学侧，一款便携式血型/红细胞压积检测装置和睡眠-生长激素双向调控机制值得关注。预印本仅一条（arXiv），已在对应条目中标注。",
+ "items": [
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Quantum magic state cleanup cuts errors 40-fold in first successful hardware test",
+   "headline_zh": "量子“魔法态”净化首次在硬件上成功，错误率降低约40倍",
+   "summary_zh": "报道称研究者在真实量子硬件上首次成功演示了魔法态净化（magic state cleanup），将错误降低约40倍。传统魔法态蒸馏资源开销极大，该工作试图以更省资源的方式获得可用于通用量子计算的非稳定子态。具体平台、保真度数据与是否经同行评审，材料未给出。",
+   "why_it_matters_zh": "魔法态是通用容错量子计算的关键资源，若净化开销能大幅下降，将直接缓解容错路线图中最昂贵的环节之一；但“首次硬件演示”到可扩展仍需独立验证。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "容错量子计算",
+    "魔法态",
+    "硬件实验"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "news",
+     "title": "Quantum magic state cleanup cuts errors 40-fold in first successful hardware test",
+     "url": "https://phys.org/news/2026-10-quantum-magic-state-cleanup-errors.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T18:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "Electrical sliding switches graphene between magnetic states",
+   "headline_zh": "电控层间滑动使石墨烯在磁态间切换且保持非易失",
+   "summary_zh": "Cornell 团队发现，用电场使超薄石墨烯的层间发生滑动，可在不同磁态之间切换，且撤去电压后磁态仍能保持。这提供了一种无需持续供电的二维材料量子性质调控手段。具体堆叠结构与磁态表征细节材料未展开。",
+   "why_it_matters_zh": "把“滑动铁电/滑移”机制与磁性耦合，意味着二维器件可能用机械位移而非电流来写入磁信息，对低功耗自旋电子学与量子材料调控有直接意义。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "石墨烯",
+    "层间滑动",
+    "磁性调控",
+    "非易失"
+   ],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "news",
+     "title": "Electrical sliding switches graphene between magnetic states",
+     "url": "https://phys.org/news/2026-10-electrical-graphene-magnetic-states.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T12:00:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "Lone, starless cloud may be a 'dark' galaxy",
+   "headline_zh": "FAST 发现孤立无星氢云，或为“暗星系”最强候选体之一",
+   "summary_zh": "利用中国 FAST 射电望远镜，天文学家发现一团紧凑的中性氢云，周围没有可见恒星或星系，中性氢质量约为太阳的 50 万倍。发现论文于 9 月 24 日发布在 arXiv 预印本服务器上，尚未经过同行评审。",
+   "why_it_matters_zh": "若确认为孤立暗星系，将为星系形成中“有气体却未能形成恒星”的一端提供罕见样本，并检验暗物质晕与气体含量的关系；目前仍是预印本阶段的候选体，需后续观测确认。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "暗星系",
+    "FAST",
+    "中性氢",
+    "预印本"
+   ],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "news",
+     "title": "Lone, starless cloud may be a 'dark' galaxy",
+     "url": "https://phys.org/news/2026-10-lone-starless-cloud-dark-galaxy.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T13:40:04+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    43
+   ],
+   "title_en": "James Webb reveals a strange bulge in an alien planet's atmosphere",
+   "headline_zh": "JWST 测绘发现 WASP-17b 大气一侧异常外凸",
+   "summary_zh": "JWST 对 1300 光年外热木星 WASP-17b 的观测显示其大气明显不对称：强风重新分配热量，使大气一侧向外凸出。研究采用一种新的映射技术揭示这些隐藏畸变，并与此前关于极端温度与风场塑造系外行星大气的预测相符。",
+   "why_it_matters_zh": "把系外行星大气从“一维平均”推进到空间分辨的二维/三维结构，为比较热木星环流模型提供了直接观测约束。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "JWST",
+    "WASP-17b",
+    "大气环流",
+    "透射光谱测绘"
+   ],
+   "records": [
+    {
+     "ref": 43,
+     "channel": "news",
+     "title": "James Webb reveals a strange bulge in an alien planet's atmosphere",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261015073205.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T23:27:29+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+   "headline_zh": "JWST 揭示 20 光年外行星存在三种重复出现的大气状态",
+   "summary_zh": "JWST 观测显示，20 光年外一颗湍流行星的大气出人意料地有序，存在由温度变化与云层移动驱动的三种重复出现的大气状态。报道称这为研究遥远世界天气模式提供了新工具。该行星的具体名称与观测波段材料未给出。",
+   "why_it_matters_zh": "若“多种离散大气状态”可复现，意味着系外行星天气可能具有可预测的周期性，而非纯随机，这对云物理与时间域观测策略都有影响。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "JWST",
+    "系外行星天气",
+    "云层",
+    "时间域观测"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "news",
+     "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T12:26:49+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "Salt crystals could hold clues to life beneath Enceladus's ice",
+   "headline_zh": "盐晶体或为 Enceladus 冰下海洋宜居性提供线索",
+   "summary_zh": "Enceladus 冰下海洋被数公里冰层覆盖，但南极附近的喷流将水汽与冰粒抛射到表面，使研究者无需钻探即可间接研究该海洋。报道聚焦盐晶体作为海洋成分与宜居性指示物的潜力。具体实验或探测方案材料未详述。",
+   "why_it_matters_zh": "把喷流颗粒中的盐类作为海洋化学的“信使”，为未来 Enceladus 飞掠任务的采样目标与生命标志物判读提供依据。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "Enceladus",
+    "盐晶体",
+    "冰下海洋",
+    "宜居性"
+   ],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "news",
+     "title": "Salt crystals could hold clues to life beneath Enceladus's ice",
+     "url": "https://phys.org/news/2026-10-salt-crystals-clues-life-beneath.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T15:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Hand-cranked device tells blood type and red cell levels in 1 minute",
+   "headline_zh": "手摇式装置 1 分钟内同时测血型与红细胞压积",
+   "summary_zh": "针对救护车、灾区与偏远诊所缺乏大型血型/红细胞压积检测设备的问题，报道介绍一种手摇驱动装置，可在约 1 分钟内同时给出血型与红细胞压积（红细胞占血容积比例），用于判断输血安全与失血/贫血。检测原理与验证规模材料未给出。",
+   "why_it_matters_zh": "把两项急救关键指标压缩到无电、可携带、1 分钟级的操作，若验证充分，可改变院前输血决策的时间窗口。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "即时检测",
+    "血型",
+    "红细胞压积",
+    "资源匮乏场景"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "news",
+     "title": "Hand-cranked device tells blood type and red cell levels in 1 minute",
+     "url": "https://phys.org/news/2026-10-cranked-device-blood-red-cell.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T16:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    39
+   ],
+   "title_en": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+   "headline_zh": "深睡与生长激素存在双向调控关系",
+   "summary_zh": "报道称科学家发现睡眠与生长激素之间存在出人意料的双向关系，大脑在身体恢复与觉醒之间进行精细平衡。该机制被认为可解释睡眠不足为何损害代谢与脑健康，并可能指向睡眠与神经疾病的新干预靶点。具体分子通路与实验模型材料未给出。",
+   "why_it_matters_zh": "把“深睡—生长激素”从单向因果改写为双向环路，意味着干预生长激素轴可能同时影响睡眠结构，反之亦然，对代谢病与睡眠障碍的药物开发有直接提示。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "深睡",
+    "生长激素",
+    "代谢",
+    "双向调控"
+   ],
+   "records": [
+    {
+     "ref": 39,
+     "channel": "news",
+     "title": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T05:14:50+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    36
+   ],
+   "title_en": "Brain cells meant to protect us may be fueling cognitive decline",
+   "headline_zh": "本应保护大脑的细胞功能失调后过量产髓鞘，或驱动认知衰退",
+   "summary_zh": "报道称一类此前被认为完全有益的脑细胞在衰老中功能失调，产生异常量的髓鞘，扰乱神经纤维，可能与记忆与思维能力的下降有关。具体细胞类型、动物模型与因果证据强度材料未给出。",
+   "why_it_matters_zh": "若“过度髓鞘化”而非单纯脱髓鞘参与衰老认知下降，则髓鞘更新可能成为不同于淀粉样蛋白/tau 的干预方向。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "髓鞘",
+    "胶质细胞",
+    "认知衰退",
+    "衰老"
+   ],
+   "records": [
+    {
+     "ref": 36,
+     "channel": "news",
+     "title": "Brain cells meant to protect us may be fueling cognitive decline",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T12:44:22+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
+   "headline_zh": "光学成像把阿尔茨海默病中的代谢改变与氧利用联系起来",
+   "summary_zh": "阿尔茨海默病除记忆与认知症状外，还涉及脑细胞产能与用能方式的改变：线粒体功能失调，同时血流与氧供应变化可能给脑组织带来额外负担。该报道介绍用光学成像研究这些过程如何相互作用，以刻画疾病伴随的代谢变化。成像模态与受试对象材料未详述。",
+   "why_it_matters_zh": "把线粒体功能与氧供应放在同一成像框架下测量，有助于区分“能量需求侧”与“供应侧”的因果次序，这是代谢类 AD 干预试验设计的关键前提。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "阿尔茨海默病",
+    "线粒体",
+    "氧代谢",
+    "光学成像"
+   ],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "news",
+     "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
+     "url": "https://phys.org/news/2026-10-optical-imaging-links-metabolism-oxygen.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T08:16:41+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Red-sensitive pigments in mantis shrimp eyes act as reversible light switches",
+   "headline_zh": "螳螂虾红色敏感色素可作为可逆光开关",
+   "summary_zh": "螳螂虾约有 30 种视觉色素（人类仅 3 种）。ULiège 与柏林洪堡大学的研究者首次逐一分析这些色素，发现其中一些能探测极少数动物可感知的红光，并表现为可逆的光开关行为。该成果发表于 Science Advances，并被认为在光遗传学中有应用潜力。",
+   "why_it_matters_zh": "天然可逆光开关色素若能被改造为光遗传学工具，可提供无需外加化学开关的红光调控元件，拓展深层组织光控的波长窗口。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "螳螂虾",
+    "视觉色素",
+    "光开关",
+    "光遗传学"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "news",
+     "title": "Red-sensitive pigments in mantis shrimp eyes act as reversible light switches",
+     "url": "https://phys.org/news/2026-10-red-sensitive-pigments-mantis-shrimp.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T13:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "How one of Earth's worst volcanic disasters affected societies in prehistoric Japan",
+   "headline_zh": "Kikai-Akahoya 火山喷发后日本史前人口并未简单崩溃",
+   "summary_zh": "Lund 大学领衔的国际研究考察史前日本 Kikai-Akahoya 火山喷发后的人口水平变化，结果比此前认为的更为复杂，论文发表于 Science Advances。具体人口重建方法与时间序列材料未给出。",
+   "why_it_matters_zh": "对“超级喷发必然导致社会崩溃”的叙事提出修正，为评估现代大规模环境灾害下的社会韧性提供史前对照案例。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "火山喷发",
+    "史前人口",
+    "社会韧性",
+    "Science Advances"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "news",
+     "title": "How one of Earth's worst volcanic disasters affected societies in prehistoric Japan",
+     "url": "https://phys.org/news/2026-10-earth-worst-volcanic-disasters-affected.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T20:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "During El Niño, a perfect storm of weather systems could spell disaster for the Great Barrier Reef",
+   "headline_zh": "厄尔尼诺期间远距离天气系统组合可形成对珊瑚礁的致命“配方”",
+   "summary_zh": "新研究揭示相隔数千公里的大气模式与天气系统之间存在复杂相互作用，这些系统在强厄尔尼诺背景下可能组合成对珊瑚礁潜在致命的海洋热浪条件，再次威胁澳大利亚大堡礁。具体机制与预测框架材料未展开。",
+   "why_it_matters_zh": "把珊瑚白化预警从“海温异常”扩展到跨盆地的天气系统组合，若能业务化，可提前数周给出比单一海温指标更具体的风险窗口。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "厄尔尼诺",
+    "海洋热浪",
+    "珊瑚白化",
+    "大堡礁"
+   ],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "news",
+     "title": "During El Niño, a perfect storm of weather systems could spell disaster for the Great Barrier Reef",
+     "url": "https://phys.org/news/2026-10-el-nio-storm-weather-disaster.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T11:00:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Simulations explore nuclear mitigation of asteroid threats",
+   "headline_zh": "LLNL 用三维模拟评估核装置偏转/瓦解小行星的可行性",
+   "summary_zh": "Lawrence Livermore 国家实验室的研究者开发三维模拟，考察用核装置偏转或潜在瓦解威胁地球的小行星的效果。报道未给出具体模拟参数、目标天体尺寸或验证方式。",
+   "why_it_matters_zh": "行星防御中核选项的可行性长期依赖少量一维/二维估算，三维模拟若能量化碎片分布与动量传递，将直接影响偏转任务的风险评估标准。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "小行星防御",
+    "核偏转",
+    "三维模拟",
+    "LLNL"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "news",
+     "title": "Simulations explore nuclear mitigation of asteroid threats",
+     "url": "https://phys.org/news/2026-10-simulations-explore-nuclear-mitigation-asteroid.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T19:00:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+   "headline_zh": "Roman 空间望远镜成像质量超预期近 30%",
+   "summary_zh": "工程师通过仅移动一面镜子约人类头发丝十六分之一宽度的微调，使 Roman 空间望远镜的仪器接近完美对准。其宽视场仪成像质量比预测好近 30%，有望提供异常锐利的宇宙巡天数据。",
+   "why_it_matters_zh": "宽视场巡天的科学产出对点源展宽与系统误差极敏感，近 30% 的成像质量余量可转化为更高的弱透镜与超新星测距精度。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "Roman 空间望远镜",
+    "宽视场仪",
+    "在轨对准",
+    "巡天"
+   ],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "news",
+     "title": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T13:28:13+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "This bird flies thousands of miles, but its wings have a catch",
+   "headline_zh": "欧洲夜鹰翅膀在高速效率与捕食敏捷间取舍，上扑产生推力",
+   "summary_zh": "研究者发现欧洲夜鹰（一种迁徙数千公里的鸟）的翅膀存在意外取舍：为获得捕食昆虫的高敏捷性而牺牲高速飞行效率；更意外的是，它在上扑阶段也能产生推力。这一机制被认为可启发新型飞行技术。具体测量方法与样本量材料未给出。",
+   "why_it_matters_zh": "上扑产生推力在鸟类飞行中不常见，若可工程化，对微型扑翼飞行器的推力布局有直接参考价值。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "夜鹰",
+    "扑翼飞行",
+    "推力",
+    "仿生"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "news",
+     "title": "This bird flies thousands of miles, but its wings have a catch",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-17T13:05:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Efficient Time-Fractional Diffusion Network for Under-Display ToF Imaging and Beyond",
+   "headline_zh": "面向屏下 ToF 成像的时间分数阶扩散网络",
+   "summary_zh": "该 IJCV 论文提出一种时间分数阶扩散网络，用于屏下飞行时间（ToF）成像及更广任务，核心在于以分数阶扩散建模提升效率。摘要信息有限，具体网络结构、数据集与定量结果材料未给出。",
+   "why_it_matters_zh": "屏下 ToF 受屏幕衍射与多路径干扰，若分数阶扩散先验能同时降算力并抑噪，对全面屏手机的深度传感有工程意义；但需看原文验证。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "ToF 成像",
+    "扩散模型",
+    "屏下传感",
+    "IJCV"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "Efficient Time-Fractional Diffusion Network for Under-Display ToF Imaging and Beyond",
+     "url": "https://doi.org/10.1007/s11263-026-03074-w",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03074-w",
+     "published": "2026-10-17T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "CorrCLIPv2: Harnessing Unlabeled Images for Open-Vocabulary Semantic Segmentation",
+   "headline_zh": "CorrCLIPv2 利用无标注图像做开放词汇语义分割",
+   "summary_zh": "该 IJCV 论文提出 CorrCLIPv2，利用无标注图像提升开放词汇语义分割性能。摘要信息有限，具体方法组件、训练策略与基准结果材料未给出。",
+   "why_it_matters_zh": "开放词汇分割的瓶颈之一是标注成本，若能用无标注图像稳定增益，可降低对新类别掩码的依赖；需原文核实增益幅度。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "开放词汇分割",
+    "无标注数据",
+    "IJCV"
+   ],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "CorrCLIPv2: Harnessing Unlabeled Images for Open-Vocabulary Semantic Segmentation",
+     "url": "https://doi.org/10.1007/s11263-026-03027-3",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03027-3",
+     "published": "2026-10-17T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[29] 暗星系候选体：目前仅为 arXiv 预印本（9 月 24 日），需等待同行评审及独立射电/光学 follow-up 确认是否为孤立暗星系，而非潮汐碎片或投影巧合。",
+  "[17] 魔法态净化硬件演示：报道未给出平台、保真度与资源开销的定量对比，需核对原文是否真正实现“净化”而非仅错误缓解。",
+  "[24] 手摇血型/红细胞压积装置：1 分钟级即时检测若进入院前场景，需关注其与标准血库方法的符合率及极端环境下的稳定性数据。",
+  "[39] 睡眠-生长激素双向环路：双向调控的因果方向与人类可转化性尚不明确，值得追踪后续是否有临床干预数据。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 274,
+   "dup_in_run": 0,
+   "already_seen": 208,
+   "dropped_by_penalty": 3,
+   "dropped_by_window": 47,
+   "unique": 16,
+   "candidates": 16
+  },
+  "hot": {
+   "fetched": 58,
+   "dup_in_run": 0,
+   "already_seen": 58,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 158,
+   "dup_in_run": 0,
+   "already_seen": 3,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 128,
+   "unique": 27,
+   "candidates": 27
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 1,
+   "dup_in_run": 0,
+   "already_seen": 1,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 73,
+   "kept": 72,
+   "elapsed_s": 0.79,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.91,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 34,
+   "kept": 34,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.15,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 4,
+   "kept": 0,
+   "elapsed_s": 0.7,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 2,
+   "kept": 0,
+   "elapsed_s": 0.67,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 41,
+   "kept": 41,
+   "elapsed_s": 0.36,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.12,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 2,
+   "kept": 2,
+   "elapsed_s": 0.49,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.15,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.0,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 4,
+   "elapsed_s": 0.45,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.09,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.26,
+   "error": ""
+  }
+ ]
+}
