@@ -1,0 +1,815 @@
+{
+ "date": "2026-10-17",
+ "generated_at": "2026-10-17 08:47 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选条目以医学与综合领域为主，但真正具备明确方法学新意或实验结果的条目集中在量子计算、天体物理与生命科学方向。医学通道中，一项大规模随机对照试验给出了秋水仙碱在心肌梗死后二级预防中的中性结果，对近期炎症假说形成重要反证；一项基于真实平台日志的横断面研究则首次量化了临床医生对 AI 信息工具的实际使用规模与人群分布。综合通道中，超导量子处理器上的魔法态培育实验、光纤中光与声的强耦合、以及极短硬X射线脉冲的强度纪录，均属于可验证的实验进展。大量 Phys.org / ScienceDaily 条目为单句摘要，信息量不足以支撑独立简报，已列入观察或舍弃。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Colchicine in Acute Myocardial Infarction",
+   "headline_zh": "秋水仙碱用于急性心肌梗死二级预防：7062例随机试验未显示获益",
+   "summary_zh": "该多中心试验采用2×2析因设计，将心肌梗死患者随机分配至秋水仙碱或安慰剂组（同时随机分配至螺内酯或安慰剂组，本文仅报告秋水仙碱部分）。主要疗效终点为心血管原因死亡、再发心梗、卒中或非计划缺血驱动的冠脉血运重建的复合终点。中位随访3年，秋水仙碱组3528例中322例（9.1%）发生主要终点事件，安慰剂组3534例中327例（9.3%）发生（HR 0.99，95% CI 0.85–1.16，P=0.93）。3个月时秋水仙碱组C反应蛋白较安慰剂组低1.28 mg/L（95% CI −1.81至−0.75），但炎症标志物下降未转化为临床终点改善。腹泻在秋水仙碱组发生率更高。",
+   "why_it_matters_zh": "此前多项较小规模试验提示秋水仙碱可降低心血管事件风险，本研究以迄今最大样本量和3年随访给出了中性结果。它把抗炎即获益这一推论在心梗二级预防中明确切断：C反应蛋白确实下降了，但硬终点没有变化。这将迫使领域重新审视炎症假说的因果链条，并影响指南对秋水仙碱的推荐级别。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "随机对照试验",
+    "秋水仙碱",
+    "心肌梗死",
+    "抗炎治疗",
+    "中性结果"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "hot",
+     "title": "Colchicine in Acute Myocardial Infarction",
+     "url": "https://doi.org/10.1056/nejmoa2405922",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2405922",
+     "published": "2024-11-17T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Clinician Use of an Artificial Intelligence–Enabled Clinical Information Platform",
+   "headline_zh": "95万临床医生、2.71亿次查询：AI临床信息平台真实使用图谱",
+   "summary_zh": "该横断面研究分析了2024年1月至2026年6月期间OpenEvidence平台上经国家提供者标识符验证的临床医生账户。研究使用大语言模型对3880万条查询的分层随机样本进行临床目的与主题分类。结果显示，952,008名临床医生（58.5%为女性），其中556,200名医生，在2.5年研究期内提交了2.71亿次查询。月活跃用户从2024年1月的355人增至2026年6月的703,265人，活跃用户月均查询量从18.0次升至39.5次。执业护士（44.5次）和医师助理（44.5次）的月均查询量高于医生（37.1次）。毕业十年内的医生（使用比2.54）和住院医师/专科培训医师（1.84）的使用比例高于其在全国劳动力中的占比。",
+   "why_it_matters_zh": "这是目前关于临床AI工具真实使用规模的最大规模实证描述。它回答了一个此前只有猜测的问题：谁在用、用多少、用来做什么。数据显示使用高度集中在职业早期医生和中级执业者，而非资深医生——这提示AI信息工具可能正在改变临床知识获取的层级结构，对医学教育和临床决策支持系统的设计有直接含义。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "人工智能",
+    "临床决策支持",
+    "横断面研究",
+    "大语言模型",
+    "劳动力分布"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Clinician Use of an Artificial Intelligence–Enabled Clinical Information Platform",
+     "url": "https://doi.org/10.1001/jama.2026.21868",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21868",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Magic state cultivation on a superconducting quantum processor",
+   "headline_zh": "超导量子处理器上实现魔法态培育，错误率降低40倍",
+   "summary_zh": "容错量子计算需要通用门集，但非Clifford门在多数量子纠错架构中资源开销巨大。魔法态培育被提出作为资源密集型蒸馏协议的替代方案，但其假设此前未经实验检验。本研究在超导量子处理器上实验实现魔法态培育，包括码切换到表面码，并开发了容错测量协议以界定魔法态保真度。培育将错误降低40倍，态保真度至少为0.9999(1)，保留8%的尝试次数。",
+   "why_it_matters_zh": "这是魔法态培育从理论提案到硬件验证的关键一步。此前该方案的核心假设——在真实噪声环境下能否以可接受的资源代价获得高保真度非Clifford态——一直缺乏实验证据。40倍错误抑制和0.9999保真度表明，这条路线在超导平台上可行，可能改变容错量子计算中非Clifford资源的生产策略。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "超导量子处理器",
+    "魔法态培育",
+    "容错量子计算",
+    "表面码",
+    "实验验证"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Magic state cultivation on a superconducting quantum processor",
+     "url": "https://doi.org/10.1126/science.aee7961",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aee7961",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Milking the niche: Microbial control of neonatal hematopoiesis",
+   "headline_zh": "母乳糖蛋白骨桥蛋白通过塑造新生儿菌群调控造血",
+   "summary_zh": "该评论文章介绍了Howard等人在同期Cell发表的研究。该研究揭示母乳糖蛋白骨桥蛋白如何塑造新生儿微生物组，进而调控造血过程，促进树突状细胞发育并提供对严重呼吸道感染的保护。这些发现揭示了一条母乳—微生物群通路，将生命早期营养与免疫发育及长期疾病易感性联系起来。",
+   "why_it_matters_zh": "该工作把母乳喂养有益免疫这一流行病学观察推进到了具体分子与细胞机制层面：骨桥蛋白→菌群→造血→树突状细胞→抗感染。这为理解生命早期营养如何通过微生物组编程免疫系统提供了可操作的因果链条，也可能为新生儿感染预防和免疫发育干预提供新靶点。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "骨桥蛋白",
+    "新生儿造血",
+    "微生物组",
+    "树突状细胞",
+    "母乳"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "Milking the niche: Microbial control of neonatal hematopoiesis",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01079-2?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.09.010",
+     "published": "2026-10-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "National-level and state-level prevalence of overweight and obesity among children, adolescents, and adults in the USA, 1990–2021, and forecasts up to 2050",
+   "headline_zh": "美国超重与肥胖流行趋势：1990–2021年估计及2050年预测",
+   "summary_zh": "该研究使用时空高斯过程回归模型估计1990至2021年美国儿童青少年（5–24岁）和成人（≥25岁）的超重与肥胖患病率历史趋势，并采用广义集成建模方法在假设过去趋势延续的前提下推导至2050年的预测。估计按年龄和性别在全国层面计算，并对50个州及华盛顿特区15–24岁和≥25岁人群进行州级估计。2021年，估计有1510万（95% UI 13.5–16.8）5–14岁儿童和青少年、2140万（20.2–22.6）……（摘要在此处截断）。",
+   "why_it_matters_zh": "该研究提供了美国肥胖流行迄今最细粒度的时空估计与州级预测，其价值在于将全国趋势分解到州和年龄组，使政策制定者能够识别干预失败或成功的具体辖区。2050年预测为评估现有干预措施是否足以改变轨迹提供了基准。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "肥胖",
+    "超重",
+    "美国",
+    "预测模型",
+    "州级估计"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "hot",
+     "title": "National-level and state-level prevalence of overweight and obesity among children, adolescents, and adults in the USA, 1990–2021, and forecasts up to 2050",
+     "url": "https://doi.org/10.1016/s0140-6736(24)01548-4",
+     "journal": "The Lancet",
+     "tier": "T0",
+     "doi": "10.1016/s0140-6736(24)01548-4",
+     "published": "2024-11-14T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "A highway instead of a racetrack: Strong coupling of light and sound in an optical fiber",
+   "headline_zh": "光纤中首次实现光与长寿命声振动的强耦合",
+   "summary_zh": "科学家首次在光纤中实现光与长寿命声振动之间的强耦合。光纤此前主要用于经典通信和量子通信中的节点连接，该结果表明光纤本身也可能作为量子处理器使用。研究结果发表于Nature Physics，为量子信号处理新技术开辟了路径。",
+   "why_it_matters_zh": "将光纤从传输介质重新定位为量子处理平台是一个概念性转变。强耦合意味着光与声可以在光纤内有效交换量子信息，这可能使分布式量子计算中的传输与处理功能在同一物理载体上实现，简化架构。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "光纤",
+    "光声耦合",
+    "量子信号处理",
+    "强耦合",
+    "Nature Physics"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "news",
+     "title": "A highway instead of a racetrack: Strong coupling of light and sound in an optical fiber",
+     "url": "https://phys.org/news/2026-10-highway-racetrack-strong-coupling-optical.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T21:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    42
+   ],
+   "title_en": "World-record intensity in attosecond hard-X-ray pulses could unlock closer study of electrons in atoms and molecules",
+   "headline_zh": "阿秒硬X射线脉冲强度创纪录，聚焦面积仅为头发截面的十万分之一",
+   "summary_zh": "研究人员利用欧洲XFEL产生极短且达到该类型脉冲强度纪录的X射线闪光。他们将X射线聚焦到约为人发横截面积十万分之一的区域，将X射线光集中到极小但极强的斑点中。该方法可实现对原子和分子中电子行为的详细研究，长期来看甚至可能让研究人员在化学反应过程中控制电子。实验于2026年4月进行，结果发表于Optica。",
+   "why_it_matters_zh": "阿秒时间尺度加上硬X射线波段，意味着可以同时获得电子运动的原生时间分辨率和原子级空间分辨率。强度纪录使非线性X射线光学过程成为可能，这是此前阿秒脉冲无法达到的。若能实现化学反应中的电子控制，将直接触及化学键形成的核心。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "阿秒脉冲",
+    "硬X射线",
+    "欧洲XFEL",
+    "电子动力学",
+    "强度纪录"
+   ],
+   "records": [
+    {
+     "ref": 42,
+     "channel": "news",
+     "title": "World-record intensity in attosecond hard-X-ray pulses could unlock closer study of electrons in atoms and molecules",
+     "url": "https://phys.org/news/2026-10-world-intensity-attosecond-hard-ray.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T19:10:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    54
+   ],
+   "title_en": "Yale scientists discover how stress changes the brain to make memories stronger",
+   "headline_zh": "耶鲁团队揭示皮质醇如何重塑脑网络连接以强化情绪记忆",
+   "summary_zh": "耶鲁科学家揭示了应激激素皮质醇如何帮助大脑将情绪体验转化为更强、更持久的记忆。该发现表明应激可以重塑参与情绪和记忆的脑网络之间的通信，可能解释为何某些时刻如此难以忘记。",
+   "why_it_matters_zh": "该工作将应激激素的分子作用与脑网络层面的通信变化联系起来，为情绪记忆为何更牢固提供了机制解释。这对理解创伤后应激障碍和焦虑相关记忆固化的神经基础有直接意义。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "皮质醇",
+    "应激",
+    "情绪记忆",
+    "脑网络",
+    "记忆巩固"
+   ],
+   "records": [
+    {
+     "ref": 54,
+     "channel": "news",
+     "title": "Yale scientists discover how stress changes the brain to make memories stronger",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261014015517.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T11:55:35+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    50
+   ],
+   "title_en": "A protein that fuels cancer could also be the key to fighting it",
+   "headline_zh": "促癌蛋白PPARD被改造为抗癌武器：激活免疫细胞脂代谢增强抗肿瘤能力",
+   "summary_zh": "科学家发现如何将通常促进癌症生长的蛋白转化为对抗癌症的武器。通过在免疫细胞中激活PPARD，研究人员使免疫细胞更擅长燃烧脂肪并攻击肿瘤，在实验室实验中减缓或阻止了癌症生长。该方法在结直肠癌、乳腺癌、卵巢癌以及黑色素瘤中显示出前景。",
+   "why_it_matters_zh": "该策略的核心新意在于功能反转：同一个蛋白在肿瘤细胞中促癌，在免疫细胞中却被用来增强抗肿瘤代谢。这提示代谢重编程可以作为免疫细胞工程的新维度，而非仅仅依赖传统的受体信号增强。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "PPARD",
+    "免疫代谢",
+    "肿瘤免疫治疗",
+    "脂肪酸氧化",
+    "功能反转"
+   ],
+   "records": [
+    {
+     "ref": 50,
+     "channel": "news",
+     "title": "A protein that fuels cancer could also be the key to fighting it",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261015073203.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T04:51:38+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    52
+   ],
+   "title_en": "USC scientists discover how to create a never-ending supply of cancer-fighting cells",
+   "headline_zh": "USC团队通过改造未成熟免疫细胞实现体内持续产生抗肿瘤细胞",
+   "summary_zh": "USC科学家发现了一种可能实现可再生供应的基因工程免疫细胞的方法，这些细胞能攻击癌症并增强人体自然防御。通过培养和改造未成熟免疫细胞而非成熟细胞，研究人员开发了一个可在体内持续产生抗肿瘤细胞的系统。",
+   "why_it_matters_zh": "传统CAR-T等疗法需要从患者体内提取成熟T细胞、体外改造扩增再回输，成本和周期是主要瓶颈。该工作转向未成熟免疫细胞作为起始材料，若能在体内持续产生效应细胞，可能从根本上改变细胞治疗的制造逻辑和可及性。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "免疫细胞工程",
+    "未成熟免疫细胞",
+    "持续供应",
+    "细胞治疗",
+    "体内产生"
+   ],
+   "records": [
+    {
+     "ref": 52,
+     "channel": "news",
+     "title": "USC scientists discover how to create a never-ending supply of cancer-fighting cells",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261015003803.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T12:46:50+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    55
+   ],
+   "title_en": "Scientists discover a plastic-eating “Pac-Man” enzyme with a surprising secret",
+   "headline_zh": "吃塑料酶新发现：可生物降解塑料在土壤中约一年完全分解",
+   "summary_zh": "科学家发现了一种帮助细菌吞噬特定类型塑料的吃豆人酶。研究人员发现，几种可生物降解塑料在土壤中约一年内完全分解，而传统塑料基本保持不变。",
+   "why_it_matters_zh": "该发现同时提供了酶学机制和实地降解数据。可生物降解塑料在真实土壤环境中一年内完全分解、而传统塑料不变，这一对比为可降解塑料的环境归趋提供了直接证据，也为酶法塑料回收提供了候选工具。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "塑料降解",
+    "酶",
+    "生物降解",
+    "土壤",
+    "塑料污染"
+   ],
+   "records": [
+    {
+     "ref": 55,
+     "channel": "news",
+     "title": "Scientists discover a plastic-eating “Pac-Man” enzyme with a surprising secret",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261014015509.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T10:32:03+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    53
+   ],
+   "title_en": "The uranium cubes that exposed Nazi Germany’s nuclear failure",
+   "headline_zh": "铀立方体揭示纳粹德国核反应堆远未接近临界",
+   "summary_zh": "调查纳粹德国秘密核计划的科学家发现了证据，表明其最终实验反应堆远没有此前声称的那样接近运行。对幸存铀立方体和战时文件的分析显示，德国缺乏使反应堆运行所需的大量铀和重水。",
+   "why_it_matters_zh": "该工作以实物证据和档案分析修正了关于纳粹核计划进展的历史评估。它说明此前部分叙述高估了德国当时的核能力，对科技史和核不扩散史研究均有意义。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "纳粹核计划",
+    "铀立方体",
+    "重水",
+    "科学史",
+    "档案分析"
+   ],
+   "records": [
+    {
+     "ref": 53,
+     "channel": "news",
+     "title": "The uranium cubes that exposed Nazi Germany’s nuclear failure",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261015073218.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T12:32:52+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Scientists uncover mystery of how snail shells coil to the right or to the left",
+   "headline_zh": "日本蜗牛壳旋向基因被发现，与人体左右不对称可能相关",
+   "summary_zh": "科学家发现了一个决定日本蜗牛壳向左或向右螺旋的基因，这对理解人体自身的左右不对称性具有启示。来自诺丁汉大学和东北大学的研究人员研究了日本的野生Euhadra蜗牛，以理解是什么使一只蜗牛成为另一只的镜像。",
+   "why_it_matters_zh": "左右不对称是发育生物学的基本问题。蜗牛壳旋向是一个清晰可观察的宏观表型，找到其决定基因可能为理解脊椎动物内脏不对称等更复杂的手性发育提供进化上的参照。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "左右不对称",
+    "蜗牛壳旋向",
+    "手性",
+    "发育基因",
+    "进化"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "news",
+     "title": "Scientists uncover mystery of how snail shells coil to the right or to the left",
+     "url": "https://phys.org/news/2026-10-scientists-uncover-mystery-snail-shells.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T23:40:10+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    44
+   ],
+   "title_en": "Spiny dogfish blood contains a hormone long thought absent in sharks",
+   "headline_zh": "鲨鱼血液中发现此前认为缺失的皮质醇激素",
+   "summary_zh": "皮质醇帮助人类和许多其他动物调节能量利用并应对环境变化。长期以来，鲨鱼和鳐鱼被认为依赖一种不同的类固醇激素来完成这些功能，自身不产生皮质醇。一项对北美太平洋白斑角鲨（一种小型鲨鱼）的新研究挑战了这一观点。",
+   "why_it_matters_zh": "该发现修正了关于鲨鱼内分泌系统的长期教科书式认知。如果鲨鱼确实产生皮质醇，那么应激生理学在软骨鱼类与硬骨鱼类之间的演化保守性可能被低估，相关比较内分泌学研究需要重新审视。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "皮质醇",
+    "鲨鱼",
+    "应激激素",
+    "内分泌进化",
+    "软骨鱼类"
+   ],
+   "records": [
+    {
+     "ref": 44,
+     "channel": "news",
+     "title": "Spiny dogfish blood contains a hormone long thought absent in sharks",
+     "url": "https://phys.org/news/2026-10-spiny-dogfish-blood-hormone-thought.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T19:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "Plants shift gene activity within minutes of entering spaceflight, experiment reveals",
+   "headline_zh": "植物进入太空飞行后数分钟内即改变基因活动",
+   "summary_zh": "根据佛罗里达大学的一项新研究，植物在离开地球后几乎立即开始对太空飞行做出响应，该研究捕捉到了商业亚轨道任务中生物适应的最早阶段。研究发表于npj Microgravity，报告了由一名UF宇航员在蓝色起源新谢泼德NS-26飞行（2024年8月29日）中进行的实验结果。",
+   "why_it_matters_zh": "该研究把植物对太空环境的响应时间尺度从天压缩到分钟，说明重力变化或发射应激的信号转导极快。这对理解植物重力感知的初级事件以及未来太空农业中实时监测需求有直接意义。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "太空飞行",
+    "植物基因表达",
+    "亚轨道",
+    "重力感知",
+    "空间生物学"
+   ],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "news",
+     "title": "Plants shift gene activity within minutes of entering spaceflight, experiment reveals",
+     "url": "https://phys.org/news/2026-10-shift-gene-minutes-spaceflight-reveals.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T23:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "First comprehensive Mars soil classification offers framework for exploration and future farming",
+   "headline_zh": "首个火星土壤综合分类系统发布",
+   "summary_zh": "悉尼大学的一名博士生制作了首个火星土壤综合分类系统和地图，创建了一个新框架，可帮助科学家比较火星各地的景观，并识别未来探索、居住和粮食生产的潜在地点。",
+   "why_it_matters_zh": "火星土壤数据的碎片化一直是比较研究的障碍。统一的分类框架使不同着陆点和遥感数据之间可以互操作，对选址、原位资源利用和未来农业实验设计是基础设施性的贡献。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "火星土壤",
+    "分类系统",
+    "原位资源利用",
+    "行星科学",
+    "农业"
+   ],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "news",
+     "title": "First comprehensive Mars soil classification offers framework for exploration and future farming",
+     "url": "https://phys.org/news/2026-10-comprehensive-mars-soil-classification-framework.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T20:40:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    39
+   ],
+   "title_en": "About 2% of natural gas supplied to a Midwest city leaks into the atmosphere",
+   "headline_zh": "印第安纳波利斯约2%天然气泄漏入大气，主要来自建筑而非管道",
+   "summary_zh": "宾夕法尼亚州立大学研究人员评估了近十年数据后发现，印第安纳波利斯的大部分天然气泄漏可能来自住宅和其他建筑，而非输送化石燃料的外部管道和大规模配气基础设施。",
+   "why_it_matters_zh": "该结果将天然气泄漏的归因从管道基础设施转向终端建筑，意味着减排策略需要重新定位。如果2%的泄漏率具有代表性，其对城市温室气体清单和甲烷减排政策的影响是直接的。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "天然气泄漏",
+    "甲烷",
+    "城市排放",
+    "建筑",
+    "温室气体"
+   ],
+   "records": [
+    {
+     "ref": 39,
+     "channel": "news",
+     "title": "About 2% of natural gas supplied to a Midwest city leaks into the atmosphere",
+     "url": "https://phys.org/news/2026-10-natural-gas-midwest-city-leaks.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T19:30:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    40
+   ],
+   "title_en": "New alloy design strategy combines strength and ductility by timing hardening mechanisms",
+   "headline_zh": "新合金设计策略通过时序调控硬化机制同时提升强度与延展性",
+   "summary_zh": "工程结构金属需要同时具备高强度和高延展性——承受重载并在失效前变形的能力。然而同时实现这两种性能具有挑战性。该研究提出了一种通过调控硬化机制时序来组合强度与延展性的新合金设计策略。",
+   "why_it_matters_zh": "强度—延展性权衡是结构材料领域的长期瓶颈。该策略的新意在于时序而非成分或微观结构作为调控维度，如果可推广，将为合金设计提供一个正交的设计自由度。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "合金设计",
+    "强度",
+    "延展性",
+    "硬化机制",
+    "结构材料"
+   ],
+   "records": [
+    {
+     "ref": 40,
+     "channel": "news",
+     "title": "New alloy design strategy combines strength and ductility by timing hardening mechanisms",
+     "url": "https://phys.org/news/2026-10-alloy-strategy-combines-strength-ductility.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T19:20:11+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    51
+   ],
+   "title_en": "A quantum highway just one atom high could transform superconductors",
+   "headline_zh": "单原子高度台阶引导量子涡旋，单向迁移率相差超1000倍",
+   "summary_zh": "科学家发现仅一个原子高度的原子台阶可以引导超导体中的量子涡旋，使其在一个方向上的移动比另一个方向容易1000倍以上。这种对量子运动的显著控制可能催生新一代超高效超导电子器件。",
+   "why_it_matters_zh": "涡旋运动是超导体耗散和临界电流的主要限制因素之一。以原子级台阶实现涡旋运动的定向控制，提供了一种无需复杂纳米加工的涡旋整流机制，对超导电子器件的设计有潜在影响。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "量子涡旋",
+    "超导体",
+    "原子台阶",
+    "涡旋整流",
+    "超导电子学"
+   ],
+   "records": [
+    {
+     "ref": 51,
+     "channel": "news",
+     "title": "A quantum highway just one atom high could transform superconductors",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-16T04:22:01+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "ArXiv versus AI slop: will capping preprint submissions work? (refs: [12]) — 预印本平台投稿上限政策讨论，涉及AI生成内容对学术交流基础设施的冲击，值得关注后续政策细节与社区反应。",
+  "He Wants AI Benchmarking To Be a Science, Not a Dark Art (refs: [18]) — 关于AI基准测试方法论的批评性讨论，若涉及具体可操作的评估框架改进，可能对AI研究评价体系产生影响。",
+  "Astronomers discover a strange universal rule behind black hole eruptions (refs: [38]) — 黑洞喷流跨尺度统一规律的发现，若经同行评审确认，可能对黑洞吸积与喷流物理有普遍性意义，目前信息不足以独立成条。",
+  "Maxwell's demon learns to turn concealed information into usable energy for microscopic systems (refs: [45]) — 麦克斯韦妖思想实验在微观系统中的信息—能量转换实验实现，若属实将是信息热力学的重要进展，待更多细节。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 311,
+   "dup_in_run": 0,
+   "already_seen": 193,
+   "dropped_by_penalty": 3,
+   "dropped_by_window": 100,
+   "unique": 15,
+   "candidates": 15
+  },
+  "hot": {
+   "fetched": 58,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 2,
+   "candidates": 2
+  },
+  "news": {
+   "fetched": 158,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 117,
+   "unique": 41,
+   "candidates": 40
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 1,
+   "dup_in_run": 0,
+   "already_seen": 1,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 143,
+   "kept": 143,
+   "elapsed_s": 1.5,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 34,
+   "kept": 34,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 13,
+   "kept": 0,
+   "elapsed_s": 0.68,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 3,
+   "kept": 0,
+   "elapsed_s": 1.36,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 2,
+   "kept": 0,
+   "elapsed_s": 0.58,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 41,
+   "kept": 41,
+   "elapsed_s": 0.4,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.56,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.16,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.39,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 2,
+   "kept": 2,
+   "elapsed_s": 0.46,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.2,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.13,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 4,
+   "elapsed_s": 0.67,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.42,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.23,
+   "error": ""
+  }
+ ]
+}
