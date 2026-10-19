@@ -1,0 +1,752 @@
+{
+ "date": "2026-10-19",
+ "generated_at": "2026-10-19 08:31 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选以预印本与科学媒体为主，顶刊通道中 NEJM 有若干医疗政策与临床影像条目，IJCV 有两项视觉-语言模型应用工作。最值得关注的是 arXiv 上一篇对 5D 原初黑洞暗物质窗口下边界的独立重算，它直接修正了此前两项估计所依赖的间接换算方式。科学新闻方面，分数费米海的实验发现、交变磁性的获奖、以及空间基因组学新工具具有跨领域的参考价值。整体上，可报告的硬核方法学进展有限，多数条目为单点发现或科普性报道。",
+ "items": [
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Lower edge of the dark-matter window for 5D primordial black holes: an independent check with hard X-ray and soft gamma-ray data",
+   "headline_zh": "5D 原初黑洞暗物质窗口下边界被独立重算，此前估计偏保守",
+   "summary_zh": "作者放弃「等霍金温度下由 4D 伽马射线限重标」的间接做法，改用修正后的 BlackHawk v3.0 谱，直接对银系与河外硬 X 射线、软伽马数据计算光子限，判据为每 bin 预言低于数据加 2σ。对微米级额外维度（M_KK = 0.01–0.1 eV），下边界落在 1.3–3.5×10^13 g，加入 RXTE 银道脊数据后升至约 10^14 g；沿用旧 5D 普朗克标度则为 1.0×10^16 g。边界约随约化 5D 普朗克质量平方增长。作者指出已发表的 PBH 爆发搜寻对 5D PBH 不敏感。该文为预印本，未经同行评审；作者声明计算、代码与文本在 AI 系统辅助下完成。",
+   "why_it_matters_zh": "把 5D PBH 暗物质下限从「重标 4D 结果」改为直接拟合，使这一窗口的边界首次建立在与观测数据逐 bin 对应的计算上；依赖该窗口做间接探测或宇宙学约束的工作需按新质量区间重新评估可行性。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "原初黑洞",
+    "额外维度",
+    "伽马射线限制",
+    "预印本"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "preprint",
+     "title": "Lower edge of the dark-matter window for 5D primordial black holes: an independent check with hard X-ray and soft gamma-ray data",
+     "url": "http://arxiv.org/abs/2206.07071",
+     "journal": "arXiv (Cornell University)",
+     "tier": "T2",
+     "doi": "10.5281/zenodo.23432604",
+     "published": "2026-10-13T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Physicists create a bizarre new quantum state called a fractional fermi sea",
+   "headline_zh": "超冷原子中实现「分数费米海」新物态",
+   "summary_zh": "报道称物理学家在超冷原子体系中观测到一种高度激发却高度有序的构型，被命名为 fractional Fermi sea，其组织方式偏离常规费米海图像，并暗示存在被称为「super-Fermions」的准粒子。候选材料未给出具体实验平台、观测手段与定量结果。",
+   "why_it_matters_zh": "若成立，它指向一类不遵循既有量子物质组织规则的费米型态，为在冷原子平台上研究非常规准粒子提供了新的切入点；但具体判据与可复现性需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "超冷原子",
+    "分数费米海",
+    "准粒子"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "news",
+     "title": "Physicists create a bizarre new quantum state called a fractional fermi sea",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T13:37:21+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Scientists who discovered a third form of magnetism win major physics prize",
+   "headline_zh": "交变磁性（altermagnetism）发现者获重要物理学奖",
+   "summary_zh": "报道称研究者揭示了一种被称为 altermagnetism 的第三种磁性形式，称其挑战了逾百年的既有物理认识，并可能影响未来计算与电子学以及量子研究。候选材料未说明获奖名称、获奖者与具体实验证据。",
+   "why_it_matters_zh": "作为领域认可信号，它表明交变磁性已从理论提议进入被共同体正式承认的阶段；对自旋电子学器件设计而言，这意味着除铁磁/反铁磁之外多了一条可用的对称性通道。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "交变磁性",
+    "自旋电子学",
+    "奖项"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "news",
+     "title": "Scientists who discovered a third form of magnetism win major physics prize",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T09:41:44+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "Hybrid diamond chip strengthens interactions between light and quantum bits",
+   "headline_zh": "GaP/金刚石混合光子芯片增强光与量子比特耦合",
+   "summary_zh": "研究团队研制并演示了一种将量子发射体与光子器件集成的混合光子平台，以磷化镓（GaP）结合金刚石衬底，用于稳定控制光子与量子信息载体之间的相互作用。候选材料称其目标是让量子网络中的远距离器件连接更实用，未给出耦合效率等具体指标。",
+   "why_it_matters_zh": "量子网络的关键瓶颈是光子—节点接口的效率与可制造性；把发射体做进芯片级混合平台，是把这类接口从分立光学实验推向可扩展器件的一步。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "金刚石",
+    "量子发射体",
+    "混合集成",
+    "量子网络"
+   ],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "news",
+     "title": "Hybrid diamond chip strengthens interactions between light and quantum bits",
+     "url": "https://phys.org/news/2026-10-hybrid-diamond-chip-interactions-quantum.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T13:00:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Spatial genomics tool maps long-range DNA interactions while preserving cells' locations within tissues",
+   "headline_zh": "空间基因组学新工具在保留组织原位信息的同时解析长程 DNA 互作",
+   "summary_zh": "报道介绍一种空间基因组学工具，可在保留细胞在组织内位置的前提下，绘制染色质的长程三维相互作用。候选材料仅给出背景（染色质三维折叠的调控机制尚不清楚），未提供方法细节、分辨率或应用演示。",
+   "why_it_matters_zh": "现有染色质构象捕获通常丢失空间位置，而空间转录组又看不到长程互作；两者合一后，可在组织尺度上把「哪一处的细胞」与「哪一段 DNA 与哪一段接触」对应起来，对发育与肿瘤微环境研究是方法层面的补缺。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "染色质三维结构",
+    "空间组学",
+    "方法学"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "news",
+     "title": "Spatial genomics tool maps long-range DNA interactions while preserving cells' locations within tissues",
+     "url": "https://phys.org/news/2026-10-spatial-genomics-tool-range-dna.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T20:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+   "headline_zh": "轻量级 GUI 元素定位模型 GoClick",
+   "summary_zh": "该文提出面向自主 GUI 交互的元素定位模型，定位是轻量级方案。候选材料未给出模型结构、训练数据、评测基准与精度数字，无法判断其相对现有 grounding 模型的取舍。",
+   "why_it_matters_zh": "GUI 智能体的实际部署受限于元素定位的延迟与算力开销；若轻量化不以显著精度为代价，则直接影响端侧可运行性。需查原文核对评测设置。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "GUI 智能体",
+    "元素定位",
+    "轻量模型"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+     "url": "https://doi.org/10.1007/s11263-026-03031-7",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03031-7",
+     "published": "2026-10-18T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Benchmarking Large Language Models for Video Quality Assessment: Structured Perceptual Prompting and Refinement",
+   "headline_zh": "用结构化感知提示与细化流程为 LLM 视频质量评价建立基准",
+   "summary_zh": "该文针对大语言模型用于视频质量评价建立基准，并提出结构化感知提示与细化（refinement）流程。候选材料未给出数据集构成、基线模型与相关性指标结果。",
+   "why_it_matters_zh": "视频质量评价长期由专用模型主导，LLM 路线的可比性一直缺少统一评测；基准的建立使不同提示策略之间可以对照，但结论强度取决于其数据覆盖范围。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "视频质量评价",
+    "LLM 基准",
+    "提示工程"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Benchmarking Large Language Models for Video Quality Assessment: Structured Perceptual Prompting and Refinement",
+     "url": "https://doi.org/10.1007/s11263-026-03068-8",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03068-8",
+     "published": "2026-10-18T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "LLM-Powered Query Expansion for Enhancing Boundary Prediction in Language-Driven Action Localization",
+   "headline_zh": "用 LLM 查询扩展改善语言驱动动作定位的边界预测",
+   "summary_zh": "该文将 LLM 用于查询扩展，以改进语言驱动动作定位任务中的时序边界预测。候选材料未说明扩展的具体形式、与定位骨干的结合方式及在标准基准上的提升幅度。",
+   "why_it_matters_zh": "该任务的主要误差集中在边界而非动作类别，若查询扩展能稳定改善边界，则说明语言侧信息的挖掘仍有空间；但需核对是否以额外推理开销换取精度。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "时序动作定位",
+    "查询扩展",
+    "视觉-语言"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "LLM-Powered Query Expansion for Enhancing Boundary Prediction in Language-Driven Action Localization",
+     "url": "https://doi.org/10.1007/s11263-026-03083-9",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03083-9",
+     "published": "2026-10-18T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Community Engagement Requirements in Medicaid — Law as a Determinant of Health",
+   "headline_zh": "Medicaid 社区参与要求：以法律作为健康决定因素的分析",
+   "summary_zh": "该文讨论 Medicaid 中的社区参与（community engagement）要求，将法律本身作为健康的社会决定因素加以分析。候选材料未提供具体州别数据、覆盖变化估计或实证结果。",
+   "why_it_matters_zh": "把参保条件的设计当作健康干预来评估，改变了政策讨论的框架——覆盖损失不只是财政问题，而是可测量的健康暴露变化。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "Medicaid",
+    "健康社会决定因素",
+    "卫生法"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Community Engagement Requirements in Medicaid — Law as a Determinant of Health",
+     "url": "https://doi.org/10.1056/nejmp2608810",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2608810",
+     "published": "2026-10-17T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Why Shared-Savings ACOs Have Failed to Deliver for Primary Care",
+   "headline_zh": "共享结余型 ACO 为何未能惠及初级保健",
+   "summary_zh": "该文分析共享结余（shared-savings） accountable care 组织未能给初级保健带来预期收益的原因。候选材料未列出具体结余分配数据或对照研究结果。",
+   "why_it_matters_zh": "ACO 是卫生支付改革的核心载体，若结余未能下沉到初级保健，则激励链条在设计层面即存在断点，对正在考虑类似支付模型的体系有直接参考价值。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "ACO",
+    "支付改革",
+    "初级保健"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Why Shared-Savings ACOs Have Failed to Deliver for Primary Care",
+     "url": "https://doi.org/10.1056/nejmp2605590",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2605590",
+     "published": "2026-10-17T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    27
+   ],
+   "title_en": "Scientists find a youth protein that helps aging brain cells act young again",
+   "headline_zh": "一种「年轻化」蛋白可恢复衰老脑免疫细胞功能",
+   "summary_zh": "报道称一种与年轻状态相关的蛋白能保护脑内免疫细胞免于年龄相关衰退；在老年小鼠中恢复该蛋白后，细胞清除碎片的能力改善、炎症标志减少。候选材料未给出蛋白名称、干预方式与行为学结果。",
+   "why_it_matters_zh": "把小胶质细胞的功能衰退定位到一个可补充的分子上，为脑老化与阿尔茨海默病干预提供了新的靶点假设；目前仅为小鼠证据。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "小胶质细胞",
+    "脑老化",
+    "炎症"
+   ],
+   "records": [
+    {
+     "ref": 27,
+     "channel": "news",
+     "title": "Scientists find a youth protein that helps aging brain cells act young again",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T03:27:40+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
+   "headline_zh": "深部脑刺激持久缓解抑郁的三条脑通路",
+   "summary_zh": "研究者在接受深部脑刺激的重度难治性抑郁患者中识别出三条与持久改善相关的脑通路，并发现两年内未改善的患者共享一个特征：一处关键脑连接刺激不足。候选材料未给出样本量、刺激靶点与效应量。",
+   "why_it_matters_zh": "把疗效差异归因到电极位置毫米级的连接覆盖，意味着 DBS 参数优化可以从「调强度」转向「调连接」，对难治性抑郁的术前靶点规划有直接含义。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "深部脑刺激",
+    "难治性抑郁",
+    "脑连接"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "news",
+     "title": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T12:19:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    23
+   ],
+   "title_en": "Scientists discover a way to reverse coral bleaching at record speed",
+   "headline_zh": "短暂接触健康克隆可使白化珊瑚在七周内完全恢复",
+   "summary_zh": "实验室中，濒死的白化珊瑚在与健康克隆短暂接触后完全恢复，七周内从白化状态回到健康，为目前记录到的最快恢复速度；研究发表于 Science Advances。候选材料未说明接触的具体机制与规模。",
+   "why_it_matters_zh": "恢复速度与「接触即可」这一条件，指向可迁移的共生体或微生物传递机制，为珊瑚修复提供了时间尺度上的可行性依据；但实验室结果向礁区推广仍待验证。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "珊瑚白化",
+    "共生",
+    "修复"
+   ],
+   "records": [
+    {
+     "ref": 23,
+     "channel": "news",
+     "title": "Scientists discover a way to reverse coral bleaching at record speed",
+     "url": "https://phys.org/news/2026-10-scientists-reverse-coral.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T16:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Climate change affects the quality of one of the world's most important staple foods",
+   "headline_zh": "高 CO₂ 改变小麦蛋白组成，影响烘焙品质与耐受性",
+   "summary_zh": "由慕尼黑工业大学莱布尼茨食品系统生物学研究所领衔的研究发现，依品种不同，大气 CO₂ 浓度升高会显著改变小麦的蛋白组成，进而影响烘焙品质，并可能影响小麦制品的耐受性；文章发表于 Food Chemistry。候选材料未给出 CO₂ 处理水平与蛋白组分变化的具体数据。",
+   "why_it_matters_zh": "作物适应气候变化的育种目标目前以产量为主，该结果提示品质性状（蛋白组成）也应纳入筛选指标，对粮食安全评估的口径是一个修正。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "小麦",
+    "CO₂",
+    "蛋白组成",
+    "粮食安全"
+   ],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "news",
+     "title": "Climate change affects the quality of one of the world's most important staple foods",
+     "url": "https://phys.org/news/2026-10-climate-affects-quality-world-important.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T19:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    36
+   ],
+   "title_en": "Two monster black holes could collide in just 100 years",
+   "headline_zh": "Mrk 501 中心两个超大质量黑洞或在一百年内并合",
+   "summary_zh": "天文学家在星系 Mrk 501 中心发现两个超大质量黑洞相互旋进的证据：一条此前未见的喷流暗示第二个黑洞的存在，观测显示该对黑洞轨道周期约 121 天。依质量不同，并合可能短至一百年内发生。候选材料未给出质量测量方法与置信度。",
+   "why_it_matters_zh": "超大质量黑洞双星从旋进到并合的时标一直缺乏观测锚点；若并合时标真为百年量级，则同时意味着存在可期待的引力波与多信使观测目标。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "超大质量黑洞双星",
+    "喷流",
+    "Mrk 501"
+   ],
+   "records": [
+    {
+     "ref": 36,
+     "channel": "news",
+     "title": "Two monster black holes could collide in just 100 years",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261016070650.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T12:03:18+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "Scientists discover that male and female skin play by different rules",
+   "headline_zh": "雌雄皮肤干细胞更新策略不同，雌性愈合更快",
+   "summary_zh": "研究者在小鼠活体内追踪单个皮肤干细胞五个月，发现雌性干细胞以高度协同的方式工作，雄性则更独立；这种同步性由性激素驱动，并解释雌性小鼠伤口在前几天愈合更快。候选材料未给出分子机制细节。",
+   "why_it_matters_zh": "皮肤修复研究长期以雄性动物为主，该结果提示性别应作为实验设计的显式变量，也影响以干细胞同步性为靶的再生策略。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "皮肤干细胞",
+    "性别差异",
+    "伤口愈合"
+   ],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "news",
+     "title": "Scientists discover that male and female skin play by different rules",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261017230020.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T10:52:51+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "Scientists discover a natural compound that could protect the brain from too much salt",
+   "headline_zh": "大豆来源化合物 LPC70 缓解高盐饮食对小鼠脑功能的影响",
+   "summary_zh": "日本研究者发现，高盐饮食小鼠补充大豆来源化合物 LPC70 后，血压更低、记忆更好、社交互动改善，相对单纯高盐组。候选材料未给出剂量、样本量与机制通路。",
+   "why_it_matters_zh": "把高盐的危害从血压扩展到记忆与社交行为，并提出一个可口服的干预候选；目前仅为小鼠证据，不宜外推。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "高盐饮食",
+    "LPC70",
+    "认知"
+   ],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "news",
+     "title": "Scientists discover a natural compound that could protect the brain from too much salt",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T13:46:34+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "Japan to launch historic round-trip mission to Mars moon",
+   "headline_zh": "日本 MMX 任务即将发射，拟首次从火卫一取样返回",
+   "summary_zh": "日本火星卫星探测（MMX）任务准备发射，目标是从火星卫星 Phobos 取样并返回，若成功将是火星区域的首次往返采样任务。候选材料未给出确切发射日期与采样量。",
+   "why_it_matters_zh": "Phobos 物质可能包含火星抛射物，返回样品可同时约束火星演化与太阳系早期物质；这是采样返回能力从月球、小行星向火星系统延伸的一步。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "MMX",
+    "Phobos",
+    "采样返回"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "news",
+     "title": "Japan to launch historic round-trip mission to Mars moon",
+     "url": "https://phys.org/news/2026-10-japan-historic-mission-mars-moon.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-18T20:20:01+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[8] 5D 原初黑洞边界重算：作者称将发布含澄清的修订版且结果不变，需跟踪修订稿与同行评审进展；同时注意其 AI 辅助计算的声明，复核代码可得性。",
+  "[17] 分数费米海：目前仅有媒体表述，需找到原始预印本或论文，核对「super-Fermions」的判据与实验证据强度。",
+  "[9] 空间基因组学工具：候选材料缺方法细节，待原文确认分辨率与是否兼容常规组织切片流程。",
+  "[36] Mrk 501 双黑洞：121 天周期与百年并合时标高度依赖质量估计，待独立观测验证。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 222,
+   "dup_in_run": 0,
+   "already_seen": 146,
+   "dropped_by_penalty": 1,
+   "dropped_by_window": 68,
+   "unique": 7,
+   "candidates": 7
+  },
+  "hot": {
+   "fetched": 58,
+   "dup_in_run": 0,
+   "already_seen": 58,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 158,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 127,
+   "unique": 31,
+   "candidates": 31
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 1,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 1,
+   "candidates": 1
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 21,
+   "kept": 20,
+   "elapsed_s": 1.12,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.45,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 34,
+   "kept": 34,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 0.66,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 2.64,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.38,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.43,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.51,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 5,
+   "elapsed_s": 0.87,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.38,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.09,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.45,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.3,
+   "error": ""
+  }
+ ]
+}
