@@ -1,0 +1,945 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-22 08:04 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日 Nature 集中上线一批跨学科成果，几条主线值得注意：AI 驱动的功能蛋白从头设计（自然语言直接生成蛋白、人工金属酶光催化剂）正在压缩“设计—验证”的迭代环节；细胞与分子机制方面，星形胶质细胞亚型标记、蛋白稳态的细胞器间质控、冷刺激—BH2 代谢—长寿通路、Angelman 综合征的持续应激信号，都给出了可操作的分子节点。材料与器件方向，全反铁磁隧道结的八极驱动自旋力矩开关、可交互织物光纤像素、超长单晶增材制造，指向器件尺度的新物理与新工艺。气候与生态方面，亚马逊碳汇减弱、盐沼消浪的边界条件、深海可降解聚酯，都是有明确定量结论的工作。预印本通道今日无条目；科学媒体报道以综述、观察性研究和机构新闻为主，仅择要收录。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
+   "headline_zh": "用 CD51 把星形胶质细胞分出功能亚型",
+   "summary_zh": "研究以 CD51 为表面标记，区分出一类功能上独立的星形胶质细胞亚型，并分别在三套场景中验证其作用：发育期皮层中促进突触形成、海马中参与环路可塑性、卒中后参与环路重塑。摘要未给出分选方法与因果性实验设计细节。",
+   "why_it_matters_zh": "星形胶质细胞异质性长期缺乏可靠的表面标记，若 CD51 能稳定区分功能亚型，则发育、可塑性与损伤修复三条研究线可以共用同一套细胞分类与靶向工具。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "星形胶质细胞",
+    "细胞亚型",
+    "突触形成",
+    "卒中修复"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
+     "url": "https://www.nature.com/articles/s41586-026-11186-z",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11186-z",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "GRP75-dependent SIMPA mediates inter-organellar quality control",
+   "headline_zh": "蛋白毒性应激下的线粒体—内质网接触位点质控通路",
+   "summary_zh": "蛋白毒性应激会驱动形成 GRP75 依赖的蛋白聚集体，这些聚集体通过线粒体—内质网接触位点发出信号，激活定向质控通路，从而选择性清除受损蛋白并维持线粒体完整性。作者将这一机制命名为 SIMPA。",
+   "why_it_matters_zh": "把“蛋白聚集”从单纯的病理终点改写为一种信号事件，并给出 GRP75 这一可干预节点；对蛋白稳态疾病与线粒体损伤相关研究提供了新的通路框架。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "蛋白稳态",
+    "线粒体—内质网接触",
+    "GRP75",
+    "质控"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "GRP75-dependent SIMPA mediates inter-organellar quality control",
+     "url": "https://www.nature.com/articles/s41586-026-10733-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-10733-y",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Programmable design of functional proteins from natural language",
+   "headline_zh": "160 亿参数模型 Pinal 直接从自然语言生成功能蛋白",
+   "summary_zh": "作者提出 Pinal，一个 160 亿参数的人工智能模型，可从自然语言描述直接设计功能蛋白；实验验证了所设计蛋白具有活性，并在不进行迭代优化的情况下提高了 CO2 固定产物产量。",
+   "why_it_matters_zh": "关键不在模型规模，而在“无需迭代优化”即可得到有活性的设计——这省掉的是蛋白工程中最耗时的湿实验闭环，若可推广，代谢通路与酶改造的起点将从筛选变为直接生成。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "蛋白设计",
+    "语言模型",
+    "CO2 固定",
+    "无需迭代优化"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Programmable design of functional proteins from natural language",
+     "url": "https://www.nature.com/articles/s41586-026-11205-z",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11205-z",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "De novo design of enantioselective artificial metalloenzyme photocatalysts",
+   "headline_zh": "从头设计兼具对映选择性的金属酶光催化剂",
+   "summary_zh": "候选行仅给出标题，摘要字段与标题重复，未提供设计策略、选择性数值或底物范围等信息。",
+   "why_it_matters_zh": "若成立，意味着把光催化与手性控制同时装进可设计的蛋白骨架，将拓展生物催化在光化学不对称合成中的位置；但具体性能需查原文确认。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "人工金属酶",
+    "光催化",
+    "对映选择性",
+    "从头设计"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "De novo design of enantioselective artificial metalloenzyme photocatalysts",
+     "url": "https://www.nature.com/articles/s41586-026-11317-6",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11317-6",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Multimodal precision diagnostics in clinical xenotransplantation",
+   "headline_zh": "超急性排斥被控制后，异种移植需要新的损伤监测框架",
+   "summary_zh": "文章指出，猪异种移植物超急性排斥已能被可靠预防，随之浮现的是常规诊断常漏检的、更隐蔽的免疫介导移植物损伤；据此提出一套多模态精准诊断框架，用于更早检出这类损伤、指导个体化免疫抑制并反哺未来的基因编辑策略选择。",
+   "why_it_matters_zh": "这是异种移植从“能否存活”转向“如何长期管理”的方法学问题——诊断窗口前移，直接决定免疫抑制方案与供体基因编辑的迭代方向。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "异种移植",
+    "免疫损伤",
+    "多模态诊断",
+    "基因编辑"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "Multimodal precision diagnostics in clinical xenotransplantation",
+     "url": "https://www.nature.com/articles/s41586-026-11096-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11096-0",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "The contribution of salt marshes to wave attenuation during extreme storms",
+   "headline_zh": "盐沼消浪有明确边界：主要限于波高 1 米以下的低能海岸",
+   "summary_zh": "大型实验表明，盐沼平台在极端波浪下能抵抗侵蚀，但植被受损会削弱消浪能力；植被带来的显著消浪主要局限于波高低于 1 米的低能盐沼海岸。",
+   "why_it_matters_zh": "给“盐沼作为海岸防护”划出了适用条件——把基于自然的防护方案从普遍主张收紧为可设计的分区参数，避免在高能海岸高估其作用。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "盐沼",
+    "消浪",
+    "极端风暴",
+    "基于自然的防护"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "The contribution of salt marshes to wave attenuation during extreme storms",
+     "url": "https://www.nature.com/articles/s41586-026-11145-8",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11145-8",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Zeolite-catalysed olefin carbonylation based on tuning spatial confinement",
+   "headline_zh": "调孔道限域，让分子筛催化烯烃羰基化",
+   "summary_zh": "采用具有合适孔结构的分子筛并结合高 CO/烯烃比，可实现烯烃羰基化，主产物为伯羧酸和仲羧酸。",
+   "why_it_matters_zh": "把羰基化从均相贵金属体系向可调限域的固体酸/孔道体系推进了一步；孔结构作为可调变量，为产物分布调控提供了除配体之外的另一条路径。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "分子筛",
+    "羰基化",
+    "空间限域",
+    "羧酸"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Zeolite-catalysed olefin carbonylation based on tuning spatial confinement",
+     "url": "https://www.nature.com/articles/s41586-026-11183-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11183-2",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Cold activates a BH2 metabolic network promoting longevity and proteostasis",
+   "headline_zh": "低温经 BH2 代谢网络延长寿命并增强蛋白稳态",
+   "summary_zh": "在秀丽隐杆线虫中鉴定出一个多组织信号系统，将低温与寿命延长和蛋白稳态增强联系起来，该网络以 BH2 代谢为核心。",
+   "why_it_matters_zh": "把温度这一环境变量落到具体的代谢物网络上，为“低温延寿”提供了可遗传操作的中介环节，而非停留在现象描述。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "低温",
+    "BH2",
+    "长寿",
+    "蛋白稳态",
+    "线虫"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Cold activates a BH2 metabolic network promoting longevity and proteostasis",
+     "url": "https://www.nature.com/articles/s41586-026-11152-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11152-9",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "WEE1 opposes APC/C CDH1 activity to promote S phase entry",
+   "headline_zh": "WEE1 推动静息细胞重新进入细胞周期",
+   "summary_zh": "实验与建模数据表明，WEE1 通过拮抗 APC/C-CDH1 活性促进静息细胞重新进入细胞周期，这一作用可能解释 WEE1 抑制剂在肿瘤治疗中的毒性副作用。",
+   "why_it_matters_zh": "为 WEE1 抑制剂的临床毒性提供了细胞周期机制层面的解释，也提示静息细胞再进入是这类药物副作用的关键变量。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "WEE1",
+    "APC/C-CDH1",
+    "S 期",
+    "药物毒性"
+   ],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "WEE1 opposes APC/C CDH1 activity to promote S phase entry",
+     "url": "https://www.nature.com/articles/s41586-026-11188-x",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11188-x",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "A single archaeon couples long-chain fatty acid oxidation to methanogenesis",
+   "headline_zh": "一株古菌独自完成长链脂肪酸氧化与产甲烷",
+   "summary_zh": "从中国一处石油储层分离出嗜热古菌 Methanoglobus dolicholipophagus AA-75，它可将甲醇转化为甲烷、二氧化碳和乙酸，并能利用饱和与不饱和脂肪酸产生甲烷。",
+   "why_it_matters_zh": "脂肪酸降解与产甲烷此前多被视为需要互养群落分工完成的过程，单株菌完成偶联改变了油藏等厌氧环境中碳流与甲烷生成的模型假设。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "古菌",
+    "产甲烷",
+    "脂肪酸氧化",
+    "石油储层"
+   ],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "paper",
+     "title": "A single archaeon couples long-chain fatty acid oxidation to methanogenesis",
+     "url": "https://www.nature.com/articles/s41586-026-11207-x",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11207-x",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "An environmentally regulated dichotomy in cell lineages of the root",
+   "headline_zh": "根尖多种细胞类型共享一种环境调控的二分状态",
+   "summary_zh": "在根尖多个细胞类型中鉴定出一种受环境调控的细胞状态，并揭示出“具有该状态”与“不具有该状态”细胞之间的共享二分格局。",
+   "why_it_matters_zh": "提示根尖的细胞身份划分不只按谱系，还存在跨细胞类型的共同状态轴，且该轴受环境输入调节——这会影响对根发育可塑性的建模方式。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "根尖",
+    "细胞状态",
+    "环境调控",
+    "谱系"
+   ],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "paper",
+     "title": "An environmentally regulated dichotomy in cell lineages of the root",
+     "url": "https://www.nature.com/articles/s41586-026-11179-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11179-y",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Persistent neuronal stress signalling underlies Angelman syndrome phenotypes",
+   "headline_zh": "UBE3A 缺失导致天冬酰胺合成酶过量与持续应激信号",
+   "summary_zh": "在人类神经元与小鼠模型中进行遗传与蛋白质组分析，发现泛素连接酶 UBE3A 缺失导致天冬酰胺合成酶过量积累，并与多种 Angelman 综合征表型相关联。",
+   "why_it_matters_zh": "把该综合征从“基因缺失”推进到一个可测量的下游代谢—应激节点，为表型干预提供了除基因恢复之外的候选靶点。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "Angelman 综合征",
+    "UBE3A",
+    "天冬酰胺合成酶",
+    "神经元应激"
+   ],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Persistent neuronal stress signalling underlies Angelman syndrome phenotypes",
+     "url": "https://www.nature.com/articles/s41586-026-11165-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11165-4",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Structural basis for protocadherin-1 recognition by New World hantaviruses",
+   "headline_zh": "安第斯病毒刺突与 PCDH1 复合物结构揭示受体识别决定因素",
+   "summary_zh": "解析了 PCDH1 与安第斯病毒（ANDV）刺突结合的复合物结构，界定了汉坦病毒—受体识别的结构决定因素。",
+   "why_it_matters_zh": "受体结合界面的结构信息是抗病毒与疫苗设计的直接输入，也解释了新世界汉坦病毒宿主嗜性的分子基础。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "汉坦病毒",
+    "PCDH1",
+    "受体识别",
+    "结构解析"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "Structural basis for protocadherin-1 recognition by New World hantaviruses",
+     "url": "https://www.nature.com/articles/s41586-026-11184-1",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11184-1",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "Octupole-driven spin torque switching of antiferromagnetic tunnel junctions",
+   "headline_zh": "全反铁磁隧道结实现大隧穿磁阻与八极驱动自旋力矩翻转",
+   "summary_zh": "全反铁磁隧道结同时表现出大隧穿磁阻与一种互易的开关效应——由八极驱动的自旋转移力矩实现翻转，作者指出这可用于纳米尺度磁存储，并有望支持室温太赫兹自旋电子器件。",
+   "why_it_matters_zh": "反铁磁体此前难以电学读写，八极作为开关量给出了新的电控自由度；若室温可复现，反铁磁存储与太赫兹器件的材料选择将不再受限于易失性读写方案。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "反铁磁",
+    "隧道结",
+    "八极",
+    "自旋力矩",
+    "太赫兹"
+   ],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "Octupole-driven spin torque switching of antiferromagnetic tunnel junctions",
+     "url": "https://www.nature.com/articles/s41586-026-11172-5",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11172-5",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "Functional architecture of the human insula",
+   "headline_zh": "把岛叶细胞构筑与有向电生理交互对应起来",
+   "summary_zh": "构建了人类岛叶的功能架构，将细胞构筑与有向、非对称的电生理相互作用联系起来，并对疼痛的认知调控与内感受体验提出机制性含义。",
+   "why_it_matters_zh": "岛叶长期因解剖埋深而难以在体研究，有向且非对称的交互图谱为“认知如何调制疼痛与内感受”提供了可检验的环路假设。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "岛叶",
+    "细胞构筑",
+    "有向连接",
+    "内感受",
+    "疼痛"
+   ],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "paper",
+     "title": "Functional architecture of the human insula",
+     "url": "https://www.nature.com/articles/s41586-026-11175-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11175-2",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Touch-sensing digital pixel fibre enables interactive garment GUI",
+   "headline_zh": "集显示、触感、计算于一体的数字光纤织物",
+   "summary_zh": "多功能数字光纤集成显示、触觉传感、计算与多模态输入输出，可制成柔性、可水洗的服装，具备交互式图形界面与无线多媒体能力。",
+   "why_it_matters_zh": "把“可穿戴显示”与“可穿戴输入”合并到同一根纤维上，并保留可水洗性——这是织物电子从演示走向日常穿用的关键约束条件。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "数字光纤",
+    "触觉传感",
+    "织物显示",
+    "可水洗"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "paper",
+     "title": "Touch-sensing digital pixel fibre enables interactive garment GUI",
+     "url": "https://www.nature.com/articles/s41586-026-11128-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11128-9",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "Additive manufacturing of ultralong and architected single crystals",
+   "headline_zh": "交替脉冲热输入打印米级单晶",
+   "summary_zh": "提出一种自由成形增材制造方法，通过交替与脉冲热输入，制备出米级高度、厘米级直径的 Ti-6Al-4V 单晶，并扩展到 W、Mo、Nb 及 MoNb 合金等难加工难熔金属。",
+   "why_it_matters_zh": "单晶的尺寸此前受制于铸造与定向凝固工艺，若增材制造能直接长出米级单晶并兼容难熔金属，高温结构件与单晶器件的成形路径将被重写。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "单晶",
+    "增材制造",
+    "钛合金",
+    "难熔金属"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "paper",
+     "title": "Additive manufacturing of&#xa0;ultralong and architected single crystals",
+     "url": "https://www.nature.com/articles/s41586-026-11185-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11185-0",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Enzyme-embedded polyesters for accelerated biodegradation in the deep sea",
+   "headline_zh": "热嵌入酶使可堆肥聚酯在深海接近完全降解",
+   "summary_zh": "酶嵌入的可堆肥聚酯在深海环境中接近完全降解，热嵌入酶显著加速了其在多种海洋环境中的分解，同时保持材料使用性能。",
+   "why_it_matters_zh": "深海是塑料降解研究中最缺乏数据的场景；在保持材料性能的前提下实现深海快速降解，直接针对“可降解塑料在海洋中并不降解”这一长期质疑。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "可降解聚酯",
+    "酶嵌入",
+    "深海",
+    "塑料污染"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "paper",
+     "title": "Enzyme-embedded polyesters for accelerated biodegradation in the deep sea",
+     "url": "https://www.nature.com/articles/s41586-026-11192-1",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11192-1",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Amazon carbon emissions driven by human actions amplified by droughts",
+   "headline_zh": "15 年大气 CO2 观测显示亚马逊碳汇持续减弱",
+   "summary_zh": "基于 15 年大气 CO2 测量，显示亚马逊碳汇正在减弱，火灾、毁林与气候胁迫共同驱动碳排放不断升高，干旱起到放大作用。",
+   "why_it_matters_zh": "用大气观测而非模型清单给出碳汇减弱的直接证据，把“人类活动—干旱”的叠加效应量化为排放趋势，对全球碳收支评估是硬约束。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "亚马逊",
+    "碳汇",
+    "干旱",
+    "毁林",
+    "大气观测"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Amazon carbon emissions driven by human actions amplified by droughts",
+     "url": "https://www.nature.com/articles/s41586-026-11168-1",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11168-1",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "The proteome of Middle Pleistocene Xujiayao and common Denisovan morphology",
+   "headline_zh": "许家窑蛋白组指向丹尼索瓦人的共同形态特征",
+   "summary_zh": "基于许家窑及其他东亚遗址的蛋白组数据，作者提出丹尼索瓦人具有可辨识的形态组合：低颅型、近乎平行的侧壁、粗壮的眶上圆枕、平坦的颧上颌区与弱颌突。",
+   "why_it_matters_zh": "丹尼索瓦人此前主要靠分子数据识别、缺乏可靠形态锚点；把蛋白组与形态对应起来，使东亚若干化石标本可以被重新归入这一支系。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "丹尼索瓦人",
+    "许家窑",
+    "古蛋白组",
+    "形态学"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "The proteome of Middle Pleistocene Xujiayao and common Denisovan morphology",
+     "url": "https://www.nature.com/articles/s41586-026-11132-z",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11132-z",
+     "published": "2026-10-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "Laser-made lattice reveals discrete light solitons in tunable atomic vapor",
+   "headline_zh": "温热铷蒸气中实验实现离散一维光孤子",
+   "summary_zh": "萨格勒布物理研究所量子技术组与 PMF 物理系合作者，在温热铷蒸气中由光诱导形成光子晶格，首次实验证明其中存在离散一维光孤子。",
+   "why_it_matters_zh": "把离散孤子这一非线性晶格现象搬到可调谐的原子蒸气平台，意味着晶格参数与非线性强度可通过光与温度连续调节，而非固定在固体波导中。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "离散孤子",
+    "光子晶格",
+    "铷蒸气",
+    "非线性光学"
+   ],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "news",
+     "title": "Laser-made lattice reveals discrete light solitons in tunable atomic vapor",
+     "url": "https://phys.org/news/2026-10-laser-lattice-reveals-discrete-solitons.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-21T22:20:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "New optogenetic tool inhibits activity in neurons and heart muscle cells",
+   "headline_zh": "光控抑制工具同时适用于神经元与心肌细胞",
+   "summary_zh": "波鸿鲁尔大学与哥廷根、柏林、巴黎、埃森的合作者开发出新型光遗传学工具，可通过光选择性抑制细胞活动，作者指出其可用于研究兴奋—抑制平衡被破坏的疾病，如心律失常。",
+   "why_it_matters_zh": "抑制型光遗传学工具在心肌这类强电耦合组织中的可用性一直有限；跨神经元与心肌的通用性，使同一套光控手段可同时用于神经环路与心律研究。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "光遗传学",
+    "抑制性工具",
+    "心肌细胞",
+    "心律失常"
+   ],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "news",
+     "title": "New optogenetic tool inhibits activity in neurons and heart muscle cells",
+     "url": "https://phys.org/news/2026-10-optogenetic-tool-inhibits-neurons-heart.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-21T23:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    64
+   ],
+   "title_en": "Too much RNA can starve cells of energy, scientists discover",
+   "headline_zh": "过量 RNA 不依赖免疫系统直接破坏线粒体",
+   "summary_zh": "研究发现，过量 RNA（包括通常必需的 mRNA）可直接破坏线粒体，且这一过程不依赖免疫系统；作者认为这有助于解释病毒感染与某些衰老相关疾病如何损伤细胞。",
+   "why_it_matters_zh": "把 RNA 过载从“免疫激活的副产物”改写为独立的线粒体损伤机制，为病毒感染的细胞病理与衰老相关能量代谢异常提供了另一条解释路径。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "RNA 过载",
+    "线粒体",
+    "能量代谢",
+    "病毒感染"
+   ],
+   "records": [
+    {
+     "ref": 64,
+     "channel": "news",
+     "title": "Too much RNA can starve cells of energy, scientists discover",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261020085023.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-21T13:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    60
+   ],
+   "title_en": "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells",
+   "headline_zh": "体外逆转逾 60 年细胞衰老",
+   "summary_zh": "报道称科学家把 80 岁供体的血细胞转变为分子年龄不足 20 岁的神经干细胞，在实验室中实现逾 60 年的细胞衰老逆转；作者认为这为研究细胞如何“变年轻”及阿尔茨海默病等年龄相关疾病提供了新途径。",
+   "why_it_matters_zh": "若分子年龄评估可靠，这意味着衰老相关表型在体外具有可逆性，且可用血液这类易获取样本起始；但该报道为媒体转述，具体重编程策略与年龄判定方法需查原文。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "细胞重编程",
+    "衰老逆转",
+    "神经干细胞",
+    "分子年龄"
+   ],
+   "records": [
+    {
+     "ref": 60,
+     "channel": "news",
+     "title": "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-21T11:03:52+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "AI 设计功能蛋白进入“免迭代”阶段（refs: 3、56）：Nature 的 Pinal 与 Phys.org 报道的酶组分设计同日出现，值得跟踪两者在实验验证深度上的差别，以及“无需迭代优化”这一主张的可复现性。",
+  "盐沼消浪的适用边界（refs: 7、54）：Nature 论文与 Phys.org 报道指向同一组大型波浪实验，后者提到结果同时发表于 Nature 与 Communications Sustainability；关注其数据是否支持将盐沼纳入高能海岸的防护设计。",
+  "反铁磁隧道结的电学开关自由度（refs: 15）：八极驱动自旋力矩是新机制，需跟踪室温可复现性与器件尺寸缩放后的开关电流。",
+  "异种移植诊断框架的落地（refs: 6）：多模态诊断目前是框架性提议，关注其是否伴随具体生物标志物与临床验证数据。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 232,
+   "dup_in_run": 0,
+   "already_seen": 153,
+   "dropped_by_penalty": 2,
+   "dropped_by_window": 46,
+   "unique": 31,
+   "candidates": 31
+  },
+  "hot": {
+   "fetched": 57,
+   "dup_in_run": 0,
+   "already_seen": 57,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 165,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 127,
+   "unique": 38,
+   "candidates": 38
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 42,
+   "kept": 41,
+   "elapsed_s": 1.72,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 34,
+   "kept": 34,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.39,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 0.83,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.6,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.46,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 4,
+   "kept": 4,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.53,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.41,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.57,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 6,
+   "elapsed_s": 1.37,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.44,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.22,
+   "error": ""
+  }
+ ]
+}
