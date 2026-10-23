@@ -1,0 +1,737 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-23 08:02 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选以 Science 与 Nature 系上线论文为主，覆盖量子材料、AI 辅助科研与临床、细胞死亡机制、基因调控与能源材料等方向。量子材料方面，多篇工作借助扫描隧道显微镜直接成像莫尔体系中的广义 Wigner 晶体熔化、对称破缺 Chern 绝缘体及其量子熔化，以及二维金属中的电子连续谱束缚态，构成一组关于强关联与拓扑相变的实验进展。AI 方向既有面向序贯诊断与药物开发的多智能体系统，也有关于 AI 安全应放在人—机系统层面讨论的政策评论。生命科学侧，BAX/BAK 复合物驱动 mtDNA 外排的非凋亡死亡通路、非编码转录对发育时序的调控、内含子保留调控 STAT2 与免疫治疗应答等，均给出了机制层面的新证据。另有柔性钙钛矿组件、无线电催化降糖器件等应用导向成果。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Electronic bound states in the continuum in a two-dimensional metal",
+   "headline_zh": "二维金属中首次观测到电子连续谱束缚态",
+   "summary_zh": "研究用扫描隧道显微镜在二维范德华金属 Pd5AlI2 中识别出两个缺陷诱导的局域电子态，它们位于金属连续谱之内却保持局域。计算表明，装饰棋盘格晶格上的电子跃迁干涉产生了由空间局域本征态构成的（准）平带，这些本征态与色散连续谱正交；受挫晶格中的原子缺陷把相关平带局域态推入金属连续谱，形成受对称性保护的稳健 BIC。",
+   "why_it_matters_zh": "光学 BIC 已在光子系统中实现，而电子 BIC 嵌入金属背景一直难以做到。该工作把 BIC 概念扩展到二维金属，并给出缺陷与平带作为调控手段，为在金属体系中利用局域态进行输运或谱学调控提供了实验起点。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "BIC",
+    "二维金属",
+    "扫描隧道显微镜",
+    "平带"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Electronic bound states in the continuum in a two-dimensional metal",
+     "url": "https://doi.org/10.1126/science.adt9825",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adt9825",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Imaging electron-hole asymmetry in the quantum melting of generalized Wigner crystals",
+   "headline_zh": "直接成像广义 Wigner 晶体量子熔化中的电子—空穴不对称",
+   "summary_zh": "在近 60° 扭转的 MoSe2 双层的三角莫尔超晶格中，用 STM 成像电子掺杂下广义 Wigner 晶体与 Mott 绝缘体的密度驱动熔化。空穴掺杂的 GWC 熔化为相互作用驱动的无序态，电子掺杂的 GWC 则熔化为离域类液态；作者将其归因于莫尔超晶格破缺的粒子—空穴对称性使 GWC 凝聚后电子与空穴费米口袋具有不同动量几何。Mott 绝缘体熔化不表现该不对称，与缺乏对称破缺密度调制一致。",
+   "why_it_matters_zh": "把 GWC 量子熔化的终态与莫尔能带的粒子—空穴对称性破缺直接对应起来，为区分相互作用驱动与能带驱动相变提供了可成像的判据。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "广义Wigner晶体",
+    "量子熔化",
+    "莫尔超晶格",
+    "STM"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "Imaging electron-hole asymmetry in the quantum melting of generalized Wigner crystals",
+     "url": "https://doi.org/10.1126/science.aee6967",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aee6967",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "Visualizing symmetry-broken Chern insulators and their quantum melting",
+   "headline_zh": "可视化对称破缺 Chern 绝缘体及其量子熔化",
+   "summary_zh": "用 STM 研究与六方氮化硼对齐的双层石墨烯中的 Hofstadter 态，直接观察到相互作用驱动的对称破缺 Chern 绝缘体形成：在 Hofstadter 带分数填充处出现使莫尔单胞加倍、三倍或四倍的相，以及具有复杂单胞内波函数的态。作者在不同 Chern 态中成像了两种量子现象——由拓扑缺陷出现与增殖驱动的量子熔化，以及与相竞争和相分离共存的量子转变。",
+   "why_it_matters_zh": "把 Hofstadter 谱中的拓扑相与相互作用驱动的对称破缺在实空间对应起来，并展示拓扑缺陷介导的熔化路径，为莫尔体系中拓扑相变的微观机制提供了直接图像。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "Chern绝缘体",
+    "Hofstadter谱",
+    "量子熔化",
+    "STM"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "Visualizing symmetry-broken Chern insulators and their quantum melting",
+     "url": "https://doi.org/10.1126/science.aef0940",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aef0940",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Sequential diagnosis with language models",
+   "headline_zh": "语言模型在序贯诊断基准上大幅超过全科医生",
+   "summary_zh": "作者构建了交互式序贯诊断基准，模拟临床推理中逐步获取信息的过程，并开发了模拟医生小组、持续修正鉴别诊断并选择高性价比检查的 AI 系统。该系统在 NEJM 临床病理讨论会病例上准确率 83.2%，在 MIMIC-IV-ED 急诊入院数据上 80.3%，而全科医生分别为 36.1% 和 46.8%。作者强调结果来自受控基准环境。",
+   "why_it_matters_zh": "把诊断能力评估从单轮问答推进到有检查成本的序贯决策，并给出与人类医生同基准对比的数字；同时明确基准与真实临床的差距，为后续临床验证设定了对照基线。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "语言模型",
+    "序贯诊断",
+    "基准评测",
+    "临床推理"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Sequential diagnosis with language models",
+     "url": "https://doi.org/10.1126/science.aeh7930",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh7930",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "The Virtual Biotech: A multi-agent AI framework for therapeutic discovery and development",
+   "headline_zh": "多智能体 AI 组织“虚拟生物技术公司”用于药物开发决策",
+   "summary_zh": "作者构建了按药物开发公司组织划分的 AI 智能体系统，覆盖靶点发现、安全性评估、模态选择与临床开发。在三个决策点上演示：37,000 余个智能体标注 55,984 项试验结果，发现靶向细胞类型特异基因的药物上市概率高 48%、不良事件少 32%；整合多模态证据提出肺癌治疗策略；分析一项终止的溃疡性结肠炎试验并推断失败机制。",
+   "why_it_matters_zh": "把多智能体系统用于药物开发的实际决策节点而非单一预测任务，并给出可追溯的大规模试验标注结果，为 AI 辅助研发决策提供了可检验的框架示例。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "多智能体",
+    "药物开发",
+    "临床试验",
+    "证据整合"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "The Virtual Biotech: A multi-agent AI framework for therapeutic discovery and development",
+     "url": "https://doi.org/10.1126/science.aeg6779",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeg6779",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "BAK and BAX form a multiprotein complex to drive mtDNA efflux and caspase-independent cell death",
+   "headline_zh": "BAX/BAK 多蛋白复合物驱动 mtDNA 外排与非 caspase 依赖的细胞死亡",
+   "summary_zh": "作者纯化出包含 BAK、BAX、激活型 BH3-only 分子、VDAC1/VDAC2 与 prohibitins 的大分子复合物，该复合物可从线粒体膜小体释放 mtDNA。BAX-BAK 激活导致 VDAC 关闭、线粒体钙内流与 mtDNA 外排；缺失 VDAC1、VDAC2 或 prohibitins 可阻断 mtDNA 外排与非 caspase 依赖死亡，但不影响 MOMP 或线粒体内膜疝出。",
+   "why_it_matters_zh": "表明细胞色素 c 与 mtDNA 的外排由不同的 BAX-BAK 复合物分别调控，把 MOMP 下游的死亡通路拆分为可区分的分支，为干预非凋亡性细胞死亡提供了分子靶点。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "BAX/BAK",
+    "mtDNA外排",
+    "VDAC",
+    "非caspase依赖死亡"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "BAK and BAX form a multiprotein complex to drive mtDNA efflux and caspase-independent cell death",
+     "url": "https://doi.org/10.1126/science.aea2181",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aea2181",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Noncoding transcription controls the developmental dynamics of long-range gene regulation",
+   "headline_zh": "非编码转录调控发育中长程基因调控的时序",
+   "summary_zh": "作者用活体成像在果蝇胚胎中显示，来自不同调控元件的非编码 RNA 依次转录构成基因激活的基础。单等位基因共可视化表明，最佳基因激活只需要中等水平的增强子活性；破坏增强子相关 ncRNA 会导致基因过早激活，说明 ncRNA 控制发育中基因表达的时序。进一步显示增强子转录可调控复杂调控景观内的长程相互作用。",
+   "why_it_matters_zh": "把增强子转录从“副产物”提升为调控元件活性与时序的顺式调节因子，为理解发育中基因激活为何需要精确时间窗提供了机制解释。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "非编码RNA",
+    "增强子转录",
+    "活体成像",
+    "发育时序"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Noncoding transcription controls the developmental dynamics of long-range gene regulation",
+     "url": "https://doi.org/10.1126/science.aek5696",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aek5696",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer",
+   "headline_zh": "STAT2 内含子保留调控干扰素信号并与肺癌免疫治疗应答相关",
+   "summary_zh": "作者用长读长 RNA 测序绘制人原发肺腺癌可变剪接图谱，鉴定出超过 149,000 条全长 mRNA 异构体，其中过半未注释，许多位于免疫相关基因、尤其 I 型干扰素通路。功能表征显示 STAT2 基因保留内含子产生改变蛋白异构体，调控免疫信号与干扰素应答，并与抗 PD-L1 免疫治疗后患者生存相关。",
+   "why_it_matters_zh": "把可变剪接、特别是 STAT2 内含子保留，定位为肿瘤免疫应答的调控轴，并给出与 PD-L1 检查点抑制剂应答的临床关联，为免疫治疗应答差异提供了剪接层面的候选解释。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "内含子保留",
+    "STAT2",
+    "长读长测序",
+    "PD-L1"
+   ],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer",
+     "url": "https://doi.org/10.1126/science.aea7156",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aea7156",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Thermodynamic origin of the phonon Hall effect in a honeycomb antiferromagnet",
+   "headline_zh": "蜂窝反铁磁体 NiPS3 中声子霍尔效应的热力学起源",
+   "summary_zh": "作者在具有锯齿反铁磁序的范德华蜂窝层状 NiPS3 中报道了可观的热霍尔电导。纵向 κaa 与横向 κab 在同一温度达峰，峰值处热霍尔角满足此前提出的上界；κab 幅度对 b 轴磁化强度极为敏感，却与声子平均自由程不相关，指向内禀起源。",
+   "why_it_matters_zh": "为多种绝缘体中声子热霍尔效应的机制争议提供了内禀而非声子平均自由程主导的实验判据，把该效应与磁化强度直接联系起来。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "声子霍尔效应",
+    "反铁磁体",
+    "热导率",
+    "NiPS3"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "paper",
+     "title": "Thermodynamic origin of the phonon Hall effect in a honeycomb antiferromagnet",
+     "url": "https://doi.org/10.1126/science.adt1992",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adt1992",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "Ultrarapid decision-making in an avian brain",
+   "headline_zh": "乌鸦视觉决策速度约为猴与人的两倍",
+   "summary_zh": "作者让腐肉乌鸦完成经典视觉运动辨别任务，平均约 235 毫秒即报告选择，约为猴或人观测速度的两倍且不牺牲准确率。记录显示方向选择性神经元在刺激出现后约 70 毫秒即编码即将做出的选择，早于反应约 170 毫秒，其斜坡活动随感觉证据强度缩放并在反应起始时汇聚。",
+   "why_it_matters_zh": "在非哺乳类脊椎动物中给出可与灵长类直接比较的决策时序与神经相关物，提示鸟类端脑决策回路可能在高时间精度视觉运动控制的选择压力下高度高效。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "决策",
+    "乌鸦",
+    "端脑",
+    "视觉运动"
+   ],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "paper",
+     "title": "Ultrarapid decision-making in an avian brain",
+     "url": "https://doi.org/10.1126/science.aed6459",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aed6459",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    27
+   ],
+   "title_en": "Natural product biosynthesis by guanidine prenyltransferases in plants and bacteria",
+   "headline_zh": "植物与细菌中的胍基异戊烯基转移酶家族",
+   "summary_zh": "作者鉴定出蓝细菌酶 NosH，可催化异戊烯基直接转移到游离胍基；结构与机制分析显示由双天冬氨酸“夹钳”激活胍基，并通过独特催化架构与异戊烯基供体结合相耦合。据此在细菌与植物中鉴定出一个大的胍基异戊烯基转移酶家族，植物酶体外可产 galegine 等胍类生物碱，植物同源基因在本氏烟草中异源表达可在体内产生 galegine。",
+   "why_it_matters_zh": "胍基通常以共振稳定的阳离子形式存在，直接酶促官能化一直困难；该工作给出可推广的酶家族与催化逻辑，把胍类生物碱生物合成与植物特化代谢直接连接起来。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "胍基",
+    "异戊烯基转移酶",
+    "生物碱",
+    "酶学机制"
+   ],
+   "records": [
+    {
+     "ref": 27,
+     "channel": "paper",
+     "title": "Natural product biosynthesis by guanidine prenyltransferases in plants and bacteria",
+     "url": "https://doi.org/10.1126/science.aeg1821",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeg1821",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "Safeguarding global terrestrial vertebrate species from future sea level rise",
+   "headline_zh": "海平面上升将影响上万种陆生脊椎动物，多数避难所不在保护区内",
+   "summary_zh": "作者将五种 SSP 情景下的相对海平面上升投影与 34,120 种陆生脊椎动物的栖息地面积图叠加，估计受影响物种从 2050 年最多 13,680 种增至 2100 年 15,324 种，包括 57–63% 鸟类、47–52% 哺乳类、28–36% 爬行类、20–24% 两栖类。SSP5-8.5 下栖息地淹没超过 10% 的物种从 2050 年 18 种增至 2100 年 109 种，爬行类与已受威胁物种占比偏高；超过 96% 的避难所位于保护区之外。",
+   "why_it_matters_zh": "把海平面上升对陆生脊椎动物的影响量化到物种与情景层面，并指出保护空缺集中在东南亚内陆淹没区，为保护区布局的早期国际行动提供了具体空间指向。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "海平面上升",
+    "陆生脊椎动物",
+    "保护空缺",
+    "SSP情景"
+   ],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "paper",
+     "title": "Safeguarding global terrestrial vertebrate species from future sea level rise",
+     "url": "https://doi.org/10.1126/science.aed5772",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aed5772",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Decoupled self-assembled monolayer and perovskite deposition for efficient flexible solar modules",
+   "headline_zh": "解耦 SAM 与钙钛矿沉积实现高效柔性太阳能组件",
+   "summary_zh": "针对柔性衬底表面羟基脱附破坏自组装单分子层锚定与钙钛矿结晶的问题，作者提出解耦的 SAM—钙钛矿共沉积策略，通过降低 SAM 与钙钛矿相互作用加速 SAM 锚定并改善结晶。以苯乙基碘化铵为钝化分子，750 cm2 组件获认证效率 20.2%；以 1,3-二氨基丙烷二氢碘酸盐为钝化剂，14.55 cm2 器件效率 22.0%，在 85°C、65% 相对湿度、最大功率点跟踪 1044 小时后衰减 8%，并通过柔性便携组件国际商业化评估标准的全部序列。",
+   "why_it_matters_zh": "把柔性衬底上 SAM 锚定与钙钛矿结晶这两个相互干扰的过程解耦，同时给出大面积认证效率与湿热稳定性数据，推进柔性钙钛矿组件向商业化评估标准靠拢。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "钙钛矿",
+    "自组装单分子层",
+    "柔性组件",
+    "稳定性"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "paper",
+     "title": "Decoupled self-assembled monolayer and perovskite deposition for efficient flexible solar modules",
+     "url": "https://doi.org/10.1126/science.aef9745",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aef9745",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Wireless electrocatalytic closed-loop system for drug-free management of diabesity",
+   "headline_zh": "无线电催化闭环器件实现无药物血糖管理",
+   "summary_zh": "作者开发可植入、无线供能的电催化闭环健康优化（ECHO）器件，以嵌入石墨毡的铂修饰金纳米簇选择性、电可调地将血糖氧化为经肾清除的葡萄糖酸。2 型糖尿病小鼠中，0.75 V、10 mA 低功率激活 1 小时内恢复血糖稳态，代谢由葡萄糖转向脂质利用，体重与甘油三酯下降，游离脂肪酸与酮体升高，6 周治疗未检测到低血糖或不良生理、炎症、行为效应。与商用连续血糖监测系统耦合后实现智能手机控制的自主无药闭环管理。",
+   "why_it_matters_zh": "把血糖控制从药物或胰岛素路径转为电化学消耗路径，并在动物中演示与 CGM 联动的自主闭环，为“糖胖症”提供了一种不依赖药物的器件级方案（尚处小鼠阶段）。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "电催化",
+    "无线植入器件",
+    "血糖闭环",
+    "糖尿病"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Wireless electrocatalytic closed-loop system for drug-free management of diabesity",
+     "url": "https://doi.org/10.1126/science.ady8560",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.ady8560",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "Late Holocene reexpansion of the Laurentide Ice Sheet",
+   "headline_zh": "劳伦泰德冰盖晚全新世再扩张，下一冰期或被人为变暖终止",
+   "summary_zh": "作者指出，最近一次劳伦泰德冰盖的最后残余 Barnes 冰帽（加拿大巴芬岛）在约 3,600 年前达到间冰期最小规模，约 2,000 年前开始再扩张，标志下一冰期开始；新冰盖在约 1960 年 CE 达到最大规模，此后人为夏季增温导致质量平衡为负、冰缘退缩，下一冰期终止。",
+   "why_it_matters_zh": "以单个冰帽的连续记录给出“下一冰期已开始又被终止”的时间线，说明在夏季日照持续下降的背景下异常温室气体强迫仍能压倒轨道驱动，为冰期旋回的人为干预提供了直接地质证据。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "劳伦泰德冰盖",
+    "全新世",
+    "冰期旋回",
+    "温室气体强迫"
+   ],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "paper",
+     "title": "Late Holocene reexpansion of the Laurentide Ice Sheet",
+     "url": "https://doi.org/10.1126/science.aed3379",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aed3379",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Dynamic functionality–enabled fast and selective transport in nanochannels",
+   "headline_zh": "利用纳米通道内功能基团自身运动提升传输速度与选择性",
+   "summary_zh": "作者提出以受限功能基团的内禀运动（如自旋转）来应对纳米限域下的摩擦与黏附壁垒，通过实验与模拟结合证明这种动态性通过促进动能传递与更高效的分子接力重塑传输，使分离性能超过现有基准。",
+   "why_it_matters_zh": "把纳米通道设计从静态孔壁化学转向动态功能基团，为在极端限域下同时提高通量与选择性提供了可操作的设计原则。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "纳米通道",
+    "动态功能",
+    "质量传输",
+    "分离"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Dynamic functionality–enabled fast and selective transport in nanochannels",
+     "url": "https://doi.org/10.1126/science.aed8319",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aed8319",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "The AI debate is missing half the system",
+   "headline_zh": "AI 安全讨论忽略了人—机系统这一半",
+   "summary_zh": "文章指出，AI 公司高管在联合国安理会的建议主要集中于模型与系统的防护、评估与治理，却基本忽略了 AI 与人及机构互动所产生的风险；作者主张 AI 安全应在人—AI 系统层面而非仅模型层面处理。",
+   "why_it_matters_zh": "把治理焦点从模型能力评估扩展到部署后的人机交互与制度耦合风险，对当前以模型为中心的 AI 安全议程提出了具体的框架性修正。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "AI安全",
+    "人机系统",
+    "治理"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "paper",
+     "title": "The AI debate is missing half the system",
+     "url": "https://doi.org/10.1126/science.aen2722",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aen2722",
+     "published": "2026-10-22T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "有机分子构筑同时具有蜂窝与 Kagome 特征的三维二维结构并观察到拓扑边缘态（ref 51），若后续输运或谱学证据跟上，可能成为分子自组装构建量子材料的可扩展路线。",
+  "报道称某材料的非常规量子行为可从极低温延伸至约 57°C（ref 52），若可复现，将改变量子材料对低温条件的依赖假设；目前信息仅来自媒体摘要，需看原文。",
+  "Simons 天文台在智利启动，目标是星系团与宇宙暴胀迹象（ref 40）；作为新设施，其首批观测结果值得跟踪。",
+  "单个反物质粒子被“囚禁”的报道被媒体称为通向“革命性”物理（ref 48），具体方法与结果需核对原文后再评估。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 303,
+   "dup_in_run": 0,
+   "already_seen": 171,
+   "dropped_by_penalty": 4,
+   "dropped_by_window": 42,
+   "unique": 86,
+   "candidates": 50
+  },
+  "hot": {
+   "fetched": 57,
+   "dup_in_run": 0,
+   "already_seen": 57,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 165,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 125,
+   "unique": 40,
+   "candidates": 40
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 90,
+   "kept": 89,
+   "elapsed_s": 1.11,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.39,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 35,
+   "kept": 35,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.37,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 41,
+   "kept": 41,
+   "elapsed_s": 0.52,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.62,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 7,
+   "kept": 7,
+   "elapsed_s": 0.45,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.57,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.17,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 6,
+   "elapsed_s": 0.87,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.33,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.53,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.48,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.33,
+   "error": ""
+  }
+ ]
+}
