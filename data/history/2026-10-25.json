@@ -1,0 +1,711 @@
+{
+ "date": "2026-10-25",
+ "generated_at": "2026-10-25 07:26 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日顶刊通道以 IgA 肾病补体通路的两项 3 期期中分析和 ERBB2 低表达乳腺癌的 3 期随机试验最为突出，另有取栓时间窗与轻型卒中血管内治疗两项卒中试验同期上线。科学要闻通道覆盖面较广，从 HIV 潜伏库机制、胶质母细胞瘤侵袭性、等离子体单脉冲诊断到太阳磁场与火星云物理，但多数条目仅有媒体摘要，方法细节有限。本期按重要性选取 16 条，仅有报道性摘要的条目已在文中标注。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Interim Analysis of a Phase 3 Trial of Povetacicept in IgA Nephropathy",
+   "headline_zh": "IgA 肾病 3 期期中分析：povetacicept 疗效数据出炉",
+   "summary_zh": "候选材料仅提供标题与期刊来源，未给出研究设计、样本量、终点或结果数据，无法在此复述具体疗效与安全性。可确认的是这是一项针对 IgA 肾病的 3 期试验期中分析，发表于 NEJM。",
+   "why_it_matters_zh": "IgA 肾病是最常见的原发性肾小球疾病之一，长期缺乏针对发病通路的获批疗法；3 期期中分析在 NEJM 上线，通常意味着独立数据监查层面的疗效信号已足以支持提前披露。具体改变了什么，需待全文数据确认。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "IgA肾病",
+    "3期试验",
+    "期中分析",
+    "NEJM"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Interim Analysis of a Phase 3 Trial of Povetacicept in IgA Nephropathy",
+     "url": "https://doi.org/10.1056/nejmoa2608682",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2608682",
+     "published": "2026-10-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Ravulizumab in IgA Nephropathy — Interim Analysis of a Phase 3 Trial",
+   "headline_zh": "补体 C5 抑制剂 ravulizumab 的 IgA 肾病 3 期期中分析",
+   "summary_zh": "材料仅给出标题，未包含设计、样本量与结果。与上一条同日同刊出现，提示补体通路在 IgA 肾病中的临床验证正集中读出。",
+   "why_it_matters_zh": "与 povetacicept 并列，意味着 IgA 肾病治疗正在从支持治疗转向靶向补体/ B 细胞通路的疾病修饰策略；两条不同机制的 3 期数据同期披露，将直接影响后续试验的对照选择与终点设定。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "IgA肾病",
+    "补体抑制",
+    "3期试验",
+    "NEJM"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Ravulizumab in IgA Nephropathy — Interim Analysis of a Phase 3 Trial",
+     "url": "https://doi.org/10.1056/nejmoa2607544",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2607544",
+     "published": "2026-10-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Trastuzumab Rezetecan in ERBB2-Low Advanced Breast Cancer",
+   "headline_zh": "ERBB2 低表达转移性乳腺癌：ADC 头对头击败医生选择化疗",
+   "summary_zh": "开放标签、随机、多中心 3 期试验，中国 73 家医院入组 551 例中心确认 ERBB2 低表达（IHC 1+ 或 IHC 2+/ISH 阴性）的不可切除局部复发或转移性乳腺癌女性，转移阶段既往化疗不超过 1 线，激素受体阳性者需既往内分泌治疗。1:1 随机接受 trastuzumab rezetecan 6.4 mg/kg 每 3 周（n=277）或医生选择化疗（n=274）。主要终点为盲法独立中心评审的无进展生存期，分别在化疗初治人群和总人群中评估。入组期 2023-06-30 至 2025-08-20，PFS 最终分析随访截止 2026-03-20；摘要在此处截断，未给出具体风险比与 PFS 数值。",
+   "why_it_matters_zh": "ERBB2 低表达是一个此前被排除在抗 HER2 治疗之外、但占乳腺癌相当比例的人群，本试验以 3 期头对头设计把 ADC 推到该人群的一线化疗位置；若 PFS 优势成立，将改写 ERBB2 低表达的治疗分层，并进一步压缩传统化疗的使用空间。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "ADC",
+    "ERBB2低表达",
+    "乳腺癌",
+    "3期随机对照",
+    "JAMA"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Trastuzumab Rezetecan in ERBB2-Low Advanced Breast Cancer",
+     "url": "https://doi.org/10.1001/jama.2026.21372",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21372",
+     "published": "2026-10-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Mechanical Thrombectomy 24 to 72 Hours after Large-Vessel Ischemic Stroke",
+   "headline_zh": "取栓时间窗推至 24–72 小时：晚时间窗再获 3 期证据",
+   "summary_zh": "材料仅提供标题，未给出影像筛选标准、样本量与功能结局数据。可确认的是试验评估的是发病后 24 至 72 小时这一远超现行常规窗口的时间段内行机械取栓。",
+   "why_it_matters_zh": "现有晚时间窗证据集中在 6–24 小时，且高度依赖灌注影像筛选；若 24–72 小时取栓在功能独立上成立，将把可救治人群进一步后移，并对卒中中心的分流流程、影像资源和取栓能力配置提出新要求。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "机械取栓",
+    "缺血性卒中",
+    "晚时间窗",
+    "3期试验",
+    "NEJM"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Mechanical Thrombectomy 24 to 72 Hours after Large-Vessel Ischemic Stroke",
+     "url": "https://doi.org/10.1056/nejmoa2609362",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2609362",
+     "published": "2026-10-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Trial of Endovascular Therapy for Mild Stroke with Large-Vessel Occlusion",
+   "headline_zh": "轻型卒中伴大血管闭塞：血管内治疗是否有益的随机证据",
+   "summary_zh": "材料仅提供标题。该试验针对神经功能缺损轻微但存在大血管闭塞的患者群体，这一人群此前长期处于取栓证据的灰色地带。",
+   "why_it_matters_zh": "轻型卒中伴大血管闭塞患者是否应接受取栓，是当前卒中实践中最具争议的分歧点之一；随机证据一旦读出，将直接决定大量目前仅接受药物治疗的患者是否转入介入路径。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "血管内治疗",
+    "轻型卒中",
+    "大血管闭塞",
+    "随机试验",
+    "NEJM"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "Trial of Endovascular Therapy for Mild Stroke with Large-Vessel Occlusion",
+     "url": "https://doi.org/10.1056/nejmoa2609149",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2609149",
+     "published": "2026-10-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Expanding the Evidence and Indications for Thrombectomy in Ischemic Stroke",
+   "headline_zh": "同期述评：取栓适应证正在如何被重新划定",
+   "summary_zh": "材料仅提供标题，为与上述两项取栓试验同期刊出的评论文章，具体论点未在材料中给出。",
+   "why_it_matters_zh": "与 [4][5] 配套阅读可快速把握编者对时间窗与轻型卒中两个方向证据强度的判断，有助于判断这些结果距离指南改写还有多远。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "取栓",
+    "述评",
+    "指南",
+    "NEJM"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "Expanding the Evidence and Indications for Thrombectomy in Ischemic Stroke",
+     "url": "https://doi.org/10.1056/nejme2612692",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejme2612692",
+     "published": "2026-10-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Newly identified protein pathway helps HIV stay hidden despite treatment",
+   "headline_zh": "新发现的蛋白通路解释 HIV 如何在治疗下保持潜伏",
+   "summary_zh": "报道称当前药物可有效抑制血液中的病毒，但 HIV 会在部分免疫细胞和脑内保持休眠，形成潜伏库，是现有疗法无法治愈 HIV 的主因；新识别出一条帮助病毒维持这种隐藏状态的蛋白通路。材料未给出通路名称、实验体系与干预结果。",
+   "why_it_matters_zh": "潜伏库是治愈策略的核心障碍，任何可操作的宿主通路都意味着“激活并清除”或“深度潜伏”路线多一个可成药靶点；但该条目为媒体报道，尚无同行评审数据可核。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "HIV",
+    "潜伏库",
+    "宿主因子",
+    "媒体报道"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "news",
+     "title": "Newly identified protein pathway helps HIV stay hidden despite treatment",
+     "url": "https://phys.org/news/2026-10-newly-protein-pathway-hiv-stay.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T16:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    42
+   ],
+   "title_en": "Glioblastoma breakthrough reveals how brain cancer cells become more aggressive",
+   "headline_zh": "肿瘤周围黏稠液体使胶质母细胞瘤细胞变小、更易侵袭，且改变可延续",
+   "summary_zh": "研究发现胶质母细胞瘤周围的黏稠液体可让癌细胞体积变小、柔韧性增加、侵袭周围组织的能力增强；更值得注意的是，部分改变在细胞离开该黏稠环境后仍然保留。材料未说明分子机制、模型类型与定量指标。",
+   "why_it_matters_zh": "若这种“离开微环境后仍保留”的表型改变可重复，意味着机械/流变学因素能诱导相对持久的侵袭表型，把基质物理性质纳入治疗靶点讨论，而不只是关注可溶性因子。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "胶质母细胞瘤",
+    "力学微环境",
+    "侵袭",
+    "表型记忆"
+   ],
+   "records": [
+    {
+     "ref": 42,
+     "channel": "news",
+     "title": "Glioblastoma breakthrough reveals how brain cancer cells become more aggressive",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261022081300.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T00:48:21+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    28
+   ],
+   "title_en": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
+   "headline_zh": "单脉冲 X 射线成像一次性捕捉等离子体跨尺度结构",
+   "summary_zh": "针对等离子体中不稳定性增长与湍流跨尺度能量传递这一聚变、天体物理与激光等离子体共同的难题，报道称可用单个 X 射线脉冲配合单台相机，在一次测量中获取从很小到较大尺度的结构信息。材料未给出分辨率、实验装置参数与验证结果。",
+   "why_it_matters_zh": "等离子体湍流诊断长期受限于单次快照只能覆盖有限尺度；若单脉冲单相机即可跨尺度成像，将把不稳定性增长与能量级联的关联测量从统计推断变为单次事件直接观测。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "X射线成像",
+    "等离子体湍流",
+    "单脉冲诊断"
+   ],
+   "records": [
+    {
+     "ref": 28,
+     "channel": "news",
+     "title": "Single X-ray pulse reveals plasma nanostructures across scales with one camera",
+     "url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T19:00:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "'One-positron cyclotron' could test a key prediction of the Standard Model",
+   "headline_zh": "单正电子回旋方案拟检验正电子磁矩是否与电子严格等大反向",
+   "summary_zh": "正电子是电子的反物质对应体，质量相同、电荷等量反号，也像微小磁体；标准模型的关键预言是其磁矩应与电子严格等大反向。报道提出用“单正电子回旋”方案检验这一预言。材料未给出测量原理细节、精度目标与是否已有实验数据。",
+   "why_it_matters_zh": "电子/正电子磁矩的精确比较是对 CPT 对称性的直接检验，任何偏离都指向标准模型之外；把测量推进到单粒子回旋层面，若能实现，将把这类检验的精度路线与 Penning 阱方法区分开来。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "正电子",
+    "磁矩",
+    "CPT检验",
+    "标准模型"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "news",
+     "title": "'One-positron cyclotron' could test a key prediction of the Standard Model",
+     "url": "https://phys.org/news/2026-10-positron-cyclotron-key-standard.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T17:20:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    45
+   ],
+   "title_en": "Astronomers uncover a mysterious magnetic web above the Sun",
+   "headline_zh": "气球望远镜在太阳“宁静”区发现纤细磁结构，并测绘喷流内部磁场",
+   "summary_zh": "利用高空气球载望远镜，研究者在太阳看似平静的区域发现贯穿日球层的纤细丝状磁结构，其形态似乎由太阳表面的扭转运动塑造；同时测绘了太阳物质喷流内部的磁场，并追踪磁场随高度的变化。材料未给出观测波段、空间分辨率与定量场强。",
+   "why_it_matters_zh": "太阳宁静区的磁场长期因信号微弱而难以测量，却是日冕加热与太阳风起源的关键区域；把表面扭转运动与上方磁结构联系起来，为这些能量通道提供了可观测的因果线索。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "太阳磁场",
+    "气球望远镜",
+    "日冕",
+    "太阳风"
+   ],
+   "records": [
+    {
+     "ref": 45,
+     "channel": "news",
+     "title": "Astronomers uncover a mysterious magnetic web above the Sun",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T12:23:38+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+   "headline_zh": "火星千英里云带的新模型指向自然界尚未直接观测到的成冰机制",
+   "summary_zh": "报道称一个新模型提示火星上可能存在此前从未在自然界被直接观测到的成冰物理过程，该云带尺度约 1000 英里。材料未说明模型假设、涉及的成核机制与观测约束。",
+   "why_it_matters_zh": "若模型成立，火星大气将成为检验极端条件下冰成核理论的天然实验室，也会改变对火星水循环与云辐射效应的建模方式；但目前仅为模型提议，需观测检验。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "火星",
+    "云物理",
+    "成冰",
+    "模型"
+   ],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "news",
+     "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+     "url": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
+     "journal": "Ars Technica Science",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T11:50:28+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    40
+   ],
+   "title_en": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+   "headline_zh": "本努样品：小行星形成于内外太阳系物质混合带，木星参与塑造",
+   "summary_zh": "对小行星本努微量样品的新分析提示，本努诞生于内太阳系与外太阳系物质混合的区域，木星在其形成过程中扮演了此前未预料的作用。材料未给出同位素体系、具体指标与定量结论。",
+   "why_it_matters_zh": "太阳系早期物质如何跨轨道混合，直接约束巨行星迁移的时间与路径；样品返回的价值正在于把这类动力学推断落到可测量的同位素证据上。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "本努",
+    "样品返回",
+    "太阳系形成",
+    "木星"
+   ],
+   "records": [
+    {
+     "ref": 40,
+     "channel": "news",
+     "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T12:50:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
+   "headline_zh": "全球分析：海鸟的系统发育关系比食性更能预测塑料累积",
+   "summary_zh": "一项全球分析发现，用鸟类的演化亲缘关系来映射，比单看食性或取食方式更能预测哪些海鸟物种容易在消化道中累积塑料。材料未给出物种数、塑料指标与系统发育信号强度。",
+   "why_it_matters_zh": "如果累积倾向带有系统发育信号，说明生理或形态上的保守性状（而非当下暴露途径）在起主导作用，监测与风险评估的物种选择逻辑应随之调整。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "海鸟",
+    "塑料污染",
+    "系统发育",
+    "全球分析"
+   ],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "news",
+     "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
+     "url": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T14:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    48
+   ],
+   "title_en": "Habitat explains Finnish animal distributions better than climate, study finds",
+   "headline_zh": "芬兰研究：生境变量对动物分布的解释力超过气候",
+   "summary_zh": "赫尔辛基大学研究者比较气候变量与生境相关变量（自然状态、人类活动改造土地比例）对物种出现与多度的相对作用，结论是生境解释力更强。材料未给出类群范围、统计方法与效应量。",
+   "why_it_matters_zh": "减缓生物多样性丧失的措施取决于归因：若生境质量与人类土地利用是主控因子，保护优先序应更多落在土地管理与修复上，而非仅依赖气候驱动的物种分布模型。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "物种分布",
+    "生境",
+    "气候变化",
+    "土地利用"
+   ],
+   "records": [
+    {
+     "ref": 48,
+     "channel": "news",
+     "title": "Habitat explains Finnish animal distributions better than climate, study finds",
+     "url": "https://phys.org/news/2026-10-habitat-finnish-animal-climate.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T01:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    49
+   ],
+   "title_en": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
+   "headline_zh": "1.5 亿年前早期鸟类化石：有齿、有恐龙型爪、地栖，或为最早飞行丧失",
+   "summary_zh": "中国发现的 150 百万年前化石显示一种奇特的早期鸟类：具锐齿、一枚恐龙型爪，身体结构适应地面生活而非飞行。研究者认为这是已知最早的鸟类飞行丧失实例。材料未给出属种名、系统发育位置与定量形态分析。",
+   "why_it_matters_zh": "飞行丧失通常被认为出现在鸟类演化较晚阶段；若这一案例成立，说明在鸟类早期辐射中飞行能力就已多次可逆丢失，改变对飞行这一性状演化稳定性的假设。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "早期鸟类",
+    "飞行丧失",
+    "化石",
+    "白垩纪"
+   ],
+   "records": [
+    {
+     "ref": 49,
+     "channel": "news",
+     "title": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261023023710.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-24T02:42:19+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[2/8/10] JAMA 同一标题重复出现：Trastuzumab rezetecan 相关条目在候选列表中以三个略有差异的标题出现（含 \"EBBR2\" 拼写变体），需核对是否为同一试验的重复抓取，引用时以 [2] 的完整摘要为准。",
+  "[1/3] IgA 肾病补体通路集中读出：povetacicept 与 ravulizumab 两项 3 期期中分析同日上线 NEJM，建议合并追踪后续全文与指南反应。",
+  "[24] 耳部神经刺激降压：63 例临床试验中总体未显著优于安慰剂，但重度高血压亚组出现降压信号；样本量小，亚组结果需谨慎对待。",
+  "[43] \"镜像生命\"检测方案：属前瞻性提议，用荧光分子与偏振光区分普通生物与镜像对应体，尚无实物验证。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 286,
+   "dup_in_run": 0,
+   "already_seen": 214,
+   "dropped_by_penalty": 6,
+   "dropped_by_window": 45,
+   "unique": 21,
+   "candidates": 21
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 165,
+   "dup_in_run": 0,
+   "already_seen": 1,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 136,
+   "unique": 28,
+   "candidates": 28
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 93,
+   "kept": 92,
+   "elapsed_s": 2.8,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.63,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 35,
+   "kept": 35,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 16,
+   "kept": 0,
+   "elapsed_s": 0.8,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 5,
+   "kept": 0,
+   "elapsed_s": 0.68,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 41,
+   "kept": 41,
+   "elapsed_s": 0.55,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.39,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.25,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 6,
+   "kept": 6,
+   "elapsed_s": 0.45,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 4,
+   "kept": 4,
+   "elapsed_s": 0.42,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.44,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 6,
+   "elapsed_s": 0.69,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.43,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.32,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.16,
+   "error": ""
+  }
+ ]
+}
