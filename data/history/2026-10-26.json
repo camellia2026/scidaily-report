@@ -1,0 +1,744 @@
+{
+ "date": "2026-10-26",
+ "generated_at": "2026-10-26 07:23 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选以临床肿瘤学为主，NEJM 同时上线两项 III 期试验：tarlatamab 联合 durvalumab 用于广泛期小细胞肺癌一线维持治疗，以及围手术期免疫联合方案用于不适合顺铂的肌层浸润性膀胱癌。JAMA 发表 85 项 RCT 的荟萃分析，量化 SGLT2 抑制剂对血红蛋白及铁代谢、红细胞生成指标的影响。计算机视觉方向有一项零样本、无需注视监督的主动视觉搜索工作。科学媒体侧值得关注的是超导量子比特的非破坏性读取、硅基超晶格中的极性涡旋，以及一颗候选系外卫星。其余条目多为评论、病例报告或新闻简讯，材料不足以支撑解读，未纳入。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Tarlatamab–Durvalumab Maintenance for Extensive-Stage Small-Cell Lung Cancer",
+   "headline_zh": "DLL3/CD3 双抗加入一线维持治疗，中位 OS 从 12.7 个月升至 21.1 个月",
+   "summary_zh": "国际多中心、开放标签 III 期试验，563 例初始化免疫治疗后未进展的广泛期小细胞肺癌患者 1:1 随机接受 tarlatamab–durvalumab 或 durvalumab 维持。预设中期分析（数据截止 2026 年 7 月 7 日）显示，中位随访约 16 个月时中位 OS 为 21.1 个月 vs 12.7 个月（HR 0.42，95% CI 0.32–0.54，P<0.001）。联合组 OS 的 CI 上限无法估计，PFS 数据在摘要中被截断。",
+   "why_it_matters_zh": "小细胞肺癌一线维持治疗长期只有 PD-L1 单药一个选项，中位 OS 停留在 12–13 个月量级。该试验把 DLL3 靶向的 T 细胞衔接器前移到一线维持，HR 0.42 是这一适应证中少见的效应量；若最终分析与监管路径顺利，会直接改写一线维持的标准方案，并把 DLL3 从后线靶点变成 frontline 靶点。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "小细胞肺癌",
+    "DLL3",
+    "双特异性抗体",
+    "III期试验",
+    "维持治疗"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Tarlatamab–Durvalumab Maintenance for Extensive-Stage Small-Cell Lung Cancer",
+     "url": "https://doi.org/10.1056/nejmoa2609482",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2609482",
+     "published": "2026-10-24T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Durvalumab, Tremelimumab, and Enfortumab Vedotin in Muscle-Invasive Bladder Cancer",
+   "headline_zh": "不适合顺铂的膀胱癌患者，新辅助 ADC+免疫后 24 个月 EFS 63.5% vs 45.1%",
+   "summary_zh": "III 期开放标签三臂试验，695 例不适合或拒绝顺铂的肌层浸润性膀胱癌患者按 1:1:1 随机接受新辅助 durvalumab–enfortumab vedotin、再加 tremelimumab 的三联方案，或单纯膀胱切除对照。24 个月 EFS 为 63.5% vs 对照 45.1%（HR 0.51，95% CI 0.38–0.67，P<0.001）；24 个月 OS 为 78.4% vs 69.4%。含 tremelimumab 组数据摘要未给出。",
+   "why_it_matters_zh": "顺铂不耐受的肌层浸润性膀胱癌患者长期缺乏围手术期系统治疗证据，常直接进入手术。该试验用 ADC 联合 PD-L1 作为新辅助 backbone，在不含铂的方案中拿到 EFS 绝对提升约 18 个百分点，为这一人群提供了可用的围手术期选项；同时它把 enfortumab vedotin 从转移性后线推进到围手术期。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "膀胱癌",
+    "围手术期治疗",
+    "enfortumab vedotin",
+    "顺铂不耐受",
+    "III期试验"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Durvalumab, Tremelimumab, and Enfortumab Vedotin in Muscle-Invasive Bladder Cancer",
+     "url": "https://doi.org/10.1056/nejmoa2608323",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2608323",
+     "published": "2026-10-24T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Sodium-Glucose Cotransporter 2 Inhibitor Use and Levels of Hemoglobin, Markers of Iron Metabolism, and Erythropoiesis",
+   "headline_zh": "汇总 7 万余人数据，系统评估 SGLT2i 升血红蛋白的幅度及其红细胞生成机制",
+   "summary_zh": "系统检索 PubMed、Web of Science 与 CENTRAL 至 2026 年 7 月 22 日，纳入 85 项双盲随机对照试验、70 543 名受试者（平均年龄 62.4 岁，女性 35.9%），中位随访 24 周，覆盖心血管病、糖尿病、心衰与慢性肾病。主要终点为血红蛋白与红细胞压积变化，次要终点包括红细胞计数、EPO、血清铁、铁蛋白、转铁蛋白饱和度与 hepcidin。采用随机效应模型合并。摘要中未给出具体效应量。",
+   "why_it_matters_zh": "SGLT2 抑制剂升高血红蛋白在多项试验中被观察到，但幅度多大、是否伴随铁代谢与 EPO 通路的改变一直缺少系统量化。这项荟萃分析把红细胞生成相关指标一并纳入，有助于判断该效应是血液浓缩、铁利用改善还是真正的促红细胞生成，从而影响心衰合并贫血、CKD 贫血患者中这类药物的使用解释。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "SGLT2抑制剂",
+    "血红蛋白",
+    "铁代谢",
+    "荟萃分析",
+    "红细胞生成"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Sodium-Glucose Cotransporter 2 Inhibitor Use and Levels of Hemoglobin, Markers of Iron Metabolism, and Erythropoiesis",
+     "url": "https://doi.org/10.1001/jama.2026.19921",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.19921",
+     "published": "2026-10-24T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Eyegent: Visual Attention Orchestration on Concepts",
+   "headline_zh": "无需注视监督的主动视觉智能体，用信息增益驱动注视点选择",
+   "summary_zh": "作者提出 Eyegent，把语言驱动的视觉搜索形式化为对语义假设的序贯贝叶斯推断：由图像与查询构建候选分割掩码的离散假设空间，维护显式后验，每次注视选择使期望信息增益最大，经视觉–语言模型验证更新信念，不确定性低于风险阈值时终止。框架命名为 BASG，对信念集中、熵下降与决策风险给出形式化保证。方法零样本、模块化、无需注视数据与任务特定训练，在 RefCOCO-Gaze 与 AiR-D 上零样本方法中达到有竞争力或最优表现。",
+   "why_it_matters_zh": "现有视觉搜索模型多把注视当作显著性预测问题，依赖眼动数据监督。这项工作把注视重新定义为降低不确定性的认知动作，并给出可证明的终止条件，使主动感知系统在没有任何眼动标注的情况下也能产生可解释的搜索轨迹；对需要多步定位的视觉语言任务（如指代分割、交互式检索）是一条不依赖标注的替代路线。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "主动视觉",
+    "贝叶斯推断",
+    "视觉语言模型",
+    "零样本",
+    "眼动"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Eyegent: Visual Attention Orchestration on Concepts",
+     "url": "https://doi.org/10.1007/s11263-026-03042-4",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03042-4",
+     "published": "2026-10-25T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Supercurrent enables the reading of quantum information without destroying it",
+   "headline_zh": "利用超导电流读取量子比特，避免测量导致的态坍缩",
+   "summary_zh": "报道指出，量子计算的一个基本难题是读取量子比特信息：与可反复读取的经典比特不同，直接测量量子系统通常会在状态被确定之前使其坍缩，即读取行为改变信息本身。该报道称超导电流使量子信息的读取可以在不破坏状态的情况下完成。候选摘要仅给出问题背景与结论方向，未提供具体器件结构、实验方案与保真度数据。",
+   "why_it_matters_zh": "若可实现真正的非破坏性读取，量子比特就能在不重置的情况下被反复查询，这对量子纠错中的综合征测量、以及需要多次读取的量子算法是结构性改变。由于材料未给出方法与定量结果，具体影响范围尚无法判断。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "量子比特",
+    "非破坏性测量",
+    "超导电流",
+    "量子纠错"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "news",
+     "title": "Supercurrent enables the reading of quantum information without destroying it",
+     "url": "https://phys.org/news/2026-10-supercurrent-enables-quantum-destroying.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T19:00:20+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Patterns of polar vortices discovered in lead-free superlattices on silicon",
+   "headline_zh": "(BaTiO₃/SrTiO₃)₁₀ 超晶格在硅衬底上形成极性拓扑结构",
+   "summary_zh": "HZB 团队首次报道在硅衬底上生长的 (BaTiO₃/SrTiO₃)₁₀ 超晶格中存在极性涡旋。该结果把极性拓扑织构可存在的材料与衬底范围扩展到硅，为将复杂铁电态集成进硅基技术提供了新的可能。候选摘要未给出涡旋的尺度、观测手段与稳定性数据。",
+   "why_it_matters_zh": "极性涡旋此前多依赖特定衬底与含铅体系，与 CMOS 工艺不兼容是其主要落地障碍。在硅上、用无铅组分实现这类拓扑织构，意味着铁电拓扑态有可能直接做进硅基器件流程，用于超低功耗存储或神经形态单元；但能否在器件尺度稳定存在，材料中尚无数据。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "铁电体",
+    "极性涡旋",
+    "超晶格",
+    "硅基集成",
+    "无铅"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "news",
+     "title": "Patterns of polar vortices discovered in lead-free superlattices on silicon",
+     "url": "https://phys.org/news/2026-10-patterns-polar-vortices-free-superlattices.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T17:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Astronomers may have discovered the first moon beyond our Solar System",
+   "headline_zh": "首个太阳系外卫星候选体，质量至少与木星相当，绕褐矮星运行",
+   "summary_zh": "天文学家报告了一个可能具有历史意义的发现：首个太阳系外卫星候选体。该天体质量至少与木星相当，绕一颗褐矮星运行，而这颗褐矮星本身又绕一颗恒星运行。这种层级结构挑战了行星与卫星的传统定义，研究者对其应如何归类尚无定论。候选摘要未说明探测方法、信号显著性及后续验证计划。",
+   "why_it_matters_zh": "系外卫星此前只有零星未获证实的候选，探测本身受限于信号微弱与恒星活动干扰。若该候选得到确认，将首次把卫星这一层级纳入可观测的系外天体系统，并直接暴露现行行星/卫星质量划分标准的失效——质量达到木星量级的天体绕褐矮星运行，按现有定义难以归类。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "系外卫星",
+    "褐矮星",
+    "探测候选",
+    "天体分类"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "news",
+     "title": "Astronomers may have discovered the first moon beyond our Solar System",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261023023736.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T03:13:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+   "headline_zh": "Nature 刊出 NeoCOAST-2 中 ctDNA 清除与可切除肺癌结局的关联分析",
+   "summary_zh": "候选条目为 Nature 在线发表记录，仅含标题与 DOI（10.1038/s41586-026-11328-3），未提供摘要、样本量、ctDNA 检测时点与终点定义。无法据此描述研究设计与结果。",
+   "why_it_matters_zh": "围手术期 ctDNA 动态作为疗效替代标志物是肺癌新辅助治疗的核心问题之一；NeoCOAST-2 是免疫联合新辅助的平台试验，其 ctDNA 分析若显示清除与病理缓解/复发风险的定量关系，可支持将 ctDNA 用于治疗降阶或升级决策。具体结论需查阅原文。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "ctDNA",
+    "肺癌",
+    "新辅助治疗",
+    "围手术期",
+    "待补全文"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+     "url": "https://www.nature.com/articles/s41586-026-11328-3",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11328-3",
+     "published": "2026-10-25T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Australian coral reefs face risk of collapse within 50 years without drastic action, global assessment finds",
+   "headline_zh": "全球评估：澳大利亚每一处浅水珊瑚礁生态系统到 2075 年均面临极高崩溃风险",
+   "summary_zh": "一项全球评估得出结论，澳大利亚所有浅水珊瑚礁生态系统到 2075 年都面临极高的崩溃风险，主要驱动因素是预估的海洋变暖。报道将结论表述为「若无 drastic action」。候选摘要未给出评估框架、情景假设与置信度。",
+   "why_it_matters_zh": "此前风险评估多针对大堡礁或特定区域，这次把「每一处浅水珊瑚礁生态系统」整体列为极高风险，把风险等级从局部预警提升为全国性判断，可用于澳大利亚在气候政策与海洋管理上的成本收益论证。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "珊瑚礁",
+    "气候变化",
+    "风险评估",
+    "生态崩溃"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "news",
+     "title": "Australian coral reefs face risk of collapse within 50 years without drastic action, global assessment finds",
+     "url": "https://phys.org/news/2026-10-australian-coral-reefs-collapse-years.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T19:30:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Crows make decisions twice as fast as humans and monkeys",
+   "headline_zh": "两只乌鸦平均 235 毫秒完成运动方向判别，保持高准确率",
+   "summary_zh": "图宾根大学研究者在视觉选择实验中让两只小嘴乌鸦判断点阵的运动方向并作出反应，平均耗时 235 毫秒，速度约为人类与猴子的两倍，同时保持高准确度。候选摘要未说明试次数量、准确率具体数值与对比物种的实验条件是否匹配。",
+   "why_it_matters_zh": "鸟类缺乏新皮层却能在知觉决策任务上超过灵长类，这一结果对「决策速度受皮层回路架构限制」的假设构成压力，也为比较神经科学中决策证据累积模型的跨物种参数化提供定量锚点。样本仅两只个体，外推需谨慎。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "决策",
+    "乌鸦",
+    "反应时",
+    "比较认知"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "news",
+     "title": "Crows make decisions twice as fast as humans and monkeys",
+     "url": "https://phys.org/news/2026-10-crows-decisions-fast-humans-monkeys.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T19:00:16+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
+   "headline_zh": "效应仅见于特定遗传背景的老年人，既往研究未发现总体保护作用",
+   "summary_zh": "报道称，研究者发现具有特定遗传特征的老年人在服用低剂量阿司匹林时，痴呆相对风险降低 70%；而此前研究未发现总体保护效应。该发现提示遗传背景可能解释为何部分人获益、部分人不获益。候选摘要未说明研究设计（是否随机）、样本量、遗传标志物身份及随访时长。",
+   "why_it_matters_zh": "阿司匹林在痴呆预防上的多项试验总体为阴性，若该亚组效应可重复，意味着未来的预防试验需要按基因型富集入组，而非在全体老年人中检验。在缺乏设计与样本信息的情况下，这一 70% 的效应量应视为待验证信号。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "阿司匹林",
+    "痴呆",
+    "基因-药物交互",
+    "亚组分析"
+   ],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "news",
+     "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T10:21:48+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "New evidence suggests spinosaurus spent most of its life underwater",
+   "headline_zh": "用机器学习分析数千件化石测量数据，重新划分中生代爬行动物的水生程度",
+   "summary_zh": "耶鲁团队用机器学习方法处理数千件化石的测量数据，推断哪些史前爬行动物真正适应水生生活。结论认为棘龙大部分时间在水中度过，而一些此前被视为完全水生的中生代海生爬行动物实际上有相当时间在陆上活动。候选摘要未给出特征集、训练标签与分类准确率。",
+   "why_it_matters_zh": "棘龙的水生程度长期靠骨密度与形态特征定性争论。把数千件测量数据交给分类模型，是把该争论转为可复现的定量判别问题；同时它推翻了对部分海生爬行动物「完全水生」的默认假设，提示形态指标与行为之间并非一一对应。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "棘龙",
+    "水生适应",
+    "机器学习",
+    "形态测量"
+   ],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "news",
+     "title": "New evidence suggests spinosaurus spent most of its life underwater",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261024221956.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T11:52:54+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "Scientists discover how pancreatic cancer rewrites its DNA to escape treatment",
+   "headline_zh": "实验室中阻断一个关键基因，部分逆转胰腺癌的侵袭性与耐药相关改变",
+   "summary_zh": "研究报道胰腺癌细胞持续重塑自身基因组结构，从而变得更具侵袭性、更易播散并逃逸治疗。在实验室实验中，阻断一个关键基因可逆转部分上述危险改变，提示潜在的新治疗方向。候选摘要未给出基因名称、模型系统与具体分子机制。",
+   "why_it_matters_zh": "胰腺癌的基因组不稳定性与治疗耐药之间的联系此前多停留在相关性层面。若「阻断单基因即可逆转部分结构改变」在体内成立，意味着基因组重塑在某种程度上是可逆的表型而非终末状态，为联合治疗提供时间窗。关键基因身份缺失，无法进一步评估。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "胰腺癌",
+    "基因组重塑",
+    "耐药",
+    "靶点"
+   ],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "news",
+     "title": "Scientists discover how pancreatic cancer rewrites its DNA to escape treatment",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261024221849.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T11:00:25+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    27
+   ],
+   "title_en": "Global underground CO₂ storage hit record 43.6 million metric tons in 2024 alone",
+   "headline_zh": "迄今最完整的地质封存记录：30 年累计 4.217 亿吨",
+   "summary_zh": "一份迄今最全面的地质 CO₂ 封存记录显示，2024 年单年封存 4360 万吨，创年度新高；过去三十年累计封存 4.217 亿吨。候选摘要未说明统计口径、设施清单与核算方法。",
+   "why_it_matters_zh": "地质封存的讨论长期缺乏统一、可核对的全球账本。这份记录给出了年度与累计的基准数字，可用于把封存量的实际增速与气候模型中的部署假设直接对照——4360 万吨/年的量级相对于所需规模仍很小，这一差距现在有了可引用的量化起点。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "碳封存",
+    "CCS",
+    "排放核算",
+    "气候减缓"
+   ],
+   "records": [
+    {
+     "ref": 27,
+     "channel": "news",
+     "title": "Global underground CO₂ storage hit record 43.6 million metric tons in 2024 alone",
+     "url": "https://phys.org/news/2026-10-global-underground-storage-million-metric.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T12:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "Sea cucumber–inspired gel could help heal damaged tissue in humans",
+   "headline_zh": "滑铁卢大学开发可变刚度凝胶，目标为肌腱等软组织修复且不留永久残留",
+   "summary_zh": "滑铁卢大学研究者模仿海参改变身体刚度的能力，开发出一种凝胶，未来可能用于修复受损肌腱及其他软组织，且不在体内留下永久材料。候选摘要未给出材料化学、力学参数、降解行为与动物实验数据。",
+   "why_it_matters_zh": "软组织修复材料通常在「植入时足够硬以承力」与「后期不阻碍组织再生」之间存在矛盾。可逆调节刚度且可降解的设计思路针对的正是这一矛盾，但当前仅有概念层面的报道，离临床验证尚远。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "水凝胶",
+    "仿生材料",
+    "软组织修复",
+    "可降解"
+   ],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "news",
+     "title": "Sea cucumber–inspired gel could help heal damaged tissue in humans",
+     "url": "https://phys.org/news/2026-10-sea-cucumberinspired-gel-tissue-humans.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T11:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "Southern Africa's first known stenciled rock art found hiding in plain sight",
+   "headline_zh": "以精细笔触与指绘为主的南部非洲岩画体系中，首次确认模版喷绘技术",
+   "summary_zh": "南部非洲拥有世界上最丰富细致的岩画之一，包括奔跑的羚羊群、舞蹈人形以及带翼、蹄、角的人形生物，均以精细笔触或手指绘制。该地区岩画此前唯独缺少模版喷绘这一技术类型，新发现填补了这一空白。候选摘要未说明遗址位置、年代测定与图像内容。",
+   "why_it_matters_zh": "技术类型的有无常被用来论证区域岩画传统的独立性与人群交流。模版喷绘在南部非洲的首次确认，意味着该地区与使用同类技术的其他非洲岩画区域之间可能存在此前未被识别的关系，或存在独立发明；年代数据将决定哪种解释成立。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "岩画",
+    "模版喷绘",
+    "南部非洲",
+    "考古发现"
+   ],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "news",
+     "title": "Southern Africa's first known stenciled rock art found hiding in plain sight",
+     "url": "https://phys.org/news/2026-10-southern-africa-stenciled-art-plain.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T12:40:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "A few seconds of loading time can push online learners off track",
+   "headline_zh": "大型学习平台数据显示，短暂加载等待与作业未完成率上升相关",
+   "summary_zh": "一项基于大型在线学习平台的研究发现，课程页面多出一秒加载时间，与作业未完成、成绩下降及站点停留时间减少存在关联。候选摘要未说明样本规模、平台来源、是否为随机化实验以及效应量大小。",
+   "why_it_matters_zh": "教育技术投入多集中于内容与推荐算法，而工程层面的延迟被视为纯技术指标。若数秒级延迟与学习结果存在稳定关联，平台性能预算就应被当作教学干预的一部分来管理；但观察性数据难以排除混杂，因果解释需谨慎。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "在线学习",
+    "加载延迟",
+    "学习结果",
+    "平台数据"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "news",
+     "title": "A few seconds of loading time can push online learners off track",
+     "url": "https://phys.org/news/2026-10-seconds-online-learners-track.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-25T15:20:02+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[1] tarlatamab–durvalumab：联合组 OS 的 95% CI 上限无法估计，PFS 数据在摘要中被截断；需等待完整发表与最终 OS 分析，并关注 DLL3 靶向治疗的神经毒性等安全性数据。",
+  "[2] 三臂膀胱癌试验：含 tremelimumab 组的 EFS/OS 结果未在摘要中出现，双主要终点的另一支是否成立尚不清楚；同时需确认 enfortumab vedotin 在新辅助场景中的耐受性。",
+  "[5] NeoCOAST-2 ctDNA 分析：目前仅有标题与 DOI，需取得全文后核对 ctDNA 清除的检测时点、阈值定义及其与病理完全缓解、无事件生存的定量关系。",
+  "[35] 系外卫星候选：需跟踪信号显著性、是否排除褐矮星自身活动或背景天体造成的假阳性，以及学界对这类「木星级卫星」分类问题的处理。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 237,
+   "dup_in_run": 0,
+   "already_seen": 176,
+   "dropped_by_penalty": 2,
+   "dropped_by_window": 46,
+   "unique": 13,
+   "candidates": 13
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 164,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 141,
+   "unique": 23,
+   "candidates": 23
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 43,
+   "kept": 42,
+   "elapsed_s": 1.01,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 22,
+   "kept": 22,
+   "elapsed_s": 0.09,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 35,
+   "kept": 35,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 5,
+   "kept": 0,
+   "elapsed_s": 0.81,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.48,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.6,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.5,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 4,
+   "kept": 4,
+   "elapsed_s": 0.44,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.38,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 6,
+   "elapsed_s": 0.74,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.13,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.44,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.21,
+   "error": ""
+  }
+ ]
+}
