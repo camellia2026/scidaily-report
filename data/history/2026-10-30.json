@@ -1,0 +1,765 @@
+{
+ "date": "2026-10-30",
+ "generated_at": "2026-10-30 09:12 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今天最集中的信号来自单细胞基因组学与复杂性状的交叉：Nature 同日上线三项工作，分别从串联重复、染色质可及性和稀有变异三个层面，把非编码变异与免疫疾病的细胞类型特异性调控联系起来，其中 TenK10K 一期以 1,925 人的规模首次系统刻画了稀有变异对细胞特异性表达的影响。单细胞与空间组学向完整生物体和胚胎多器官协同推进：Danionella cerebrum 全身体细胞图谱和人类泌尿生殖系统器官发生图谱分别代表两个方向。量子材料方面，MnTe 中的手性 altermagnon 与 moiré Kondo 晶格中的 Chern 金属，把 altermagnetism 和拓扑—强关联交织推向了谱学与输运的直接证据。此外，一项跨 40 个数据集、2,175 人的预注册联合分析对前额叶调控回路活动反映情绪调节能力这一长期假设提出了系统性反证，值得神经影像与生物标志物研究者注意。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Tandem repeat variation shapes immune cell type-specific gene expression",
+   "headline_zh": "串联重复长度变异是免疫细胞类型特异性基因表达的一个被忽视的来源",
+   "summary_zh": "研究结合全基因组测序与细胞水平基因表达测量，显示人类基因组中串联重复的长度变异与细胞类型特异的基因调控和表达差异相关，并参与复杂性状的架构。摘要未给出重复位点数量、效应量或具体细胞类型。",
+   "why_it_matters_zh": "GWAS 长期以 SNP 为主体，串联重复因难以分型而被系统性排除在关联分析之外。若重复长度确有细胞类型特异的调控效应，则现有非编码变异图谱存在结构性缺口。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "串联重复",
+    "细胞类型特异性表达",
+    "复杂性状"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Tandem repeat variation shapes immune cell type-specific gene expression",
+     "url": "https://www.nature.com/articles/s41586-026-10438-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-10438-2",
+     "published": "2026-10-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Genetic variants shape single-cell chromatin accessibility and disease risk",
+   "headline_zh": "单细胞染色质可及性图谱把非编码变异定位到具体细胞状态",
+   "summary_zh": "通过单细胞染色质可及性 profiling，识别出细胞类型特异和细胞状态特异的遗传效应，将非编码变异与免疫疾病风险联系起来。摘要未说明样本规模与组织来源。",
+   "why_it_matters_zh": "把非编码变异—疾病风险的因果链从细胞类型分辨率推进到细胞状态分辨率，意味着同一细胞类型在不同激活或分化状态下可能给出不同的调控解读，直接影响 eQTL 与 fine-mapping 的设计。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "scATAC",
+    "非编码变异",
+    "免疫疾病风险"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Genetic variants shape single-cell chromatin accessibility and disease risk",
+     "url": "https://www.nature.com/articles/s41586-026-11173-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11173-4",
+     "published": "2026-10-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Rare and common genetic variants shape single-cell immune gene expression",
+   "headline_zh": "TenK10K 一期：1,925 人的单细胞 eQTL 首次系统覆盖稀有变异",
+   "summary_zh": "TenK10K 一期整合 1,925 名个体的单细胞 RNA 测序与配对全基因组测序，检出常见与稀有变异对细胞特异性基因表达的关联。作者明确指出稀有变异对细胞特异性表达的影响此前基本未被刻画。",
+   "why_it_matters_zh": "稀有变异在单细胞分辨率上的调控效应此前几乎是空白区，而常见变异解释的遗传度有限。该设计把稀有变异关联检测带入单细胞 eQTL 框架，为罕见病与常见免疫病的机制解释提供了一条新路径。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "TenK10K",
+    "稀有变异",
+    "单细胞 eQTL"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Rare and common genetic variants shape single-cell immune gene expression",
+     "url": "https://www.nature.com/articles/s41586-026-10721-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-10721-2",
+     "published": "2026-10-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "Emotion regulation capacity lacks a shared neural signature",
+   "headline_zh": "预注册联合分析：情绪调节能力的三种指标不收敛，且均不与前额叶调控回路对应",
+   "summary_zh": "预注册联盟分析 40 个任务态 fMRI 数据集、共 2,175 名参与者，检验三种常用的认知重评能力指标——特质问卷、任务内情感评分、杏仁核下调——是否收敛于共同核心。结果显示三者不收敛；特质问卷在全脑范围内未检出可检测的神经关联；任务内情感评分反而与杏仁核及感觉运动皮层响应相关。在过程层面，经典控制回路在情绪产生与重评两个阶段均被激活，挑战了其重评特异性的假设。",
+   "why_it_matters_zh": "直接动摇了一类广泛使用的推理——用调控脑区的激活强度推断个体的调节能力。这对以脑激活为情绪调节生物标志物的研究、干预评估和心理教育叙事构成实质性约束。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "认知重评",
+    "预注册联合分析",
+    "生物标志物",
+    "fMRI"
+   ],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "Emotion regulation capacity lacks a shared neural signature",
+     "url": "https://doi.org/10.1038/s41586-026-11203-1",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11203-1",
+     "published": "2026-10-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Perinatal elimination of genetically aberrant human cortical neurons",
+   "headline_zh": "产前皮层神经元约四分之一携带广泛 CNV，围产期被选择性清除",
+   "summary_zh": "对胎儿至出生后人类脑组织共 2,357 个单神经元进行两种单细胞全基因组测序。产前皮层神经元中平均 25.9%（12.7–46%）基因组高度异常，即涉及多条染色体的广泛 CNV；出生后该比例下降约 4.5 倍（Fisher 荟萃分析 P = 3.5×10⁻⁶）。广泛 CNV 神经元主要在围产期被清除，时间与程序性细胞死亡期大致平行。存活神经元的 CNV 在剂量敏感基因和神经发育障碍相关基因上呈耗竭（超几何检验 P<0.05）。",
+   "why_it_matters_zh": "把健康大脑的基因组图景从静态改写为动态——正常皮层在发育期容忍大量基因组异常，再通过选择清除。这为神经发育障碍的体细胞突变假说提供了一个定量基线，也提示出生后脑组织中的体细胞 CNV 负荷已被发育选择过滤过。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "体细胞 CNV",
+    "皮层发育",
+    "围产期选择",
+    "单细胞基因组"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Perinatal elimination of genetically aberrant human cortical neurons",
+     "url": "https://doi.org/10.1038/s41586-026-11190-3",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11190-3",
+     "published": "2026-10-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "SWI/SNF complexes shape 3D chromatin architecture through CTCF and cohesin",
+   "headline_zh": "cBAF 缺失把 CTCF 位点打开并重塑 3D 基因组，机制是 SWI/SNF 亚复合体间的拮抗切换",
+   "summary_zh": "药物抑制与 ARID1A 缺失在多种细胞类型和组织中破坏 BAF，保守响应为 CTCF 位点可及性升高；ARID1A 缺失单独即足以驱动。CTCF 与 SMC3 占据增加，显示 cBAF 与 CTCF–cohesin 拮抗。cBAF 缺失使 TAD 边界增强、大结构域细分，长程增强子—启动子环被 CTCF 富集位点锚定的短程环取代。CTCF 直接结合完整组装的 PBAF，cBAF 耗竭后 PBAF 被招募至 CTCF 占据增加位点。",
+   "why_it_matters_zh": "BAF 组分失活突变是跨癌种最常见的突变之一，但一直缺乏统一机制解释。该工作给出可检验的统一模型：cBAF 丢失导致 CTCF/cohesin 占据上升，进而绝缘增强、增强子—启动子通讯重排，为 BAF 突变肿瘤的表观遗传脆弱性提供靶点逻辑。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "BAF/SWI/SNF",
+    "ARID1A",
+    "CTCF",
+    "cohesin",
+    "TAD"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "SWI/SNF complexes shape 3D chromatin architecture through CTCF and cohesin",
+     "url": "https://doi.org/10.1038/s41586-026-11197-w",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11197-w",
+     "published": "2026-10-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Pharmacological inhibition of METTL1 as a therapy against solid and blood cancers",
+   "headline_zh": "首个 METTL1 tRNA 甲基转移酶抑制剂 STM9005，在多种小鼠肿瘤模型中延长生存",
+   "summary_zh": "m⁷G 修饰主要由 METTL1–WDR4 复合体催化，METTL1 与多种侵袭性恶性肿瘤相关，但靶向 tRNA 修饰酶的临床可行性此前未确立。研究报告 STM9005——高选择性、强效的 first-in-class METTL1 抑制剂。在白血病、黑色素瘤、胰腺癌、食管癌和小细胞肺癌等模型中，它阻断细胞生长、引起分化改变、扰乱细胞周期；伴随部分 tRNA 上 m⁷G 选择性下降及表达降低，影响致癌 mRNA 翻译。体内给药在多种小鼠癌症模型中损害肿瘤生长并显著延长生存。",
+   "why_it_matters_zh": "把 tRNA 修饰酶从相关性靶点推进到有体内药效的成药靶点，且选择性体现在 tRNA 底物子集而非全局翻译抑制，提示治疗窗口可能存在。对 METTL1 扩增或高表达的侵袭性肿瘤是一个新方向。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "METTL1",
+    "m7G",
+    "tRNA 修饰",
+    "first-in-class 抑制剂"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "paper",
+     "title": "Pharmacological inhibition of METTL1 as a therapy against solid and blood cancers",
+     "url": "https://doi.org/10.1038/s41586-026-11178-z",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11178-z",
+     "published": "2026-10-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Chiral altermagnon in MnTe",
+   "headline_zh": "圆二色 RIXS 在 MnTe 中直接观测到手性 altermagnon",
+   "summary_zh": "altermagnetism 被视为桥接铁磁与反铁磁的磁相，其动量依赖的自旋劈裂也为手性磁振子的出现提供了对称性条件。研究用圆二色共振非弹性 X 射线散射，在 altermagnetic 候选材料碲化锰（MnTe）中获得手性磁振子的直接实验证据。该模式（作者称为 chiral altermagnon）的自旋极化呈现与 MnTe 的 altermagnetic g 波对称性一致的动量依赖。极化分辨数据支持存在一类离散的磁激发。",
+   "why_it_matters_zh": "altermagnet 的判据此前多依赖自旋劈裂的间接证据；手性磁振子提供了另一条对称性敏感的探针，把如何确认一个材料是 altermagnet 从单一输运或谱学判据扩展为可交叉验证的激发谱判据。对 altermagnet 自旋电子学与量子器件设计是基础性的一步。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "altermagnetism",
+    "MnTe",
+    "手性磁振子",
+    "RIXS"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Chiral altermagnon in MnTe",
+     "url": "https://doi.org/10.1126/science.adv3196",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adv3196",
+     "published": "2026-10-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "Emergence of Chern metal in a moiré Kondo lattice",
+   "headline_zh": "moiré Kondo 晶格中磁性 Kondo 击穿的起点出现 Chern 金属",
+   "summary_zh": "Chern 金属是携带手性边缘态的二维金属态。研究在阻挫 moiré Kondo 晶格——角度对齐的 MoTe₂/WSe₂ 双层——中，于磁性 Kondo 击穿的起始处观测到 Chern 金属。该态可压缩，表现为近量子化的霍尔电阻和由 bad metallic 体态贡献的有限纵向电阻。通过非局域输运测量和电流诱导的量子反常霍尔击穿，作者证明了手性边缘态的存在。磁圆二色测量进一步显示，在 Kondo 击穿处的变磁转变之前，Chern 金属存在一个磁化平台。",
+   "why_it_matters_zh": "把能带拓扑与 Kondo 相互作用放在同一可调平台上，并给出可压缩加近量子化霍尔这一非平庸组合的实验判据。为通过 moiré 工程调控拓扑—强关联交织相提供了新的自由度（层间扭转与 Kondo 耦合强度）。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "Chern 金属",
+    "Kondo 晶格",
+    "moiré",
+    "手性边缘态"
+   ],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "paper",
+     "title": "Emergence of Chern metal in a moiré Kondo lattice",
+     "url": "https://doi.org/10.1126/science.adv9181",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adv9181",
+     "published": "2026-10-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "A single-molecule spin–photon interface",
+   "headline_zh": "嵌入匹配晶格的三重态基态卡宾分子实现单分子自旋—光子接口",
+   "summary_zh": "分子体系要同时满足明亮荧光、高光谱稳定性和长基态自旋寿命三项要求，此前在单分子水平尚未实现。研究将三重态基态卡宾分子嵌入结构匹配的主体晶体，实现单分子可寻址的自旋—光子接口。系统表现出窄零声子线、超过一小时的光谱稳定性、自旋选择性光学跃迁和单分子光探测磁共振。相干控制给出毫秒级动力学去耦相干时间和数十毫秒自旋弛豫（4.5 K）。",
+   "why_it_matters_zh": "把固态原子缺陷的三大优势（亮度、谱稳定性、长相干）在化学可设计的分子平台上同时兑现，意味着量子网络节点可以走自下而上的合成路线而非依赖缺陷工程。对可加工、可规模化的量子光子器件是路线级的选择。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "自旋—光子接口",
+    "分子量子比特",
+    "卡宾",
+    "ODMR"
+   ],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "paper",
+     "title": "A single-molecule spin–photon interface",
+     "url": "https://doi.org/10.1038/s41586-026-11147-6",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11147-6",
+     "published": "2026-10-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "Subcycle videography of Landau–Zener–Majorana transitions in graphene",
+   "headline_zh": "覆盖整个第一布里渊区的亚周期能带摄像，直接拍到 Landau–Zener–Majorana 隧穿",
+   "summary_zh": "此前的光电子动量显微成像只能给出多周期平均的激发电子分布，亚周期能带摄像局限于小电子动量。研究引入阿秒精度、覆盖整个第一布里渊区的亚周期能带结构摄像，可视化非绝热 Landau–Zener–Majorana 隧穿。在石墨烯狄拉克型能带中，强场驱动加速与周期性带间隧穿的相互作用表现为布里渊区边缘载流子分布的相干亚周期位移与畸变。极端非热电子分布还使作者能够区分竞争性散射过程并评估其对相干电子控制的影响。",
+   "why_it_matters_zh": "强场物理长期缺乏对动量空间全区域的直接时间分辨观测，多数结论依赖理论反推。该技术把光波驱动电子运动从模型图像变为可逐帧检视的对象，并顺带给出散射通道的实验分离方法。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "亚周期成像",
+    "Landau–Zener–Majorana",
+    "石墨烯",
+    "阿秒"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "paper",
+     "title": "Subcycle videography of Landau–Zener–Majorana transitions in graphene",
+     "url": "https://doi.org/10.1038/s41586-026-11214-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11214-y",
+     "published": "2026-10-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Whole-body single-cell atlas of an adult vertebrate, Danionella cerebrum",
+   "headline_zh": "首个成年脊椎动物全身单细胞转录组图谱",
+   "summary_zh": "对小型、透明、具再生能力的硬骨鱼 Danionella cerebrum 成体进行分区单细胞 RNA 测序，并用空间转录组学在单细胞分辨率上定位细胞类型与基因表达。基于区域基因表达特征划分出空间上不同的神经细胞类型。全身体图谱揭示了携带成体分子位置记忆的细胞类型、发现幼态延续（paedomorphic）特征，并在成体结缔组织中揭示保守的体区与附肢特化程序。比较分析显示保守的神经细胞类型；再生数据集揭示端脑再生过程中的表达动态。",
+   "why_it_matters_zh": "脊椎动物全身细胞图谱此前受限于体型与不透明性。该物种把整只动物变成可 profiling 的单位，使跨器官的细胞类型比较、位置记忆和再生研究在同一基因型背景下进行。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "全身图谱",
+    "Danionella",
+    "空间转录组",
+    "再生"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Whole-body single-cell atlas of an adult vertebrate,\n                    <i>Danionella cerebrum</i>",
+     "url": "https://doi.org/10.1126/science.aeg1125",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeg1125",
+     "published": "2026-10-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Spatial coordination in the codevelopment of the human urogenital system during organogenesis",
+   "headline_zh": "人类泌尿生殖系统器官发生的空间转录组图谱，并据此改进体外性腺细胞诱导",
+   "summary_zh": "结合高分辨率空间转录组与单细胞多组学，profile 了 Carnegie 15 至 23 期的人类胚胎，捕获泌尿生殖系统的共同发育动态。识别出中肾和肾上腺原基来源的信号，可促进性腺特化，并使体外高效生成类似早期性腺谱系的细胞成为可能。发现性腺支持细胞可能经睾丸网或卵巢网连接中肾、具有中肾来源。 delineate 了三条转录上不同的类固醇生成谱系，在胆固醇来源、皮质醇合成和性激素产生上各异，共同编排性别分化。",
+   "why_it_matters_zh": "把多器官协同发育从解剖学描述推进到可操作的信号配体层面，直接改善了体外性腺细胞的分化效率——这对性发育障碍建模和生殖细胞研究是可用的方法学产出。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "人类胚胎",
+    "泌尿生殖系统",
+    "空间转录组",
+    "类固醇生成"
+   ],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Spatial coordination in the codevelopment of the human urogenital system during organogenesis",
+     "url": "https://doi.org/10.1126/science.aee5093",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aee5093",
+     "published": "2026-10-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "Papaver self-incompatibility is controlled by two multiallelic idiomorphs",
+   "headline_zh": "罂粟自交不亲和由两套无共同祖先的多等位 idiomorph 控制",
+   "summary_zh": "自交不亲和通过 S locus 高度多态的遗传识别阻止自交。罂粟中此前鉴定的 S 决定因子为 PrpS 与 PrsS，但研究发现许多 S 单倍型中并不存在这对基因。作者报告了另一对多态 S 基因——S locus oligopeptide transporter（SOPT）与 S locus glycine-rich protein（SGRP），在 PrpS-PrsS 缺失时于 S locus 分离，具备 S 决定因子的标志性特征，并在拟南芥中异源表达时赋予自交不亲和。因此罂粟的 SI 系统并非由同源变异的等位基因构成，而由两个共享 no obvious common ancestry 的多等位 idiomorph 决定。",
+   "why_it_matters_zh": "传统模型假设 S locus 的等位基因是同一基因的同源变体。双 idiomorph 系统意味着多态性的遗传基础可以完全不同源，这对 allorecognition 机制的演化建模是一个结构性反例。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "自交不亲和",
+    "idiomorph",
+    "罂粟",
+    "allorecognition"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "<i>Papaver</i>\n                    self-incompatibility is controlled by two multiallelic idiomorphs",
+     "url": "https://doi.org/10.1126/science.aeg6988",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeg6988",
+     "published": "2026-10-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Genomic erosion across avifauna in a biodiversity hotspot sounds a conservation alarm",
+   "headline_zh": "高黎贡山 62 种鸣禽历史—现代基因组比较：遗传多样性平均丧失 43–49%，常见种受损更重",
+   "summary_zh": "比较中国西南高黎贡山生物多样性热点区 62 种鸣禽的历史与现代基因组，量化遗传多样性变化。检出平均 43% 至 49% 的基因组多样性丧失；出乎意料的是，常见物种受影响不成比例地更大。作者认为该丧失主要由栖息地破碎化驱动（并被扩散能力缓解），且超出此前估计与保护政策阈值。已丧失多样性的物种在 IUCN 红色名录中仍被列为无危。",
+   "why_it_matters_zh": "暴露了以物种存续为判据的濒危等级体系的一个盲点——种群数量看似稳健的常见种可能已在遗传层面严重退化。为把基因组指标纳入全球保护框架提供了具体论据与区域基线。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "遗传多样性丧失",
+    "栖息地破碎化",
+    "IUCN 红色名录",
+    "鸟类"
+   ],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "Genomic erosion across avifauna in a biodiversity hotspot sounds a conservation alarm",
+     "url": "https://doi.org/10.1126/science.aef3063",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aef3063",
+     "published": "2026-10-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    43
+   ],
+   "title_en": "Western Pacific double subduction drives Gulf of California rifting",
+   "headline_zh": "西太平洋双俯冲可跨太平洋传递 5–15 MPa 拉张应力，驱动加州湾快速裂谷",
+   "summary_zh": "加州湾斜向裂谷（GOCOR）在约 600–800 万年前的快速裂谷作用是关键案例，其驱动机制存在争议。研究指出 GOCOR 快速裂谷与西太平洋双俯冲的启动在时间上重合。三维地球动力学模型显示，这种俯冲重组可跨太平洋板块传递约 5–15 MPa 的拉张应力，加载 GOCOR 与圣安德烈斯断裂南段。作者提出俯冲重组可能是先存薄弱岩石圈上 GOCOR 快速裂谷启动的缺失驱动因素，并可能是其他裂谷事件中被忽视的构造力。",
+   "why_it_matters_zh": "把远场构造重组提升为大陆裂谷启动的候选驱动力，挑战了以局部岩石圈结构为主的解释框架。若成立，裂谷事件的时序解释需要纳入全球板块重组的时间线。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "大陆裂谷",
+    "双俯冲",
+    "加州湾",
+    "应力传递"
+   ],
+   "records": [
+    {
+     "ref": 43,
+     "channel": "paper",
+     "title": "Western Pacific double subduction drives Gulf of California rifting",
+     "url": "https://doi.org/10.1126/science.aef5187",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aef5187",
+     "published": "2026-10-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    46
+   ],
+   "title_en": "A Martian meteorite that formed ≳4.1 billion years ago samples Mars' early crust and mantle",
+   "headline_zh": "Teghaza 001：一块 ≥41 亿年前的慢冷火成岩，采样火星早期壳与原始地幔",
+   "summary_zh": "多数火星陨石地质年轻、不代表以古老岩石为主的火星表面。研究描述陨石 Teghaza 001（Teg 001）——一块缓慢冷却的火成岩，形成于至少 41 亿年前，其成分、矿物学与结构均区别于其他火星陨石。作者判定其为古老壳的样品，源自地球化学上独特的、具原始成分的地幔源区。含水蚀变矿物的存在，结合全岩与矿物特异氧同位素测量，表明 Teg 001 在被撞击抛射入太空之前曾与富 ¹⁸O 流体反应。",
+   "why_it_matters_zh": "火星陨石库长期偏向年轻、经受过冲击的样品。一块保存早期壳—幔信息且记录过流体反应的样品，为火星早期分异与早期水活动提供了直接物质证据。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "火星陨石",
+    "早期地壳",
+    "氧同位素",
+    "含水蚀变"
+   ],
+   "records": [
+    {
+     "ref": 46,
+     "channel": "paper",
+     "title": "A Martian meteorite that formed ≳4.1 billion years ago samples Mars’ early crust and mantle",
+     "url": "https://doi.org/10.1126/science.adz5646",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adz5646",
+     "published": "2026-10-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    41
+   ],
+   "title_en": "In-cell structures visualize human pre-ribosome assembly in the nucleolus",
+   "headline_zh": "冷冻关联光镜—电镜断层在 HeLa 核仁内原位解析人前核糖体组装",
+   "summary_zh": "真核核糖体生物合成始于核仁，此前前核糖体结构均来自离位（ex situ）表征，人核仁内的组装路径未被描述。研究用冷冻关联光镜与电镜断层可视化 HeLa 细胞核仁内的分子景观，获得两个核糖体亚基前体——小亚基 processome 与 pre-60S——的细胞内结构快照。这些快照重现了此前离位解析的主要状态，并揭示额外的关键互作伙伴，包括 RNA exosome、rixosome 和核输出受体 CRM1-RanGTP。进一步显示 RNA 聚合酶 I 抑制后前核糖体组装景观如何改变。",
+   "why_it_matters_zh": "把核糖体组装的结构生物学从纯化体系搬回核仁这一天然区室，使组装中间态在细胞内是否真实存在、与谁互作成为可直接检验的问题。对核仁应激与 Pol I 抑制相关治疗策略有直接关联。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "核糖体组装",
+    "核仁",
+    "冷冻关联光镜电镜",
+    "CRM1"
+   ],
+   "records": [
+    {
+     "ref": 41,
+     "channel": "paper",
+     "title": "In-cell structures visualize human pre-ribosome assembly in the nucleolus",
+     "url": "https://doi.org/10.1126/science.aej0483",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aej0483",
+     "published": "2026-10-29T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[4] 植物育种创新的安全性与监管错配（Cell）：文章主张转基因、顺式基因和基因编辑的风险已与常规育种相当，而监管框架仍以方法而非产品为判据，并列举免疫受体转移、顺式基因抗病堆叠、光合作用工程、AI 引导蛋白设计等受现行监管约束的案例。这是政策论证而非实验研究，但其案例清单对作物改良研究者有参考价值。",
+  "[36][38] 早产与人类小脑发育的内在时间程序：多模态数据（在体神经影像加死后空间转录组与组织病理）显示早产使小脑轨迹偏移，表现为颗粒细胞成熟不完全与浦肯野细胞结构精修受损，且与孕龄而非围产期暴露缩放。同期配发的观点文章讨论时间与早产的纠缠。两篇宜合并阅读。",
+  "[33] MXenes 的数据驱动发现与快速合成：机器学习辅助数据库挖掘筛出 33 个此前已合成但未被识别的多层 MXene 候选，并用自蔓延高温法在数分钟内合成 7 个，另实现 11 个稀土基 MXene。对二维材料合成路线有方法学意义，但摘要未给出性能数据。",
+  "[39][27] 鸟鸣与人类语音/歌曲的普遍模式：分析 367 种鸟（超过 74,500 个发声单元）与 52 种人类语言（超过 15,000 个单元），发现相似模式且与发声学习无关。与同期的评论文章 [27] 一起看，后者提醒部分类比缺乏证据——两篇存在张力，值得对照。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 314,
+   "dup_in_run": 0,
+   "already_seen": 151,
+   "dropped_by_penalty": 4,
+   "dropped_by_window": 44,
+   "unique": 115,
+   "candidates": 50
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 162,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 119,
+   "unique": 43,
+   "candidates": 40
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 95,
+   "kept": 94,
+   "elapsed_s": 1.09,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.44,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.33,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.37,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 12,
+   "kept": 0,
+   "elapsed_s": 0.8,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.45,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 45,
+   "kept": 45,
+   "elapsed_s": 0.39,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.65,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.41,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 8,
+   "kept": 8,
+   "elapsed_s": 0.4,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 10,
+   "kept": 10,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.38,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.3,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 6,
+   "elapsed_s": 0.71,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.48,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.21,
+   "error": ""
+  }
+ ]
+}
