@@ -1,0 +1,735 @@
+{
+ "date": "2026-11-01",
+ "generated_at": "2026-11-01 08:14 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选以顶刊新闻与科学媒体短讯为主，真正具备方法学或机制新意的研究条目集中在物理模拟、量子互连、基因编辑与古生物学几处。值得优先关注的是：超冷原子模拟施温格对产生、四根超导电缆连接两块量子处理器、巨型病毒携带串联钾通道基因、以及首个专食果实的恐龙物种。医学通道多为新闻性短讯，缺乏可核验的方法细节，仅择要收录。",
+ "items": [
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production",
+   "headline_zh": "用超冷原子在实验室里“演”出施温格对产生",
+   "summary_zh": "量子电动力学预言足够强的电场可以把场能转化为粒子—反粒子对，但这一过程在真实电场中极难直接观测。该工作用超冷原子体系构建可调控的模拟平台来重现这一对产生过程，从而在可控条件下研究原本只存在于极端场强中的现象。候选材料未给出具体原子种类、模拟参数或定量结果。",
+   "why_it_matters_zh": "把不可及的强场QED过程搬到冷原子平台上，意味着这类过程的关键标度行为可以在桌面实验中反复检验，而不必依赖脉冲星磁层或重离子碰撞等极端环境。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "量子模拟",
+    "施温格机制",
+    "超冷原子",
+    "QED"
+   ],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "news",
+     "title": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production",
+     "url": "https://phys.org/news/2026-10-ultracold-atoms-simulate-hard-antimatter.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T17:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Four superconducting cables link two large quantum processors into one",
+   "headline_zh": "四根超导电缆把两块量子处理器连成一台",
+   "summary_zh": "模块化量子计算路线的核心难点在于：连接件必须在传递脆弱量子信息的同时不破坏它。该报道称研究团队用四根超导电缆将两个大型量子处理器互连，使其作为一台更大的机器协同工作。候选材料未披露保真度、连接距离或所用量子比特数目。",
+   "why_it_matters_zh": "若互连确实保持了量子信息的完整性，模块化扩展就从概念验证走向了工程可选项——单芯片受限于面积和布线，互连是继续增大比特规模的主要出路之一。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "模块化量子计算",
+    "超导互连",
+    "量子信息传输"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "news",
+     "title": "Four superconducting cables link two large quantum processors into one",
+     "url": "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T16:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Giant virus yields potassium channel gene that illuminates complex protein evolution",
+   "headline_zh": "藻类巨型病毒携带串联钾通道基因",
+   "summary_zh": "研究者在一种藻类病毒的基因组中发现了一个串联钾通道基因，该发现支持巨型病毒对复杂蛋白演化有实质贡献的观点。成果发表于 PNAS。候选材料未说明该通道的电生理特性或系统发生分析细节。",
+   "why_it_matters_zh": "钾通道这类多结构域复杂蛋白此前通常被视为细胞谱系内部演化的产物；病毒携带此类基因，为“病毒作为复杂蛋白演化中转站”的假说增添了具体分子证据。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "巨型病毒",
+    "钾通道",
+    "蛋白演化",
+    "水平基因转移"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "news",
+     "title": "Giant virus yields potassium channel gene that illuminates complex protein evolution",
+     "url": "https://phys.org/news/2026-10-giant-virus-yields-potassium-channel.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T21:00:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "Rare fossil discovery reveals new dinosaur species that specialized in eating fruit",
+   "headline_zh": "新恐龙物种 Infernogallus jamesi：首个专食果实的恐龙",
+   "summary_zh": "来自石溪大学、皇家安大略博物馆与北达科他地质调查所的团队描述了一个小型窃蛋龙类新种 Infernogallus jamesi，其咀嚼肌结构适合碾碎软质食物，被认为是首个已知专门取食果实的恐龙。候选材料未给出地层年代、标本完整度或牙齿微磨痕等支持证据。",
+   "why_it_matters_zh": "白垩纪被子植物与果实的兴起常被讨论为驱动动物取食行为分化的因素；一个形态上特化的食果恐龙，为这一协同演化假说提供了来自恐龙一侧的实体证据。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "恐龙",
+    "窃蛋龙类",
+    "食果",
+    "白垩纪"
+   ],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "news",
+     "title": "Rare fossil discovery reveals new dinosaur species that specialized in eating fruit",
+     "url": "https://phys.org/news/2026-10-rare-fossil-discovery-reveals-dinosaur.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T13:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "Scientists discover a bacterial defense so strange they thought it was broken",
+   "headline_zh": "一种“反向运作”的细菌防御系统",
+   "summary_zh": "常见的细菌免疫系统是把致命毒素置于抑制之下，待病毒入侵再释放；该研究报告的系统顺序相反：只有在感染开始后才产生启动致命武器的DNA，被感染的细菌随即自我毁灭，从而阻止病毒复制并扩散到邻近细胞。候选材料未说明该系统的基因组成或宿主菌种类。",
+   "why_it_matters_zh": "这提示细菌免疫的“触发逻辑”比现有分类框架所容纳的更为多样，也为把这类自毁开关改造成可控的生物技术元件提供了原型思路。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "细菌防御系统",
+    "噬菌体",
+    "自毁机制",
+    "DNA"
+   ],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "news",
+     "title": "Scientists discover a bacterial defense so strange they thought it was broken",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261029072123.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T10:38:30+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "Scientists develop new system to boost prime editing in dicot plants",
+   "headline_zh": "SmartPE 提升双子叶植物先导编辑效率",
+   "summary_zh": "由中国研究者开发的 SmartPE 系统针对先导编辑在番茄、大豆、油菜等双子叶作物中效率偏低这一瓶颈进行改进，使精确碱基替换与插入在多种双子叶植物中更易实现。候选材料未给出效率提升幅度或具体靶点数据。",
+   "why_it_matters_zh": "先导编辑在作物中的低效率长期限制其从模式植物走向育种实践；若该改进在多个物种中可复现，精确编辑将更接近可用于性状改良的常规工具。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "先导编辑",
+    "双子叶作物",
+    "SmartPE",
+    "精准育种"
+   ],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "news",
+     "title": "Scientists develop new system to boost prime editing in dicot plants",
+     "url": "https://phys.org/news/2026-10-scientists-boost-prime-dicot.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T01:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "A surprising vitamin A discovery is changing what scientists know about vision",
+   "headline_zh": "维生素A衍生物与甲状腺激素协同塑造中央凹",
+   "summary_zh": "约翰霍普金斯团队用实验室培养的微型人视网膜发现，一种维生素A衍生物与甲状腺激素共同作用，塑造负责最锐利视觉的中央凹（foveola）区域，挑战了数十年来关于眼形成的假设。候选材料未说明所用类器官的时间窗与分子通路细节。",
+   "why_it_matters_zh": "中央凹是人类高分辨率视觉的结构基础，其形成机制长期缺乏人源实验模型；类器官中重现这一过程，为研究黄斑相关发育缺陷提供了可操作的体系。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "视网膜类器官",
+    "中央凹",
+    "维生素A",
+    "甲状腺激素"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "news",
+     "title": "A surprising vitamin A discovery is changing what scientists know about vision",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261028234813.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T04:31:41+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "Scientists smash oxygen nuclei to recreate matter from the Big Bang",
+   "headline_zh": "氧核碰撞在更低能量下重现早期宇宙物质形态",
+   "summary_zh": "研究者以接近光速对撞氧原子核，重现了宇宙极早期的一种原初物质状态。结果显示这种奇特物质可以在比此前演示更小、能量更低的碰撞中形成，从而对早期宇宙物理的已知边界提出挑战。候选材料未说明碰撞能量、探测信号或所对应的物质相名称。",
+   "why_it_matters_zh": "若小体系、低能量碰撞即可生成该状态，那么判断“何时进入该物质相”的阈值需要重新标定，相关实验的门槛与可及范围也随之改变。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "重离子碰撞",
+    "原初物质",
+    "氧核",
+    "早期宇宙"
+   ],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "news",
+     "title": "Scientists smash oxygen nuclei to recreate matter from the Big Bang",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T02:09:38+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+   "headline_zh": "血检可在症状出现前十年提示阿尔茨海默病风险",
+   "summary_zh": "一项国际研究显示，简单的血液检测有助于在症状出现前多年预测阿尔茨海默病相关的认知下降：风险最高者在五年内出现认知障碍的概率为38%，十年内约为78%。候选材料未说明检测的具体生物标志物、队列规模或研究设计。",
+   "why_it_matters_zh": "把风险分层提前到症状前十年，是预防性干预试验筛选受试者的前提条件；但具体标志物与验证队列尚不明确，距离临床常规使用仍有距离。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "阿尔茨海默病",
+    "血液生物标志物",
+    "风险预测",
+    "认知下降"
+   ],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "news",
+     "title": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T00:59:52+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Scientists discover metals that defy the deep freeze at -424°F",
+   "headline_zh": "两种合金在 -253°C 下通过重构内部结构抵抗开裂",
+   "summary_zh": "研究者发现两种实验合金在低至 -253°C（-424°F）时并不像同类材料那样变脆断裂，而是重组内部结构、以新的方式吸收应力并保持柔性。候选材料未给出合金成分、相变机制或力学测试数据。",
+   "why_it_matters_zh": "极低温脆性是液氢储运、深空探测等场景的结构材料瓶颈；若机制可推广，将改变低温合金的设计准则——从抑制相变转为利用相变。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "低温合金",
+    "脆性",
+    "相变",
+    "力学性能"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "news",
+     "title": "Scientists discover metals that defy the deep freeze at -424°F",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261029072127.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T12:45:59+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "Spatial mapping reveals how human urogenital organs codevelop during organogenesis",
+   "headline_zh": "空间图谱揭示人泌尿生殖器官的协同发育",
+   "summary_zh": "该研究在原生空间背景下绘制了人类泌尿生殖系统的发育图谱，揭示相邻器官在胚胎发生中如何通过细胞通讯与分子信号协调发育。候选材料未说明所用空间转录组平台、样本孕周范围或关键信号通路。",
+   "why_it_matters_zh": "泌尿生殖系统畸形常涉及多个相邻器官的联合异常；把发育放回空间语境，有助于解释这类联合畸形的起源，而非孤立地看单个器官。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "空间转录组",
+    "泌尿生殖发育",
+    "器官发生",
+    "细胞通讯"
+   ],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "news",
+     "title": "Spatial mapping reveals how human urogenital organs codevelop during organogenesis",
+     "url": "https://phys.org/news/2026-10-spatial-reveals-human-urogenital-codevelop.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T02:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "'Molecular armor' can trap shape-matched planar molecules",
+   "headline_zh": "三点连接构建的分子笼可捕获形状匹配的平面分子",
+   "summary_zh": "研究团队将两个弯曲的π共轭分子在三个位点面对面连接，设计并合成了一个具有内部空腔的分子笼，可捕获形状匹配的平面分子。候选材料未给出结合常数、选择性数据或客体范围。",
+   "why_it_matters_zh": "以形状匹配而非单纯尺寸为依据的识别，是分子容器走向选择性分离与传感的关键一步；三点连接策略也为调控空腔几何提供了可设计的手柄。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "分子笼",
+    "π共轭",
+    "分子识别",
+    "主客体化学"
+   ],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "news",
+     "title": "'Molecular armor' can trap shape-matched planar molecules",
+     "url": "https://phys.org/news/2026-10-molecular-armor-planar-molecules.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T12:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "A mysterious 4,000-year-old wall is rewriting North Africa’s history",
+   "headline_zh": "摩洛哥发现4000年前大型防御工事",
+   "summary_zh": "在摩洛哥发现的一处约4000年前的防御结构，显示出此前未预料到的史前社会复杂程度，并暗示该地区在地中海历史中的作用比先前认为的更大。候选材料未说明墙体长度、建造年代测定方法或发掘单位。",
+   "why_it_matters_zh": "大型防御工事通常被当作社会动员能力与政治组织的指标；若年代与规模得到确认，北非史前社会在区域叙事中的位置需要重写。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "北非考古",
+    "防御工事",
+    "史前社会",
+    "摩洛哥"
+   ],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "news",
+     "title": "A mysterious 4,000-year-old wall is rewriting North Africa’s history",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261030003022.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T13:09:49+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "75,000-year-old Neanderthal may have been killed by a spear aimed at the heart",
+   "headline_zh": "7.5万年前尼安德特人疑遭矛刺心脏致死",
+   "summary_zh": "一具约7.5万年前的尼安德特人遗骸，其肩胛骨上的圆形孔洞提示木质长矛刺入胸腔并造成迅速致命伤，可能是蓄意瞄准心脏所致。同一具个体此前还曾遭受严重的面部创伤并存活，提示曾获得他人照料。候选材料未说明遗骸出土地点与创伤分析的具体方法。",
+   "why_it_matters_zh": "史前暴力的直接骨骼证据稀少；致死伤与既往重伤后存活并存于同一个体，同时为尼安德特人的暴力行为与群体照护提供了少见的实证线索。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "尼安德特人",
+    "创伤分析",
+    "史前暴力",
+    "照护行为"
+   ],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "news",
+     "title": "75,000-year-old Neanderthal may have been killed by a spear aimed at the heart",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261029072126.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T11:05:20+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "New gel fuel could make rocket and satellite propulsion easier to control",
+   "headline_zh": "煤油基凝胶燃料改善火箭与卫星推进的可控性",
+   "summary_zh": "康考迪亚大学研究者开发的一种煤油基凝胶，旨在让火箭与卫星燃料更易储存和控制。候选材料未给出凝胶的流变参数、比冲或点火测试结果。",
+   "why_it_matters_zh": "凝胶推进剂试图兼取液体燃料的储存便利与固体燃料的操作安全；若可控性得到验证，受益的将主要是需要长期在轨待机的小卫星推进系统。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "凝胶推进剂",
+    "煤油",
+    "卫星推进"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "news",
+     "title": "New gel fuel could make rocket and satellite propulsion easier to control",
+     "url": "https://phys.org/news/2026-10-gel-fuel-rocket-satellite-propulsion.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-10-31T15:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Analysis Asks: Are GLP-1 Drugs Safe in People With Frailty?",
+   "headline_zh": "分析评估司美格鲁肽在衰弱人群中的心血管获益与安全性",
+   "summary_zh": "该分析基于临床试验参与者，考察以累积年龄相关健康缺陷定义的“衰弱”人群中司美格鲁肽的心血管获益与安全性。候选材料未给出效应量、衰弱分层方式或不良事件数据。",
+   "why_it_matters_zh": "衰弱人群常被排除在代谢类药物试验之外，而恰恰是这部分人用药风险最高；针对该亚组的分析，直接关系到处方边界。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "GLP-1",
+    "司美格鲁肽",
+    "衰弱",
+    "心血管风险"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Analysis Asks: Are GLP-1 Drugs Safe in People With Frailty?",
+     "url": "https://doi.org/10.1001/jama.2026.22482",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.22482",
+     "published": "2026-10-30T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Are dinosaur fossils hogging top journals? Analysis sparks debate over ‘charismatic’ finds",
+   "headline_zh": "对数千篇古生物学论文的分析：恐龙等“魅力物种”在高影响力期刊中占比过高",
+   "summary_zh": "一项对数千篇古生物学论文的分析显示，恐龙、哺乳动物等“魅力”物种的化石在高影响力期刊中占比过高，由此引发关于发表偏倚与学科资源分配的争论。候选材料未说明样本期刊范围与超额比例的具体数值。",
+   "why_it_matters_zh": "如果发表渠道系统性地偏向少数明星类群，那么古生物学的整体图景——多样性、演化速率、地层分布——都会被抽样偏差扭曲，而不只是曝光度问题。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "发表偏倚",
+    "古生物学",
+    "科学计量",
+    "魅力物种"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Are dinosaur fossils hogging top journals? Analysis sparks debate over ‘charismatic’ finds",
+     "url": "https://doi.org/10.1038/d41586-026-03512-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03512-2",
+     "published": "2026-10-30T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "refs [24]：FDA 试图撤回 Tavneos 的批准，理由指向研究数据被操纵，但撤市程序本身存在法律与临床可及性张力。涉及监管科学与数据完整性，值得追踪后续程序与患者准入安排。",
+  "refs [28]：近200国在联合国生物多样性峰会上达成协议，但报道同时指出在应对人类对自然破坏方面错失机会。需关注承诺条款与履约机制的具体内容。",
+  "refs [36]：宇宙中微子起源的射电望远镜搜寻思路。候选材料仅为背景性介绍，尚无新观测结果，暂列观察。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 245,
+   "dup_in_run": 0,
+   "already_seen": 145,
+   "dropped_by_penalty": 2,
+   "dropped_by_window": 85,
+   "unique": 13,
+   "candidates": 13
+  },
+  "hot": {
+   "fetched": 54,
+   "dup_in_run": 0,
+   "already_seen": 54,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 115,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 90,
+   "unique": 25,
+   "candidates": 25
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 73,
+   "elapsed_s": 0.54,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "parse_error",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.18,
+   "error": "拿到 3038 字节但解析出 0 条，响应可能被截断"
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.13,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 3,
+   "kept": 0,
+   "elapsed_s": 0.76,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 0.64,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 45,
+   "kept": 45,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.2,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.15,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 2,
+   "kept": 2,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 1,
+   "kept": 1,
+   "elapsed_s": 0.23,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.13,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.23,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 6,
+   "elapsed_s": 0.59,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.08,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.19,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.29,
+   "error": ""
+  }
+ ]
+}
