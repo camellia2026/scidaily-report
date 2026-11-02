@@ -1,0 +1,670 @@
+{
+ "date": "2026-11-02",
+ "generated_at": "2026-11-02 08:55 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选以科学媒体转述为主，顶刊通道多为临床与政策评论，方法学新意有限。较值得关注的是几项具有明确机制或观测支撑的工作：人体代谢产碳的全球估算、星际彗星甲烷的同位素线索、分子尺度电驱动马达、以及胶质母细胞瘤的超声—纳米颗粒—microRNA 联合策略。另有若干古生物学与农业生态学结果提供了新的实证约束。顶刊通道中 ADAPT AF-DES 试验的扩展结局与 BBoxMaskPose v2 的方法学扩展可作跟踪，但候选材料未给出具体数据，本简报不作展开。",
+ "items": [
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Collective human metabolism produces 2 billion metric tons of CO₂ a year, global study estimates",
+   "headline_zh": "全球研究估算：人体代谢每年产生约20.5亿吨二氧化碳",
+   "summary_zh": "由巴斯大学牵头的研究估算，人体将食物转化为能量过程中产生的二氧化碳在1985至2015年间上升74%，达到每年2.05 billion metric tons（约20.5亿吨）。研究团队称该估算有助于厘清碳的来源、去向以及人类活动在整体碳循环中的位置。",
+   "why_it_matters_zh": "把“人体代谢”作为一个可量化的碳通量纳入全球碳核算框架，为碳循环收支中此前少被单独列出的项提供了量级约束；具体核算方法与不确定性范围需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "碳循环",
+    "人体代谢",
+    "全球估算"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "news",
+     "title": "Collective human metabolism produces 2 billion metric tons of CO₂ a year, global study estimates",
+     "url": "https://phys.org/news/2026-10-human-metabolism-billion-metric-tons.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T22:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace",
+   "headline_zh": "星际彗星3I/ATLAS甲烷中的重氢指向极寒起源",
+   "summary_zh": "星际彗星3I/ATLAS的甲烷在同位素组成上异常富集重氢（氘）。这一特征被解读为其冰冻组分形成于另一恒星周围的极低温环境，或形成于该恒星之前的前身分子云中，且这一化学印记在彗星抵达太阳系之前就已锁定。",
+   "why_it_matters_zh": "星际天体是唯一可直接采样太阳系外物质组成的对象；甲烷氘富集度可作为“形成温度计”，用于区分星际介质继承与母行星系统内加工两种起源路径。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "星际彗星",
+    "同位素",
+    "氘富集",
+    "3I/ATLAS"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "news",
+     "title": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace",
+     "url": "https://phys.org/news/2026-10-heavy-hydrogen-3iatlas-methane-frigid.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T15:20:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+   "headline_zh": "科学家将阿基米德螺旋缩小到单分子尺度",
+   "summary_zh": "研究团队构建了一个受阿基米德螺旋启发的单分子马达，可用电场驱动双向旋转。更关键的是，其旋转状态可使电导率提升最高达100倍，即旋转与电子输运之间存在耦合。",
+   "why_it_matters_zh": "把机械旋转自由度与电导调制耦合在同一分子上，为分子电子学提供了一种“用转动开关电流”的机制；若能可逆、可控，则指向分子级机电开关与传感器。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "分子马达",
+    "单分子",
+    "电导调制"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "news",
+     "title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T11:55:46+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "Scientists use sound waves to deliver a new attack on deadly brain cancer",
+   "headline_zh": "聚焦超声联合纳米颗粒与microRNA多靶点攻击胶质母细胞瘤",
+   "summary_zh": "弗吉尼亚大学团队提出一种实验性策略：以聚焦超声、微小纳米颗粒与microRNA三类手段组合，同时攻击多个驱动癌症的基因。候选材料未给出动物或临床数据。",
+   "why_it_matters_zh": "胶质母细胞瘤的核心难题是血脑屏障与靶点异质性；该策略试图用超声实现递送、用多microRNA应对多基因驱动，若递送效率与安全性成立，可绕开单靶点药物的耐药问题。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "胶质母细胞瘤",
+    "聚焦超声",
+    "纳米颗粒",
+    "microRNA"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "news",
+     "title": "Scientists use sound waves to deliver a new attack on deadly brain cancer",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261030003017.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T10:49:13+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Common pesticide linked to 2.5 times the risk of Parkinson’s disease",
+   "headline_zh": "常见农药长期暴露与帕金森病风险升高2.5倍相关",
+   "summary_zh": "UCLA研究报道长期暴露于一种常见农药与帕金森病风险升高逾2.5倍相关，并进一步提出该化学物质损伤脑细胞的具体机制，同时鉴定出一条有前景的细胞保护路径。",
+   "why_it_matters_zh": "把流行病学关联推进到可检验的细胞损伤机制，并给出候选干预靶点；若机制可重复，对农药暴露限值与高危人群筛查有直接意义。具体农药种类与队列设计需查原文。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "帕金森病",
+    "农药暴露",
+    "神经毒性"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "news",
+     "title": "Common pesticide linked to 2.5 times the risk of Parkinson’s disease",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031013035.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T12:33:13+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Ancient ape fossil in Egypt could rewrite the story of human origins",
+   "headline_zh": "埃及1700–1800万年前猿类化石挑战现代猿起源地假说",
+   "summary_zh": "在埃及发现的距今1700–1800万年的猿类化石，对“现代猿与人类祖先起源于东非”的长期观点构成挑战。研究者据此提出北非与中东可能是现代猿类演化的摇篮。",
+   "why_it_matters_zh": "直接冲击人猿起源地理格局的既有框架；关键在于该化石的系统发育位置与性状组合，需查原文判断其支撑强度。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "猿类化石",
+    "埃及",
+    "生物地理起源"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "news",
+     "title": "Ancient ape fossil in Egypt could rewrite the story of human origins",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T10:32:46+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Why some trees thrive far from home—and what that means for carbon sinks",
+   "headline_zh": "南半球引种针叶树生长快至四倍，对碳汇评估有含义",
+   "summary_zh": "覆盖四大洲192个样点的研究发现，引种到南半球的针叶树比其原生分布区生长快至多四倍，且抗旱性更强。",
+   "why_it_matters_zh": "造林碳汇估算通常默认“原生地生长速率”可外推；该结果说明引种区的生长参数可能被系统性低估或高估，直接影响碳汇项目的核算与树种选择策略。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "针叶树",
+    "引种",
+    "碳汇",
+    "抗旱性"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "news",
+     "title": "Why some trees thrive far from home—and what that means for carbon sinks",
+     "url": "https://phys.org/news/2026-10-trees-home-carbon.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T18:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice",
+   "headline_zh": "用吸引性粒子实现“反自旋冰”",
+   "summary_zh": "发表于Nature Communications的研究报道了反自旋冰的实现：与常规自旋冰相反，该系统通过打破支配自旋冰的“冰规则”而成立，构建手段是采用相互吸引的粒子。",
+   "why_it_matters_zh": "自旋冰是阻挫物理的范式系统；构造出违反冰规则的对应态，为研究阻挫与涌现磁单极之外的规则破坏相提供可控平台。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "自旋冰",
+    "阻挫",
+    "胶体粒子"
+   ],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "news",
+     "title": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice",
+     "url": "https://phys.org/news/2026-10-ice-scientists-particles-anti.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T11:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "2,700-year-old mummy head yields first molecular evidence linking aloe to Egyptian embalming",
+   "headline_zh": "2700年前木乃伊头部提供芦荟用于埃及防腐的首个分子证据",
+   "summary_zh": "马尔堡大学跨学科团队将现代天然产物分析与埃及学、药学史结合，对一具约2700年前的木乃伊头部进行分析，获得将芦荟与埃及防腐处理相联系的首个分子层面证据。",
+   "why_it_matters_zh": "把防腐材料清单从文献与视觉证据推进到分子鉴定层面，为古代跨区域原料贸易与配方传承提供可检验的化学指纹。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "木乃伊",
+    "芦荟",
+    "分子考古",
+    "防腐"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "news",
+     "title": "2,700-year-old mummy head yields first molecular evidence linking aloe to Egyptian embalming",
+     "url": "https://phys.org/news/2026-10-year-mummy-yields-molecular-evidence.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T14:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Scientists discover the hidden “muscles” trees use to straighten themselves",
+   "headline_zh": "树木靠“对抗性”特化木材感知自身形态并矫正树干",
+   "summary_zh": "研究发现树木能感知自身形态，并利用类似对抗肌的特化木材将树干重新扶正，从而维持姿态。",
+   "why_it_matters_zh": "若该机制涉及的木材结构与信号可被解析，指向抗倒伏林木、木材品质改良与作物抗倒性状的选育靶点。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "树木姿态",
+    "应压木",
+    "抗倒伏"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "news",
+     "title": "Scientists discover the hidden “muscles” trees use to straighten themselves",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T02:44:28+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    23
+   ],
+   "title_en": "Scientists say a forgotten particle may explain why the universe exists",
+   "headline_zh": "被忽视的中微子或可解释宇宙物质为何留存",
+   "summary_zh": "研究者提出一种数十年来被忽略的中微子可能重塑了早期宇宙，从而使物质在太空中存活下来，并可能留下可探测的引力波信号。",
+   "why_it_matters_zh": "将重子不对称问题与引力波观测联系起来，若信号可测则提供宇宙学之外的新检验通道；候选材料为媒体转述，模型细节与定量预言需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "中微子",
+    "重子不对称",
+    "引力波"
+   ],
+   "records": [
+    {
+     "ref": 23,
+     "channel": "news",
+     "title": "Scientists say a forgotten particle may explain why the universe exists",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T04:33:36+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Mars dust may be less abrasive than lunar dust, spacesuit samples suggest",
+   "headline_zh": "火星车搭载的宇航服样片显示火星尘埃磨蚀性可能低于月尘",
+   "summary_zh": "毅力号火星车携带多块面积不足6.5平方厘米的宇航服材料样片，用于评估火星尘埃对舱外服材料的潜在损伤。初步结果显示火星尘埃的磨蚀性可能弱于月球尘埃。",
+   "why_it_matters_zh": "舱外服材料寿命是长期火星任务的关键约束之一；用真实火星环境中的暴露样片替代地面模拟尘，可校正此前基于阿波罗月尘数据的磨损假设。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "火星尘埃",
+    "宇航服",
+    "毅力号"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "news",
+     "title": "Mars dust may be less abrasive than lunar dust, spacesuit samples suggest",
+     "url": "https://phys.org/news/2026-10-mars-abrasive-lunar-spacesuit-samples.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-01T20:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "BBoxMaskPose v2: Expanding Mutual Conditioning to 3D",
+   "headline_zh": "BBoxMaskPose v2：将互条件机制扩展到三维",
+   "summary_zh": "该工作在BBoxMaskPose基础上把框、掩码与姿态之间的相互条件化从二维扩展到三维。候选材料未提供具体架构与实验数据。",
+   "why_it_matters_zh": "若三维互条件能提升遮挡与稀疏视角下的联合估计一致性，对以人体/物体为中心的3D感知流水线有直接价值；建议查原文核对评测设置。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "三维姿态估计",
+    "互条件",
+    "预印本期刊论文"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "BBoxMaskPose v2: Expanding Mutual Conditioning to 3D",
+     "url": "https://doi.org/10.1007/s11263-026-03113-6",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03113-6",
+     "published": "2026-11-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Extended Outcomes of the ADAPT AF-DES Trial",
+   "headline_zh": "ADAPT AF-DES试验的扩展结局",
+   "summary_zh": "新英格兰医学杂志刊出ADAPT AF-DES试验的扩展随访结局。候选材料仅给出标题，未提供人群、终点或结果数据，本简报不作解读。",
+   "why_it_matters_zh": "房颤合并冠脉介入患者的抗栓策略长期缺乏确定性证据；扩展结局若涉及停药后事件曲线，可能影响指南中双联/三联疗程的推荐强度。需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "房颤",
+    "支架",
+    "抗栓治疗",
+    "临床试验"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Extended Outcomes of the ADAPT AF-DES Trial",
+     "url": "https://doi.org/10.1056/nejmc2612608",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmc2612608",
+     "published": "2026-10-31T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "The Learning Health System, Made Computable",
+   "headline_zh": "让“学习型医疗系统”变得可计算",
+   "summary_zh": "该文讨论将学习型医疗系统转化为可计算形式的问题。候选材料仅提供标题，未给出具体框架或实现，本简报不作展开。",
+   "why_it_matters_zh": "学习型医疗系统的核心障碍在于数据—证据—实践回路缺乏可执行的表示；若提出可计算的表述，可能影响临床数据基础设施的设计取向。需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "学习型医疗系统",
+    "可计算性",
+    "观点文章"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "The Learning Health System, Made Computable",
+     "url": "https://doi.org/10.1056/nejmp2610734",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2610734",
+     "published": "2026-10-31T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[2] ADAPT AF-DES 扩展结局——需核对随访时长、主要终点与出血事件，判断是否足以改变抗栓疗程推荐。",
+  "[6] BBoxMaskPose v2——关注三维互条件的评测协议与跨数据集泛化，确认是否只是维度扩展而非机制改进。",
+  "[23] “被遗忘的中微子”——目前仅为媒体转述，需查原始论文确认模型假设与引力波预言的可检验性。",
+  "[19] 农药与帕金森病——关注暴露评估方式（职业/环境/生物标志）与机制实验的独立重复。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 219,
+   "dup_in_run": 0,
+   "already_seen": 145,
+   "dropped_by_penalty": 1,
+   "dropped_by_window": 67,
+   "unique": 6,
+   "candidates": 6
+  },
+  "hot": {
+   "fetched": 53,
+   "dup_in_run": 0,
+   "already_seen": 53,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 161,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 143,
+   "unique": 18,
+   "candidates": 18
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 19,
+   "elapsed_s": 0.69,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.38,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.33,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.44,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.46,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 1,
+   "kept": 1,
+   "elapsed_s": 0.41,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.52,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.11,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 6,
+   "elapsed_s": 0.59,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.19,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.32,
+   "error": ""
+  }
+ ]
+}
