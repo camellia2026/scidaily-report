@@ -1,0 +1,791 @@
+{
+ "date": "2026-11-03",
+ "generated_at": "2026-11-03 10:59 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选中最值得关注的是两项研究：Finerenone 联合 Empagliflozin 在慢性肾病合并 2 型糖尿病患者中的随机对照试验（NEJM），以及面向高维优化的加权 POD 降阶方法（SIAM J. Sci. Comput.）。计算数学方向另有一篇关于 IMEX 线性多步法能量耗散的理论工作，给出了六阶能量耗散格式并证明了六阶壁垒。科学要闻方面，Nature 报道中国临床医学博士生可不以学位论文毕业的制度改革，以及 IceCube 探测到能量达太阳中微子百亿倍的幽灵粒子，均值得跟进。其余多为单点报道，材料有限，仅择要列入。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Finerenone with Empagliflozin in Chronic Kidney Disease and Type 2 Diabetes",
+   "headline_zh": "非奈利酮联合恩格列净治疗慢性肾病合并 2 型糖尿病：联用降白蛋白尿优于单药",
+   "summary_zh": "针对已在使用 RAS 抑制剂、伴白蛋白尿（UACR 100 至不超过 5000）的慢性肾病合并 2 型糖尿病患者，按 1:1:1 随机分为非奈利酮组、恩格列净组和两药联用组。主要终点为基线至 180 天对数转换平均 UACR 的相对变化。结果显示，联用组 UACR 降幅比非奈利酮单药大 29%（变化比 0.71，95% CI 0.61 至 0.82，P<0.001），比恩格列净单药大 32%。安全性亦被评估。",
+   "why_it_matters_zh": "此前支持 SGLT2 抑制剂与非甾体盐皮质激素受体拮抗剂同时启动的证据有限；该试验直接比较了联用与各自单药，为两药同期起始提供了随机对照层面的依据，而非仅靠机制推断。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "随机对照试验",
+    "慢性肾病",
+    "2型糖尿病",
+    "非奈利酮",
+    "SGLT2抑制剂"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "hot",
+     "title": "Finerenone with Empagliflozin in Chronic Kidney Disease and Type 2 Diabetes",
+     "url": "https://doi.org/10.1056/nejmoa2410659",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2410659",
+     "published": "2025-06-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Weighted Proper Orthogonal Decomposition for High-Dimensional Optimization",
+   "headline_zh": "加权 POD：给快照矩阵列赋权，实现无需离线训练的高维优化降阶",
+   "summary_zh": "标准 POD 不考虑参数化模型结构，已有扩展或需大量解数据、或缺乏在线自适应性、或精度受限。作者改为对快照矩阵的列赋权，并在模型于参数空间新点被评估时更新权重；推导了依赖这些快照权重的后验误差界，说明如何选权以收紧误差界，并给出高效计算相应降阶基的算法。方法可将降阶基导数的计算自然推广到多维参数空间与多位置快照情形，且能嵌入优化算法而无需离线训练阶段。在含 10^5 个设计参数的梯度型壳厚优化问题与一个含时偏微分方程上测试，误差比常规 POD 和 Grassmann 流形插值小若干数量级，单次查询耗时相当。",
+   "why_it_matters_zh": "把离线训练这一降阶建模的常见前置成本去掉，使降阶基可在优化迭代中随参数点在线更新；对设计变量达十万量级的优化问题，这是可行性的关键差别。",
+   "discipline": "数学与计算数学",
+   "importance": 9,
+   "tags": [
+    "降阶建模",
+    "POD",
+    "后验误差界",
+    "PDE约束优化"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Weighted Proper Orthogonal Decomposition for High-Dimensional Optimization",
+     "url": "https://doi.org/10.1137/25m1779243",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1779243",
+     "published": "2026-11-02T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Energy Dissipation Analysis of Implicit-Explicit Linear Multistep Methods for Gradient Flows Using a Simple Multiplier",
+   "headline_zh": "用简单乘子分析 IMEX 线性多步法在梯度流中的能量耗散",
+   "summary_zh": "通过构造由原始能量与非负二次修正项组成的耗散修正能量，为一般 IMEX 线性多步法建立能量耗散的理论框架。以数值解的一阶时间差作为简单乘子，证明相应非负二次修正项可构造当且仅当两个生成多项式在给定区间上为正；据此在依赖生成多项式下界的时间步长限制下证明修正能量随时间衰减。由此可直接得到至五阶 BDF 方法的能量耗散性；作者称首次构造出六阶能量耗散 IMEX 线性多步法，并证明了使用该简单乘子时的六阶壁垒。数值实验验证了理论结果。",
+   "why_it_matters_zh": "把能量耗散性从个别格式的逐例验证，变成可由生成多项式性质判定的条件，并给出阶数上限，为设计高阶保结构 IMEX 格式划定了边界。",
+   "discipline": "数学与计算数学",
+   "importance": 7,
+   "tags": [
+    "梯度流",
+    "IMEX",
+    "线性多步法",
+    "能量耗散",
+    "保结构格式"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "Energy Dissipation Analysis of Implicit-Explicit Linear Multistep Methods for Gradient Flows Using a Simple Multiplier",
+     "url": "https://doi.org/10.1137/26m1857554",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/26m1857554",
+     "published": "2026-11-02T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Chinese PhD students in clinical medicine can graduate without a thesis — more degrees to follow",
+   "headline_zh": "中国临床医学博士生可不以学位论文毕业，实践型博士扩围",
+   "summary_zh": "Nature 报道，中国将实践型博士项目从工程类学生扩展到临床医学博士生，允许其不以学位论文毕业。报道未给出更多实施细节。",
+   "why_it_matters_zh": "这改变了临床医学博士培养的评价口径，从以学位论文为核心转向实践导向，可能影响在读学生的毕业路径与培养单位的标准设定。具体范围与替代性考核方式，材料中未说明。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "博士培养",
+    "医学教育",
+    "科研政策"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "news",
+     "title": "Chinese PhD students in clinical medicine can graduate without a thesis — more degrees to follow",
+     "url": "https://www.nature.com/articles/d41586-026-03480-7",
+     "journal": "Nature",
+     "tier": "",
+     "doi": "10.1038/d41586-026-03480-7",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    41
+   ],
+   "title_en": "IceCube detects ghost particles with 10 billion times the energy of solar neutrinos",
+   "headline_zh": "IceCube 探测到能量约为太阳中微子百亿倍的幽灵粒子",
+   "summary_zh": "利用埋在南极冰下的大型观测装置，科学家探测到来自遥远宇宙源的高能中微子，其能量约为太阳中微子的 100 亿倍。报道称这些粒子可能为理解大爆炸、极端宇宙事件提供线索。",
+   "why_it_matters_zh": "探测到如此高能段的中微子，意味着可把中微子用作极端天体过程的信使；但具体事件数、显著性、来源证认等信息，材料中未给出，需查原文。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "中微子天文学",
+    "IceCube",
+    "高能宇宙线"
+   ],
+   "records": [
+    {
+     "ref": 41,
+     "channel": "news",
+     "title": "IceCube detects ghost particles with 10 billion times the energy of solar neutrinos",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T13:42:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Queen's University Belfast students find Neptune's elusive Trojan asteroids",
+   "headline_zh": "海王星失踪的特洛伊小行星被找到",
+   "summary_zh": "自 1906 年起，观测已发现木星前后存在特洛伊与希腊两族小行星；此后土星、天王星也发现了类似族群，唯独海王星没有。由贝尔法斯特女王大学研究人员领导的国际团队解决了这一持续数十年的谜题。",
+   "why_it_matters_zh": "补齐了巨行星特洛伊族群中缺失的一环，对理解巨行星迁移与太阳系动力学演化有直接意义。具体探测方式与族群规模，材料中未说明。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "特洛伊小行星",
+    "海王星",
+    "太阳系动力学"
+   ],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "news",
+     "title": "Queen's University Belfast students find Neptune's elusive Trojan asteroids",
+     "url": "https://phys.org/news/2026-11-queen-university-belfast-students-neptune.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-03T01:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    28
+   ],
+   "title_en": "Impact of deep-sea mining on seafloor ecosystem still evident 44 years later",
+   "headline_zh": "深海采矿对海底生态系统的影响 44 年后仍可辨识",
+   "summary_zh": "关于深海采矿对支撑海底生命的有机质的长期影响，目前所知甚少。随着对深海稀有金属开采兴趣上升，人们担忧扰动海底会影响深海生态系统；已有证据显示，44 年后影响依然可见。",
+   "why_it_matters_zh": "为扰动后能否恢复这一深海采矿许可争论的核心问题提供了长时间尺度的经验约束：恢复时间远超一般监测周期，这意味着影响评估不能依赖短期观测。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "深海采矿",
+    "底栖生态",
+    "长期影响"
+   ],
+   "records": [
+    {
+     "ref": 28,
+     "channel": "news",
+     "title": "Impact of deep-sea mining on seafloor ecosystem still evident 44 years later",
+     "url": "https://phys.org/news/2026-11-impact-deep-sea-seafloor-ecosystem.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T22:20:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "Telltale furrows: What the Baltic Sea seafloor reveals about bottom trawling",
+   "headline_zh": "波罗的海海底拖痕：底拖网影响比船位数据所示更广，且海底恢复出人意料地快",
+   "summary_zh": "莱布尼茨波罗的海研究所（IOW）的两项研究利用高分辨率回声测深与 AI 分析海底痕迹，认为其比单纯船位数据更能反映底拖网的实际影响：记录到此前未被充分记录的扰动，同时发现海底状态变化出乎意料地迅速；此外还发现海洋保护区内存在违规捕捞的强指示。成果发表于 Ecological Informatics 与 Anthropocene。",
+   "why_it_matters_zh": "把监管依据从船在哪里推进到海底留下了什么，并同时给出恢复速度与违规证据，这对保护区执法与拖网影响评估的方法学都有直接用处。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "底拖网",
+    "声学遥感",
+    "海洋保护区",
+    "AI识别"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "news",
+     "title": "Telltale furrows: What the Baltic Sea seafloor reveals about bottom trawling",
+     "url": "https://phys.org/news/2026-11-telltale-furrows-baltic-sea-seafloor.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T23:40:04+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    36
+   ],
+   "title_en": "Molecular dinitrogen anions pave the way for low-temperature ammonia synthesis",
+   "headline_zh": "分子态氮负离子为低温合成氨提供路径",
+   "summary_zh": "氨作为无碳氢载体受到关注，但其合成仍依赖高温高压过程，难以可持续放大，根源在于 N2 中氮氮三键极强、断裂需大量能量。该报道称分子态双氮负离子为低温合成氨开辟了道路。",
+   "why_it_matters_zh": "若能绕开高温高压解离 N2 的路径，氨的储氢载体定位才具备工程可行性。具体催化体系与产率，材料中未给出。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "固氮",
+    "合成氨",
+    "氮气活化",
+    "氢载体"
+   ],
+   "records": [
+    {
+     "ref": 36,
+     "channel": "news",
+     "title": "Molecular dinitrogen anions pave the way for low-temperature ammonia synthesis",
+     "url": "https://phys.org/news/2026-11-molecular-dinitrogen-anions-pave-temperature.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T21:20:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "Stem cells in deep sleep may point to a secret reserve for lifelong blood renewal",
+   "headline_zh": "小鼠体内发现长期休眠的血液干细胞群，或为终身造血储备",
+   "summary_zh": "德国癌症研究中心（DKFZ）与 HI-STEM 的研究人员在小鼠中发现一群特别长寿的血液干细胞，长期处于休眠状态但保留生成新血细胞的能力。该细胞群可能负责维持小鼠一生的血液再生与免疫防御。",
+   "why_it_matters_zh": "若存在专门的储备池，则造血衰老与应激后恢复的机制解释需要改写；但这是小鼠结果，向人的外推材料中未涉及。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "造血干细胞",
+    "休眠",
+    "衰老",
+    "小鼠"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "news",
+     "title": "Stem cells in deep sleep may point to a secret reserve for lifelong blood renewal",
+     "url": "https://phys.org/news/2026-11-stem-cells-deep-secret-reserve.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T23:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    42
+   ],
+   "title_en": "Scientists discover that some “unhealthy” diets can boost cancer immunotherapy in mice",
+   "headline_zh": "部分与肥胖相关的不健康饮食在小鼠中增强肿瘤免疫治疗疗效",
+   "summary_zh": "科学家意外发现，某些与肥胖相关的饮食可使小鼠的肿瘤免疫治疗更有效，挑战了饮食与癌症治疗关系的传统假设。作者提示机制可能在于食物与肠道菌群的相互作用，从而增强免疫系统对肿瘤的应答。",
+   "why_it_matters_zh": "直接冲击健康饮食必然有利于治疗的默认前提，并指向以肠道菌群为中介的饮食—免疫轴；但结论限于小鼠，不可外推至患者饮食建议。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "肿瘤免疫治疗",
+    "饮食",
+    "肠道菌群",
+    "小鼠"
+   ],
+   "records": [
+    {
+     "ref": 42,
+     "channel": "news",
+     "title": "Scientists discover that some “unhealthy” diets can boost cancer immunotherapy in mice",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261029072132.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T12:13:03+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Exactly solvable model reveals how trapped light can create magnetic order in one-dimensional spin chains",
+   "headline_zh": "精确可解模型：腔内囚禁光可在一维自旋链中诱导磁有序",
+   "summary_zh": "研究团队将一维经典自旋链置于镜盒腔中与光耦合，发现可迫使这些磁性粒子组织起来并发生相变。该工作给出了光可创造材料新相变的最简精确可解范例。",
+   "why_it_matters_zh": "提供了一个可解析求解的基准模型，使腔诱导相变的理论预言可以被明确检验，而不必依赖数值近似。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "腔QED",
+    "自旋链",
+    "相变",
+    "精确可解模型"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "news",
+     "title": "Exactly solvable model reveals how trapped light can create magnetic order in one-dimensional spin chains",
+     "url": "https://phys.org/news/2026-11-solvable-reveals-magnetic-dimensional-chains.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T22:00:13+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    45
+   ],
+   "title_en": "NASA's Hubble and Webb discover ancient worlds that remember their past",
+   "headline_zh": "哈勃与韦布观测 27 个海王星外小天体：数十亿年几乎未变，尺寸与数量却挑战现有形成理论",
+   "summary_zh": "利用哈勃与詹姆斯·韦布空间望远镜研究海王星轨道之外的 27 个微小遥远天体，发现这些行星形成的基本构件在数十亿年间保持得异常完整；而其出乎意料的尺寸与数量对现有行星形成理论构成挑战。",
+   "why_it_matters_zh": "这批天体保存了太阳系形成初期的原始信息，其尺寸与数量分布若与模型不符，约束的是行星形成与迁移的标准图像。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "柯伊伯带",
+    "行星形成",
+    "JWST",
+    "哈勃"
+   ],
+   "records": [
+    {
+     "ref": 45,
+     "channel": "news",
+     "title": "NASA's Hubble and Webb discover ancient worlds that remember their past",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T03:07:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    44
+   ],
+   "title_en": "30,000-year-old DNA reveals Ice Age Europeans were far more connected than we thought",
+   "headline_zh": "3 万年前古 DNA 显示冰期欧洲人群的连通程度远超预期",
+   "summary_zh": "从人类遗骸与洞穴沉积物中获得的遗传线索显示，3 万多年前欧洲人群存在跨越大距离的迁移与长期存续的社群，并在冰期最严酷条件下存活，挑战了远古人群彼此隔离的看法。",
+   "why_it_matters_zh": "洞穴沉积物 DNA 把人群史的证据从有遗骸的地点扩展到无遗骸的地点，从而改变对冰期人口结构与连通性的估计。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "古DNA",
+    "冰期",
+    "人群迁移",
+    "洞穴沉积物"
+   ],
+   "records": [
+    {
+     "ref": 44,
+     "channel": "news",
+     "title": "30,000-year-old DNA reveals Ice Age Europeans were far more connected than we thought",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031221153.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T07:30:31+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Analysis of Inca mummies identifies the drugs used in their most important sacrificial ritual",
+   "headline_zh": "印加木乃伊毒理分析揭示献祭仪式中使用的精神活性物质",
+   "summary_zh": "考古学家对印加帝国山巅神庙献祭者的木乃伊遗骸进行毒理分析，检出了他们在死前摄入的精神活性物质。",
+   "why_it_matters_zh": "把仪式行为的文献与民族志记载落到个体层面的生化证据上，使献祭前使用何种物质从推测变为可测量。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "印加",
+    "木乃伊",
+    "毒理分析",
+    "仪式"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "news",
+     "title": "Analysis of Inca mummies identifies the drugs used in their most important sacrificial ritual",
+     "url": "https://phys.org/news/2026-10-analysis-inca-mummies-drugs-important.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-03T00:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Are we overfertilizing our fields? Researchers challenge conventional soil testing",
+   "headline_zh": "土壤钾素存在被常规检测忽略的隐藏库，或意味着过量施肥",
+   "summary_zh": "希伯来大学 Shikma Zaarur 与 Volcani 研究所 Ran Erel 合作的研究表明，农业土壤中可能存在大量未被常规土壤检测方法计入的钾——植物生长必需营养——这一储库在很大程度上被忽视。作者认为这可为更精准的施肥推荐提供依据，在支撑可持续生产的同时减少不必要的化肥使用。",
+   "why_it_matters_zh": "若常规检测系统性低估有效钾，则现行施肥推荐会系统性偏高；这直接关系到化肥投入与面源污染。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "土壤检测",
+    "钾素",
+    "精准施肥"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "news",
+     "title": "Are we overfertilizing our fields? Researchers challenge conventional soil testing",
+     "url": "https://phys.org/news/2026-11-overfertilizing-fields-conventional-soil.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T21:20:12+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Plants may experience 'optical illusions' that affect their direction of growth",
+   "headline_zh": "植物可能经历视错觉：多方向光由茎部局部感知整合，无需中枢",
+   "summary_zh": "特拉维夫大学的研究显示，植物虽无脑与神经系统，却能整合来自多个方向的光以决定生长方向；该过程由茎部各处的局部感知涌现而来，不需要集中式信息处理。",
+   "why_it_matters_zh": "把整合多源信息的能力从神经系统的专属中剥离出来，为向光性建模提供了分布式机制而非单一感受器解释。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "向光性",
+    "分布式感知",
+    "植物行为"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "news",
+     "title": "Plants may experience 'optical illusions' that affect their direction of growth",
+     "url": "https://phys.org/news/2026-11-optical-illusions-affect-growth.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T23:00:10+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "European flounder can complete whole life cycle in freshwater",
+   "headline_zh": "欧洲鲽可在淡水中完成完整生活史",
+   "summary_zh": "芬兰北部 Pulmanki 湖中采样的大多数鲽鱼一生都在淡水中度过。该研究提供了该物种完全生活在淡水中的首个证据，成果发表于 Evolution。",
+   "why_it_matters_zh": "挑战了该物种及类似广盐性鱼类生活史必须涉及海水阶段的假定，对种群管理与生活史可塑性研究有直接意义。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "生活史可塑性",
+    "广盐性鱼类",
+    "淡水"
+   ],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "news",
+     "title": "European flounder can complete whole life cycle in freshwater",
+     "url": "https://phys.org/news/2026-11-european-flounder-life-freshwater.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T22:00:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "Most of our measures of a key cognitive process don't agree",
+   "headline_zh": "同一认知过程的不同测量之间大多不一致",
+   "summary_zh": "一项大规模研究比较了针对某一关键认知过程的多种测量手段，发现它们之间大多不一致；报道称该研究除负结果外几乎没有别的，但仍得以发表。",
+   "why_it_matters_zh": "若测量工具彼此不收敛，则建立在其上的个体差异与干预结论都需要重新审视，这是一个对方法学有直接后果的负结果。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "测量效度",
+    "负结果",
+    "认知过程",
+    "可重复性"
+   ],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "news",
+     "title": "Most of our measures of a key cognitive process don't agree",
+     "url": "https://arstechnica.com/science/2026/11/most-of-our-measures-of-a-key-cognitive-process-dont-agree/",
+     "journal": "Ars Technica Science",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-02T19:13:26+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[3] Coronary CT Angiography versus Intravascular Ultrasound Guidance for PCI（NEJM）——仅有标题，无摘要，无法判断结果方向；建议取得原文后再评估是否值得报道。",
+  "[4] Saving for the Future: Enhancing Generalization via Partial Logic Regularization（IJCV）——仅有标题，方法细节未知，暂不展开。",
+  "[15] Is There Anything Left in the Dream of Cold Fusion?（Quanta）——为综述性报道，涉及奇异原子研究项目；材料未给出具体研究结果，仅作背景跟踪。",
+  "[40] The world has a new plan to save nature, but it still needs the money（Ars Technica）——与 [25] 同属生物多样性公约履约议题，资金缺口是核心争点，可待正式文本公布后跟进。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 210,
+   "dup_in_run": 0,
+   "already_seen": 145,
+   "dropped_by_penalty": 2,
+   "dropped_by_window": 59,
+   "unique": 4,
+   "candidates": 4
+  },
+  "hot": {
+   "fetched": 54,
+   "dup_in_run": 0,
+   "already_seen": 53,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 1,
+   "candidates": 1
+  },
+  "news": {
+   "fetched": 161,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 121,
+   "unique": 40,
+   "candidates": 40
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 7,
+   "kept": 7,
+   "elapsed_s": 1.23,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 0.54,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.52,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "ok",
+   "fetched": 121,
+   "kept": 121,
+   "elapsed_s": 0.58,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.42,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 2,
+   "kept": 2,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 2,
+   "kept": 2,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.02,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 6,
+   "elapsed_s": 0.49,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.08,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.2,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.39,
+   "error": ""
+  }
+ ]
+}
