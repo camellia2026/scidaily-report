@@ -1,0 +1,2472 @@
+{
+ "date": "2026-11-05",
+ "generated_at": "2026-11-05 09:33 CST",
+ "backend": "rule-fallback",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "本次以规则模式生成，共 93 条。未调用大模型，摘要为原文截取。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Accelerating scientific discovery with Co-Scientist",
+   "headline_zh": "Accelerating scientific discovery with Co-Scientist",
+   "summary_zh": "Abstract Scientific discovery is driven by scientists generating hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a m…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "hot",
+     "title": "Accelerating scientific discovery with Co-Scientist",
+     "url": "https://doi.org/10.1038/s41586-026-10644-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-10644-y",
+     "published": "2026-05-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Genome modelling and design across all domains of life with Evo 2",
+   "headline_zh": "Genome modelling and design across all domains of life with…",
+   "summary_zh": "Abstract All of life encodes information with DNA. While tools for sequencing, synthesis, and editing of genomic code have transformed biological research, intelligently composing new biological syst…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "hot",
+     "title": "Genome modelling and design across all domains of life with Evo 2",
+     "url": "https://doi.org/10.1038/s41586-026-10176-5",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-10176-5",
+     "published": "2026-03-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "One-shot design of functional protein binders with BindCraft",
+   "headline_zh": "One-shot design of functional protein binders with BindCraft",
+   "summary_zh": "Abstract Protein–protein interactions (PPIs) are at the core of all key biological processes. However, the complexity of the structural features that determine PPIs makes their design challenging. We…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "hot",
+     "title": "One-shot design of functional protein binders with BindCraft",
+     "url": "https://doi.org/10.1038/s41586-025-09429-6",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-09429-6",
+     "published": "2025-08-27T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "A foundation model for the Earth system",
+   "headline_zh": "A foundation model for the Earth system",
+   "summary_zh": "Reliable forecasting of the Earth system is essential for mitigating natural disasters and supporting human progress. Traditional numerical models, although powerful, are extremely computationally ex…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "hot",
+     "title": "A foundation model for the Earth system",
+     "url": "https://doi.org/10.1038/s41586-025-09005-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-09005-y",
+     "published": "2025-05-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Towards accurate differential diagnosis with large language models",
+   "headline_zh": "Towards accurate differential diagnosis with large language…",
+   "summary_zh": "Abstract A comprehensive differential diagnosis is a cornerstone of medical care that is often reached through an iterative process of interpretation that combines clinical history, physical examinat…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "hot",
+     "title": "Towards accurate differential diagnosis with large language models",
+     "url": "https://doi.org/10.1038/s41586-025-08869-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-08869-4",
+     "published": "2025-04-09T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Mastering diverse control tasks through world models",
+   "headline_zh": "Mastering diverse control tasks through world models",
+   "summary_zh": "Abstract Developing a general algorithm that learns to solve tasks across a wide range of applications has been a fundamental challenge in artificial intelligence. Although current reinforcement-lear…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "hot",
+     "title": "Mastering diverse control tasks through world models",
+     "url": "https://doi.org/10.1038/s41586-025-08744-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-08744-2",
+     "published": "2025-04-02T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "Foundation Models Defining a New Era in Vision: A Survey and Outlook",
+   "headline_zh": "Foundation Models Defining a New Era in Vision: A Survey an…",
+   "summary_zh": "Vision systems that see and reason about the compositional nature of visual scenes are fundamental to understanding our world. The complex relations between objects and their locations, ambiguities,…",
+   "why_it_matters_zh": "",
+   "discipline": "计算机",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "hot",
+     "title": "Foundation Models Defining a New Era in Vision: A Survey and Outlook",
+     "url": "https://doi.org/10.1109/tpami.2024.3506283",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2024.3506283",
+     "published": "2025-01-09T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Observation of prethermal dynamical phase transitions and resonant melting",
+   "headline_zh": "Observation of prethermal dynamical phase transitions and r…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11225-9 A programmable neutral-atom quantum simulator is used to explore quench dynamics in spin models with up to 180 qubits, revea…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Observation of prethermal dynamical phase transitions and resonant melting",
+     "url": "https://www.nature.com/articles/s41586-026-11225-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11225-9",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Comprehensive mapping of essential-gene interactions in M. tuberculosis",
+   "headline_zh": "Comprehensive mapping of essential-gene interactions in M.…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11212-0 A high-throughput CRISPR-interference platform allows the mapping of interactions between essential genes in Mycobacterium t…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Comprehensive mapping of essential-gene interactions in M. tuberculosis",
+     "url": "https://www.nature.com/articles/s41586-026-11212-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11212-0",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Hard X-ray attosecond metrology",
+   "headline_zh": "Hard X-ray attosecond metrology",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11245-5 Metrology techniques are developed to characterize and control attosecond hard X-ray pulses, directly measuring a 170-attose…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "Hard X-ray attosecond metrology",
+     "url": "https://www.nature.com/articles/s41586-026-11245-5",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11245-5",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "Tracing the spread of Celtic languages using ancient genomics",
+   "headline_zh": "Tracing the spread of Celtic languages using ancient genomi…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11198-9 Genome-wide data from 4,587 ancient individuals are analysed, focusing on Bronze and Iron Age Europe, to test the extent to…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "paper",
+     "title": "Tracing the spread of Celtic languages using ancient genomics",
+     "url": "https://www.nature.com/articles/s41586-026-11198-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11198-9",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "The neural basis of flavour–nutrient learning",
+   "headline_zh": "The neural basis of flavour–nutrient learning",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11229-5 A dopamine pathway to the basolateral amygdala is necessary for associating nutrients with flavours.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "paper",
+     "title": "The neural basis of flavour–nutrient learning",
+     "url": "https://www.nature.com/articles/s41586-026-11229-5",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11229-5",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Aggression experience and observation drive shared behavioural and neural changes",
+   "headline_zh": "Aggression experience and observation drive shared behaviou…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11217-9 Aggression experience and observation recruit a brain-wide network of excitatory, inhibitory and valence signals, and change…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Aggression experience and observation drive shared behavioural and neural changes",
+     "url": "https://www.nature.com/articles/s41586-026-11217-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11217-9",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Transcriptomic convergence and the female protective effect in autism",
+   "headline_zh": "Transcriptomic convergence and the female protective effect…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11236-6 Gene network analysis shows how mutations in diverse genes associated with autism spectrum disorder can converge to exert sh…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "Transcriptomic convergence and the female protective effect in autism",
+     "url": "https://www.nature.com/articles/s41586-026-11236-6",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11236-6",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "Twist-angle-dependent quantum phase diagrams in moiré bilayer MoTe 2",
+   "headline_zh": "Twist-angle-dependent quantum phase diagrams in moiré bilay…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11274-0 Twist-angle-dependent studies of moiré bilayer MoTe2 reveal a transition from fractional topological states to correlated in…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "Twist-angle-dependent quantum phase diagrams in moiré bilayer MoTe 2",
+     "url": "https://www.nature.com/articles/s41586-026-11274-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11274-0",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "An open structure-guided RNA foundation model for generalizable prediction",
+   "headline_zh": "An open structure-guided RNA foundation model for generaliz…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11210-2 structRFM, a structure-guided RNA foundation model pre-trained on 21 million sequence–structure pairs, learns multimodal rep…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "An open structure-guided RNA foundation model for generalizable prediction",
+     "url": "https://www.nature.com/articles/s41586-026-11210-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11210-2",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "A conserved flowering-time module underlies double-season cropping",
+   "headline_zh": "A conserved flowering-time module underlies double-season c…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11187-y The genomic footprints of 80 years of modern breeding in China are traced using representative cultivars, demonstrating how…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "A conserved flowering-time module underlies double-season cropping",
+     "url": "https://www.nature.com/articles/s41586-026-11187-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11187-y",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "A spatiotemporal cancer cell trajectory underlies glioblastoma heterogeneity",
+   "headline_zh": "A spatiotemporal cancer cell trajectory underlies glioblast…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11234-8 A deep single-cell and spatial multi-omic atlas of human glioblastoma is generated, pairing transcriptomic, epigenomic and g…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "paper",
+     "title": "A spatiotemporal cancer cell trajectory underlies glioblastoma heterogeneity",
+     "url": "https://www.nature.com/articles/s41586-026-11234-8",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11234-8",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Carbon radical generation by irreversible metal-to-ligand charge transfer",
+   "headline_zh": "Carbon radical generation by irreversible metal-to-ligand c…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11368-9 Carbon radical generation by irreversible metal-to-ligand charge transfer",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "paper",
+     "title": "Carbon radical generation by irreversible metal-to-ligand charge transfer",
+     "url": "https://www.nature.com/articles/s41586-026-11368-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11368-9",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "A two-dimensional reticular triaxial molecularly woven fabric",
+   "headline_zh": "A two-dimensional reticular triaxial molecularly woven fabr…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11218-8 A two-dimensional reticular triaxial woven network material is constructed by incorporating C3-symmetric macrocycles into a…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "paper",
+     "title": "A two-dimensional reticular triaxial molecularly woven fabric",
+     "url": "https://www.nature.com/articles/s41586-026-11218-8",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11218-8",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "Accelerating commercialization and deployment of indoor photovoltaics",
+   "headline_zh": "Accelerating commercialization and deployment of indoor pho…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11133-y Recent progress in photovoltaics has been investigated to translate state-of-the-art cells in the laboratory into deployable…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "paper",
+     "title": "Accelerating commercialization and deployment of indoor photovoltaics",
+     "url": "https://www.nature.com/articles/s41586-026-11133-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11133-y",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "In vivo CAR-T double knockout screen maps synergistic antitumour gene pairs",
+   "headline_zh": "In vivo CAR-T double knockout screen maps synergistic antit…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-10956-z Using high-throughput in vivo CAR-T double knockout screening, synergistic gene combinations to improve CAR-T cell therapy a…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "paper",
+     "title": "In vivo CAR-T double knockout screen maps synergistic antitumour gene pairs",
+     "url": "https://www.nature.com/articles/s41586-026-10956-z",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-10956-z",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    23
+   ],
+   "title_en": "Ecological and social cues orchestrate concerted courtship in Drosophila",
+   "headline_zh": "Ecological and social cues orchestrate concerted courtship…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11209-9 In Drosophila erecta, food odours initiate male sexual arousal, which is subsequently reinforced by the visual motion of oth…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 23,
+     "channel": "paper",
+     "title": "Ecological and social cues orchestrate concerted courtship in Drosophila",
+     "url": "https://www.nature.com/articles/s41586-026-11209-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11209-9",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "An AI-native experimental laboratory for autonomous biomolecular operations",
+   "headline_zh": "An AI-native experimental laboratory for autonomous biomole…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11228-6 AutoDNA is an artificial intelligence (AI)-native autonomous biomolecular engineering laboratory targeting multi-objective e…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "paper",
+     "title": "An AI-native experimental laboratory for autonomous biomolecular operations",
+     "url": "https://www.nature.com/articles/s41586-026-11228-6",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11228-6",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "Multimodal X-ray imaging reveals hierarchical fibre mechanics",
+   "headline_zh": "Multimodal X-ray imaging reveals hierarchical fibre mechani…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11148-5 The X-ray visualization platform TomoSAXS, demonstrated here on intervertebral spinal discs, can visualize nanoscale to macr…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "paper",
+     "title": "Multimodal X-ray imaging reveals hierarchical fibre mechanics",
+     "url": "https://www.nature.com/articles/s41586-026-11148-5",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11148-5",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "Towards observing interstitial hydrogen in solution in metal lattices",
+   "headline_zh": "Towards observing interstitial hydrogen in solution in meta…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11238-4 Using deuterium as a proxy for hydrogen, atom probe tomography provides experimental evidence for interstitial hydrogen in s…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "paper",
+     "title": "Towards observing interstitial hydrogen in solution in metal lattices",
+     "url": "https://www.nature.com/articles/s41586-026-11238-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11238-4",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    27
+   ],
+   "title_en": "Decoding the regulatory programs governing glioblastoma plasticity",
+   "headline_zh": "Decoding the regulatory programs governing glioblastoma pla…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11177-0 Multi-omic analyses of cells from patients with glioblastoma (GB) provide insight into the role of non-genetic cellular plas…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 27,
+     "channel": "paper",
+     "title": "Decoding the regulatory programs governing glioblastoma plasticity",
+     "url": "https://www.nature.com/articles/s41586-026-11177-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11177-0",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    28
+   ],
+   "title_en": "Conjugation-regulated self-assembled molecules for tandem solar cells",
+   "headline_zh": "Conjugation-regulated self-assembled molecules for tandem s…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11226-8 Rationally engineered molecular spatial conjugation is used for the formation of highly ordered, conformal self-assembled mo…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 28,
+     "channel": "paper",
+     "title": "Conjugation-regulated self-assembled molecules for tandem solar cells",
+     "url": "https://www.nature.com/articles/s41586-026-11226-8",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11226-8",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "Cancer-selective gene circuits via intrinsic ribosomal frameshifting",
+   "headline_zh": "Cancer-selective gene circuits via intrinsic ribosomal fram…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11200-4 Codon-pair-dependent ribosomal frameshifting is a feature of translational dysregulation in cancer cells.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "paper",
+     "title": "Cancer-selective gene circuits via intrinsic ribosomal frameshifting",
+     "url": "https://www.nature.com/articles/s41586-026-11200-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11200-4",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Venousization enables angiogenesis in the absence of VEGFR signalling",
+   "headline_zh": "Venousization enables angiogenesis in the absence of VEGFR…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11224-w Longitudinal tracking of endothelial cells shows they can adapt to loss of VEGFR2 and form new functional vessels, challengi…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "paper",
+     "title": "Venousization enables angiogenesis in the absence of VEGFR signalling",
+     "url": "https://www.nature.com/articles/s41586-026-11224-w",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11224-w",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "Nectin-4 mediates rubella virus entry in airway and placental cells",
+   "headline_zh": "Nectin-4 mediates rubella virus entry in airway and placent…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11248-2 Nectin-4 is identified as a pivotal host entry receptor for respiratory transmission and early placental infection of rubell…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "paper",
+     "title": "Nectin-4 mediates rubella virus entry in airway and placental cells",
+     "url": "https://www.nature.com/articles/s41586-026-11248-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11248-2",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "The deep Earth origin of the Great Unconformity",
+   "headline_zh": "The deep Earth origin of the Great Unconformity",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11156-5 Continental-scale uplift and subsidence associated with long-wavelength dynamic topography due to mantle convection drove th…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "paper",
+     "title": "The deep Earth origin of the Great Unconformity",
+     "url": "https://www.nature.com/articles/s41586-026-11156-5",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11156-5",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "Synergy in viral–bacterial co-infection expedites algal bloom demise",
+   "headline_zh": "Synergy in viral–bacterial co-infection expedites algal blo…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11243-7 Viral–bacterial synergy accelerates algal bloom collapse by enhancing virus-induced mortality, driven by Alteromonas chemoat…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "paper",
+     "title": "Synergy in viral–bacterial co-infection expedites algal bloom demise",
+     "url": "https://www.nature.com/articles/s41586-026-11243-7",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11243-7",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "Microbiome-wide PheWAS links gut microbial SNVs to health and exposures",
+   "headline_zh": "Microbiome-wide PheWAS links gut microbial SNVs to health a…",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11220-0 Gut microbial single-nucleotide variants across 10,781 individuals reveal 940 associations that link strain-level genetic va…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "paper",
+     "title": "Microbiome-wide PheWAS links gut microbial SNVs to health and exposures",
+     "url": "https://www.nature.com/articles/s41586-026-11220-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11220-0",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Imaging exoplanets below the telescope stability limit",
+   "headline_zh": "Imaging exoplanets below the telescope stability limit",
+   "summary_zh": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11213-z A new physics-based method combining the use of automatic differentiation to optimize millions of model parameters with a fl…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "paper",
+     "title": "Imaging exoplanets below the telescope stability limit",
+     "url": "https://www.nature.com/articles/s41586-026-11213-z",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11213-z",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    36
+   ],
+   "title_en": "A Flow-Rate-Conserving CNN-Based Domain Decomposition Method for Blood Flow Simulations",
+   "headline_zh": "A Flow-Rate-Conserving CNN-Based Domain Decomposition Metho…",
+   "summary_zh": ". This work aims to predict blood flow with non-Newtonian viscosity in stenosed arteries using convolutional neural network (CNN) surrogate models. An alternating Schwarz domain decomposition method…",
+   "why_it_matters_zh": "",
+   "discipline": "数学与计算数学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 36,
+     "channel": "paper",
+     "title": "A Flow-Rate-Conserving CNN-Based Domain Decomposition Method for Blood Flow Simulations",
+     "url": "https://doi.org/10.1137/25m1802845",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1802845",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "A Novel Multicolor Ordering Method for GPU Acceleration of ILU(0)-GMRES",
+   "headline_zh": "A Novel Multicolor Ordering Method for GPU Acceleration of…",
+   "summary_zh": ". The ILU(0) preconditioner is widely used to improve the convergence of Krylov subspace methods. However, it typically requires triangular solves with strong data dependencies, limiting the efficien…",
+   "why_it_matters_zh": "",
+   "discipline": "数学与计算数学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "paper",
+     "title": "A Novel Multicolor Ordering Method for GPU Acceleration of ILU(0)-GMRES",
+     "url": "https://doi.org/10.1137/24m1714678",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/24m1714678",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "Weighted Lagrange Multiplier Method for Robust Source-Independent Waveform Inversion",
+   "headline_zh": "Weighted Lagrange Multiplier Method for Robust Source-Indep…",
+   "summary_zh": ". The Lagrange multiplier method has proven highly effective for mitigating the ill-conditioning of full waveform inversion (FWI), enabling robust and computationally efficient algorithms that conver…",
+   "why_it_matters_zh": "",
+   "discipline": "数学与计算数学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "paper",
+     "title": "Weighted Lagrange Multiplier Method for Robust Source-Independent Waveform Inversion",
+     "url": "https://doi.org/10.1137/25m1804200",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1804200",
+     "published": "2026-11-04T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    39
+   ],
+   "title_en": "This cholesterol drug promised to be a game-changer. Why did it flop in the clinic — and is there still hope?",
+   "headline_zh": "This cholesterol drug promised to be a game-changer. Why di…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 39,
+     "channel": "paper",
+     "title": "This cholesterol drug promised to be a game-changer. Why did it flop in the clinic — and is there still hope?",
+     "url": "https://doi.org/10.1038/d41586-026-03504-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03504-2",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    40
+   ],
+   "title_en": "US social sciences face existential crisis after NSF cuts",
+   "headline_zh": "US social sciences face existential crisis after NSF cuts",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 40,
+     "channel": "paper",
+     "title": "US social sciences face existential crisis after NSF cuts",
+     "url": "https://doi.org/10.1038/d41586-026-03540-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03540-y",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    41
+   ],
+   "title_en": "China should share the evidence behind animal-testing alternatives openly",
+   "headline_zh": "China should share the evidence behind animal-testing alter…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 41,
+     "channel": "paper",
+     "title": "China should share the evidence behind animal-testing alternatives openly",
+     "url": "https://doi.org/10.1038/d41586-026-03561-7",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03561-7",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    42
+   ],
+   "title_en": "Research bonuses need clear and fair rules",
+   "headline_zh": "Research bonuses need clear and fair rules",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 42,
+     "channel": "paper",
+     "title": "Research bonuses need clear and fair rules",
+     "url": "https://doi.org/10.1038/d41586-026-03562-6",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03562-6",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    43
+   ],
+   "title_en": "Cities are changing — and architects must adapt",
+   "headline_zh": "Cities are changing — and architects must adapt",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 43,
+     "channel": "paper",
+     "title": "Cities are changing — and architects must adapt",
+     "url": "https://doi.org/10.1038/d41586-026-03508-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03508-y",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    44
+   ],
+   "title_en": "Nature awards recognize inspiring women in science",
+   "headline_zh": "Nature awards recognize inspiring women in science",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 44,
+     "channel": "paper",
+     "title": "Nature awards recognize inspiring women in science",
+     "url": "https://doi.org/10.1038/d41586-026-03545-7",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03545-7",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    45
+   ],
+   "title_en": "Universities must measure learning, both with and without AI assistance",
+   "headline_zh": "Universities must measure learning, both with and without A…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 45,
+     "channel": "paper",
+     "title": "Universities must measure learning, both with and without AI assistance",
+     "url": "https://doi.org/10.1038/d41586-026-03559-1",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03559-1",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    46
+   ],
+   "title_en": "Trump’s executive order on women’s health feels like déjà vu",
+   "headline_zh": "Trump’s executive order on women’s health feels like déjà vu",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 46,
+     "channel": "paper",
+     "title": "Trump’s executive order on women’s health feels like déjà vu",
+     "url": "https://doi.org/10.1038/d41586-026-03503-3",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03503-3",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    47
+   ],
+   "title_en": "How democracy depends on science — and must protect it",
+   "headline_zh": "How democracy depends on science — and must protect it",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 47,
+     "channel": "paper",
+     "title": "How democracy depends on science — and must protect it",
+     "url": "https://doi.org/10.1038/d41586-026-03510-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03510-4",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    48
+   ],
+   "title_en": "Safety alerts must reach visiting PhD students",
+   "headline_zh": "Safety alerts must reach visiting PhD students",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 48,
+     "channel": "paper",
+     "title": "Safety alerts must reach visiting PhD students",
+     "url": "https://doi.org/10.1038/d41586-026-03560-8",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03560-8",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    49
+   ],
+   "title_en": "Whence dragons?",
+   "headline_zh": "Whence dragons?",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 49,
+     "channel": "paper",
+     "title": "Whence dragons?",
+     "url": "https://doi.org/10.1038/d41586-026-03277-8",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03277-8",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    50
+   ],
+   "title_en": "Historic Marburg outbreak hints at long-term viral hideout",
+   "headline_zh": "Historic Marburg outbreak hints at long-term viral hideout",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 50,
+     "channel": "paper",
+     "title": "Historic Marburg outbreak hints at long-term viral hideout",
+     "url": "https://doi.org/10.1038/d41586-026-03538-6",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03538-6",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    51
+   ],
+   "title_en": "Why we’re setting up an institute for radically broad thinking",
+   "headline_zh": "Why we’re setting up an institute for radically broad think…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 51,
+     "channel": "paper",
+     "title": "Why we’re setting up an institute for radically broad thinking",
+     "url": "https://doi.org/10.1038/d41586-026-03397-1",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03397-1",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    52
+   ],
+   "title_en": "Biotech firms are meant to pay to use Earth’s genetic data. They’re not.",
+   "headline_zh": "Biotech firms are meant to pay to use Earth’s genetic data.…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 52,
+     "channel": "paper",
+     "title": "Biotech firms are meant to pay to use Earth’s genetic data. They’re not.",
+     "url": "https://doi.org/10.1038/d41586-026-03554-6",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03554-6",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    53
+   ],
+   "title_en": "Will AI grant reviews make science more conservative?",
+   "headline_zh": "Will AI grant reviews make science more conservative?",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 53,
+     "channel": "paper",
+     "title": "Will AI grant reviews make science more conservative?",
+     "url": "https://doi.org/10.1038/d41586-026-03340-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03340-4",
+     "published": "2026-11-03T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    54
+   ],
+   "title_en": "First direct observations reveal hydrogen dissolved in tiny gaps between metal atoms",
+   "headline_zh": "First direct observations reveal hydrogen dissolved in tiny…",
+   "summary_zh": "University of Sydney researchers have made a breakthrough by directly observing hydrogen in the tiny spaces between the atoms in metal alloys. The world-first observation of hydrogen dissolving in th…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 54,
+     "channel": "news",
+     "title": "First direct observations reveal hydrogen dissolved in tiny gaps between metal atoms",
+     "url": "https://phys.org/news/2026-11-reveal-hydrogen-dissolved-tiny-gaps.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-05T00:20:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    55
+   ],
+   "title_en": "A carefully timed pair of light pulses can amplify the motion of atomic layers in a quantum material",
+   "headline_zh": "A carefully timed pair of light pulses can amplify the moti…",
+   "summary_zh": "The principle \"Work smarter, not harder!\" apparently also applies to controlling quantum materials with light. Many of their fascinating properties depend on how the atoms are arranged in the crystal…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 55,
+     "channel": "news",
+     "title": "A carefully timed pair of light pulses can amplify the motion of atomic layers in a quantum material",
+     "url": "https://phys.org/news/2026-11-pair-pulses-amplify-motion-atomic.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T23:20:09+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    56
+   ],
+   "title_en": "A new superinductor created within a silicon integrated circuit",
+   "headline_zh": "A new superinductor created within a silicon integrated cir…",
+   "summary_zh": "A recent study published in Nature Electronics and carried out by researchers from nanoGUNE's Quantum Hardware research group, Quantum Motion, London Center for Nanotechnology, Imperial College Londo…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 56,
+     "channel": "news",
+     "title": "A new superinductor created within a silicon integrated circuit",
+     "url": "https://phys.org/news/2026-11-superinductor-silicon-circuit.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T22:40:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    57
+   ],
+   "title_en": "Cosmic hydrogen measurement marks breakthrough in mapping the universe",
+   "headline_zh": "Cosmic hydrogen measurement marks breakthrough in mapping t…",
+   "summary_zh": "An international research project is bringing scientists closer to mapping the universe. The MeerKLASS Collaboration has reported its first measurement of the large-scale clustering of cosmic hydroge…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 57,
+     "channel": "news",
+     "title": "Cosmic hydrogen measurement marks breakthrough in mapping the universe",
+     "url": "https://phys.org/news/2026-11-cosmic-hydrogen-breakthrough-universe.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T22:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    58
+   ],
+   "title_en": "Molecular choreography: How the p97 protein regulates cellular quality control",
+   "headline_zh": "Molecular choreography: How the p97 protein regulates cellu…",
+   "summary_zh": "The p97 protein plays a central role in cellular quality control by preparing defective or no-longer-needed proteins for degradation and recycling. Researchers at the University of Münster, in collab…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 58,
+     "channel": "news",
+     "title": "Molecular choreography: How the p97 protein regulates cellular quality control",
+     "url": "https://phys.org/news/2026-11-molecular-choreography-p97-protein-cellular.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T21:40:10+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    59
+   ],
+   "title_en": "A new route to calculating gluon production in proton–nucleus collisions",
+   "headline_zh": "A new route to calculating gluon production in proton–nucle…",
+   "summary_zh": "In the theoretical study of proton-nucleus collisions, the colliding projectiles can be described as streams of color charges moving along their respective trajectories. These color charges couple to…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 59,
+     "channel": "news",
+     "title": "A new route to calculating gluon production in proton–nucleus collisions",
+     "url": "https://phys.org/news/2026-11-route-gluon-production-protonnucleus-collisions.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-05T01:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    60
+   ],
+   "title_en": "Earth atmosphere emulators could enable faster and more accurate weather predictions",
+   "headline_zh": "Earth atmosphere emulators could enable faster and more acc…",
+   "summary_zh": "If you partitioned the entire Earth, from just below the surface to the top of the atmosphere, into 1-kilometer-square chunks, there would be billions of them. Now run each of those cells through a s…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 60,
+     "channel": "news",
+     "title": "Earth atmosphere emulators could enable faster and more accurate weather predictions",
+     "url": "https://phys.org/news/2026-11-earth-atmosphere-emulators-enable-faster.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-05T01:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    61
+   ],
+   "title_en": "European orbiter detects fresh hints of volcanic activity on Mars",
+   "headline_zh": "European orbiter detects fresh hints of volcanic activity o…",
+   "summary_zh": "New evidence from gas seeping above volcanic rifts suggests Mars is not geologically dead deep inside, but merely sleeping. Fresh fissures along the Alba Mons region hint at active spots under the su…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 61,
+     "channel": "news",
+     "title": "European orbiter detects fresh hints of volcanic activity on Mars",
+     "url": "https://phys.org/news/2026-11-european-orbiter-fresh-hints-volcanic.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-05T00:40:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    62
+   ],
+   "title_en": "How ranchers on Brazil's 'Dirty List' bypass forced labor safeguards by selling cattle through intermediaries",
+   "headline_zh": "How ranchers on Brazil's 'Dirty List' bypass forced labor s…",
+   "summary_zh": "Brazil's \"Dirty List,\" a public registry that names employers found to have violated anti-slavery laws, is a key component of the country's efforts to combat forced labor. Major meatpackers in Brazil…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 62,
+     "channel": "news",
+     "title": "How ranchers on Brazil's 'Dirty List' bypass forced labor safeguards by selling cattle through intermediaries",
+     "url": "https://phys.org/news/2026-11-ranchers-brazil-dirty-bypass-labor.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-05T00:40:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    63
+   ],
+   "title_en": "Uranium cubes reveal why the German nuclear project failed",
+   "headline_zh": "Uranium cubes reveal why the German nuclear project failed",
+   "summary_zh": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 63,
+     "channel": "news",
+     "title": "Uranium cubes reveal why the German nuclear project failed",
+     "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+     "journal": "Ars Technica Science",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T21:56:29+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    64
+   ],
+   "title_en": "New Research Tests Whether AI Models Know Their Own Thoughts",
+   "headline_zh": "New Research Tests Whether AI Models Know Their Own Thoughts",
+   "summary_zh": "By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection. The post New Research Tests Whether AI Models Know Their Own Thoughts f…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 64,
+     "channel": "news",
+     "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
+     "url": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
+     "journal": "Quanta Magazine",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T15:32:52+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    65
+   ],
+   "title_en": "Scientists reveal how cosignaling receptors dually regulate T cell activation via phase separation",
+   "headline_zh": "Scientists reveal how cosignaling receptors dually regulate…",
+   "summary_zh": "Previous studies have shown that upon antigen stimulation, the T cell receptor (TCR) undergoes phase separation with the kinase Lck to mediate rapid T cell activation. However, the manner in which co…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 65,
+     "channel": "news",
+     "title": "Scientists reveal how cosignaling receptors dually regulate T cell activation via phase separation",
+     "url": "https://phys.org/news/2026-11-scientists-reveal-cosignaling-receptors-dually.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-05T00:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    66
+   ],
+   "title_en": "Ancient coins suggest influential Iron Age king was female",
+   "headline_zh": "Ancient coins suggest influential Iron Age king was female",
+   "summary_zh": "Bournemouth University (BU) archaeological research has revealed that Iron Age British ruler \"Verica,\" who was central to the Roman invasion of Britain in A.D. 43, was in fact a woman. This discovery…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 66,
+     "channel": "news",
+     "title": "Ancient coins suggest influential Iron Age king was female",
+     "url": "https://phys.org/news/2026-11-ancient-coins-influential-iron-age.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-05T00:10:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    67
+   ],
+   "title_en": "When customers cross the line: Study reveals hidden toll of harassment on gig workers",
+   "headline_zh": "When customers cross the line: Study reveals hidden toll of…",
+   "summary_zh": "A rideshare driver picks up a passenger who makes repeated unwanted sexual comments. The ride ends, but the experience doesn't.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 67,
+     "channel": "news",
+     "title": "When customers cross the line: Study reveals hidden toll of harassment on gig workers",
+     "url": "https://phys.org/news/2026-11-customers-line-reveals-hidden-toll.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-05T00:00:03+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    68
+   ],
+   "title_en": "Using ChatGPT at work? Your boss may trust you less, new study finds",
+   "headline_zh": "Using ChatGPT at work? Your boss may trust you less, new st…",
+   "summary_zh": "Artificial intelligence may be making employees faster and more productive, but it could also be quietly damaging their careers. A new study led by Samuel Meyers, a Ph.D. student, together with his a…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 68,
+     "channel": "news",
+     "title": "Using ChatGPT at work? Your boss may trust you less, new study finds",
+     "url": "https://phys.org/news/2026-11-chatgpt-boss.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T23:50:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    69
+   ],
+   "title_en": "Entrepreneurs who struggle to understand their emotions are less committed to their business goals, study finds",
+   "headline_zh": "Entrepreneurs who struggle to understand their emotions are…",
+   "summary_zh": "Entrepreneurs who struggle to recognize and make sense of their own emotions are less likely to feel attached to their businesses and less committed to achieving their goals, particularly in high-str…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 69,
+     "channel": "news",
+     "title": "Entrepreneurs who struggle to understand their emotions are less committed to their business goals, study finds",
+     "url": "https://phys.org/news/2026-11-entrepreneurs-struggle-emotions-committed-business.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T23:40:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    70
+   ],
+   "title_en": "Genetic interaction map could lead to better antibiotic pairings for tuberculosis",
+   "headline_zh": "Genetic interaction map could lead to better antibiotic pai…",
+   "summary_zh": "Rockefeller scientists have created the most comprehensive map to date of how essential genes interact in Mycobacterium tuberculosis (Mtb), the bacterium responsible for tuberculosis (TB). The unprec…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 70,
+     "channel": "news",
+     "title": "Genetic interaction map could lead to better antibiotic pairings for tuberculosis",
+     "url": "https://phys.org/news/2026-11-genetic-interaction-antibiotic-pairings-tuberculosis.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T23:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    71
+   ],
+   "title_en": "NASA navigation experiment shows promise for planetary landings",
+   "headline_zh": "NASA navigation experiment shows promise for planetary land…",
+   "summary_zh": "NASA has successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the moon and on other planets. An Alta-X drone equipped with the agency's Safe…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 71,
+     "channel": "news",
+     "title": "NASA navigation experiment shows promise for planetary landings",
+     "url": "https://phys.org/news/2026-11-nasa-planetary.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T23:20:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    72
+   ],
+   "title_en": "Flat feet may have helped Neanderthals stay stable while carrying heavy loads",
+   "headline_zh": "Flat feet may have helped Neanderthals stay stable while ca…",
+   "summary_zh": "In all likelihood, the Neanderthals had flat feet. But it was not a defect at all. Instead, it was the consequence of a precise functional strategy to reduce impact stress under heavy loads and maxim…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 72,
+     "channel": "news",
+     "title": "Flat feet may have helped Neanderthals stay stable while carrying heavy loads",
+     "url": "https://phys.org/news/2026-11-flat-feet-neanderthals-stay-stable.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T23:10:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    73
+   ],
+   "title_en": "Hundreds of Ice Age rock art engravings discovered hidden in plain sight",
+   "headline_zh": "Hundreds of Ice Age rock art engravings discovered hidden i…",
+   "summary_zh": "Archaeologists have discovered the third-largest assemblage of Ice Age cave art ever found in Mediterranean Iberia in a region thought devoid of cave art, transforming our knowledge of Paleolithic Eu…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 73,
+     "channel": "news",
+     "title": "Hundreds of Ice Age rock art engravings discovered hidden in plain sight",
+     "url": "https://phys.org/news/2026-10-hundreds-ice-age-art-engravings.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T23:00:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    74
+   ],
+   "title_en": "Trust in influencers grows more important in predicting buying intentions over time, analysis finds",
+   "headline_zh": "Trust in influencers grows more important in predicting buy…",
+   "summary_zh": "A meta-analysis of empirical studies involving more than 31,000 participants has revealed the factors that affect the level of influence of so-called social media influencers. Those factors include c…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 74,
+     "channel": "news",
+     "title": "Trust in influencers grows more important in predicting buying intentions over time, analysis finds",
+     "url": "https://phys.org/news/2026-11-important-buying-intentions-analysis.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T23:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    75
+   ],
+   "title_en": "Carbon dots fluoresce their way through the rainbow as liquids change",
+   "headline_zh": "Carbon dots fluoresce their way through the rainbow as liqu…",
+   "summary_zh": "Fluorescent materials usually emit a single consistent color. They are typically made from dyes or metallic components. In contrast, researchers reporting in ACS Central Science have created carbon d…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 75,
+     "channel": "news",
+     "title": "Carbon dots fluoresce their way through the rainbow as liquids change",
+     "url": "https://phys.org/news/2026-11-carbon-dots-fluoresce-rainbow-liquids.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T22:40:10+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    76
+   ],
+   "title_en": "Feejee Mermaid on display in Colorado may shock and intrigue—but no longer considered a 'missing link'",
+   "headline_zh": "Feejee Mermaid on display in Colorado may shock and intrigu…",
+   "summary_zh": "Mermaids have inhabited world folklore and mythology for centuries. Ancient Babylonians worshiped Oannes, a human-fish hybrid; sirens populated Greek mythology; and fairy tales such as \"The Little Me…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 76,
+     "channel": "news",
+     "title": "Feejee Mermaid on display in Colorado may shock and intrigue—but no longer considered a 'missing link'",
+     "url": "https://phys.org/news/2026-11-feejee-mermaid-display-colorado-intrigue.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T22:20:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    77
+   ],
+   "title_en": "Corporate green reports: Do independent checks really help companies deliver measurable action?",
+   "headline_zh": "Corporate green reports: Do independent checks really help…",
+   "summary_zh": "The European Union's Omnibus reform has exempted most of the companies it once covered from mandatory sustainability reporting under the Corporate Sustainability Reporting Directive (CSRD). It has al…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 77,
+     "channel": "news",
+     "title": "Corporate green reports: Do independent checks really help companies deliver measurable action?",
+     "url": "https://phys.org/news/2026-11-corporate-green-independent-companies-action.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T22:10:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    78
+   ],
+   "title_en": "Traditional Korean paper becomes breathable patch for future wearable health care",
+   "headline_zh": "Traditional Korean paper becomes breathable patch for futur…",
+   "summary_zh": "Wearable health-monitoring devices are becoming increasingly important for personalized health care, but conventional patches often rely on substrates that restrict airflow, trap sweat and cause skin…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 78,
+     "channel": "news",
+     "title": "Traditional Korean paper becomes breathable patch for future wearable health care",
+     "url": "https://phys.org/news/2026-11-traditional-korean-paper-breathable-patch.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T22:00:09+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    79
+   ],
+   "title_en": "NOAA, NASA release measurements of 2026 ozone hole",
+   "headline_zh": "NOAA, NASA release measurements of 2026 ozone hole",
+   "summary_zh": "Atypical weather conditions caused the Antarctic ozone hole to grow to an unusually large size in 2026, NOAA and NASA scientists reported today, though they said the protective ozone layer is still o…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 79,
+     "channel": "news",
+     "title": "NOAA, NASA release measurements of 2026 ozone hole",
+     "url": "https://phys.org/news/2026-11-noaa-nasa-ozone-hole.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T21:40:16+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    80
+   ],
+   "title_en": "A tiny squeeze dramatically changes the magnetism of exotic materials",
+   "headline_zh": "A tiny squeeze dramatically changes the magnetism of exotic…",
+   "summary_zh": "Scientists have discovered that a simple mechanical squeeze can dramatically alter the magnetic properties and electrical behavior of exotic materials called altermagnets. The surprising breakthrough…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 80,
+     "channel": "news",
+     "title": "A tiny squeeze dramatically changes the magnetism of exotic materials",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261101010541.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T12:37:52+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    81
+   ],
+   "title_en": "Bio-based smart coating combines fire protection, early warning and upcyclability",
+   "headline_zh": "Bio-based smart coating combines fire protection, early war…",
+   "summary_zh": "Researchers have developed a multifunctional fire-protective coating that not only shields materials from extreme heat but also provides an early warning of fire and can be recycled into new flame-re…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 81,
+     "channel": "news",
+     "title": "Bio-based smart coating combines fire protection, early warning and upcyclability",
+     "url": "https://phys.org/news/2026-11-bio-based-smart-coating-combines.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T21:20:24+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    82
+   ],
+   "title_en": "New research uncovers chiral topological phases in metals without structural order",
+   "headline_zh": "New research uncovers chiral topological phases in metals w…",
+   "summary_zh": "Fermions are among the most important particles in physics and include both everyday electrons and more exotic variants. Chiral fermions, like gloves, come in left- and right-handed versions and were…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 82,
+     "channel": "news",
+     "title": "New research uncovers chiral topological phases in metals without structural order",
+     "url": "https://phys.org/news/2026-11-uncovers-chiral-topological-phases-metals.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T21:20:21+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    83
+   ],
+   "title_en": "MIT scientists break a 20-year rule and unlock never-before-seen crystal structures",
+   "headline_zh": "MIT scientists break a 20-year rule and unlock never-before…",
+   "summary_zh": "MIT scientists have challenged two decades of conventional thinking by discovering that flexible molecular connections, rather than rigid ones, can unlock entirely new ways to arrange nanoparticles.…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 83,
+     "channel": "news",
+     "title": "MIT scientists break a 20-year rule and unlock never-before-seen crystal structures",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012248.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T12:23:36+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    84
+   ],
+   "title_en": "Why a company donating $20,000 a month counts for more than $240,000 once a year in the eyes of customers",
+   "headline_zh": "Why a company donating $20,000 a month counts for more than…",
+   "summary_zh": "People tend to think more highly of companies that give to charity on a monthly or weekly basis rather than donating an annual lump sum worth the same amount.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 84,
+     "channel": "news",
+     "title": "Why a company donating $20,000 a month counts for more than $240,000 once a year in the eyes of customers",
+     "url": "https://phys.org/news/2026-11-company-donating-month-year-eyes.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T21:00:13+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    85
+   ],
+   "title_en": "A cosmic 'leaf blower': Light-propelled winds help explain early universe's bright galaxies",
+   "headline_zh": "A cosmic 'leaf blower': Light-propelled winds help explain…",
+   "summary_zh": "When astronomers looked at photos of the early universe taken by the James Webb Space Telescope, they found something odd: an overabundance of bright galaxies. Based on what they knew about the early…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 85,
+     "channel": "news",
+     "title": "A cosmic 'leaf blower': Light-propelled winds help explain early universe's bright galaxies",
+     "url": "https://phys.org/news/2026-11-cosmic-leaf-blower-propelled-early.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T21:00:11+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    86
+   ],
+   "title_en": "Mitigating the ecological consequences of light pollution",
+   "headline_zh": "Mitigating the ecological consequences of light pollution",
+   "summary_zh": "Light pollution is one of the fastest-growing and least-regulated environmental changes worldwide. It disrupts biological processes at all levels—from genes to entire ecosystems—and contributes signi…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 86,
+     "channel": "news",
+     "title": "Mitigating the ecological consequences of light pollution",
+     "url": "https://phys.org/news/2026-11-mitigating-ecological-consequences-pollution.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T20:40:15+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    87
+   ],
+   "title_en": "NASA space telescope plunges to Earth after two decades studying cosmic explosions",
+   "headline_zh": "NASA space telescope plunges to Earth after two decades stu…",
+   "summary_zh": "One of NASA's premier space telescopes plunged to Earth on Wednesday, ending its 22-year investigation of the universe's biggest explosions.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 87,
+     "channel": "news",
+     "title": "NASA space telescope plunges to Earth after two decades studying cosmic explosions",
+     "url": "https://phys.org/news/2026-11-nasa-space-telescope-plunges-earth.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T20:40:11+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    88
+   ],
+   "title_en": "SLAC scientists find conclusive proof of a mysterious third type of magnetism",
+   "headline_zh": "SLAC scientists find conclusive proof of a mysterious third…",
+   "summary_zh": "For nearly 90 years, scientists believed magnetism fell into just two categories, but researchers have now confirmed a remarkable third type called altermagnetism. Using specialized X-rays, they unco…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 88,
+     "channel": "news",
+     "title": "SLAC scientists find conclusive proof of a mysterious third type of magnetism",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012256.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T10:43:44+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    89
+   ],
+   "title_en": "Scientists may have finally explained why our brains and bodies are cross-wired",
+   "headline_zh": "Scientists may have finally explained why our brains and bo…",
+   "summary_zh": "Scientists propose that the brain’s mysterious cross-wiring, which connects each hemisphere to the opposite side of the body, may have originated more than 500 million years ago in the visual systems…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 89,
+     "channel": "news",
+     "title": "Scientists may have finally explained why our brains and bodies are cross-wired",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261103003146.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T13:24:52+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    90
+   ],
+   "title_en": "Permanent daylight saving time has a dark side, scientists warn",
+   "headline_zh": "Permanent daylight saving time has a dark side, scientists…",
+   "summary_zh": "A new study warns that permanent daylight saving time could force American children to make at least 2 billion additional school commutes in darkness, potentially increasing safety risks and disrupti…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 90,
+     "channel": "news",
+     "title": "Permanent daylight saving time has a dark side, scientists warn",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261103003157.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T12:50:48+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    91
+   ],
+   "title_en": "NASA is racing against time to save the Hubble Space Telescope",
+   "headline_zh": "NASA is racing against time to save the Hubble Space Telesc…",
+   "summary_zh": "NASA is exploring a daring plan to save the legendary Hubble Space Telescope from its eventual fiery plunge into Earth's atmosphere. After more than 35 years of groundbreaking discoveries, Hubble is…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 91,
+     "channel": "news",
+     "title": "NASA is racing against time to save the Hubble Space Telescope",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T11:22:33+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    92
+   ],
+   "title_en": "AI helps Stanford scientists discover a “natural Ozempic” with a surprising advantage",
+   "headline_zh": "AI helps Stanford scientists discover a “natural Ozempic” w…",
+   "summary_zh": "Stanford researchers have discovered an AI-identified natural molecule that dramatically suppresses appetite and promotes fat loss in animals, potentially offering an Ozempic-like weight-loss treatme…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 92,
+     "channel": "news",
+     "title": "AI helps Stanford scientists discover a “natural Ozempic” with a surprising advantage",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104004909.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T06:57:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    93
+   ],
+   "title_en": "Gene editing could replace a lifetime of medication, but there's a catch",
+   "headline_zh": "Gene editing could replace a lifetime of medication, but th…",
+   "summary_zh": "A single gene-editing treatment could someday protect against heart disease, high cholesterol, and other common conditions for decades, potentially replacing lifelong medications. But scientists warn…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 93,
+     "channel": "news",
+     "title": "Gene editing could replace a lifetime of medication, but there's a catch",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261102202829.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-04T04:30:57+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 99,
+   "dup_in_run": 0,
+   "already_seen": 4,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 49,
+   "unique": 46,
+   "candidates": 46
+  },
+  "hot": {
+   "fetched": 54,
+   "dup_in_run": 0,
+   "already_seen": 47,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 7,
+   "candidates": 7
+  },
+  "news": {
+   "fetched": 162,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 120,
+   "unique": 42,
+   "candidates": 40
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 44,
+   "kept": 43,
+   "elapsed_s": 0.97,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.55,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.46,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 10,
+   "kept": 0,
+   "elapsed_s": 0.63,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 2.59,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.32,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.67,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.37,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 8,
+   "kept": 8,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.23,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.44,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 3,
+   "elapsed_s": 0.64,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.12,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.33,
+   "error": ""
+  }
+ ]
+}
