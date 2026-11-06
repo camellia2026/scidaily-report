@@ -1,0 +1,764 @@
+{
+ "date": "2026-11-06",
+ "generated_at": "2026-11-06 09:41 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "本期最值得关注的是三项机制层面的突破：肝转移灶通过招募骨髓造血干细胞在肝内建立异位造血微环境，并借由糖皮质激素让CD8⁺T与NK细胞失能（[1]）；铜氧化物赝能隙被局域散粒噪声谱直接指认为配对能隙（[31]）；中国空间站光偶极阱中实现9.7 pK的玻色-爱因斯坦凝聚（[7]）。方法学上，DNA纳米开关筛选（[3]）与儿童个体化语言学习建模（[26]）分别展示了超高通量互作发现与逐个儿童计算建模的可行性。应用侧，膳食纤维经肠道菌群改变雄激素代谢的临床试验（[5]）与堆叠多孔NiTi弹热制冷结构（[33]）给出了可转化路径。另有若干条目仅有标题或一句话摘要，本简报不作展开。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Tumor metastasis co-opts liver hematopoiesis to promote immunosuppression",
+   "headline_zh": "肝转移灶在肝内建起异位造血龛，产出分泌糖皮质激素的中性粒细胞",
+   "summary_zh": "研究鉴定出一类由肝转移相关造血干细胞（LM-HSCs）驱动的肝脏造血。肝转移灶在汇管区周围建立异位造血龛，经Kupffer细胞依赖的CCR1信号招募骨髓HSC。LM-HSC虽保留自我更新与多能性，但CREB激活使其分化偏向髓系，尤其是ANXA1⁺未成熟中性粒细胞；这些细胞以旁分泌方式产生糖皮质激素，激活CD8⁺T与NK细胞的糖皮质激素受体信号，诱导免疫检查点受体表达与功能失能。",
+   "why_it_matters_zh": "把肿瘤系统性免疫抑制落到具体的器官级机制上：肝脏被改造成异位造血器官，且CCR1、CREB、糖皮质激素轴可分别干预，为肝转移患者的免疫治疗联合策略提供了可检验的靶点假设。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "肝转移",
+    "异位造血",
+    "髓系偏分化",
+    "糖皮质激素",
+    "免疫抑制"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Tumor metastasis co-opts liver hematopoiesis to promote immunosuppression",
+     "url": "https://doi.org/10.1126/science.aea3046",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aea3046",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "Equivalence of pseudogap and pairing energy in a cuprate high-temperature superconductor",
+   "headline_zh": "局域散粒噪声谱显示赝能隙能量与电子配对起始重合",
+   "summary_zh": "在Bi₂Sr₂CaCu₂O₈₊δ上用局域散粒噪声谱测量，发现赝能隙能量与电子配对起始一致，且空间不均匀，数值最高达70 meV。作者据此排除赝能隙纯粹源于局域序（如电荷密度波）的解释，将其与Cooper对形成直接挂钩，并推断铜氧化物临界温度的上限受相位相干而非配对强度限制。",
+   "why_it_matters_zh": "长期并存的预形成配对与局域序两种赝能隙解释，被同一套局域测量同时检验并给出取舍。若成立，提升Tc的努力应转向相位相干与超流刚度，而非继续提高配对能标。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "铜氧化物超导",
+    "赝能隙",
+    "配对",
+    "散粒噪声谱"
+   ],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "paper",
+     "title": "Equivalence of pseudogap and pairing energy in a cuprate high-temperature superconductor",
+     "url": "https://doi.org/10.1126/science.adt3444",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adt3444",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "Quantum gases below 10 picokelvin in space",
+   "headline_zh": "空间站光偶极阱BEC达到9.7 pK，自由膨胀7秒",
+   "summary_zh": "在中国空间站上用光偶极阱（ODT）制备出含2.0×10⁴原子的玻色-爱因斯坦凝聚，等效温度9.7（+3.2/−2.7）pK，自由膨胀时间7.0 s。此前微重力下最低等效温度为38 pK且基于原子芯片磁阱；ODT路线此前未在微重力下实现量子简并气体。",
+   "why_it_matters_zh": "ODT对磁性与非磁性原子均适用、光学访问更好，把这一路线推到pK量级，意味着空间量子模拟与精密测量可用的物种和几何构型大幅扩展，更长的自由演化时间直接对应干涉仪灵敏度的提升空间。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "玻色-爱因斯坦凝聚",
+    "微重力",
+    "光偶极阱",
+    "空间站"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "Quantum gases below 10 picokelvin in space",
+     "url": "https://doi.org/10.1126/science.aea5324",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aea5324",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Discovering molecular modulators with nanoswitch screening",
+   "headline_zh": "FIND：把核苷酸编码文库挂在DNA纳米开关上，直接筛诱导互作的分子",
+   "summary_zh": "将基于DNA纳米开关的核苷酸编码文库选择与二代测序结合，建立FIND平台，用于超高通量发现能诱导或增强蛋白-蛋白互作的化合物，包括三元复合物形成。作者以两个案例演示：筛选出稳定ACE2与SARS-CoV-2受体结合域互作的纳米抗体；从DNA条形码小分子文库中发现PPARγ激动剂。",
+   "why_it_matters_zh": "常规筛选要么通量不足，要么无法直接测多体互作。FIND把是否诱导互作变成可测的选择信号，使靶向蛋白-蛋白界面和三元复合物这类此前难筛的模态进入可筛范围。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "DNA纳米开关",
+    "蛋白-蛋白互作",
+    "三元复合物",
+    "高通量筛选"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Discovering molecular modulators with nanoswitch screening",
+     "url": "https://doi.org/10.1126/science.adt7185",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adt7185",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Targeting hormone conversion through dietary fiber improves polyendocrine metabolic ovarian syndrome",
+   "headline_zh": "菊粉+抗性淀粉+β-葡聚糖降低血浆雄激素，关键菌把雄烯二酮转为无雄激素活性代谢物",
+   "summary_zh": "临床试验显示，由菊粉、抗性淀粉和β-葡聚糖组成的纤维组合可降低患者血浆雄激素浓度。机制上，纤维提高Bacteroides xylanisolvens丰度，该菌将雄烯二酮转化为作者命名为coproandrosterone的非雄激素性次级代谢物，后者再被肠道菌群代谢为dihydro-coproandrosterone；该通路在小鼠模型中得到验证。",
+   "why_it_matters_zh": "给出了膳食纤维—特定菌—雄激素前体转化的完整因果链，并命名了新的代谢产物，使益生元/益生菌干预有了明确的菌株与代谢物读出指标，而不只是纤维摄入量的相关性。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "膳食纤维",
+    "肠道菌群",
+    "雄激素",
+    "临床试验"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "Targeting hormone conversion through dietary fiber improves polyendocrine metabolic ovarian syndrome",
+     "url": "https://doi.org/10.1126/science.aed8952",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aed8952",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "The first 1000 days: Modeling language learning from individual children's everyday speech",
+   "headline_zh": "用8名儿童家中录音训练个体化模型，学习节奏与儿童本人同步",
+   "summary_zh": "对8名儿童生命最初1000天的纵向家庭录音，训练认知上可行、针对每个儿童的模型。每个模型仅从单一儿童有序的语音输入中增量学习，不预设语言学知识，发展出类音素与词形表征，其进展追踪各儿童自身的学习速度。学习效果依赖密集的每日采样与近期输入的回放，提示经验相关与记忆相关过程均为必需。",
+   "why_it_matters_zh": "把日常输入是否足以支撑语言学习从推测变成可计算检验，并指出采样密度与回放这两个可操作条件。个体化建模为发展理论的检验提供了此前缺失的、以单个儿童为单位的对照范式。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "语言习得",
+    "个体化建模",
+    "纵向录音",
+    "记忆回放"
+   ],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "paper",
+     "title": "The first 1000 days: Modeling language learning from individual children’s everyday speech",
+     "url": "https://doi.org/10.1126/science.aeh9311",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh9311",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "Stacked porous NiTi structure with low cost and ultrahigh fatigue life for elastocaloric cooling",
+   "headline_zh": "冲压-堆叠造多孔NiTi，扛过10⁸次压缩循环，比制冷功率3850 W/kg",
+   "summary_zh": "提出stamping and stacking（S-S）方法：从NiTi薄片冲压出蜂窝状芯片，再堆叠成层状管式结构，以增大换热面积，同时规避现有SMA结构中的屈曲与开裂失效。堆叠结构承受超过10⁸次压缩循环，比制冷功率达3850 W/kg；制造成本相比现有方法降低一个数量级。",
+   "why_it_matters_zh": "弹热制冷商业化的两大障碍是疲劳寿命与成本，此处同时给出量级改善，且结构本身解决换热。若可放大，意味着无需制冷剂的固态制冷进入可量产讨论范围。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "弹热制冷",
+    "形状记忆合金",
+    "NiTi",
+    "疲劳寿命"
+   ],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "paper",
+     "title": "Stacked porous NiTi structure with low cost and ultrahigh fatigue life for elastocaloric cooling",
+     "url": "https://doi.org/10.1126/science.aeh7074",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh7074",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "Seafloor geodesy delineates fast megathrust relocking after the giant 2011 Tohoku earthquake",
+   "headline_zh": "14年海底大地测量：2011年东北地震的逆冲带已恢复到震前闭锁状态",
+   "summary_zh": "结合14年震后海底与陆上大地测量、重复地震分析和数值模拟，刻画2011年Mw9东北地震后的重新闭锁过程。结果显示闭锁恢复被逆冲带上的余滑打断，并伴随上地幔黏弹性应力松弛；尽管应力松弛仍在继续，逆冲带目前已达到与震前相似的闭锁状态。",
+   "why_it_matters_zh": "直接约束了大地震后多久重新积累应力这一地震周期核心参数，且表明闭锁恢复可以快于黏弹性松弛的时间尺度。对其他俯冲带的震后危险性评估是可迁移的观测约束。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "日本海沟",
+    "海底大地测量",
+    "闭锁",
+    "余滑"
+   ],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "paper",
+     "title": "Seafloor geodesy delineates fast megathrust relocking after the giant 2011 Tohoku earthquake",
+     "url": "https://doi.org/10.1126/science.aeg7301",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeg7301",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "Echoes of the Anthropocene: Noise pollution as a global threat",
+   "headline_zh": "214项实验、177个物种：80%的物种至少一项性状被噪声改变",
+   "summary_zh": "对6大洲177个水生与陆生物种的214项实验研究做系统发育控制元分析。噪声改变了80%受试物种至少一项生理、发育或行为性状，伴随适合度与丰度下降、捕食者-猎物互作受扰。效应见于所有生境，但部分性状与物种的响应机制不同，形成受益者与受损者。",
+   "why_it_matters_zh": "把噪声从局部干扰提升为可与其他全球变化因子并列的选择压力，并说明只有多物种分析才能暴露群落与生态系统层面的净效应，为声景保护纳入栖息地保护政策提供定量依据。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "噪声污染",
+    "元分析",
+    "生物多样性",
+    "选择压力"
+   ],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "paper",
+     "title": "Echoes of the Anthropocene: Noise pollution as a global threat",
+     "url": "https://doi.org/10.1126/science.adu9593",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adu9593",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "Glacial abrupt transitions in ocean circulation were much slower than ice-core records imply",
+   "headline_zh": "亚洲季风石笋记录显示DO暖事件历时逾百年，而非数十年",
+   "summary_zh": "利用亚洲季风区精确定年的石笋氧同位素记录，发现同一批Dansgaard-Oeschger暖事件的转变历时超过一个世纪。同位素模拟表明，格陵兰记录主要捕捉东北北大西洋海冰退缩触发的快速大气重组，而AMOC恢复与半球热调整要慢得多。",
+   "why_it_matters_zh": "修正了以冰芯氧同位素定义突变的时间尺度：大气重组快、环流恢复慢，两者被混为一谈。这对以DO事件为类比讨论现代AMOC突变风险的推理构成直接约束。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "DO事件",
+    "AMOC",
+    "石笋",
+    "突变时间尺度"
+   ],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "paper",
+     "title": "Glacial abrupt transitions in ocean circulation were much slower than ice-core records imply",
+     "url": "https://doi.org/10.1126/science.aed4270",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aed4270",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Quantum gas microscopy of three-flavor Hubbard systems",
+   "headline_zh": "把量子气体显微术扩展到三味费米格气，观测到味选择性局域化",
+   "summary_zh": "将量子气体显微术扩展至Hubbard区的三味费米格气，实现格点与味分辨探测。测量了三味Hubbard模型的相图，在低至隧穿能标的温度下发现味选择性局域化与选择性配对的迹象，并与数值关联簇展开计算比较。作者指出进一步提高相空间密度或可观测半满时的配对Mott相，并指向色超流与QCD相关物理。",
+   "why_it_matters_zh": "引入第三味打破SU(2)对称性，使Hubbard模型进入此前难以实验触及的相区；味分辨探测让这些相可以被逐格点读出，而非仅靠全局观测量推断。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "三味Hubbard",
+    "量子气体显微术",
+    "费米格气",
+    "配对Mott相"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Quantum gas microscopy of three-flavor Hubbard systems",
+     "url": "https://doi.org/10.1126/science.adv1247",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adv1247",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Denoising the US Census: Succinct block hierarchical regression",
+   "headline_zh": "BlueDown在不损失差分隐私的前提下减少县级分组误差9–58%",
+   "summary_zh": "针对2020年美国人口普查为差分隐私注入校准噪声后再调和成人口表的流程，提出后处理算法BlueDown，结合线性回归与约束优化并利用测量结构提升效率。在2020年普查数据上，县级按种族分组误差降低21–36%，全部县级分组降低9–58%；普查区级按住房类型分组误差降低38–61%。作者称隐私与计算效率均无损失。",
+   "why_it_matters_zh": "差分隐私普查数据的可用性争议集中在后处理环节，此处证明纯算法改进即可显著降低误差，且影响的是每年逾1.5万亿美元联邦支出分配所依据的数据。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "差分隐私",
+    "人口普查",
+    "后处理",
+    "约束优化"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Denoising the US Census: Succinct block hierarchical regression",
+     "url": "https://doi.org/10.1126/science.aej1765",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aej1765",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    82
+   ],
+   "title_en": "As Antarctic blue whales advance along the road to recovery, continued oversight is key",
+   "headline_zh": "南极蓝鲸估计4,018头，较1973年最后一次捕鲸后的418头回升",
+   "summary_zh": "新研究估计南极蓝鲸总种群为4,018头，而1973年最后一次有记录的捕鲸之后为418头，50年保护后呈恢复趋势；作者强调持续监测的必要性。",
+   "why_it_matters_zh": "为大型鲸类保护成效提供了少见的绝对丰度对照，同时提示恢复仍处早期，监测一旦中断则趋势判断失去依据。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "南极蓝鲸",
+    "种群恢复",
+    "长期监测"
+   ],
+   "records": [
+    {
+     "ref": 82,
+     "channel": "news",
+     "title": "As Antarctic blue whales advance along the road to recovery, continued oversight is key",
+     "url": "https://phys.org/news/2026-11-antarctic-blue-whales-advance-road.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-05T21:00:13+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "DNA confirms barbarian tribe’s mythic tale about its origins",
+   "headline_zh": "跨欧洲骨骼样本支持哥特人自斯堪的纳维亚南迁的传统叙述",
+   "summary_zh": "哥特人传统上相信其在劫掠罗马前数百年自斯堪的纳维亚南下；来自欧洲各地的骨骼样本的DNA分析支持这一说法。",
+   "why_it_matters_zh": "口传起源叙事通常难以与迁徙考古证据对齐，此处以群体遗传学数据直接检验一个具体的历史传说，为传说是否保留真实迁徙记忆提供了可讨论的案例。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "古DNA",
+    "哥特人",
+    "人群迁徙"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "paper",
+     "title": "DNA confirms barbarian tribe’s mythic tale about its origins",
+     "url": "https://doi.org/10.1126/science.aen8506",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aen8506",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "Direct evidence for psychoactive cannabis use 2800 years ago",
+   "headline_zh": "西伯利亚墓葬人发中的植物残体与化合物",
+   "summary_zh": "从西伯利亚一座大型墓葬出土的古人头发中，检出植物部位与化合物的供奉性遗留，构成目前最早的大麻使用直接证据。作者认为该植物因其精神活性而被使用，且欧亚大陆某些野生居群可能天然具有较高活性成分水平；使用行为至少可追溯至2800年前。",
+   "why_it_matters_zh": "此前史前大麻消费多为间接推断，人发中的化学证据把时间锚点前移，并为当代医用、公共卫生与立法讨论提供一个长时段参照。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "大麻",
+    "人发分析",
+    "西伯利亚",
+    "精神活性物质"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "paper",
+     "title": "Direct evidence for psychoactive cannabis use 2800 years ago",
+     "url": "https://doi.org/10.1126/science.aeg3800",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeg3800",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch",
+   "headline_zh": "在消费级智能手表上利用既有传感信号识别高血压迹象",
+   "summary_zh": "候选材料仅提供标题与刊载信息，未给出研究设计、样本量或性能指标，无法概述方法与结果。",
+   "why_it_matters_zh": "若方法学成立，其意义在于把血压相关信号的采集从专用袖带设备转移到已大规模佩戴的消费设备上；但具体改变了什么需依据原文判断，本简报不作推断。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "智能手表",
+    "高血压筛查",
+    "机会性监测"
+   ],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch",
+     "url": "https://www.nature.com/articles/s41586-026-11336-3",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11336-3",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
+   "headline_zh": "以氢衍生物作为中国碳中和路径的成本优化选项",
+   "summary_zh": "候选材料仅提供标题与刊载信息，未给出模型设定、情景或成本数据，无法概述方法与结论。",
+   "why_it_matters_zh": "该题目指向的是难减排部门如何以氢基载体替代化石原料这一政策争论；具体结论与适用边界需查阅原文。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "氢能",
+    "碳中和",
+    "成本评估"
+   ],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "paper",
+     "title": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
+     "url": "https://www.nature.com/articles/s41586-026-11351-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11351-4",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Obesity pharmacotherapies and cognition",
+   "headline_zh": "综述：GLP-1及多受体联合疗法对认知的影响，机制与混杂尚未分离",
+   "summary_zh": "综述梳理临床前模型、观察性队列与临床试验中肥胖及2型糖尿病药物对认知与脑健康的影响，覆盖心血管代谢疾病、衰老与阿尔茨海默病。核心难题是区分认知效应来自对神经环路的直接作用、心血管代谢改善的间接后果，还是两者兼有；文章讨论受体药理学、脑暴露、代谢背景与疾病阶段如何塑造结局。",
+   "why_it_matters_zh": "在GLP-1类药物大规模长期使用的背景下，把认知获益从营销叙事拉回机制可分辨的问题清单，并指出机制清晰度是设计认知保护试验的前提。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "GLP-1",
+    "认知",
+    "脑健康",
+    "综述"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "Obesity pharmacotherapies and cognition",
+     "url": "https://doi.org/10.1126/science.aek9987",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aek9987",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[9] People’s social networks can be unintentionally reshaped during randomized interventions（Nature）——仅有标题。若成立，随机干预的因果推断需考虑网络结构本身被处理改变，这对社会科学实验设计是根本性问题，值得追原文。",
+  "[44] AI cracks a 27-year-old pillar of computer science（Science）——报道称涉及OpenAI三项主要主张之一，并引发AI生成成果如何共享的争议。属新闻而非论文，需等待可复现的技术材料。",
+  "[56] Astronomers deliver the sharpest and deepest view yet of the low-frequency radio sky（Phys.org）——LOFAR低频射电天空最深图像，约63,000个射电源。论文已被A&A接收，当前为arXiv预印本，尚未完成同行评审；引用前应核对正式版本。",
+  "[78] 400,000-year-old teeth reveal a stunning twist in human evolution（ScienceDaily）——媒体报道称中国出土直立人牙齿蛋白提示与丹尼索瓦人基因交流。原始论文信息未在候选材料中给出，暂不作为结论引用。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 172,
+   "dup_in_run": 0,
+   "already_seen": 33,
+   "dropped_by_penalty": 2,
+   "dropped_by_window": 45,
+   "unique": 92,
+   "candidates": 50
+  },
+  "hot": {
+   "fetched": 54,
+   "dup_in_run": 0,
+   "already_seen": 54,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 160,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 123,
+   "unique": 37,
+   "candidates": 37
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 1,
+   "dup_in_run": 0,
+   "already_seen": 1,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 101,
+   "kept": 100,
+   "elapsed_s": 1.6,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.33,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 9,
+   "kept": 0,
+   "elapsed_s": 0.76,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.36,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 1.32,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.78,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 1.39,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 1.18,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 6,
+   "kept": 6,
+   "elapsed_s": 1.69,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 1.01,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.64,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 2,
+   "elapsed_s": 0.54,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.23,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.48,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.38,
+   "error": ""
+  }
+ ]
+}
