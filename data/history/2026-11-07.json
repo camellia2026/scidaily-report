@@ -1,0 +1,618 @@
+{
+ "date": "2026-11-07",
+ "generated_at": "2026-11-07 10:23 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选以顶刊与科学媒体为主，真正具备方法学新意的条目集中在基因编辑治疗、量子模拟平台、空间极低温实验与若干材料/生物机制研究。JAMA 多条为观点、叙事或患者教育类文本，不构成研究进展；科学媒体通道中大量为科普与生态观察，需严格筛选。以下仅保留信息量足够、能说清「做了什么、怎么做」的条目，其余列入观察清单或不报。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering",
+   "headline_zh": "体内碱基编辑 ANGPTL3 实现持久降脂",
+   "summary_zh": "Nature 在线发表的研究，采用体内 CRISPR 碱基编辑靶向 ANGPTL3，以实现持久性血脂降低。候选材料仅给出标题与上线信息，未提供编辑效率、动物或人体模型、随访时长与安全性数据，具体结果需查原文。",
+   "why_it_matters_zh": "若在体内实现持久降脂，意味着降脂治疗可能从长期反复给药转向一次性编辑；ANGPTL3 是已有人类遗传学验证的靶点，碱基编辑相较切割型 CRISPR 可避免双链断裂。具体临床转化程度需依据原文数据判断。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "CRISPR碱基编辑",
+    "ANGPTL3",
+    "降脂",
+    "体内编辑"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering",
+     "url": "https://www.nature.com/articles/s41586-026-11233-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11233-9",
+     "published": "2026-11-06T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Nonreceipt of Newborn Vitamin K and Risk of Bleeding",
+   "headline_zh": "新生儿未接受维生素 K 与出血风险：524 万婴儿回顾队列",
+   "summary_zh": "基于 Epic Cosmos 数据集、覆盖 50 州、2017–2025 年出生的 5,240,780 名 35–43 周婴儿的回顾性队列。新生儿肌注维生素 K 未接受率从 2017 年 3.1% 升至 2025 年 6.8%；6 月龄内出血发生率在未接受组从 225.3/万升至 394.0/万，接受组从 136.6/万升至 221.8/万。采用稳健 Poisson 回归校正协变量估计相对风险，未接受组出血风险显著更高。摘要在此处截断，具体效应值未给出。",
+   "why_it_matters_zh": "把「拒接维生素 K 上升」这一临床担忧量化到数百万级样本，并给出出血与死亡结局的时间趋势，为儿科与公共卫生沟通提供直接证据基础。同期 JAMA 配发的通讯类文章 [8] 说明该话题正进入政策讨论层面。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "维生素K",
+    "新生儿出血",
+    "大样本队列",
+    "公共卫生沟通"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "Nonreceipt of Newborn Vitamin K and Risk of Bleeding",
+     "url": "https://doi.org/10.1001/jama.2026.21764",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21764",
+     "published": "2026-11-05T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "Quantum gas microscope reveals individual atoms in first tunable three-component Hubbard system",
+   "headline_zh": "首个可调相互作用的三组分 Hubbard 系统，量子气体显微镜实现单原子分辨",
+   "summary_zh": "德国、泰国、印度、中国、美国团队合作，在实验室构建三组分 Hubbard 系统且相互作用可调，并用量子气体显微镜实现单个原子成像。成果发表于 Science。候选材料未给出具体调控手段与观测到的相。",
+   "why_it_matters_zh": "此前 Hubbard 模拟多限于两组分；三组分且相互作用可调，使核物理与材料科学中的多分量强关联问题（如 SU(N) 对称性、多带模型）进入可量子模拟的范围。单原子分辨是可观测量扩展的前提。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "量子气体显微镜",
+    "Hubbard模型",
+    "三组分",
+    "单原子成像"
+   ],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "news",
+     "title": "Quantum gas microscope reveals individual atoms in first tunable three-component Hubbard system",
+     "url": "https://phys.org/news/2026-11-quantum-gas-microscope-reveals-individual.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T20:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Scientists achieve record-breaking low temperature on China's space station, paving the way for new physics experiments",
+   "headline_zh": "中国空间站实现破纪录低温，为空间量子实验铺路",
+   "summary_zh": "中国研究团队在天宫空间站上实现新的低温纪录，成果近期发表于 Science。候选材料未给出具体温度数值、制冷方案与实验装置细节。",
+   "why_it_matters_zh": "微重力环境下的极低温可支撑更长的自由演化时间与更低的振动噪声，对量子物理与空间精密测量实验是平台级能力。具体达到的温区与可用实验类型需查原文。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "天宫",
+    "极低温",
+    "空间量子实验",
+    "精密测量"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "news",
+     "title": "Scientists achieve record-breaking low temperature on China's space station, paving the way for new physics experiments",
+     "url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T17:00:17+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "How a metabolite protects the enzyme that consumes it",
+   "headline_zh": "色氨酸如何保护降解自己的酶：TDO2 的第二结合位点机制",
+   "summary_zh": "MPI 生物化学研究所与 UNLV、布鲁塞尔 de Duve 研究所合作，在色氨酸代谢中解析出一种分子调控机制：色氨酸结合 TDO2 上与其催化位点不同的第二站点，从而遮蔽一段被两个效应因子依次使用的区域——激酶 CK2 与泛素连接酶 CUL1–β-TrCP，二者依次作用发出 TDO2 降解信号。结果发表于 Molecular Cell。",
+   "why_it_matters_zh": "给出了「底物保护自身消耗酶」的分子结构解释，把代谢物水平与蛋白稳定性直接连成反馈回路；对 TDO2 这类肿瘤免疫相关靶点的调控策略有直接提示。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "TDO2",
+    "色氨酸代谢",
+    "泛素化",
+    "变构调控"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "news",
+     "title": "How a metabolite protects the enzyme that consumes it",
+     "url": "https://phys.org/news/2026-11-metabolite-enzyme-consumes.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T21:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Light-powered method resurrects 'dead-end' compounds for drug discovery",
+   "headline_zh": "光驱动方法让药物研发中的「死胡同」化合物重获新生",
+   "summary_zh": "佛罗里达州立大学参与团队开发出一种光驱动化学方法，可将药物开发过程中产生但未成药的化合物转化为新的候选骨架。候选材料未说明反应类型、底物范围与产率。",
+   "why_it_matters_zh": "药物研发中大量合成化合物因性质或活性不足被搁置；若能以光化学手段将其改造成新骨架，等于把既有化合物库当作原料库，降低早期探索的合成成本。方法学细节需查原文。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "光化学",
+    "骨架跃迁",
+    "化合物库再利用"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "news",
+     "title": "Light-powered method resurrects 'dead-end' compounds for drug discovery",
+     "url": "https://phys.org/news/2026-11-powered-method-resurrects-dead-compounds.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T20:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "Beyond trial and error: A framework for AI-driven solid-electrolyte discovery",
+   "headline_zh": "面向固态电解质的 AI 发现框架，试图超越试错法",
+   "summary_zh": "报道提出一个用于固态电解质发现的 AI 驱动框架，针对「实验室表现良好但实际电池中失效」这一固有问题。候选材料未给出框架组成、数据集与验证结果。",
+   "why_it_matters_zh": "固态电解质的核心瓶颈是实验室指标与器件表现脱节；若框架能把器件级约束纳入筛选，改变的是候选材料的排序方式而非单点性能。信息有限，需查原文确认验证强度。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "固态电解质",
+    "AI材料发现",
+    "器件级验证"
+   ],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "news",
+     "title": "Beyond trial and error: A framework for AI-driven solid-electrolyte discovery",
+     "url": "https://phys.org/news/2026-11-trial-error-framework-ai-driven.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T18:40:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "Vibrating mirrors of light create analog of a black hole event horizon",
+   "headline_zh": "快速振动的光腔镜面模拟黑洞视界",
+   "summary_zh": "光学腔由一对陷光镜面构成。理论预测，若镜面间距变化足够快，腔内波会聚集成短而强的脉冲，但此前从未被直接检验。该报道称已构建出黑洞事件视界的类比系统。候选材料未给出实验参数与观测结果。",
+   "why_it_matters_zh": "把长期停留在理论预测的动力学 Casimir 类效应推进到可测量层面，并为在桌面系统研究视界相关物理提供平台。具体验证程度需查原文。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "光学腔",
+    "动力学卡西米尔效应",
+    "类比黑洞",
+    "视界"
+   ],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "news",
+     "title": "Vibrating mirrors of light create analog of a black hole event horizon",
+     "url": "https://phys.org/news/2026-11-vibrating-mirrors-analog-black-hole.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T17:40:11+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    43
+   ],
+   "title_en": "Scientists just found dinosaur blood that survived 115 million years",
+   "headline_zh": "1.15 亿年前恐龙骨骼中检出化学确证的血迹残留",
+   "summary_zh": "研究者在 115 百万年前的恐龙骨骼内发现经化学确证的古代血液痕迹。候选材料未说明所用化学确证手段、样本物种与保存环境。",
+   "why_it_matters_zh": "直接挑战生物分子可保存时长的既有假设，并为恐龙生理学研究与地外生命探测中的生物标志物搜索提供参照。化学确证的具体方法决定该结论的强度，需查原文。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "恐龙",
+    "古代生物分子",
+    "化石化保存",
+    "生物标志物"
+   ],
+   "records": [
+    {
+     "ref": 43,
+     "channel": "news",
+     "title": "Scientists just found dinosaur blood that survived 115 million years",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T11:28:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    47
+   ],
+   "title_en": "Dead stars could break one of physics' most famous limits",
+   "headline_zh": "强磁场或让白矮星突破钱德拉塞卡极限",
+   "summary_zh": "计算机模拟显示，强磁场可使白矮星质量达到太阳的 2.4 倍，显著超过沿用数十年的质量上限。候选材料称该结果或可解释长期困惑天文学家的异常明亮超新星爆发。",
+   "why_it_matters_zh": "若成立，Ia 型超新星作为宇宙距离标尺的前提（统一的质量上限）需要修正，进而影响宇宙学参数推断。目前为模拟结果，观测检验尚未给出。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "白矮星",
+    "钱德拉塞卡极限",
+    "强磁场",
+    "Ia型超新星"
+   ],
+   "records": [
+    {
+     "ref": 47,
+     "channel": "news",
+     "title": "Dead stars could break one of physics' most famous limits",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261102202835.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T03:11:09+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "'Mega heat waves' strengthened by interaction between soil moisture, atmospheric pressure and temperature",
+   "headline_zh": "土壤湿度—气压—温度自增强反馈使极端热浪再升温约 10%",
+   "summary_zh": "PIK 与 IIASA 领衔、发表于 Science Advances 的研究发现，高温下温度、土壤湿度与大气压之间触发自增强相互作用，使极端热浪比无此反馈时热约 10%。",
+   "why_it_matters_zh": "把热浪强度的一部分归因于陆面—大气反馈而非单纯辐射强迫，意味着同一全球升温水平下热浪极值可能被系统性低估，直接影响热浪预警阈值与影响评估。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "热浪",
+    "陆气反馈",
+    "土壤湿度",
+    "极端事件归因"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "news",
+     "title": "'Mega heat waves' strengthened by interaction between soil moisture, atmospheric pressure and temperature",
+     "url": "https://phys.org/news/2026-11-mega-interaction-soil-moisture-atmospheric.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T19:00:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    23
+   ],
+   "title_en": "Future warming events will outdo the extreme heat waves of the recent past, new study finds",
+   "headline_zh": "未来热浪将更长、范围更大、强度更高",
+   "summary_zh": "Freie Universität Berlin 的 Philipp Aglas-Leitner 领衔、发表于 Nature Communications 的研究指出，近年极端热浪可能只是预演，未来热浪在持续时间、影响面积与强度上均将超出。",
+   "why_it_matters_zh": "与 [30] 相互印证，把「历史热浪作为未来情景参照」的做法标记为低估风险；对适应规划的时间尺度设定有直接含义。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "热浪趋势",
+    "气候变化预估",
+    "适应规划"
+   ],
+   "records": [
+    {
+     "ref": 23,
+     "channel": "news",
+     "title": "Future warming events will outdo the extreme heat waves of the recent past, new study finds",
+     "url": "https://phys.org/news/2026-11-future-events-outdo-extreme.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T21:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "Noise pollution changes biology or behavior in 80% of animal species studied",
+   "headline_zh": "所研究动物物种中 80% 的生物学或行为受噪声污染改变",
+   "summary_zh": "报道称噪声污染在所研究的动物物种中约 80% 引起生物学或行为层面的改变，涵盖交通、航运与工业噪声源。候选材料未给出综述范围、物种数与效应量分布。",
+   "why_it_matters_zh": "把噪声从「局部干扰」提升为具有跨类群普遍性的环境压力因子，为噪声治理的环境标准提供生物学依据。具体证据强度需查原文。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "噪声污染",
+    "动物行为",
+    "环境压力因子"
+   ],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "news",
+     "title": "Noise pollution changes biology or behavior in 80% of animal species studied",
+     "url": "https://phys.org/news/2026-11-noise-pollution-biology-behavior-animal.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-06T18:20:04+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[4] Navigational Health—The Next Transformation in Health Care（JAMA Viewpoint）：提出医疗从「发作式精准」转向「前瞻性、自适应健康管理」的框架性主张，属观点文章，无实证数据；若后续有配套实证研究值得追踪。",
+  "[6][7] Mechanical Thrombectomy in Ischemic Stroke With a Medium or Distal Arterial Occlusion 及 Reply：中等/远端血管闭塞取栓的争议仍在通信往来阶段，候选材料无摘要，暂不解读，待正式结果或指南回应。",
+  "[22] New method measures microplastics in the air using an uncrewed aerial system（Scientific Reports）：用无人机采样大气微塑料，属方法学建立；候选材料未给检出限与回收率，待评估后可补报。",
+  "[40] Atom-scale model could help improve material growth for advanced electronics：碳化硅晶体生长中固—气转变的原子尺度模型改进，面向减少试错实验；信息偏薄，待原文确认模型验证范围。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 168,
+   "dup_in_run": 0,
+   "already_seen": 46,
+   "dropped_by_penalty": 3,
+   "dropped_by_window": 109,
+   "unique": 10,
+   "candidates": 10
+  },
+  "hot": {
+   "fetched": 55,
+   "dup_in_run": 0,
+   "already_seen": 55,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 160,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 123,
+   "unique": 37,
+   "candidates": 37
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 1,
+   "dup_in_run": 0,
+   "already_seen": 1,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 142,
+   "kept": 142,
+   "elapsed_s": 1.02,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 9,
+   "kept": 0,
+   "elapsed_s": 0.52,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 3,
+   "kept": 0,
+   "elapsed_s": 0.7,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.25,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.25,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.2,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 3,
+   "kept": 3,
+   "elapsed_s": 0.12,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.16,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.01,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 2,
+   "elapsed_s": 0.52,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.25,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.2,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.23,
+   "error": ""
+  }
+ ]
+}
