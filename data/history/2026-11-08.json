@@ -1,0 +1,951 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08 08:49 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今天最值得关注的是大模型评测与安全方向的一组工作：Nature 的两篇高被引论文分别指出，以准确率为导向的评测会激励模型「乱猜」，而现有基准的难度已跟不上模型能力，因此需要新的评测范式；IEEE TPAMI 的 ICA/ICD 工作则揭示了上下文学习可以双向操纵安全对齐。预印本通道出现了两个值得追踪的方向：只输出决策概率、不生成文本的「System One」模型 Jev 及其级联评审方案，以及 DeepSeek 在 KV cache 压缩上的新进展。此外，Rubin 天文台首批观测即发现银河系两个隐藏伴星系，以及一项挑战欧洲「密林」传统图景的古生态学发现，也值得留意。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Evaluating large language models for accuracy incentivizes hallucinations",
+   "headline_zh": "准确率评测本身在奖励模型「乱猜」",
+   "summary_zh": "作者用学习理论论证：即使训练数据无误差，缺乏重复支撑的一次性事实也必然产生错误，而语法这类反复出现的规律不会；问题出在后续训练阶段——以准确率为核心的指标系统性地奖励猜测而非承认不确定。为此提出两项评测改造：一是「开放评分标准」评测，明确写出错误如何被惩罚，检验模型能否按声明的利害关系调节弃答；二是把现有评测改造成开放评分标准版本，以逆转其猜测激励。",
+   "why_it_matters_zh": "把幻觉从「能力缺陷」重新框定为「激励错配」问题，意味着改评测指标本身就可能直接改变模型行为，而不必只依赖检索、自检等事后缓解手段。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "幻觉",
+    "评测基准",
+    "激励设计",
+    "弃答"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "hot",
+     "title": "Evaluating large language models for accuracy incentivizes hallucinations",
+     "url": "https://doi.org/10.1038/s41586-026-10549-w",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-10549-w",
+     "published": "2026-04-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "A benchmark of expert-level academic questions to assess AI capabilities",
+   "headline_zh": "HLE：2500 道专家级学术题，作为闭卷学术基准的「终点」",
+   "summary_zh": "针对 MMLU 等流行基准已被模型刷到 90% 以上、失去区分度的问题，作者构建 Humanity's Last Exam（HLE）：2500 道覆盖数学、人文与自然科学的单选与简答题，由全球领域专家编写，答案唯一、可自动判分且无法靠网络检索快速得到。前沿 LLM 在 HLE 上准确率与校准度均很低。",
+   "why_it_matters_zh": "给出了一个明确「尚未饱和」的能力标尺并公开释放，可用于能力测量与政策讨论；其低校准度结果也提示，模型在超出训练分布的知识边界上不仅答不对，还不知道自己答不对。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "基准饱和",
+    "专家级评测",
+    "校准",
+    "多模态"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "hot",
+     "title": "A benchmark of expert-level academic questions to assess AI capabilities",
+     "url": "https://doi.org/10.1038/s41586-025-09962-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-09962-4",
+     "published": "2026-01-28T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Jailbreak and Guard Aligned Language Models With Only Few In-Context Demonstrations",
+   "headline_zh": "几个上下文示例即可攻破或加固 LLM 安全对齐",
+   "summary_zh": "作者提出 In-Context Attack（ICA），用有害示例颠覆模型安全对齐；以及 In-Context Defense（ICD），用拒绝回答的示例增强鲁棒性。文中给出理论分析说明极少量上下文示例为何能有效改变安全对齐，并在多模型、多数据集、多攻击基线上验证了二者的有效性与可扩展性。",
+   "why_it_matters_zh": "把上下文学习确立为安全对齐的一个独立操纵面——攻防成本都极低，意味着红队评测与部署防护必须把「提示中示例的分布」当作一等变量，而非只关注输入本身。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "越狱攻击",
+    "上下文学习",
+    "安全对齐",
+    "红队"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "hot",
+     "title": "Jailbreak and Guard Aligned Language Models With Only Few In-Context Demonstrations",
+     "url": "https://doi.org/10.1109/tpami.2026.3660147",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3660147",
+     "published": "2026-02-02T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models: A Critical Review and Assessment",
+   "headline_zh": "PEFT 方法的系统梳理与统一实验评估",
+   "summary_zh": "系统综述面向预训练语言模型的参数高效微调方法，归纳方法类别、应用场景与未来方向，并用若干代表性 PEFT 方法做了大量实验，对比其在参数效率与内存效率上的实际表现。",
+   "why_it_matters_zh": "PEFT 文献碎片化严重、各家实验设置不一，统一评测能帮助实践者在算力受限条件下做方法选型；但作为综述，其新意在于评估而非新方法。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "参数高效微调",
+    "综述",
+    "内存效率"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "hot",
+     "title": "Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models: A Critical Review and Assessment",
+     "url": "https://doi.org/10.1109/tpami.2026.3657354",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2026.3657354",
+     "published": "2026-01-27T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Mini-Gemini: Mining the Potential of Multi-Modality Vision Language Models",
+   "headline_zh": "不增加视觉 token 数量的高分辨率视觉增强框架",
+   "summary_zh": "针对开源 VLM 与 GPT-4/Gemini 之间的差距，提出用额外视觉编码器做高分辨率精修而不增加视觉 token 数，并构建高质量数据集以提升精确图像理解与基于推理的生成。模型支持 2B–34B 的稠密与 MoE 骨干，在零样本基准上达到领先水平，MMB 80.6%（较 Gemini Pro +5.4）、TextVQA 74.1%（较 LLaVA-NeXT +4.6）。",
+   "why_it_matters_zh": "说明高分辨率理解与 token 预算可以解耦，为开源 VLM 缩小与闭源模型的差距提供了一条低成本路径。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "视觉语言模型",
+    "高分辨率",
+    "多模态"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "hot",
+     "title": "Mini-Gemini: Mining the Potential of Multi-Modality Vision Language Models",
+     "url": "https://doi.org/10.1109/tpami.2025.3637265",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2025.3637265",
+     "published": "2025-11-26T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Otter: A Multi-Modal Model With In-Context Instruction Tuning",
+   "headline_zh": "以图文示例做上下文指令微调的多模态助手",
+   "summary_zh": "Otter 基于 Flamingo 与 Perceiver 架构，把文本与视觉示例同时作为上下文进行指令微调，支持文本、多图与视频输入；配套发布 MIMIC-IT 数据集，含逾 300 万条多模态指令-回复对、约 220 万条唯一指令，每条目均配多样化的上下文示例。评估显示上下文示例显著改善收敛与泛化，在复杂视频与多图理解任务上表现突出。",
+   "why_it_matters_zh": "把「上下文示例」从纯文本迁移到多模态指令微调，并给出大规模配套数据，为多模态助手的少样本适配提供了可复用的数据与方法基础。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "多模态指令微调",
+    "上下文学习",
+    "数据集"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "hot",
+     "title": "Otter: A Multi-Modal Model With In-Context Instruction Tuning",
+     "url": "https://doi.org/10.1109/tpami.2025.3571946",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2025.3571946",
+     "published": "2025-05-20T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis",
+   "headline_zh": "用视频扩散先验从单图/稀疏图合成高保真新视角",
+   "summary_zh": "方法结合视频扩散模型的生成能力与点云表示的粗略 3D 线索，在提升相机位姿控制精度的同时生成高质量视频帧；并提出渐进式视角合成策略扩展点云与新视角覆盖范围，可配合相机轨迹规划自动暴露并处理遮挡。可支撑实时渲染的沉浸式体验（用重建点与生成视角优化 3D-GS）以及场景级文本到 3D 生成。",
+   "why_it_matters_zh": "降低了对稠密多视角采集的依赖，把新视角合成的输入门槛压到单图或稀疏图，对内容创作与沉浸式渲染有直接应用价值。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "新视角合成",
+    "视频扩散",
+    "3DGS"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "hot",
+     "title": "ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis",
+     "url": "https://doi.org/10.1109/tpami.2025.3613256",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2025.3613256",
+     "published": "2025-01-01T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "Evaluating and Benchmarking the System One Model Jev",
+   "headline_zh": "不生成文本、只输出决策概率的「System One」模型评测（预印本，未经同行评审）",
+   "summary_zh": "Jev 是 TypeSafe AI 的商业模型，给定状态与结构化问题，返回固定选项中的选择、评分量表位置或陈述为真的概率。作者在 37 个数据集上零样本评测（346,009 次请求、成本低于 10 美元），并与 Qwen3.8-27B、Gemma-4-E4B 按精确选项概率对比：Jev 在 IMDB、SST-2、HellaSwag、ARC 上达 95–99%，27/37 个数据集优于 Qwen 且其领先均未超出 bootstrap 区间，全部 37 个优于 Gemma，概率校准良好并支持选择性预测。三模型在低资源语言、细粒度或噪声标签、量表判断上均退化。该文为预印本，尚未经过同行评审。",
+   "why_it_matters_zh": "为「小决策」类信息访问管线提供了一个可校准、极低成本的替代方案，并给出可复现的对比协议；其失败模式（低资源语言、量表判断）划出了这类模型的适用边界。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "预印本",
+    "决策模型",
+    "校准",
+    "基准评测"
+   ],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "preprint",
+     "title": "Evaluating and Benchmarking the System One Model Jev",
+     "url": "https://arxiv.org/abs/2609.37647",
+     "journal": "arXiv (Cornell University)",
+     "tier": "T2",
+     "doi": "10.48550/arxiv.2609.37647",
+     "published": "2026-09-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+   "headline_zh": "用置信度做路由的评审级联：能判就判，不确定就升级（预印本，未经同行评审）",
+   "summary_zh": "用只返回标签概率的决策型评审 JEV 替代推理型评审，由其置信度决定接受裁决还是升级给推理评审。对 16 个生成式与奖励模型评审、配合盲法人工裁决：凡裁决可直接从文本读出的场景，JEV 与 GPT-6 差距在 3 分以内，费用为其 0.36%、中位延迟 0.15 秒；在需要推导结论的数学、代码、逻辑上落后，而其置信度恰好标出这一边界。预先冻结阈值后，在 1610 对留出样本上「接受高置信 + 升级其余」比 GPT-6 高 0.9 分、费用为其 41%。该文为预印本，尚未经过同行评审。",
+   "why_it_matters_zh": "把评审成本问题转化为置信度路由问题，给出了可本地验证阈值的操作配方；其「置信度标出能力边界」的观察对任何 LLM-as-a-judge 流水线都有直接参考价值。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "预印本",
+    "LLM评审",
+    "置信度路由",
+    "成本"
+   ],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "preprint",
+     "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+     "url": "https://arxiv.org/abs/2609.26550",
+     "journal": "arXiv (Cornell University)",
+     "tier": "T2",
+     "doi": "10.48550/arxiv.2609.26550",
+     "published": "2026-09-22T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    27
+   ],
+   "title_en": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+   "headline_zh": "把全局 KV cache 压到每 token 890 字节（预印本，未经同行评审）",
+   "summary_zh": "面向长程智能体带来的输入密集型负载，提出多模态 MoE 模型（552B 骨干、支持百万 token 上下文），采用 Causal Encoder-Decoder 架构：解码时每 token 激活 16B 参数，预填充时仅激活 8B。KV cache 方面结合 CSA2 的跨层复用与 FP4 缓存，把常驻 HBM 的全局 KV cache 压到每 token 890 字节，约为 DeepSeek-V4-Flash 的 1/4；再经 SWA Bounded Replay 部署优化，把持久 KV cache 降到约 1/8。该文为预印本，尚未经过同行评审。",
+   "why_it_matters_zh": "把预填充算力与 KV cache 的存储/带宽开销同时作为优化目标，直接针对智能体部署的成本瓶颈；若数据成立，长上下文服务的单位成本结构会被改写。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "预印本",
+    "KV cache",
+    "MoE",
+    "长上下文"
+   ],
+   "records": [
+    {
+     "ref": 27,
+     "channel": "preprint",
+     "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+     "url": "https://arxiv.org/abs/2609.19969",
+     "journal": "arXiv (Cornell University)",
+     "tier": "T2",
+     "doi": "10.48550/arxiv.2609.19969",
+     "published": "2026-09-17T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    47
+   ],
+   "title_en": "Rubin Observatory discovers two hidden companions of the Milky Way. Hundreds more may be waiting",
+   "headline_zh": "Rubin 天文台仅用 7% 天区初勘就发现两个银河系隐藏伴星系",
+   "summary_zh": "Vera C. Rubin 天文台在仅覆盖 7% 夜空的初步观测中，发现两个此前未知的银河系伴天体：一个距地球 35.5 万光年的极暗弱星系，以及一个被宇宙尘埃遮挡的星团。研究者推测仍有数百个卫星星系未被发现。",
+   "why_it_matters_zh": "首批初勘数据就出成果，说明此前的巡天在暗弱矮星系与尘埃遮挡天体上存在系统性盲区；这类天体是检验冷暗物质小尺度结构预言的关键对象。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "银河系",
+    "矮星系",
+    "巡天"
+   ],
+   "records": [
+    {
+     "ref": 47,
+     "channel": "news",
+     "title": "Rubin Observatory discovers two hidden companions of the Milky Way. Hundreds more may be waiting",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012252.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-07T09:12:43+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    46
+   ],
+   "title_en": "Scientists discover Europe's ancient forests were nothing like we imagined",
+   "headline_zh": "欧洲古生态并非密林，而是持续两千万年的开阔疏林",
+   "summary_zh": "研究给出证据表明，欧洲在超过两千万年间由开阔疏林、色彩丰富的草甸与大型食草动物主导，而非长期被视为自然状态的密林。",
+   "why_it_matters_zh": "直接挑战以「密林」为参照的现代再造林策略——按此结果，种植郁闭森林可能反而损害保护者想要维护的生物多样性。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "古生态",
+    "再造林",
+    "生物多样性"
+   ],
+   "records": [
+    {
+     "ref": 46,
+     "channel": "news",
+     "title": "Scientists discover Europe's ancient forests were nothing like we imagined",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-07T09:44:48+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "Earth's gravity may have kept the early moon's volcanic heart beating",
+   "headline_zh": "地球引力或维持了早期月球的火山活动",
+   "summary_zh": "月球形成后本应快速冷却，但嫦娥五号返回的部分月球物质形成于约 20 亿年前且呈火山成因。该报道讨论地球引力是否可能维持了月球内部的火山热源。",
+   "why_it_matters_zh": "为月球火山活动的持续时间这一由样品返回引发的矛盾提供了一种动力学解释思路；具体结论需回到原始论文核实（本材料仅为报道摘要）。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "月球",
+    "火山活动",
+    "嫦娥五号"
+   ],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "news",
+     "title": "Earth's gravity may have kept the early moon's volcanic heart beating",
+     "url": "https://phys.org/news/2026-11-earth-gravity-early-moon-volcanic.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-07T17:30:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "Two paths, one flux: Trapped ions simulate Aharonov–Bohm interference in a lattice gauge theory",
+   "headline_zh": "囚禁离子量子模拟器实现格点规范理论中的 Aharonov–Bohm 干涉",
+   "summary_zh": "据 Phys.org 报道，一项发表于 Nature Physics 的研究用混合囚禁离子量子计算机，在格点规范理论的量子模拟中演示了 Aharonov–Bohm 效应。",
+   "why_it_matters_zh": "把规范场中的拓扑相位效应搬进可控量子模拟平台，是朝格点规范理论量子模拟迈出的一步；具体方案细节本材料未给出。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "囚禁离子",
+    "格点规范理论",
+    "Aharonov-Bohm"
+   ],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "news",
+     "title": "Two paths, one flux: Trapped ions simulate Aharonov–Bohm interference in a lattice gauge theory",
+     "url": "https://phys.org/news/2026-11-paths-flux-ions-simulate-aharonovbohm.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-07T18:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "Theory predicting an older universe without dark matter or dark energy passes key cosmological tests",
+   "headline_zh": "无需暗物质暗能量的「更老宇宙」模型通过多项宇宙学检验",
+   "summary_zh": "渥太华大学一项发表于 Universe 的研究（标题为 “A Big Bang Nucleosynthesis Consistency Test of the CCC+TL Cosmology”）称，一个宇宙年龄 26.7 亿年、不需要暗物质与暗能量的替代模型通过了多项主要宇宙学检验，其中包括原初核合成一致性检验。",
+   "why_it_matters_zh": "若成立，将同时取消暗物质与暗能量两个支柱性假设；但此类替代模型历来在多项观测上受严格约束，读者应直接核对原论文的检验范围与统计显著性。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "暗物质",
+    "暗能量",
+    "原初核合成"
+   ],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "news",
+     "title": "Theory predicting an older universe without dark matter or dark energy passes key cosmological tests",
+     "url": "https://phys.org/news/2026-11-theory-older-universe-dark-energy.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-07T14:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Heavy rain can more than double glacier speeds in Alaska",
+   "headline_zh": "强降雨可使阿拉斯加冰川流速翻倍以上",
+   "summary_zh": "报道指出冰川并非匀速缓慢下滑，强降雨事件可使其运动速度超过常态的两倍以上，即从缓慢蠕动转为快速涌动。",
+   "why_it_matters_zh": "把极端降水与冰川动力学直接耦合，对冰川物质平衡与相关灾害评估有含义；具体机制与观测范围需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "冰川流速",
+    "极端降水",
+    "阿拉斯加"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "news",
+     "title": "Heavy rain can more than double glacier speeds in Alaska",
+     "url": "https://phys.org/news/2026-11-heavy-glacier-alaska.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-07T15:40:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    41
+   ],
+   "title_en": "Polar vortex faltering weeks earlier than ever recorded",
+   "headline_zh": "极涡扰动比有记录以来提前数周",
+   "summary_zh": "气象学家观测到一次空前提前的极涡扰动，可能提高北半球寒潮风险，但不确定性仍然很大。",
+   "why_it_matters_zh": "若这一提前趋势持续，季节尺度寒潮预警的时间窗口需要前移；报道本身强调不确定性显著，宜作为观察项而非结论。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "极涡",
+    "寒潮",
+    "季节预测"
+   ],
+   "records": [
+    {
+     "ref": 41,
+     "channel": "news",
+     "title": "Polar vortex faltering weeks earlier than ever recorded",
+     "url": "https://phys.org/news/2026-11-polar-vortex-faltering-weeks-earlier.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-07T11:20:04+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    45
+   ],
+   "title_en": "Human bodies produce 2 billion metric tons of CO2 a year just by staying alive",
+   "headline_zh": "人体代谢每年排放超 20 亿吨 CO2，三十年增 74%",
+   "summary_zh": "人类仅通过将食物转化为能量，每年集体产生逾 20 亿吨二氧化碳，三十年间增长 74%，主要由人口增长驱动。与化石燃料排放不同，呼出的 CO2 属于自然碳循环的一部分；研究者称更精确地测量它可改进气候模型。",
+   "why_it_matters_zh": "这不是减排议题，而是碳循环核算问题——把人体代谢通量更准确地纳入模型，有助于厘清自然循环与人为化石排放的边界。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "碳循环",
+    "气候模型",
+    "人口"
+   ],
+   "records": [
+    {
+     "ref": 45,
+     "channel": "news",
+     "title": "Human bodies produce 2 billion metric tons of CO2 a year just by staying alive",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012305.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-07T10:00:03+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Waist Circumference Adds to BMI, but Will Clinicians Adopt It?",
+   "headline_zh": "腰围可补充 BMI，但临床采纳仍存障碍",
+   "summary_zh": "这篇 JAMA 医学新闻讨论腰围在 BMI 之外细化心脏代谢风险评估的日益广泛应用，考察这一转变能否实质改善患者结局，以及在常规临床实践中落地需要哪些条件。",
+   "why_it_matters_zh": "指向一个具体的转化瓶颈：风险分层指标的有效性与其在门诊中的可操作性并不等同。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "腰围",
+    "BMI",
+    "心血管风险"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "paper",
+     "title": "Waist Circumference Adds to BMI, but Will Clinicians Adopt It?",
+     "url": "https://doi.org/10.1001/jama.2026.18249",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.18249",
+     "published": "2026-11-06T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Bariatric Surgery Tied to Lower Obesity-Related Cancer Risk",
+   "headline_zh": "减重手术与肥胖相关癌症风险降低相关",
+   "summary_zh": "JAMA 报道称减重手术与肥胖相关癌症风险降低存在关联。本材料仅提供标题级信息，未给出研究设计、样本量与效应大小。",
+   "why_it_matters_zh": "若为前瞻性证据，将为减重干预的肿瘤预防收益增加一个终点；关联性证据需警惕适应证混杂，具体请核对原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "减重手术",
+    "癌症风险",
+    "肥胖"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "paper",
+     "title": "Bariatric Surgery Tied to Lower Obesity-Related Cancer Risk",
+     "url": "https://doi.org/10.1001/jama.2026.20040",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.20040",
+     "published": "2026-11-06T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Ultraprocessed Foods Linked With Vascular Brain Injury in Midlife",
+   "headline_zh": "超加工食品摄入与中年期血管性脑损伤相关",
+   "summary_zh": "JAMA 报道称超加工食品与中年期血管性脑损伤存在关联。本材料仅提供标题级信息，未含研究设计与效应量。",
+   "why_it_matters_zh": "把饮食结构纳入中年脑小血管病的可干预因素清单；关联性结论需结合原始研究的设计判断因果强度。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "超加工食品",
+    "脑损伤",
+    "饮食"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "Ultraprocessed Foods Linked With Vascular Brain Injury in Midlife",
+     "url": "https://doi.org/10.1001/jama.2026.20042",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.20042",
+     "published": "2026-11-06T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "SGLT2 Inhibitors, Potassium Binders, Pregnancy After Kidney Donation, and More From Kidney Week",
+   "headline_zh": "Kidney Week 亮点：SGLT2 抑制剂、钾结合剂与肾捐献后妊娠",
+   "summary_zh": "JAMA 医学新闻对 Kidney Week 教育委员会联合主席 Keisha Gibson 的访谈，覆盖 SGLT2 抑制剂、钾结合剂、肾捐献后妊娠等议题。",
+   "why_it_matters_zh": "属于会议要点汇总而非原始研究，适合作为肾内科方向读者快速定位会议热点的入口。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "肾脏病",
+    "会议报道",
+    "SGLT2"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "paper",
+     "title": "SGLT2 Inhibitors, Potassium Binders, Pregnancy After Kidney Donation, and More From Kidney Week",
+     "url": "https://doi.org/10.1001/jama.2026.19959",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.19959",
+     "published": "2026-11-06T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Preprint platform offers to pay researchers to review papers, but questions remain",
+   "headline_zh": "预印本平台拟付费请研究者评审，疑问仍存",
+   "summary_zh": "Nature 报道某预印本平台提出向审稿人付费，但相关疑问尚未解决。本材料仅提供标题级信息，未给出平台名称、付费额度与评审机制细节。",
+   "why_it_matters_zh": "触及预印本评审激励的核心矛盾——付费能否提升评审质量与及时性，还是会引入新的偏倚，目前尚无定论。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "预印本",
+    "同行评审",
+    "激励"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "Preprint platform offers to pay researchers to review papers, but questions remain",
+     "url": "https://doi.org/10.1038/d41586-026-03442-z",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03442-z",
+     "published": "2026-11-06T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "These AI agents design your perfect robot-powered lab — and run it for you",
+   "headline_zh": "AI 智能体设计并运行机器人实验室",
+   "summary_zh": "Nature 报道称 AI 智能体可设计机器人驱动的实验室并代为运行。本材料仅提供标题级信息，未给出系统架构、验证领域与自主程度。",
+   "why_it_matters_zh": "若自主设计-执行闭环成立，实验迭代的人力瓶颈将从「做实验」转向「定义问题」；具体能力边界需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "AI智能体",
+    "自动化实验室",
+    "机器人"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "These AI agents design your perfect robot-powered lab — and run it for you",
+     "url": "https://doi.org/10.1038/d41586-026-03587-x",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03587-x",
+     "published": "2026-11-06T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "‘Mathematics is more than a mechanical process’ — why I think the field will survive OpenAI’s disruption",
+   "headline_zh": "数学家谈本领域如何应对 OpenAI 带来的冲击",
+   "summary_zh": "Nature 刊发的观点文章，作者主张数学不止是机械过程，并论述该领域为何能在 OpenAI 带来的冲击下存续。本材料仅提供标题级信息。",
+   "why_it_matters_zh": "属于观点而非研究；对关心 AI 与数学实践关系的读者可作为讨论素材，不含可核验的实证结论。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "观点",
+    "数学",
+    "AI冲击"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "‘Mathematics is more than a mechanical process’ — why I think the field will survive OpenAI’s disruption",
+     "url": "https://doi.org/10.1038/d41586-026-03622-x",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03622-x",
+     "published": "2026-11-06T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[25][26] Jev 系列：决策型「System One」模型 + 置信度级联评审，两篇均为预印本且引用数已起量，需等同行评审与独立复现，尤其是低资源语言与量表判断上的退化是否可解。",
+  "[27] DeepSeek-V4.1-Flash：KV cache 压缩数据（890 字节/token、持久缓存约 1/8）若被独立验证，会直接影响长上下文智能体的部署成本模型；目前为预印本。",
+  "[38] CCC+TL 宇宙学：无需暗物质暗能量的替代模型通过原初核合成一致性检验，属高争议方向，建议直接核对原论文的检验集合与统计处理。",
+  "[41] 极涡提前扰动：气象学家强调不确定性显著，暂作观察项，等待正式分析与归因研究。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 129,
+   "dup_in_run": 0,
+   "already_seen": 1,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 112,
+   "unique": 16,
+   "candidates": 16
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 48,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 8,
+   "candidates": 8
+  },
+  "news": {
+   "fetched": 160,
+   "dup_in_run": 0,
+   "already_seen": 1,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 139,
+   "unique": 20,
+   "candidates": 20
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 4,
+   "dup_in_run": 0,
+   "already_seen": 1,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 3,
+   "candidates": 3
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 76,
+   "kept": 75,
+   "elapsed_s": 0.88,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.36,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.33,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.23,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 3,
+   "kept": 0,
+   "elapsed_s": 0.69,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 2.41,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 1.26,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.52,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.4,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.32,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.98,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 4,
+   "elapsed_s": 0.75,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.11,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.36,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.11,
+   "error": ""
+  }
+ ]
+}
