@@ -1,0 +1,1080 @@
+{
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09 09:03 CST",
+ "backend": "rule-fallback",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "本次以规则模式生成，共 35 条。未调用大模型，摘要为原文截取。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a)",
+   "headline_zh": "Pelacarsen and Cardiovascular Outcomes in Patients with Hig…",
+   "summary_zh": "BackgroundPelacarsen, an antisense oligonucleotide, reduces serum levels of lipoprotein(a). However, the effect of pelacarsen on cardiovascular outcomes remains uncertain. MethodsWe conducted an inte…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a)",
+     "url": "https://doi.org/10.1056/nejmoa2610159",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2610159",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND",
+   "headline_zh": "Long-Term Survival After Initial Invasive or Conservative M…",
+   "summary_zh": "Importance It is unknown whether routine invasive management of chronic coronary disease improves long-term survival when added to guideline-directed medical therapy. Objective To compare the effects…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND",
+     "url": "https://doi.org/10.1001/jama.2026.20375",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.20375",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Prehospital Extracorporeal Life Support in Refractory Out-of-Hospital Cardiac Arrest",
+   "headline_zh": "Prehospital Extracorporeal Life Support in Refractory Out-o…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Prehospital Extracorporeal Life Support in Refractory Out-of-Hospital Cardiac Arrest",
+     "url": "https://doi.org/10.1056/nejmoa2602919",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2602919",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Discontinuing Statins in Older Adults without Cardiovascular Disease",
+   "headline_zh": "Discontinuing Statins in Older Adults without Cardiovascula…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Discontinuing Statins in Older Adults without Cardiovascular Disease",
+     "url": "https://doi.org/10.1056/nejmoa2606634",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2606634",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Mass Surveillance with Artificial Intelligence — A New Determinant of Health?",
+   "headline_zh": "Mass Surveillance with Artificial Intelligence — A New Dete…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "Mass Surveillance with Artificial Intelligence — A New Determinant of Health?",
+     "url": "https://doi.org/10.1056/nejmp2611224",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2611224",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke",
+   "headline_zh": "Intensive Blood-Pressure Control in Patients with Previous…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke",
+     "url": "https://doi.org/10.1056/nejmoa2612924",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2612924",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "Lung Hernia with a Chest-Wall Hematoma",
+   "headline_zh": "Lung Hernia with a Chest-Wall Hematoma",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "Lung Hernia with a Chest-Wall Hematoma",
+     "url": "https://doi.org/10.1056/nejmicm2607065",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmicm2607065",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Percutaneous Coronary Intervention and Long-Term Outcomes in Stable Coronary Artery Disease",
+   "headline_zh": "Percutaneous Coronary Intervention and Long-Term Outcomes i…",
+   "summary_zh": "This study examines the effect of percutaneous coronary intervention on death and myocardial infarction in veterans with coronary artery disease.",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Percutaneous Coronary Intervention and Long-Term Outcomes in Stable Coronary Artery Disease",
+     "url": "https://doi.org/10.1001/jama.2026.23488",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.23488",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Early Days, Late Nights",
+   "headline_zh": "Early Days, Late Nights",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Early Days, Late Nights",
+     "url": "https://doi.org/10.1056/nejmp2607215",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2607215",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Intensive Blood-Pressure Lowering in Patients with Type 2 Diabetes",
+   "headline_zh": "Intensive Blood-Pressure Lowering in Patients with Type 2 D…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "Intensive Blood-Pressure Lowering in Patients with Type 2 Diabetes",
+     "url": "https://doi.org/10.1056/nejmoa2612922",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2612922",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "Bringing Rapid Reperfusion to More Patients with Out-of-Hospital Cardiac Arrest",
+   "headline_zh": "Bringing Rapid Reperfusion to More Patients with Out-of-Hos…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "paper",
+     "title": "Bringing Rapid Reperfusion to More Patients with Out-of-Hospital Cardiac Arrest",
+     "url": "https://doi.org/10.1056/nejme2612650",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejme2612650",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "Hyperaldosteronism Remission after Extended Aldosterone Synthase Inhibition",
+   "headline_zh": "Hyperaldosteronism Remission after Extended Aldosterone Syn…",
+   "summary_zh": "Among patients with hypertension due to primary aldosteronism, reductions in blood pressure and the aldosterone-to-renin ratio persisted for 2 years after completion of an extended course of aldoster…",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "paper",
+     "title": "Hyperaldosteronism Remission after Extended Aldosterone Synthase Inhibition",
+     "url": "https://doi.org/10.1056/nejmc2611265",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmc2611265",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "The ISCHEMIA Trial a Decade Later—What Have We Learned?",
+   "headline_zh": "The ISCHEMIA Trial a Decade Later—What Have We Learned?",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "The ISCHEMIA Trial a Decade Later—What Have We Learned?",
+     "url": "https://doi.org/10.1001/jama.2026.23003",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.23003",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND",
+   "headline_zh": "Long-Term Survival After Initial Invasive or Conservative M…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND",
+     "url": "https://doi.org/10.1001/jama.2026.21188",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21188",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "Equity in Maternal–Fetal Medicine — Technological Advances and a Potential Path Forward",
+   "headline_zh": "Equity in Maternal–Fetal Medicine — Technological Advances…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "Equity in Maternal–Fetal Medicine — Technological Advances and a Potential Path Forward",
+     "url": "https://doi.org/10.1056/nejmp2607107",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2607107",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease",
+   "headline_zh": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclero…",
+   "summary_zh": "(该源未提供摘要)",
+   "why_it_matters_zh": "",
+   "discipline": "医学",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease",
+     "url": "https://doi.org/10.1056/nejmoa2612126",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2612126",
+     "published": "2026-11-07T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Small histone differences help shape gene regulation during sperm development",
+   "headline_zh": "Small histone differences help shape gene regulation during…",
+   "summary_zh": "Researchers from Kyushu University have found that H3mm15, a histone H3.3 subvariant, contributes to normal sperm development in mice by helping regulate gene expression during spermatogenesis. The f…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "news",
+     "title": "Small histone differences help shape gene regulation during sperm development",
+     "url": "https://phys.org/news/2026-11-small-histone-differences-gene-sperm.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-09T00:10:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "Radiocarbon analysis uncovers possible traces of hidden earthquakes off Japan's coast",
+   "headline_zh": "Radiocarbon analysis uncovers possible traces of hidden ear…",
+   "summary_zh": "Researchers at the University of Tokyo have used a new type of radiocarbon analysis to study a sediment core taken from the Kumano Sea off the coast of Japan. This has revealed multiple \"hidden\" trac…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "news",
+     "title": "Radiocarbon analysis uncovers possible traces of hidden earthquakes off Japan's coast",
+     "url": "https://phys.org/news/2026-11-radiocarbon-analysis-uncovers-hidden-earthquakes.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-09T01:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Liquid-assisted crystal growth cuts perovskite defects for efficient solar cells and LEDs",
+   "headline_zh": "Liquid-assisted crystal growth cuts perovskite defects for…",
+   "summary_zh": "A research team led by professor Seong Sik Shin of the SKKU Advanced Institute of Nanotechnology (SAINT) at Sungkyunkwan University (SKKU), in international collaboration with the Korea Research Inst…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "news",
+     "title": "Liquid-assisted crystal growth cuts perovskite defects for efficient solar cells and LEDs",
+     "url": "https://phys.org/news/2026-11-liquid-crystal-growth-perovskite-defects.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T22:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "JWST tracks more than 100 magnified stellar events in the Dragon galaxy",
+   "headline_zh": "JWST tracks more than 100 magnified stellar events in the D…",
+   "summary_zh": "Using the James Webb Space Telescope (JWST), a team of astronomers identified 104 magnified stellar events in a galaxy known as the Dragon, located around 6.5 billion light-years away. This discovery…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "news",
+     "title": "JWST tracks more than 100 magnified stellar events in the Dragon galaxy",
+     "url": "https://phys.org/news/2026-11-jwst-tracks-magnified-stellar-events.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T19:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "How space weather powers auroras in the sky and threatens power grids on the ground",
+   "headline_zh": "How space weather powers auroras in the sky and threatens p…",
+   "summary_zh": "An aurora is one of nature's most spectacular light shows: It looks like green or red curtains rippling across the night sky. When viewed from the ground, this colorful display might seem far away an…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "news",
+     "title": "How space weather powers auroras in the sky and threatens power grids on the ground",
+     "url": "https://phys.org/news/2026-11-space-weather-powers-auroras-sky.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T19:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "100 buses long: Scientists map one of the world's largest known coral colonies",
+   "headline_zh": "100 buses long: Scientists map one of the world's largest k…",
+   "summary_zh": "A huge coral colony stretching more than 1.5 kilometers (0.93 miles) along the outer reef of the Cocos (Keeling) Islands has been identified by researchers, making it one of the largest known coral c…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "news",
+     "title": "100 buses long: Scientists map one of the world's largest known coral colonies",
+     "url": "https://phys.org/news/2026-11-buses-scientists-world-largest-coral.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T17:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    23
+   ],
+   "title_en": "New species of ground-dwelling bird, the largest of its kind, identified in same cave as Homo floresiensis",
+   "headline_zh": "New species of ground-dwelling bird, the largest of its kin…",
+   "summary_zh": "In 2009, researchers working in the Liang Bua cave on Flores Island came across a leg bone. The 190,000–120,000-year-old fossil was identified as a bird bone and set aside. Like many bird bones befor…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 23,
+     "channel": "news",
+     "title": "New species of ground-dwelling bird, the largest of its kind, identified in same cave as Homo floresiensis",
+     "url": "https://phys.org/news/2026-11-species-ground-bird-largest-kind.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T16:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Game theory helps SETI search for alien civilizations",
+   "headline_zh": "Game theory helps SETI search for alien civilizations",
+   "summary_zh": "The search for extraterrestrial intelligence (SETI) is mostly concerned with where to look for technosignatures from another civilization. Between 2012 and 2015, SETI's Project Phoenix targeted about…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "news",
+     "title": "Game theory helps SETI search for alien civilizations",
+     "url": "https://phys.org/news/2026-11-game-theory-seti-alien-civilizations.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T15:30:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "Physicists listened to electrical noise to crack a superconductor mystery",
+   "headline_zh": "Physicists listened to electrical noise to crack a supercon…",
+   "summary_zh": "Tuning in to electronic noise can tell us whether electrons have paired up or not.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "news",
+     "title": "Physicists listened to electrical noise to crack a superconductor mystery",
+     "url": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+     "journal": "Ars Technica Science",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T12:15:31+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "'Stupendously large' primordial black holes ruled out as a dark matter source",
+   "headline_zh": "'Stupendously large' primordial black holes ruled out as a…",
+   "summary_zh": "Primordial black holes are hypothetical objects that could have formed directly from dense clumps of matter in the very early universe. If they exist, their dramatic origins would set them apart from…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "news",
+     "title": "'Stupendously large' primordial black holes ruled out as a dark matter source",
+     "url": "https://phys.org/news/2026-11-stupendously-large-primordial-black-holes.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T14:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    27
+   ],
+   "title_en": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
+   "headline_zh": "Scientists squeeze record-breaking X-ray power into an incr…",
+   "summary_zh": "Scientists have created record-breaking X-ray flashes lasting just 300 attoseconds, concentrating enormous power into an incredibly tiny spot. The breakthrough could unlock a new way to observe elect…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 27,
+     "channel": "news",
+     "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012329.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T03:46:51+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    28
+   ],
+   "title_en": "Want to fly to the moon? NASA is looking for new astronauts to help grow its Artemis program",
+   "headline_zh": "Want to fly to the moon? NASA is looking for new astronauts…",
+   "summary_zh": "Want to fly to the moon and help build a permanent lunar base? NASA is accepting applications for a new astronaut class that will help grow the Artemis program.",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 28,
+     "channel": "news",
+     "title": "Want to fly to the moon? NASA is looking for new astronauts to help grow its Artemis program",
+     "url": "https://phys.org/news/2026-11-fly-moon-nasa-astronauts-artemis.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T11:45:12+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "Chimp sanctuary delivers an ape's food by drone amid Florida floods",
+   "headline_zh": "Chimp sanctuary delivers an ape's food by drone amid Florid…",
+   "summary_zh": "A Florida chimpanzee sanctuary had to deliver food to one of its 200 apes by drone this week because the property was swamped by heavy rain. But the animals stayed safe, and the water finally was rec…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "news",
+     "title": "Chimp sanctuary delivers an ape's food by drone amid Florida floods",
+     "url": "https://phys.org/news/2026-11-chimp-sanctuary-ape-food-drone.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T11:44:40+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
+   "headline_zh": "Stronger flu shot linked to nearly 55% lower Alzheimer's ri…",
+   "summary_zh": "A surprising new study suggests that a stronger flu shot could offer older adults significantly greater protection against Alzheimer's disease. Researchers at UTHealth Houston analyzed nearly 200,000…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "news",
+     "title": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T02:52:28+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+   "headline_zh": "A nuclear blast could save Earth from an asteroid, but ther…",
+   "summary_zh": "A nuclear explosion might save Earth from a deadly asteroid, but new research suggests that hitting the wrong side could make the difference between success and disaster. Scientists found that an ast…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "news",
+     "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T10:11:25+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    32
+   ],
+   "title_en": "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
+   "headline_zh": "Ancient Siberian tomb reveals surprising secrets of cannabi…",
+   "summary_zh": "Scientists investigating a 2,800-year-old Siberian tomb discovered roughly 1,000 cannabis seeds and chemical evidence suggesting ancient Scythians used the plant for its intoxicating effects. The rem…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 32,
+     "channel": "news",
+     "title": "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T08:14:23+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "Scientists discover hidden brain changes linked to common sleep disorders",
+   "headline_zh": "Scientists discover hidden brain changes linked to common s…",
+   "summary_zh": "Scientists have discovered that sleep disorders are associated with structural changes in brain regions that control attention, decision-making, and emotions, potentially explaining why disrupted sle…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "news",
+     "title": "Scientists discover hidden brain changes linked to common sleep disorders",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104012303.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T04:47:52+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "Why the tropics lose the most birds when cities expand",
+   "headline_zh": "Why the tropics lose the most birds when cities expand",
+   "summary_zh": "Tropical ecosystems are famous for their teeming, exuberant diversity. In fact, the dramatic increase in biodiversity from the poles to the tropics—known as the latitudinal diversity gradient—is perv…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "news",
+     "title": "Why the tropics lose the most birds when cities expand",
+     "url": "https://phys.org/news/2026-11-tropics-birds-cities.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T01:30:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Mysterious gas leaks suggest Mars may still be volcanically alive",
+   "headline_zh": "Mysterious gas leaks suggest Mars may still be volcanically…",
+   "summary_zh": "Mysterious gas emissions and fresh volcanic fissures suggest that Mars may not be geologically dead after all, with hot magma potentially still active deep underground. The discovery could point to h…",
+   "why_it_matters_zh": "",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "news",
+     "title": "Mysterious gas leaks suggest Mars may still be volcanically alive",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-08T01:09:55+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 88,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 72,
+   "unique": 16,
+   "candidates": 16
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 160,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 141,
+   "unique": 19,
+   "candidates": 19
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 4,
+   "dup_in_run": 0,
+   "already_seen": 4,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 34,
+   "kept": 33,
+   "elapsed_s": 3.4,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.38,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.23,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.51,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.45,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.39,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.32,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 2.88,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 4,
+   "elapsed_s": 1.06,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.13,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.18,
+   "error": ""
+  }
+ ]
+}
