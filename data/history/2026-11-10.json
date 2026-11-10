@@ -1,0 +1,686 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10 11:41 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选以 IEEE Transactions on Computers 的计算机系统方向论文为主（50 条中占 49 条），覆盖体系结构、存储、区块链、LLM 推理加速等；医学顶刊有 retatrutide 治疗膝骨关节炎肥胖、持续性房颤低电压区消融、单药复方降压实施研究三项随机试验。科学要闻通道信息量较分散，多数条目仅有导语式摘要，缺乏方法与数据细节。本简报优先选取摘要信息足以支撑「做了什么、怎么做、结果如何」的条目，对仅有标题的计算机论文只做有限提示，不臆测内容。",
+ "items": [
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Retatrutide Once Weekly in Adults with Knee Osteoarthritis Pain and Obesity",
+   "headline_zh": "三重激动剂 retatrutide 在肥胖合并膝骨关节炎人群中减重并镇痛",
+   "summary_zh": "两项 3 期试验（TRIUMPH-4，n=445；TRIUMPH-1-OA，n=574）纳入 BMI≥27、无糖尿病的痛性膝骨关节炎成人，随机接受每周皮下 retatrutide（4/9/12 mg）或安慰剂。68 周时 9 mg 与 12 mg 组 WOMAC 疼痛分别降 3.96 与 3.74，安慰剂降 2.12，组间差 -1.83 与 -1.61（P<0.001）；体重分别变化 -20.0%、-23.7%，安慰剂 -4.6%。疼痛终点用混合治疗估计量，另报告全治疗策略 ITT 估计量，差值略小但仍显著。",
+   "why_it_matters_zh": "这是 GIP/GLP-1/胰高血糖素三重激动剂在骨关节炎疼痛这一功能性终点上的 3 期证据，且同时给出两种估计量，为「减重药物能否直接改善关节疼痛」的因果解读提供了可比较的敏感性框架；对疼痛试验中如何处理伴随用药与退出等中间事件具有方法学参考价值。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "GLP-1",
+    "三重激动剂",
+    "骨关节炎",
+    "随机对照试验",
+    "估计量敏感性分析"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Retatrutide Once Weekly in Adults with Knee Osteoarthritis Pain and Obesity",
+     "url": "https://doi.org/10.1056/nejmoa2610676",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2610676",
+     "published": "2026-11-08T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Low-Voltage Area Ablation for Persistent Atrial Fibrillation",
+   "headline_zh": "持续性房颤中 PVI 联合低电压区消融未显著优于单纯 PVI",
+   "summary_zh": "加拿大 14 家中心的单盲随机试验，纳入持续超过 3 个月的持续性房颤成人 508 例，随机接受肺静脉隔离（PVI）加低电压区（LVA）消融或单纯 PVI，随访 18–36 个月。主要终点为单次消融 90 天后房性心律失常复发：联合组 49.4%、单纯 PVI 组 57.5% 达到终点，HR 0.82（95% CI 0.65–1.04），未达统计学显著。次要终点包括重复消融、急诊或住院、18 个月复发、手术与消融时长、房颤负荷及安全性。",
+   "why_it_matters_zh": "LVA 消融此前多为小样本阳性信号，本试验以 508 例、多中心、单盲设计给出阴性结果，且置信区间上限接近 1，提示即使存在获益也很可能有限；这对持续性房颤「超越 PVI 的基质改良」策略是一次明确的边界划定，会直接影响后续试验的样本量假设与终点选择。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "房颤",
+    "导管消融",
+    "低电压区",
+    "随机对照试验",
+    "阴性结果"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Low-Voltage Area Ablation for Persistent Atrial Fibrillation",
+     "url": "https://doi.org/10.1001/jama.2026.24331",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.24331",
+     "published": "2026-11-08T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Implementation of Single-Pill Combination Therapy Through Team-Based Care for Hypertension Control in Resource-Constrained Settings",
+   "headline_zh": "哥伦比亚与牙买加基层诊所中，团队照护落实单药复方降压的实用随机试验",
+   "summary_zh": "多国、非盲、实用性整群随机试验，牙买加与哥伦比亚各 20 家基层诊所随机分入单药复方（SPC）联合团队照护组或标准照护组，共纳入 1706 例血压未控制的成人。干预组接受医师与护士培训、健康教练、家庭血压监测与血压审计反馈，SPC 由本地采购供药；干预 18 个月，另设 24 个月随访。主要终点为收缩压变化的组间差异。",
+   "why_it_matters_zh": "SPC 的疗效证据已较充分，缺的是「在资源受限的真实基层卫生系统中如何落地」的实施证据；该试验把供药、培训、家测与审计反馈打包为可复制的整群干预，并设置干预后随访以观察可持续性，其结论对中低收入国家的高血压控制策略具有直接政策相关性。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "高血压",
+    "单药复方",
+    "整群随机试验",
+    "实施科学",
+    "中低收入国家"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "Implementation of Single-Pill Combination Therapy Through Team-Based Care for Hypertension Control in Resource-Constrained Settings",
+     "url": "https://doi.org/10.1001/jama.2026.24169",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.24169",
+     "published": "2026-11-08T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    55
+   ],
+   "title_en": "New perovskite system extends room-temperature spin polarization via successive quantum wells",
+   "headline_zh": "钙钛矿手性多量子阱体系将室温自旋极化寿命延长约 300 倍",
+   "summary_zh": "香港科技大学 Lu Haipeng 团队构建了钙钛矿手性多量子阱体系，在室温下将自旋极化维持时间延长约 300 倍。研究发表于 Nature Photonics。摘要未给出具体寿命数值、阱数与极化率测量方法。",
+   "why_it_matters_zh": "自旋信息在室温下的快速退相干是自旋光电子器件实用化的主要瓶颈之一；若该倍数在独立实验中可复现，意味着手性钙钛矿的量子阱工程可作为室温自旋注入与保持的材料平台，对自旋 LED、圆偏振探测等方向有直接意义。具体机制与可扩展性仍需原文核实。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "手性钙钛矿",
+    "自旋极化",
+    "量子阱",
+    "室温",
+    "Nature Photonics"
+   ],
+   "records": [
+    {
+     "ref": 55,
+     "channel": "news",
+     "title": "New perovskite system extends room-temperature spin polarization via successive quantum wells",
+     "url": "https://phys.org/news/2026-11-perovskite-room-temperature-polarization-successive.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-09T22:20:10+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    85
+   ],
+   "title_en": "A quantum breakthrough makes light behave like both a solid and a liquid",
+   "headline_zh": "室温下观测到兼具晶体结构与无摩擦流动的量子物态",
+   "summary_zh": "科学媒体报道称，研究人员在室温下观察到一种同时具备晶体有序结构与类似液体无摩擦流动特性的量子物态。报道称该结果突破了此类奇异量子实验通常需要极低温的实用限制，并可能推动基于光的计算与传感技术。摘要未说明材料体系、观测手段与判据。",
+   "why_it_matters_zh": "若室温可及性成立，这类光-物质杂化态将从低温物理实验走向可集成的光子平台；但报道层面信息有限，需以原始论文的观测量（相干性、寿命、判据）为准，暂不宜过度解读。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "室温量子物态",
+    "光-物质耦合",
+    "光子计算",
+    "待核实原文"
+   ],
+   "records": [
+    {
+     "ref": 85,
+     "channel": "news",
+     "title": "A quantum breakthrough makes light behave like both a solid and a liquid",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261105224536.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-09T11:19:39+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    66
+   ],
+   "title_en": "Methane-eating microbes grown on electrodes build electrically conductive nanowires",
+   "headline_zh": "电极上培养的厌氧甲烷氧化古菌通过纳米导线向外输电",
+   "summary_zh": "Radboud 大学 Cornelia Welte 团队此前发现厌氧甲烷氧化古菌（ANME）可消耗甲烷并产生电流；新发表于 Nature Communications 的工作显示，这些微生物通过生成纳米导线传输所发电能，且研究者在实验室中将其培养至接近纯培养状态。",
+   "why_it_matters_zh": "把甲烷直接转化为电能的微生物途径此前缺乏机制解释与可操作培养体系；纳米导线的确认加上近纯培养的建立，使这一过程从现象观察变为可实验操控的对象，对甲烷减排型生物电化学技术是关键一步。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "ANME",
+    "甲烷氧化",
+    "纳米导线",
+    "生物电化学",
+    "Nature Communications"
+   ],
+   "records": [
+    {
+     "ref": 66,
+     "channel": "news",
+     "title": "Methane-eating microbes grown on electrodes build electrically conductive nanowires",
+     "url": "https://phys.org/news/2026-11-methane-microbes-grown-electrodes-electrically.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T00:10:14+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    63
+   ],
+   "title_en": "Accidental discovery enables room-temperature recrystallization of molybdenum",
+   "headline_zh": "意外发现钼可在室温下重排内部结构",
+   "summary_zh": "罗切斯特大学与以色列理工的研究者偶然发现一种在室温下重排钼内部原子结构的方法。钼熔点超过 2600°C，通常用于核反应堆加固、喷气发动机涡轮叶片与火箭喷嘴。报道称室温操控其原子结构可能拓展至下一代半导体等应用，但摘要未说明具体手段与表征结果。",
+   "why_it_matters_zh": "难熔金属的结构调控一向依赖高温，若室温路径成立，将改变钼在微电子互连、催化等对热预算敏感场景中的可用性；目前信息停留在发现层面，工艺可控性与普适性待原文验证。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "钼",
+    "室温再结晶",
+    "难熔金属",
+    "意外发现"
+   ],
+   "records": [
+    {
+     "ref": 63,
+     "channel": "news",
+     "title": "Accidental discovery enables room-temperature recrystallization of molybdenum",
+     "url": "https://phys.org/news/2026-11-accidental-discovery-enables-room-temperature.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T00:30:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    60
+   ],
+   "title_en": "Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
+   "headline_zh": "2026 年全球化石燃料 CO₂ 排放预计下降 0.4%",
+   "summary_zh": "全球碳计划（Global Carbon Project）第 21 份年度报告发表于 Earth System Science Data，预计 2026 年化石燃料碳排放下降 0.4%，驱动因素包括太阳能与风电扩张以及伊朗冲突。摘要未给出分国家、分燃料的分解数据与不确定性区间。",
+   "why_it_matters_zh": "这是全球碳收支年度基准数据的更新，0.4% 的降幅虽小，但若成立意味着排放曲线出现方向性转折；值得注意的是报告同时把地缘冲突列为影响因素，提示排放年际波动的驱动正在从纯能源结构转向包含供给冲击的复合因素。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "碳排放",
+    "全球碳计划",
+    "年度评估",
+    "能源转型"
+   ],
+   "records": [
+    {
+     "ref": 60,
+     "channel": "news",
+     "title": "Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
+     "url": "https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T01:00:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    78
+   ],
+   "title_en": "Some regions may already be living in a 1.5°C warmer world",
+   "headline_zh": "部分区域升温已接近全球 1.5°C 情景下的预期水平",
+   "summary_zh": "发表于 Nature Climate Change 的分析指出，全球多区域可能已实现全球平均升温 1.5°C 时预期区域升温的约 90%–94%，以及 2°C 情景下的 65%–76%；2025 年的区域升温在统计上与 1.5°C 世界的预期水平不可区分。",
+   "why_it_matters_zh": "把全球温控目标换算为区域经验值，直接支撑「适应而非仅减缓」的政策论证；对影响评估与归因研究而言，提供了一个可引用的区域升温进度基准。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "区域升温",
+    "1.5°C",
+    "适应",
+    "Nature Climate Change"
+   ],
+   "records": [
+    {
+     "ref": 78,
+     "channel": "news",
+     "title": "Some regions may already be living in a 1.5°C warmer world",
+     "url": "https://phys.org/news/2026-11-regions-15c-warmer-world.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-09T22:50:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    72
+   ],
+   "title_en": "Machine learning reveals how often fish schooling evolved—and repeatedly disappeared",
+   "headline_zh": "机器学习重建数千物种的集群行为演化史，揭示反复起源与丢失",
+   "summary_zh": "研究发表于 PNAS（11 月 6 日），作者称这是迄今针对任一类群中任一行为演化的最大规模研究之一。方法上以机器学习对难以量化的集群行为进行编码，再在数千物种的系统发育框架下推断其起源与丢失频率。",
+   "why_it_matters_zh": "行为性状长期因难以量化而被排除在大尺度比较分析之外；该工作的方法路径（用 ML 把行为转为可比较的性状编码）可迁移到其他行为与生态性状，是方法层面的可复用贡献。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "集群行为",
+    "系统发育比较",
+    "机器学习",
+    "PNAS"
+   ],
+   "records": [
+    {
+     "ref": 72,
+     "channel": "news",
+     "title": "Machine learning reveals how often fish schooling evolved—and repeatedly disappeared",
+     "url": "https://phys.org/news/2026-11-machine-reveals-fish-schooling-evolved.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-09T23:30:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    88
+   ],
+   "title_en": "Scientists discover a surprising link between acorns and lyme disease",
+   "headline_zh": "橡子产量可提前两年预测蜱虫数量激增",
+   "summary_zh": "基于 35 年以上研究，报道称驱动莱姆病风险的主要因素并非既往假设的鹿群，而是小鼠——小鼠可使次年蜱虫数量增加约 40%；橡子产量能提前两年预测蜱虫数量高峰，而极端温度对蜱虫的致死作用可能远低于此前认识。",
+   "why_it_matters_zh": "把风险预测的前置变量从宿主丰度转向资源脉冲（橡子丰产年），为莱姆病风险预警提供了可操作的时间窗；同时削弱了以控鹿为核心的干预假设，对公共卫生防控资源配置有直接影响。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "莱姆病",
+    "蜱虫",
+    "橡子",
+    "宿主群落",
+    "风险预测"
+   ],
+   "records": [
+    {
+     "ref": 88,
+     "channel": "news",
+     "title": "Scientists discover a surprising link between acorns and lyme disease",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261106174518.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-09T10:59:35+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    81
+   ],
+   "title_en": "Alzheimer’s may have early warning signs outside the brain",
+   "headline_zh": "人源细胞微系统中，遗传性阿尔茨海默突变可在无中枢参与下破坏神经-肌肉连接",
+   "summary_zh": "科学媒体报道，研究者用源自人细胞的微型实验系统发现，与遗传性阿尔茨海默病相关的突变可在不涉及大脑或脊髓的情况下破坏神经与肌肉之间的连接。报道称这或可解释部分患者在记忆问题出现前很久就出现平衡、步态与协调改变。",
+   "why_it_matters_zh": "把阿尔茨海默的早期病理定位到外周神经肌肉接头，提示可能存在比中枢影像更早、更易获取的外周生物标志物窗口；但该结论来自体外微系统，需在患者队列中验证。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "阿尔茨海默病",
+    "神经肌肉接头",
+    "外周早期标志",
+    "类器官"
+   ],
+   "records": [
+    {
+     "ref": 81,
+     "channel": "news",
+     "title": "Alzheimer’s may have early warning signs outside the brain",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T01:47:34+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    89
+   ],
+   "title_en": "A simple supplement may help clear brain fog after cancer",
+   "headline_zh": "草酰乙酸补充 8 周改善乳腺癌幸存者的认知与疲劳",
+   "summary_zh": "UCLA 的研究报告称，乳腺癌幸存者服用草酰乙酸补充剂 8 周后，在记忆、注意力、思维清晰度与疲劳方面出现明显改善。摘要未给出样本量、对照设计与效应量。",
+   "why_it_matters_zh": "肿瘤治疗后认知障碍（「脑雾」）目前缺乏公认干预手段；若为随机对照结果，这将是少数可操作的营养干预线索。但现有信息不足以判断证据强度，建议以原文的对照设置与效应量为准。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "脑雾",
+    "乳腺癌幸存者",
+    "草酰乙酸",
+    "待核实设计"
+   ],
+   "records": [
+    {
+     "ref": 89,
+     "channel": "news",
+     "title": "A simple supplement may help clear brain fog after cancer",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104084013.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-09T10:33:23+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    56
+   ],
+   "title_en": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
+   "headline_zh": "CERN 找到约百亿分之一概率的粒子衰变证据",
+   "summary_zh": "科学媒体报道，CERN 科学家找到一种极罕见粒子衰变的证据，发生率约为百亿分之一，搜寻历时 40 余年。报道称该结果可能有助于揭示现有最强加速器无法直接触及的隐藏粒子与相互作用。摘要未说明具体衰变道与显著性水平。",
+   "why_it_matters_zh": "极罕见衰变道是间接检验标准模型之外新物理的经典窗口；40 年搜寻得到证据本身说明所需统计量之大，后续更精确测量对理论模型的排除力值得关注。具体物理通道需查原文。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "稀有衰变",
+    "CERN",
+    "新物理",
+    "待核实通道"
+   ],
+   "records": [
+    {
+     "ref": 56,
+     "channel": "news",
+     "title": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T00:42:52+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    51
+   ],
+   "title_en": "Electrical technique concentrates milk without using heat, challenging traditional preservation methods",
+   "headline_zh": "电学浓缩技术在不加热条件下浓缩牛奶",
+   "summary_zh": "报道介绍一种不依赖高温的电学方法用于牛奶浓缩。现有奶粉生产需脱水并经受高温，能耗高，且可能改变乳清蛋白、酶与维生素等热敏成分。摘要未说明该技术的原理细节、能耗数据与浓缩倍率。",
+   "why_it_matters_zh": "乳制品浓缩的能耗与热损伤是行业长期痛点；若电学路径能在保持热敏组分的同时降低能耗，将同时影响奶粉加工与液态奶供应链。目前信息为技术报道层面，缺乏可比较的性能数据。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "牛奶浓缩",
+    "非热加工",
+    "能耗",
+    "食品工程"
+   ],
+   "records": [
+    {
+     "ref": 51,
+     "channel": "news",
+     "title": "Electrical technique concentrates milk without using heat, challenging traditional preservation methods",
+     "url": "https://phys.org/news/2026-11-electrical-technique-traditional-methods.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T01:20:01+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[2] A System-Level Exploration of Superconducting Supercomputers for Emerging Workloads（IEEE TC）：超导计算从器件走向系统级工作负载评估，若给出可比的能效与瓶颈分解，对后 CMOS 路线讨论有参考价值；当前仅有标题，建议追踪全文。",
+  "[41] Beyond Reproducibility: Token Probabilities Expose Large Language Model Nondeterminism（IEEE TC，被引 2）：把 LLM 非确定性从「输出是否一致」推进到 token 概率层面，属于评测方法学问题，值得关注其度量定义与实验设置。",
+  "[16] Enabling Distributed Cooperative Full-Size LLM Inference With Tensor Parallelism Across Heterogeneous Edge Devices（IEEE TC）：异构边缘设备上跨设备张量并行跑「全尺寸」模型，若成立则改变端侧推理的可行边界；需核实通信开销与实测吞吐。",
+  "[65] Did Life Begin in an RNA World?（Quanta Magazine）：综述性讨论，提出自复制分子可能不足以解释最早生命的出现；属观点梳理，非新实验证据，适合作为背景阅读。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 117,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 1,
+   "dropped_by_window": 61,
+   "unique": 55,
+   "candidates": 50
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 169,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 129,
+   "unique": 40,
+   "candidates": 40
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 4,
+   "dup_in_run": 0,
+   "already_seen": 4,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 1.09,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.16,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 0.63,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 2.63,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 1,
+   "kept": 1,
+   "elapsed_s": 2.64,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 4.51,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 5.45,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 4.75,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 3.97,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 2.35,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 2.16,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 4,
+   "elapsed_s": 0.85,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.06,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.06,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.49,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.24,
+   "error": ""
+  }
+ ]
+}
