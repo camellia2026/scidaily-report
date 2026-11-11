@@ -1,0 +1,747 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11 10:16 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今天最值得关注的是两项临床药物试验：口服小分子 GLP-1 受体激动剂 orforglipron 在阻塞性睡眠呼吸暂停（OSA）中完成两项 52 周 3 期试验；抗 ANGPTL4 单抗 MAR001 在 2b 期试验中报告了降甘油三酯的主要终点结果。方法学上，LENS 提出一种不微调 MLLM 即可获得像素级分割能力的即插即用方案，直接针对灾难性遗忘问题。此外，多项地球科学与天体物理观测（最早致密类星体对、西南极冰盖历史崩塌、LISA 探测系外行星）提供了新的观测约束。本批候选条目中未涉及预印本。",
+ "items": [
+  {
+   "refs": [
+    1,
+    7,
+    8
+   ],
+   "title_en": "Orforglipron for Obstructive Sleep Apnea",
+   "headline_zh": "口服 orforglipron 治疗中重度 OSA：两项 52 周 3 期 RCT",
+   "summary_zh": "在 9 个国家/地区 66 个中心开展两项 52 周、多中心、双盲、安慰剂对照 3 期试验，入组 BMI≥27 且中重度 OSA 成人；试验 1 为未接受气道正压治疗者，试验 2 为接受气道正压治疗者，1:1 随机至每日一次 orforglipron（最大耐受剂量相当于 9/14.5/17.2 mg 片剂）或安慰剂。主要终点为基线至 52 周 AHI 变化，另有 7 个多重性控制的关键次要终点。共入组 363 例，结果数值在摘要中截断。",
+   "why_it_matters_zh": "若 AHI 与缺氧负荷终点成立，OSA 的药物治疗将从“无药可用”进入有口服 GLP-1 类选项的阶段，并可能改变 CPAP 依从性差人群的管理路径；同时把减重药物的适应症边界推向睡眠医学。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "GLP-1",
+    "orforglipron",
+    "OSA",
+    "3期RCT"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Orforglipron for Obstructive Sleep Apnea",
+     "url": "https://doi.org/10.1001/jama.2026.24080",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.24080",
+     "published": "2026-11-09T00:00:00+00:00"
+    },
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "Orforglipron for Obstructive Sleep Apnea",
+     "url": "https://doi.org/10.1001/jama.2026.24226",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.24226",
+     "published": "2026-11-09T00:00:00+00:00"
+    },
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "An Oral Incretin for OSA",
+     "url": "https://doi.org/10.1001/jama.2026.23386",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.23386",
+     "published": "2026-11-09T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "ANGPTL4 Inhibition in Adults with Elevated Triglyceride Levels",
+   "headline_zh": "抗 ANGPTL4 单抗 MAR001 降甘油三酯的 2b 期试验",
+   "summary_zh": "2b 期双盲随机安慰剂对照试验 A 部分：入组非空腹 TG≥175 mg/dL 且残粒胆固醇≥35 mg/dL 的成人，1:1:1:1 随机至 MAR001 300/450/900 mg 或安慰剂，每 4 周皮下给药共 24 周。主要终点为第 12 周空腹 TG 相对基线百分比变化。共 236 例入组，235 例纳入主要疗效分析，基线 TG 中位数 249.5 mg/dL，结果数值在摘要中截断。",
+   "why_it_matters_zh": "ANGPTL4 是 LPL 抑制通路上的可成药靶点，此前该通路的人体降脂验证有限。该试验为“残粒胆固醇升高”这一目前缺少专门疗法的表型提供随机对照证据；若安慰剂校正降幅显著，将支持把 ANGPTL4 抑制纳入 ASCVD 残余风险管理。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "ANGPTL4",
+    "MAR001",
+    "甘油三酯",
+    "2b期RCT"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "ANGPTL4 Inhibition in Adults with Elevated Triglyceride Levels",
+     "url": "https://doi.org/10.1056/nejmoa2612463",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2612463",
+     "published": "2026-11-09T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Robust Reasoning Segmentation for Open-World MLLMs without Catastrophic Forgetting",
+   "headline_zh": "LENS：冻结 MLLM、用注意力关键点实现像素级分割",
+   "summary_zh": "针对现有多模态大模型接入分割需侵入式微调、导致通用能力灾难性遗忘的问题，提出即插即用的 LENS 范式：在完全冻结的 MLLM 上挂接轻量头，从注意力图中提取内在空间线索的关键点，并转换为掩码解码器可用的提示特征。实验显示其分割性能与基于重训练的方法相当，同时基本保留模型的开放世界泛化能力，避免了微调版本的性能退化。核心思路是将分割与生成解耦。",
+   "why_it_matters_zh": "把“加能力”与“保能力”的取舍从训练阶段移到推理接口层，为构建不牺牲通用性的多模态专用系统提供了可复用的工程路径；对需要频繁加装下游任务头而又不能重训的部署场景尤其直接。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "MLLM",
+    "推理分割",
+    "灾难性遗忘",
+    "即插即用"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Robust Reasoning Segmentation for Open-World MLLMs without Catastrophic Forgetting",
+     "url": "https://doi.org/10.1007/s11263-026-03118-1",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03118-1",
+     "published": "2026-11-10T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    23
+   ],
+   "title_en": "Earliest known compact quasar pair poses a black hole growth puzzle",
+   "headline_zh": "宇宙诞生 9 亿年时的最早致密类星体对",
+   "summary_zh": "观测到迄今最古老的致密类星体对，出现在大爆炸后仅 9 亿年。报道称现有理论无法解释这对活跃吸积黑洞如何在宇宙极早期增长到如此质量。该对类星体被赋予夏威夷语昵称 Nāpōwawāʻenakaulua。",
+   "why_it_matters_zh": "双黑洞在极早期即达到大质量，对“种子黑洞—吸积—并合”时间尺度构成硬约束；这类系统同时是未来引力波探测的潜在源候选，把早期宇宙结构形成与黑洞增长问题绑定在一起。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "类星体",
+    "早期宇宙",
+    "黑洞增长"
+   ],
+   "records": [
+    {
+     "ref": 23,
+     "channel": "news",
+     "title": "Earliest known compact quasar pair poses a black hole growth puzzle",
+     "url": "https://phys.org/news/2026-11-earliest-compact-quasar-pair-poses.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T00:50:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    43
+   ],
+   "title_en": "Seafloor clay reveals past dramatic ice loss in West Antarctica",
+   "headline_zh": "海底黏土记录揭示西南极冰盖过去 80 万年的反复崩塌",
+   "summary_zh": "基于海底黏土沉积记录，给出迄今最有力的证据：包括思韦茨冰川在内的西南极最脆弱冰流，在过去 80 万年的自然温暖期中反复崩塌并向内陆大幅退缩。",
+   "why_it_matters_zh": "把“西南极冰盖能否大幅退缩”从模式预测问题转为有地质记录约束的经验问题，为冰盖模式与海平面预估提供可检验的历史基准；直接关系到当前升温情景下西南极贡献的上限估计。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "西南极冰盖",
+    "思韦茨冰川",
+    "古气候记录"
+   ],
+   "records": [
+    {
+     "ref": 43,
+     "channel": "news",
+     "title": "Seafloor clay reveals past dramatic ice loss in West Antarctica",
+     "url": "https://phys.org/news/2026-11-seafloor-clay-reveals-ice-loss.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T22:40:12+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "How ripples in space-time can reveal new exoplanets",
+   "headline_zh": "LISA 如何通过引力波发现新的系外行星族群",
+   "summary_zh": "两项由 NASA 天体物理学家主导的研究，具体展示了在建的 LISA 引力波天文台如何在全银河系范围内揭示一类此前无法触及的系外行星族群。研究给出了探测机制与目标人群的细节（摘要未提供具体数值）。",
+   "why_it_matters_zh": "把系外行星探测从电磁波段扩展到引力波通道，原则上对不发光、远离宿主星或自由漂浮的行星质量天体敏感——这是凌星与视向速度法系统性盲区。若成立，将新增一类独立的行星统计样本。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "LISA",
+    "引力波",
+    "系外行星"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "news",
+     "title": "How ripples in space-time can reveal new exoplanets",
+     "url": "https://phys.org/news/2026-11-ripples-space-reveal-exoplanets.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T00:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "Ancient rocks reveal when Earth's tectonic engine 'switched on'",
+   "headline_zh": "古老岩石定出板块构造“启动”时间约在 25 亿年前",
+   "summary_zh": "通过古老岩石记录识别出地球地质史的一个转折点：塑造地壳的过程发生显著变化，开始接近现今所见板块构造样式，时间约在 25 亿年前。",
+   "why_it_matters_zh": "为板块构造起始时间这一长期争议提供新的岩石学约束；该时间点同时关联大气氧化、大陆地壳生长与深部挥发分循环等一系列协同演化问题。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "板块构造起始",
+    "太古宙-元古宙",
+    "地壳演化"
+   ],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "news",
+     "title": "Ancient rocks reveal when Earth's tectonic engine 'switched on'",
+     "url": "https://phys.org/news/2026-11-ancient-reveal-earth-tectonic.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T00:10:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "Microscopy upgrade sharpens images fivefold without sacrificing tissue imaging depth",
+   "headline_zh": "显微成像升级：分辨率提升五倍而不牺牲组织穿透深度",
+   "summary_zh": "Texas A&M 团队报告一项显微技术，可在完整样品深部成像的同时分辨小于 100 纳米的结构，即在不放弃深层成像能力的前提下把分辨率提高约五倍。这解决了生物成像中长期存在的“细节与深度不可兼得”问题。",
+   "why_it_matters_zh": "深层活组织中的亚百纳米结构观测此前通常需要切片或牺牲穿透深度；若该方案可推广，将把超分辨能力带入完整组织与活体样品场景，对神经环路与组织结构研究是直接的工具层变化。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "超分辨显微",
+    "深层成像",
+    "活组织"
+   ],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "news",
+     "title": "Microscopy upgrade sharpens images fivefold without sacrificing tissue imaging depth",
+     "url": "https://phys.org/news/2026-11-microscopy-sharpens-images-fivefold-sacrificing.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T23:20:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    40
+   ],
+   "title_en": "Harnessing laser nuisance achieves record resolution for atomic measurements",
+   "headline_zh": "利用“激光干扰”实现 6 飞米级波长分辨",
+   "summary_zh": "Adelaide 大学领衔的国际团队利用积分球（高反射中空腔，使光在内部多次反射后出射）构建鞋盒大小的颜色探测装置，实现 6 飞米分辨率的波长成分测量。",
+   "why_it_matters_zh": "把高精度波长计量从大型光谱设备压缩到鞋盒尺度，且分辨率指标提升到飞米量级；对原子光谱测量、激光频率标定与便携式精密计量是硬件层面的替代方案。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "积分球",
+    "波长计量",
+    "飞米分辨率"
+   ],
+   "records": [
+    {
+     "ref": 40,
+     "channel": "news",
+     "title": "Harnessing laser nuisance achieves record resolution for atomic measurements",
+     "url": "https://phys.org/news/2026-11-harnessing-laser-nuisance-resolution-atomic.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T23:00:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Mental health app may help unemployed people find jobs, six-week trial suggests",
+   "headline_zh": "DRIVEN 手机应用：六周试验显示或助失业者再就业",
+   "summary_zh": "Northwestern 大学领衔的临床试验测试手机应用 DRIVEN，将每周自助式心理健康练习（减压、提升动机）与求职策略结合，针对抑郁使求职陷入恶性循环的失业人群。六周试验结果提示该干预可能打破这一循环（摘要未给出效应量）。",
+   "why_it_matters_zh": "把心理健康干预与劳动力市场结果直接作为终点来评估，而非仅测症状量表；若效应可重复，这类低成本可扩展干预可嵌入公共就业服务体系。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "数字干预",
+    "失业",
+    "抑郁",
+    "临床试验"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "news",
+     "title": "Mental health app may help unemployed people find jobs, six-week trial suggests",
+     "url": "https://phys.org/news/2026-11-mental-health-app-unemployed-people.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T01:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "European eels transmit a herpesvirus through bites, revealing another route for fish infections",
+   "headline_zh": "欧洲鳗鲡通过撕咬传播疱疹病毒",
+   "summary_zh": "列日大学团队证明，感染欧洲鳗鲡的病毒可在个体间攻击性互动中的撕咬过程中高效传播，修正了“鱼类病毒仅经水体这一非生物媒介传播”的既有认识。",
+   "why_it_matters_zh": "为水产养殖与野生鱼类疫病防控增加一条直接传播途径，意味着仅管理水体质量不足以阻断扩散；对鳗鲡这一濒危物种的种群管理也有直接含义。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "疱疹病毒",
+    "传播途径",
+    "欧洲鳗鲡"
+   ],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "news",
+     "title": "European eels transmit a herpesvirus through bites, revealing another route for fish infections",
+     "url": "https://phys.org/news/2026-11-european-eels-transmit-herpesvirus-revealing.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T00:30:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Genetic ancestry plays a key role in the migration of Cory's shearwaters",
+   "headline_zh": "科氏鹱迁徙路线更多由遗传背景而非社群环境决定",
+   "summary_zh": "发表于 Molecular Ecology 的研究显示，对科氏鹱而言，个体遗传背景对其迁徙决策的影响大于繁殖群体中的社会环境。",
+   "why_it_matters_zh": "把候鸟长距离迁徙的驱动因素从“社会学习为主”推向“遗传成分显著”，对预测种群面对环境变化时的迁徙可塑性（及是否受进化约束）有直接含义。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "迁徙",
+    "遗传背景",
+    "海鸟"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "news",
+     "title": "Genetic ancestry plays a key role in the migration of Cory's shearwaters",
+     "url": "https://phys.org/news/2026-11-genetic-ancestry-plays-key-role.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T01:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    45
+   ],
+   "title_en": "AI-generated molecular fingerprints help identify existing compounds with therapeutic potential",
+   "headline_zh": "AI 生成分子指纹用于挖掘现有化合物的治疗潜力",
+   "summary_zh": "报道称研究者利用 AI 生成的分子指纹识别具有治疗潜力的现有化合物。摘要明确指出，尽管 AI 在分子设计上日益成熟，针对特定受体设计结合分子的技术承诺迄今仍未真正兑现——该工作走的是对已知化合物重定位的路线。",
+   "why_it_matters_zh": "与“从零设计分子”相比，把 AI 用在已有化合物库的功能挖掘上，验证周期与安全性风险都更低；若方法可靠，可提高药物重定位的命中效率。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "分子指纹",
+    "药物重定位",
+    "AI"
+   ],
+   "records": [
+    {
+     "ref": 45,
+     "channel": "news",
+     "title": "AI-generated molecular fingerprints help identify existing compounds with therapeutic potential",
+     "url": "https://phys.org/news/2026-11-ai-generated-molecular-fingerprints-compounds.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-10T22:30:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Where AI can aid chemistry research and where reliability falls short",
+   "headline_zh": "综述：AI 在化学工作流中何处有效、何处不可靠",
+   "summary_zh": "Skoltech AI 中心与 Zelinsky 有机化学研究所、ITMO 等合作者在 Chemical Society Reviews 发表综述，系统梳理 AI 在化学研究工作流中产生可测量价值的环节、如何评估其可靠性，以及为何强基准成绩不一定转化为实验室表现。",
+   "why_it_matters_zh": "直接针对“基准分数—实验可复现性”之间的落差给出评估框架，对把 AI 工具纳入实验流程的化学课题组具有操作层面的参考价值。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "AI4Science",
+    "基准评估",
+    "综述"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "news",
+     "title": "Where AI can aid chemistry research and where reliability falls short",
+     "url": "https://phys.org/news/2026-11-ai-aid-chemistry-reliability-falls.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T00:20:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "Simplified framework could make products' environmental impacts easier to assess",
+   "headline_zh": "生命周期评价的混合方法可由四类归并为两类",
+   "summary_zh": "Paul Scherrer Institute 的研究表明，四种既有混合生命周期评价方法可归并为两种，这是朝向开源软件的第一步，使不具备深厚数学背景的用户也能开展此类分析。研究同时指出 LCA 所需数据始终难以完整获取。",
+   "why_it_matters_zh": "降低 LCA 的方法门槛，意味着政策与产品层面的环境影响核算可被更多机构独立复现，而不是依赖少数专业团队。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "生命周期评价",
+    "混合方法",
+    "开源工具"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "news",
+     "title": "Simplified framework could make products' environmental impacts easier to assess",
+     "url": "https://phys.org/news/2026-11-framework-products-environmental-impacts-easier.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T02:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "A new tool makes biodiversity conservation planning more efficient and reproducible",
+   "headline_zh": "ZonationR：把保护规划全流程整合为可复现工作流",
+   "summary_zh": "新工具 ZonationR 简化了用 Zonation 识别生物多样性保护优先区的流程，将保护规划分析的各阶段整合进一个自动化、可复现的工作流，并支持系统比较不同保护情景。",
+   "why_it_matters_zh": "保护规划长期受制于分析不可复现、情景难以横向比较；工具层面的整合使决策者能系统比较替代方案，而非依赖单次分析结论。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "保护规划",
+    "可复现性",
+    "软件工具"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "news",
+     "title": "A new tool makes biodiversity conservation planning more efficient and reproducible",
+     "url": "https://phys.org/news/2026-11-tool-biodiversity-efficient.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T01:20:07+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    28
+   ],
+   "title_en": "Rerouting ships to avoid killing whale sharks has little cost, study finds",
+   "headline_zh": "为避让鲸鲨而改航线的燃油代价很小",
+   "summary_zh": "Southampton 大学领衔、发表于 Royal Society Open Science 的研究发现，重新规划航运路线以避让鲸鲨对燃油消耗的影响非常小。",
+   "why_it_matters_zh": "把“保护措施代价高昂”这一常见反对理由在具体案例上量化否定，为航运业与监管方推行避让措施提供了成本侧依据。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "鲸鲨",
+    "航线避让",
+    "燃油成本"
+   ],
+   "records": [
+    {
+     "ref": 28,
+     "channel": "news",
+     "title": "Rerouting ships to avoid killing whale sharks has little cost, study finds",
+     "url": "https://phys.org/news/2026-11-rerouting-ships-whale-sharks.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-11T00:10:11+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[1/7/8] orforglipron OSA 试验：摘要中结果数值被截断，需核对 AHI 与缺氧负荷的实际降幅及不良事件，再判断临床意义。",
+  "[2] MAR001：第 12 周安慰剂校正降幅未在摘要中给出，且为 2b 期、24 周给药，长期心血管终点尚无从判断。",
+  "[23] 最早致密类星体对：目前仅有“理论无法解释”的表述，需看质量估计、选择效应与是否排除了透镜或投影成对的可能。",
+  "[24] LISA 与系外行星：探测为未来任务概念层面，需区分模拟预测与实际探测能力边界。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 105,
+   "dup_in_run": 0,
+   "already_seen": 46,
+   "dropped_by_penalty": 1,
+   "dropped_by_window": 42,
+   "unique": 16,
+   "candidates": 16
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 182,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 149,
+   "unique": 33,
+   "candidates": 33
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 4,
+   "dup_in_run": 0,
+   "already_seen": 4,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 26,
+   "kept": 26,
+   "elapsed_s": 1.14,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.13,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 0.97,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 2,
+   "kept": 0,
+   "elapsed_s": 0.63,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 1,
+   "kept": 1,
+   "elapsed_s": 1.46,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.99,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 1.14,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 1,
+   "kept": 1,
+   "elapsed_s": 0.83,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.87,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.74,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.45,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 4,
+   "elapsed_s": 0.57,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.25,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.12,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.15,
+   "error": ""
+  }
+ ]
+}
