@@ -1,0 +1,919 @@
+{
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12 10:21 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日 Nature 集中上线一批论文，覆盖表观遗传异质性、核孔选择性屏障、复制叉重启、肿瘤免疫原性、机械力感知与免疫激活等方向，其中核孔与复制叉重启各有两篇互补工作，值得对照阅读。M87* 黑洞阴影获得独立成像方法的验证，是方法学层面的重要进展。应用与工程侧出现二维 CFET 低功耗器件、全天候 AR 超表面波导、柔性潮汐叶片等具体成果。预印本通道今日仅有一条 2007 年的医学图像分割挑战赛旧文，时效性不足，不作推荐。科学媒体报道多为二手转述，仅择取与上述顶刊论文直接对应或本身含新方法信息的条目。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Epigenetic heterogeneity in breast tumours informs diagnosis and prognosis",
+   "headline_zh": "单细胞表观遗传分析揭示跨患者保守的复发风险特征",
+   "summary_zh": "研究对乳腺癌做单细胞表观遗传分析，发现患者之间存在一个保守的表观遗传特征，该特征可能用于识别疾病复发风险升高的个体。摘要未披露样本规模与具体表观修饰类型。",
+   "why_it_matters_zh": "若该保守特征可在独立队列复现，复发风险分层有望从转录组/基因组标志物扩展到表观层面，为单细胞表观技术进入临床分层提供切入点。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "乳腺癌",
+    "单细胞",
+    "表观遗传",
+    "预后"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Epigenetic heterogeneity in breast tumours informs diagnosis and prognosis",
+     "url": "https://www.nature.com/articles/s41586-026-11230-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11230-y",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "A plant RNA-binding protein senses 2′,3′-cNMP produced by insect effectors",
+   "headline_zh": "水稻 NIB1 感知昆虫唾液 RNase 产物，形成核凝聚体招募 EDS1 启动防御",
+   "summary_zh": "水稻 RNA 结合蛋白 NIB1 能检测昆虫唾液 RNase 产生的 2′,3′-环核苷酸，进而形成核内凝聚体并招募 EDS1 激活防御反应。作者据此提出植物中存在一条保守的、以环核苷酸为信使的免疫通路。",
+   "why_it_matters_zh": "把昆虫效应器的酶活产物直接接上植物免疫受体环节，为抗虫育种提供了一个可操作的分子节点——即 NIB1 的感知特异性。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "水稻",
+    "昆虫效应器",
+    "凝聚体",
+    "EDS1",
+    "环核苷酸"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "A plant RNA-binding protein senses 2′,3′-cNMP produced by insect effectors",
+     "url": "https://www.nature.com/articles/s41586-026-11259-z",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11259-z",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Glycosylation and importins liquefy the FG barrier in live nuclear pores",
+   "headline_zh": "活细胞核孔内 FG 屏障呈流体性且空间有序",
+   "summary_zh": "研究显示核孔蛋白通过协同的分子相互作用，维持一个流体性、空间有序的屏障，从而解释细胞如何实现选择性运输，并调和了此前关于孔道结构的竞争性模型。与 [50] 的荧光探针工作互为印证。",
+   "why_it_matters_zh": "核孔运输的选择性长期存在“筛网模型”与“相分离模型”之争，该工作把糖基化和 importin 浓度作为调控屏障物性的变量，给出了可检验的统一框架。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "核孔",
+    "FG重复",
+    "相分离",
+    "糖基化",
+    "importin"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Glycosylation and importins liquefy the FG barrier in live nuclear pores",
+     "url": "https://www.nature.com/articles/s41586-026-11258-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11258-0",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Independent interferometric observable confirms black hole shadow in M87*",
+   "headline_zh": "基于闭合不变形式与扩散重建的成像算法独立复现 M87* 环状阴影",
+   "summary_zh": "作者提出一种使用闭合不变（closure-invariant）形式与扩散模型重建的成像算法，应用于超大质量黑洞 VLBI 数据集，独立恢复了环状阴影及其质量，且不依赖常规的校准与成像假设。",
+   "why_it_matters_zh": "EHT 的 2019 年图像依赖一整套校准与成像选择，该工作用不同假设集得到一致结果，把“阴影存在”从单一流程的结论变成可交叉验证的观测量。与 [48] 的报道对应。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "M87*",
+    "黑洞阴影",
+    "VLBI",
+    "扩散模型",
+    "闭合量"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Independent interferometric observable confirms black hole shadow in M87*",
+     "url": "https://www.nature.com/articles/s41586-026-11241-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11241-9",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "Mitochondrial protein import defects enhance tumour immunogenicity",
+   "headline_zh": "抑制线粒体蛋白输入经 mtDNA 释放提升肿瘤免疫原性",
+   "summary_zh": "抑制线粒体蛋白输入可促进线粒体 DNA 释放，从而增强肿瘤的免疫原性。摘要未说明模型体系与具体免疫应答读数。",
+   "why_it_matters_zh": "把线粒体蛋白输入这一基础管家通路变成可药物干预的免疫增敏靶点，提示现有线粒体抑制剂可能有未被认识的免疫佐剂用途。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "线粒体",
+    "mtDNA",
+    "免疫原性",
+    "蛋白输入"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "Mitochondrial protein import defects enhance tumour immunogenicity",
+     "url": "https://www.nature.com/articles/s41586-026-11249-1",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11249-1",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Efficient catalyst-controlled C–H arylation of arenes",
+   "headline_zh": "催化剂控制的高效芳烃 C–H 芳基化",
+   "summary_zh": "候选材料仅给出标题，摘要字段未提供任何方法或结果信息，无法判断其选择性来源与底物范围。",
+   "why_it_matters_zh": "仅凭现有材料无法具体判断。C–H 芳基化的位点选择性若真由催化剂而非底物导向基决定，将影响后期官能化的路线设计，但这一点需查原文确认。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "C-H活化",
+    "芳基化",
+    "催化剂控制"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "Efficient catalyst-controlled C–H arylation of arenes",
+     "url": "https://www.nature.com/articles/s41586-026-11391-w",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11391-w",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "Human replisomes direct a dedicated leading-strand primase for fork restart",
+   "headline_zh": "CMG 解旋酶直接招募 PRIMPOL 完成前导链再引发",
+   "summary_zh": "结构与生化研究显示，CMG 解旋酶直接招募 PRIMPOL 进行前导链再引发，使复制叉得以重启，并限制复制后 DNA 缺口的产生。与 [20] 从分子机制角度互补。",
+   "why_it_matters_zh": "明确了 PRIMPOL 在复制叉重启中的招募受体，把“再引发”从现象学描述推进到可打断的蛋白–蛋白界面，对理解化疗耐药相关的复制应激适应有直接意义。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "PRIMPOL",
+    "CMG",
+    "复制叉重启",
+    "再引发"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "Human replisomes direct a dedicated leading-strand primase for fork restart",
+     "url": "https://www.nature.com/articles/s41586-026-11204-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11204-0",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Bureaucratic incentives shaped effectiveness of the one-child policy in China",
+   "headline_zh": "“一票否决”下的官僚激励解释了 1990 年代中国生育率下降的近一半",
+   "summary_zh": "研究显示，中国“一票否决”考核下的更强官僚激励强化了计划生育执行力度，可解释 1990 年代中国生育率下降的近一半。",
+   "why_it_matters_zh": "把政策效果分解为考核制度强度而非仅政策文本本身，为理解中国式政策执行机制提供了可量化的因果证据，也为其他强考核领域的政策评估提供方法范式。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "计划生育",
+    "官僚激励",
+    "一票否决",
+    "生育率"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Bureaucratic incentives shaped effectiveness of the one-child policy in China",
+     "url": "https://www.nature.com/articles/s41586-026-11232-w",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11232-w",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Validation of clinical and preclinical obesity across global cohorts",
+   "headline_zh": "Lancet 委员会肥胖诊断框架在多队列中优于单纯 BMI",
+   "summary_zh": "大规模数据分析评估 Lancet 委员会提出的肥胖诊断框架，发现将 BMI 与腰围、器官功能等其他标准结合的分类方式，比单纯基于 BMI 的分类更有用。",
+   "why_it_matters_zh": "为“以 BMI 单一指标定义肥胖”的临床惯例提供了跨队列的替代方案证据，直接影响肥胖药物与代谢手术的入组标准讨论。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "肥胖",
+    "BMI",
+    "诊断标准",
+    "队列研究"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Validation of clinical and preclinical obesity across global cohorts",
+     "url": "https://www.nature.com/articles/s41586-026-11237-5",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11237-5",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "NRF2 is a mechanosensitive checkpoint for NLRP3 inflammasome activation",
+   "headline_zh": "细胞外基质刚度经 NRF2 调控 NLRP3 炎症小体激活",
+   "summary_zh": "研究在体外与体内鉴定细胞外基质刚度是影响 NLRP3 炎症小体激活的关键因素，并表明 NRF2 充当这一过程的机械敏感检查点。",
+   "why_it_matters_zh": "把炎症小体激活从纯生化信号扩展到力学输入，对纤维化、肿瘤基质等刚度异常组织中的慢性炎症机制给出新解释路径。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "NRF2",
+    "NLRP3",
+    "基质刚度",
+    "机械转导"
+   ],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "NRF2 is a mechanosensitive checkpoint for NLRP3 inflammasome activation",
+     "url": "https://www.nature.com/articles/s41586-026-11324-7",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11324-7",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "Non-halogen aqueous electrolytes for four-electron iodine conversion",
+   "headline_zh": "阴离子化学调控界面微环境，实现无卤水系四电子碘氧化还原",
+   "summary_zh": "作者提出一种电解液框架，利用阴离子化学协调界面微环境与分子相互作用，在无卤水系电解液中实现可逆的四电子碘转化，并在金属–碘电池中得到验证。",
+   "why_it_matters_zh": "四电子碘转化可显著提高碘正极的容量利用率，而去卤化则回避了卤素电解液的腐蚀与毒性问题，是水系储能路线的一个具体工程解法。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "碘电池",
+    "水系电解液",
+    "四电子",
+    "阴离子化学"
+   ],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "paper",
+     "title": "Non-halogen aqueous electrolytes for four-electron iodine conversion",
+     "url": "https://www.nature.com/articles/s41586-026-11282-0",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11282-0",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "Bistable regulation of adipocyte heterogeneity governs thermogenesis",
+   "headline_zh": "中性粒细胞与巨噬来源 IL-1β 将棕色脂肪锁定在低 UCP1 状态",
+   "summary_zh": "中性粒细胞和巨噬细胞来源的 IL-1β 使邻近棕色脂肪细胞稳定在低 UCP1 状态；寒冷经交感神经降低 IL-1β，促使细胞转向高 UCP1 状态并增强产热，温度升高则相反。",
+   "why_it_matters_zh": "把产热调控解释为一个由免疫细胞信号设定的双稳态开关，而非连续渐变，这对靶向棕色脂肪的代谢干预设计（尤其是免疫–神经轴的干预时点）有直接含义。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "棕色脂肪",
+    "UCP1",
+    "IL-1β",
+    "双稳态",
+    "产热"
+   ],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "paper",
+     "title": "Bistable regulation of adipocyte heterogeneity governs thermogenesis",
+     "url": "https://www.nature.com/articles/s41586-026-11308-7",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11308-7",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Flexible rubber blades for tidal turbines",
+   "headline_zh": "被动尾缘变形的柔性叶片在保持能量产出的同时降低约三分之一疲劳载荷",
+   "summary_zh": "采用被动尾缘变形的柔性潮汐涡轮叶片，能量产出与主动变桨控制叶片相当，同时将诱发疲劳的载荷波动降低最多三分之一，并降低了维护复杂度。",
+   "why_it_matters_zh": "用材料柔性替代主动变桨机构，直接削减潮汐能的两个成本大头——疲劳寿命与维护系统复杂度，是海洋能经济性改善的具体工程路径。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "潮汐能",
+    "柔性叶片",
+    "疲劳载荷",
+    "被动变形"
+   ],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Flexible rubber blades for tidal turbines",
+     "url": "https://www.nature.com/articles/s41586-026-11278-w",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11278-w",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Hadean mantle depletion and 3.95-Gyr subduction implied by North China rocks",
+   "headline_zh": "冀东 39.5 亿年英云闪长质片麻岩记录一次短暂俯冲事件",
+   "summary_zh": "对冀东一块 39.5 亿年英云闪长质片麻岩的分析显示，其成分指向低温蚀变玄武质源区，该源区来自冥古宙亏损地幔，最可能通过一次短暂俯冲事件被带入地幔深处并部分熔融形成英云闪长岩。",
+   "why_it_matters_zh": "把板块俯冲的启动时间证据推到 39.5 亿年前，且强调是“短暂”事件，这对早期地球构造体制是持续俯冲还是间歇性启动的争论提供了具体岩石学约束。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "冥古宙",
+    "俯冲",
+    "英云闪长岩",
+    "冀东",
+    "亏损地幔"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "Hadean mantle depletion and 3.95-Gyr subduction implied by North China rocks",
+     "url": "https://www.nature.com/articles/s41586-026-11280-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11280-2",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "Human land use drives microplastic abundance in terrestrial wildlife",
+   "headline_zh": "巴西貘与食蚁兽体内微塑料随人类改造土地利用程度上升",
+   "summary_zh": "巴西貘与食蚁兽体内的微塑料负荷随人类改造土地利用程度及与开发区域的距离而上升，但偏远生境中的个体同样携带微塑料，表明景观变化与个体空间利用共同塑造野生动物暴露。",
+   "why_it_matters_zh": "首次在陆生野生哺乳动物中把“环境浓度”与“个体累积”连成可验证的链条（与 [44] 的报道对应），为陆生微塑料风险评估提供了生物指示物层面的依据。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "微塑料",
+    "土地利用",
+    "野生动物",
+    "巴西"
+   ],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "Human land use drives microplastic abundance in terrestrial wildlife",
+     "url": "https://www.nature.com/articles/s41586-026-11285-x",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11285-x",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Transient nuclear softening for zygotic gene activation in mice",
+   "headline_zh": "胚胎起始阶段获得独特物理核状态以启动合子转录程序",
+   "summary_zh": "小鼠胚胎在生命起始阶段获得一种独特的物理核状态，该状态支持合子转录程序的启动。",
+   "why_it_matters_zh": "把发育最早的转录激活事件与细胞核的力学性质挂钩，提示核物理参数可能是重编程与胚胎发育阻滞问题的可干预维度。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "合子基因激活",
+    "核软化",
+    "小鼠胚胎",
+    "力学"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Transient nuclear softening for zygotic gene activation in mice",
+     "url": "https://www.nature.com/articles/s41586-026-11240-w",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11240-w",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Suppression of epithelial proliferation and tumorigenesis by IgA",
+   "headline_zh": "肠腔 IgA 调控结肠上皮更新并降低小鼠结直肠癌易感性",
+   "summary_zh": "小鼠模型实验显示，肠腔中的免疫球蛋白 A 参与调控结肠上皮细胞的更新，并降低小鼠对结直肠癌的易感性。",
+   "why_it_matters_zh": "把分泌型 IgA 的功能从“中和病原”扩展到“约束上皮增殖”，为 IgA 缺陷与肠道肿瘤风险的关联提供了机制解释，也提示口服 IgA 或菌群诱导 IgA 的预防思路。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "IgA",
+    "结肠上皮",
+    "结直肠癌",
+    "肠道免疫"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "Suppression of epithelial proliferation and tumorigenesis by IgA",
+     "url": "https://www.nature.com/articles/s41586-026-11264-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11264-2",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "Evolutionary dynamics in the years preceding acute myeloid leukaemia",
+   "headline_zh": "白血病前期的克隆动态遵循一组简单演化规则",
+   "summary_zh": "研究重建了急性髓系白血病诊断前数年造血细胞的体细胞演化史，发现血液克隆动态符合一组简单的演化规则。",
+   "why_it_matters_zh": "若克隆扩增可用少量规则描述，则从纵向血常规/测序数据预测进展成为可能，为 AML 的早期拦截试验提供分层依据。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "AML",
+    "克隆演化",
+    "癌前状态",
+    "体细胞突变"
+   ],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "paper",
+     "title": "Evolutionary dynamics in the years preceding acute myeloid leukaemia",
+     "url": "https://www.nature.com/articles/s41586-026-11269-x",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11269-x",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Scale-rich network-based metamaterials",
+   "headline_zh": "将网络异质性嵌入力学超材料，获得单尺度体系无法实现的性能",
+   "summary_zh": "作者提出一个基于网络科学的框架，把网络异质性嵌入力学超材料，制备出尺度丰富的超材料，展现出传统单尺度体系无法获得的力学性能。",
+   "why_it_matters_zh": "把网络科学的结构描述量直接当作材料设计参数，为超材料性能空间提供了一个此前未被系统扫描的维度。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "超材料",
+    "网络科学",
+    "多尺度",
+    "力学设计"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "paper",
+     "title": "Scale-rich network-based metamaterials",
+     "url": "https://www.nature.com/articles/s41586-026-11191-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11191-2",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "The molecular basis of replication fork restart via repriming by PRIMPOL",
+   "headline_zh": "PRIMPOL 经 CDC45–MCM2–7–GINS 招募，并将引物交接给聚合酶 ε",
+   "summary_zh": "PRIMPOL 通过与复制解旋酶 CDC45–MCM2–7–GINS 相互作用被招募到停滞的复制叉，促进引物从 PRIMPOL 交接给高保真聚合酶 ε，从而最大限度减少致突变的 DNA 合成。",
+   "why_it_matters_zh": "揭示了“再引发”如何避免低保真合成这一关键保真度环节，与 [7] 一起构成对 PRIMPOL 通路从招募到交接的完整机制描述。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "PRIMPOL",
+    "聚合酶ε",
+    "引物交接",
+    "复制保真度"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "paper",
+     "title": "The molecular basis of replication fork restart via repriming by PRIMPOL",
+     "url": "https://www.nature.com/articles/s41586-026-11276-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11276-y",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "Domain-alteration chimeras rewire oncogenic complexes in prostate cancer",
+   "headline_zh": "强制非天然 AR–p300/CBP 互作瓦解 AR 转录程序",
+   "summary_zh": "作者提出一种新的治疗模态，强制形成非天然的雄激素受体（AR）–p300/CBP 相互作用，使 AR 转录程序崩溃，在转移性前列腺癌中产生超抑制性、谱系选择性的抑制效果，并将“结构域改变型嵌合体”确立为利用诱导邻近的通用治疗策略。",
+   "why_it_matters_zh": "不是抑制靶点而是改写复合物组成，为转录因子这类“不可成药”靶点提供了新范式；若可推广，将改变转录依赖型肿瘤的药物设计逻辑。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "前列腺癌",
+    "雄激素受体",
+    "诱导邻近",
+    "嵌合体",
+    "p300/CBP"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "paper",
+     "title": "Domain-alteration chimeras rewire oncogenic complexes in prostate cancer",
+     "url": "https://www.nature.com/articles/s41586-026-11262-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11262-4",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    23
+   ],
+   "title_en": "Low-power 2D CFETs using single-crystal high- κ dielectrics",
+   "headline_zh": "可转移单晶锐钛矿 TiO2 介电层与二维半导体形成高质量界面",
+   "summary_zh": "作者采用可转移的单晶锐钛矿二氧化钛介电层，与二维半导体形成高质量界面，实现接近理想的开关特性、低回滞，以及超低功耗的互补晶体管与反相器。",
+   "why_it_matters_zh": "二维器件的瓶颈之一是与高 κ 介电层的界面质量，可转移单晶介电层绕开了直接沉积带来的损伤，是二维 CMOS 走向低功耗集成的具体工艺突破。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "CFET",
+    "二维半导体",
+    "高κ介电",
+    "单晶TiO2",
+    "低功耗"
+   ],
+   "records": [
+    {
+     "ref": 23,
+     "channel": "paper",
+     "title": "Low-power 2D CFETs using single-crystal high- κ dielectrics",
+     "url": "https://www.nature.com/articles/s41586-026-11272-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11272-2",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Metasurface waveguides for all-day augmented reality glasses",
+   "headline_zh": "双层超表面波导实现 30° 视场与 8×8 mm² 二维眼盒",
+   "summary_zh": "作者展示一款全天可穿戴的 AR 眼镜原型，采用双层超表面波导与三组匹配光栅图案，在 8×8 mm² 二维眼盒内实现 30° 视场，同时保持高亮度效率。",
+   "why_it_matters_zh": "同时给出视场、眼盒与亮度效率三个互相牵制的指标，说明超表面波导在消费级 AR 的“全天候亮度”这一硬约束上具备可行性。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "超表面",
+    "波导",
+    "AR眼镜",
+    "眼盒",
+    "光栅"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "paper",
+     "title": "Metasurface waveguides for all-day augmented reality glasses",
+     "url": "https://www.nature.com/articles/s41586-026-11277-x",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11277-x",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[7]/[20] PRIMPOL 通路的两篇同期工作：建议对照阅读，确认招募界面与引物交接是否在同一结构中被同时捕获，以及两文对“复制后缺口”的表述是否一致。",
+  "[3]/[50] 核孔屏障物性：Nature 论文与 JGU/MPI-BP/武汉大学的荧光探针报道指向同一问题，值得核对后者是否提供了活细胞内直接测量流动性的独立证据。",
+  "[4]/[48] M87* 独立验证：CSIRO 四人的成像方法与 EHT 官方流程的差异程度，是判断该验证强度的关键，需查原文的盲测设计。",
+  "[6] 催化剂控制 C–H 芳基化：候选材料仅有标题，无法评估；若后续获得摘要，应重点看其选择性是否真正脱离底物导向基。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 129,
+   "dup_in_run": 0,
+   "already_seen": 47,
+   "dropped_by_penalty": 1,
+   "dropped_by_window": 44,
+   "unique": 37,
+   "candidates": 37
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 164,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 124,
+   "unique": 40,
+   "candidates": 40
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 5,
+   "dup_in_run": 0,
+   "already_seen": 4,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 1,
+   "candidates": 1
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 33,
+   "kept": 32,
+   "elapsed_s": 0.78,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.14,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 25,
+   "kept": 25,
+   "elapsed_s": 0.36,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.32,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 14,
+   "kept": 0,
+   "elapsed_s": 0.54,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 3,
+   "kept": 0,
+   "elapsed_s": 2.55,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 0.5,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 2,
+   "kept": 2,
+   "elapsed_s": 0.17,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.16,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.19,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.04,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 5,
+   "elapsed_s": 0.6,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.09,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.09,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.16,
+   "error": ""
+  }
+ ]
+}
