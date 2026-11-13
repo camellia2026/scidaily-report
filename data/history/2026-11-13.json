@@ -1,0 +1,767 @@
+{
+ "date": "2026-11-13",
+ "generated_at": "2026-11-13 09:59 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今天最值得关注的是 Cell 集中上线的一批人类与灵长类基底节细胞图谱：BICAN 联盟一次性发布跨物种、跨模态、跨发育阶段的十余篇配套论文，从单细胞多组学到空间转录组、Patch-seq 电生理，构建了迄今最完整的皮层下核团参考图谱，并直接指向精神分裂症、双相障碍和自闭症的细胞类型特异性风险。方法学上，Science 报道的 TLR4 TIR 结构域“产生并捕获”NAD⁺ 水解产物的分子胶机制、溶酶体 Ca²⁺ 摄取转运体 TMEM184 的鉴定，都是长期悬而未决问题的直接答案。应用侧，HOPO 14-1 口服锕系螯合剂完成 I 期试验、中国团队首次将化学遗传学基因治疗用于癫痫患者，标志着两类应急/神经调控手段进入临床验证。预印本与媒体报道通道今日无高价值条目，未纳入。",
+ "items": [
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Cross-species multiomic atlas of the primate basal ganglia",
+   "headline_zh": "人、猕猴、狨猴基底节对齐至 61 个细胞类型，背腹空间身份比直接/间接通路身份更受进化约束",
+   "summary_zh": "研究将人、猕猴、狨猴三种灵长类基底节的 180 万个细胞核通过多组学数据对齐，定义出 76 百万年进化中保守的 61 个细胞类型。关键发现是：背-腹空间身份在进化上比直接/间接通路身份、以及纹状体基质/纹状小体身份更为保守。此外鉴定出一个独特的 SMYD2-HTR7 纹状体投射神经元类型，并把调控序列语法与精神疾病风险变异映射到具体细胞群。",
+   "why_it_matters_zh": "此前跨物种比较多停留在细胞类型“是否对应”，本研究给出了保守性的层级排序——哪些身份特征是发育硬约束、哪些是灵长类特化。这直接决定了用小鼠模型研究哪类基底节疾病是合理的，也为把 GWAS 非编码变异落到具体细胞类型提供了坐标系。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "#单细胞多组学",
+    "#跨物种比较",
+    "#基底节",
+    "#精神疾病遗传学"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "paper",
+     "title": "Cross-species multiomic atlas of the primate basal ganglia",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01256-0?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.10.012",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Disruption of cell-type-specific molecular programs of striatal spiny projection neurons in autism",
+   "headline_zh": "D1 纹状小体投射神经元是自闭症中最受累的纹状体细胞群，EGR1/EGR3 活性下降可部分复现",
+   "summary_zh": "跨物种单细胞 profiling 在遗传定义的自闭症模型中定位到纹状体棘状投射神经元的分子紊乱。D1 纹状小体投射神经元受累最重，表现为突触与能量代谢程序改变，与 EGR1/EGR3 活性降低相关；在类器官中敲除 EGR1/EGR3 可部分复现该表型。",
+   "why_it_matters_zh": "把自闭症的纹状体病理从“区域异常”细化到特定投射通路亚型 + 特定转录因子轴，并给出可实验验证的因果链（EGR1/EGR3）。EGR1 属即刻早期基因，提示该表型可能与活动依赖性转录相关，是可干预的候选节点。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "#自闭症",
+    "#纹状体",
+    "#EGR1",
+    "#类器官"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Disruption of cell-type-specific molecular programs of striatal spiny projection neurons in autism",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01277-8?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.10.027",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "A single-cell and spatial 3D multi-omic atlas of developing human basal ganglia",
+   "headline_zh": "人基底节发育图谱：棘状投射神经元经历高度同步的表观基因组重塑，并携带升高的精神分裂症/双相障碍遗传风险",
+   "summary_zh": "对发育中人基底节进行单细胞与空间 profiling，发现主要神经元（棘状投射神经元）的成熟伴随异常同步的表观基因组重塑；少突胶质细胞分化过程中经过一个瞬时的染色质状态；棘状投射神经元携带升高的精神分裂症与双相障碍遗传风险。",
+   "why_it_matters_zh": "将精神疾病风险的时间窗口定位到发育期的特定细胞状态，而非成年组织。少突胶质细胞的瞬时染色质状态则提示发育中存在一个对扰动敏感、但常规成年图谱看不到的窗口。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "#脑发育",
+    "#表观基因组",
+    "#精神分裂症",
+    "#空间转录组"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "A single-cell and spatial 3D multi-omic atlas of developing human basal ganglia",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01219-5?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.10.008",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "Mesoscale molecular architecture of the striatum across cell types and adult aging",
+   "headline_zh": "Slide-tags 空间转录组在 19 例人脑中发现纹状体分为六个分子分区，且随年龄丧失转录区分度",
+   "summary_zh": "使用 Slide-tags 空间转录组技术分析 19 名人类供体，显示纹状体组织为六个分子上可区分的区域，这些区域在猕猴和小鼠中保守，并与全脑投射输入对齐；随年龄增长，这些区域的转录独特性下降。",
+   "why_it_matters_zh": "把纹状体的“分区”从解剖学概念推进到分子可定义、且与输入环路对应的层面；而衰老导致分区边界模糊，为年龄相关的基底节功能衰退提供了一个可量化的组织学指标。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "#空间转录组",
+    "#纹状体",
+    "#衰老",
+    "#Slide-tags"
+   ],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "paper",
+     "title": "Mesoscale molecular architecture of the striatum across cell types and adult aging",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01279-1?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.10.029",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    28
+   ],
+   "title_en": "Morphoelectric diversity and specialization of primate striatal neuron types",
+   "headline_zh": "猕猴纹状体 Patch-seq：存在非经典棘状投射神经元与空间组织的形态电梯度，且与小鼠不同",
+   "summary_zh": "在猕猴纹状体开展 Patch-seq，把转录组细胞类型身份与神经元形态、电生理功能直接关联。结果揭示非经典棘状投射神经元、特化的中间神经元、空间组织的形态电梯度，以及区分猕猴与小鼠神经元类型的特征。",
+   "why_it_matters_zh": "转录组簇不等于功能细胞类型。本研究提供了灵长类特有的形态电证据，说明从小鼠图谱外推灵长类纹状体环路需谨慎；同时为构建生物物理真实的基底节模型提供参数来源。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "#Patch-seq",
+    "#纹状体",
+    "#灵长类",
+    "#电生理"
+   ],
+   "records": [
+    {
+     "ref": 28,
+     "channel": "paper",
+     "title": "Morphoelectric diversity and specialization of primate striatal neuron types",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01278-X?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.10.028",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "Circuit-aligned specialization of human basal ganglia astrocytes",
+   "headline_zh": "人基底节星形胶质细胞多样性同时反映脑区身份程序与局部微环路特化",
+   "summary_zh": "整合转录组、表观基因组与空间分析，显示人基底节星形胶质细胞的多样性既来自大规模脑区身份程序，也来自局部微环路的特化。研究将这些星形胶质细胞群体与亚群特异的调控特征和增强子逻辑联系起来。",
+   "why_it_matters_zh": "胶质细胞异质性长期被当作“背景噪音”。本研究给出增强子层面的可靶向逻辑，意味着针对特定基底节环路的星形胶质细胞干预在原理上可行。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "#星形胶质细胞",
+    "#增强子",
+    "#基底节",
+    "#空间组学"
+   ],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "paper",
+     "title": "Circuit-aligned specialization of human basal ganglia astrocytes",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01143-8?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.09.041",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Harmonized brain ontology and 3D atlases for human, macaque, and marmoset basal ganglia",
+   "headline_zh": "HOMBA：一个可跨物种一致构建结构与细胞脑图谱的本体框架",
+   "summary_zh": "提出哺乳动物脑解剖统一本体（HOMBA），使结构图谱与细胞图谱的构建、以及跨物种多模态数据与样本的整合能够保持一致。",
+   "why_it_matters_zh": "这是上述所有图谱能互相“对话”的基础设施。没有统一本体，跨物种细胞类型比对无法复现；对做脑图谱整合的团队而言，这是需要尽早采纳的数据标准，而非又一篇描述性论文。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "#脑图谱",
+    "#本体",
+    "#数据标准",
+    "#跨物种"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "paper",
+     "title": "Harmonized brain ontology and 3D atlases for human, macaque, and marmoset basal ganglia",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01283-3?rss=yes",
+     "journal": "Cell",
+     "tier": "T0",
+     "doi": "10.1016/j.cell.2026.10.033",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "A trapped catalytic product acts as molecular glue for innate immune signalosome assembly",
+   "headline_zh": "TLR4 的 TIR 结构域具有单周转 NAD⁺ 水解酶活性，产物不释放而作为分子胶稳定信号小体",
+   "summary_zh": "动物先天免疫受体（如 TLR）的 TIR 结构域此前被认为只是招募接头的支架。本研究发现 TLR4 TIR 结构域具有别构激活的 NAD⁺ 水解酶活性，且为单周转模式；产物 ADP-核糖不被释放，而是被“捕获”作为分子胶，与含 TIR 的接头蛋白 TIRAP 共同稳定一个复合催化口袋，从而成核信号小体组装。",
+   "why_it_matters_zh": "推翻了 TLR TIR “纯支架”的教科书定位，把酶活性和接头功能整合为同一机制。对先天免疫信号转导和 TIR 结构域靶向药物设计都是概念级修正——TIR 的催化口袋成为可成药位点。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "#TLR4",
+    "#TIR结构域",
+    "#NADase",
+    "#信号转导"
+   ],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "paper",
+     "title": "A trapped catalytic product acts as molecular glue for innate immune signalosome assembly",
+     "url": "https://doi.org/10.1126/science.aef3150",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aef3150",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "TMEM184 proteins are Ca²⁺ uptake transporters in lysosomes",
+   "headline_zh": "基于钙成像的遗传筛选鉴定出溶酶体钙摄取通道 LyCaT，补全了溶酶体钙循环的另一半",
+   "summary_zh": "用基于 Ca²⁺ 成像的溶酶体膜蛋白组遗传筛选，鉴定 TMEM184 家族为溶酶体 Ca²⁺ 转运体（LyCaTs），负责 Ca²⁺ 摄取与储库再填充，且选择性转运 Ca²⁺ 而排除单价阳离子。TMEM184B/C 缺失导致溶酶体钙储库耗竭、释放减少，并破坏溶酶体胞吐、生物发生与膜修复，表型模拟 TRPML1 缺陷。一个与神经发育障碍相关的人 TMEM184B 突变损害该转运活性，Tmem184b 缺陷小鼠表现严重运动障碍。",
+   "why_it_matters_zh": "溶酶体钙释放通道（TRPML1）已知多年，但摄取侧一直是空白。补上这一半后，溶酶体钙稳态成为完整可建模的回路；神经发育障碍相关突变与小鼠运动表型则直接给出疾病指向。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "#溶酶体",
+    "#钙信号",
+    "#TMEM184",
+    "#神经发育障碍"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "paper",
+     "title": "TMEM184 proteins are Ca\n                    <sup>2+</sup>\n                    uptake transporters in lysosomes",
+     "url": "https://doi.org/10.1126/science.aeh3996",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh3996",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Proteins that form the nuclear pore barrier move like liquids",
+   "headline_zh": "活细胞测量加分子动力学模拟：核孔选择性屏障的柔性蛋白链高度动态，糖修饰与 importin-β 维持该状态",
+   "summary_zh": "结合活细胞测量与分子动力学模拟，显示构成核孔选择性屏障的柔性蛋白链高度可动；一种糖修饰和转运受体 importin-β 有助于维持这一动态状态。NUP98 的运动受转运受体与糖修饰调控。",
+   "why_it_matters_zh": "核孔选择性屏障的工作模型长期在“凝胶态”与“聚合物刷”之间争论。本研究支持液态动态图景，并给出两个可调控因子，为理解核质运输调控和核孔相关疾病提供机制基础。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "#核孔",
+    "#NUP98",
+    "#分子动力学",
+    "#糖修饰"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "paper",
+     "title": "Proteins that form the nuclear pore barrier move like liquids",
+     "url": "https://doi.org/10.1038/d41586-026-03428-x",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03428-x",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "Giant elastoresistance in magic-angle twisted bilayer graphene",
+   "headline_zh": "连续单轴应变下魔角双层石墨烯的弹性电阻 gauge factor 比常规金属高两个数量级以上",
+   "summary_zh": "对魔角（约 1.1°）双层石墨烯施加连续单轴应变并测量电输运，发现显著的弹性电阻，其大小依赖能带填充与温度，gauge factor 比常规金属高两个数量级以上；在部分掺杂区间呈现 Curie-Weiss 式温度发散。作者讨论了向列涨落与同位旋矩涨落带来的电子熵增强等微观起源。",
+   "why_it_matters_zh": "把单轴应变确立为莫尔材料关联物理的通用探针——弹性电阻对关联态的超常敏感性意味着应变可作为区分向列序等隐藏序参量的实验手段，而不只是调节参数。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "#魔角石墨烯",
+    "#莫尔材料",
+    "#向列涨落",
+    "#应变调控"
+   ],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "paper",
+     "title": "Giant elastoresistance in magic-angle twisted bilayer graphene",
+     "url": "https://doi.org/10.1126/science.adz0597",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adz0597",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "Antiferroelectric hafnia down to the 2D limit",
+   "headline_zh": "单晶 La 掺杂氧化铪在压应变下表现反铁电性，二维极限下有序温度达 850°C",
+   "summary_zh": "在钇稳定氧化锆衬底上生长单晶 (111) 取向外延 La 掺杂氧化铪薄膜，观察到反平行亚晶格极化与稳定双电滞回线，反极性正交相符合 Kittel 反铁电模型。压应变在更薄薄膜中增强正交有序，二维极限下有序温度达 850°C。",
+   "why_it_matters_zh": "反铁电材料稀缺，而氧化铪是无铅、CMOS 兼容的已量产材料。若反铁电性可在薄膜极限稳定存在，储能、固态制冷与存储器件的材料选择空间将显著扩大。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "#反铁电",
+    "#氧化铪",
+    "#CMOS兼容",
+    "#薄膜"
+   ],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "paper",
+     "title": "Antiferroelectric hafnia down to the 2D limit",
+     "url": "https://doi.org/10.1126/science.ady5526",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.ady5526",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "The genetic landscape of canine tumors: Insights from the Canine Cancer Genome Atlas (CCGA)",
+   "headline_zh": "CCGA 汇总 10 种犬肿瘤组织型的 667 对肿瘤-正常全外显子数据，鉴定 39 个癌症驱动基因",
+   "summary_zh": "犬类癌症基因组图谱（CCGA）是一个开放获取的比较肿瘤学资源，统一处理了 10 种犬肿瘤组织型的 667 对肿瘤-正常样本的全外显子数据，含 curated SNV、indel、结构变异与拷贝数畸变。选择分析鉴定出 39 个癌症驱动基因，包括 TP53、PIK3CA、PTEN、SETD2、MAP3K14、FAT4 的反复改变；拷贝数事件包括 MYC 扩增与 PTEN 缺失。与匹配的人类癌症直接比较，揭示保守的与物种富集的致癌机制、通路及治疗情境。",
+   "why_it_matters_zh": "犬肿瘤在体型、年龄、环境暴露上与人类共享，且病程更快，是天然的比较肿瘤学模型。CCGA 的价值在于流程标准化与数据可下载，使跨物种驱动基因比较可复现，而非一次性描述。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "#比较肿瘤学",
+    "#犬类模型",
+    "#癌症驱动基因",
+    "#开放数据"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "The genetic landscape of canine tumors: Insights from the Canine Cancer Genome Atlas (CCGA)",
+     "url": "https://doi.org/10.1126/science.aeg8777",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeg8777",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Differentiation of stem-like CD4⁺ T cells modulates early effector responses in colorectal cancer",
+   "headline_zh": "dMMR 与 pMMR 结直肠癌空间免疫构型不同；PD-1 阻断后干细胞样 CD4⁺ T 细胞分化为 Th1 样细胞",
+   "summary_zh": "用成像质谱流式分析结直肠癌患者，发现错配修复缺陷（dMMR）肿瘤中 Th1 样免疫构型与抗 PD-1 应答相关，而错配修复完整（pMMR）肿瘤呈 Treg 主导的空间互作。克隆分析显示 PD-1 阻断后干细胞样 CD4⁺ T 细胞分化为 Th1 样细胞。在 pMMR 小鼠模型中，OX40 激动剂联合 PD-1 阻断通过扩增肿瘤引流淋巴结中的 Il7r⁺ 早期效应 CD4⁺ 中间态细胞抑制肿瘤进展，促进其迁移并与 Th1 样细胞连接，伴随 IFN-γ 依赖的免疫刺激性单核-巨噬细胞与 CD8⁺ 效应 T 细胞诱导。",
+   "why_it_matters_zh": "免疫治疗研究长期聚焦瘤内微环境，本研究把注意力转向外周 CD4⁺ T 细胞的扩增与募集，并给出可操作的联合方案（OX40 + PD-1）用于 pMMR 这类对 PD-1 单药不响应的群体。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "#结直肠癌",
+    "#CD4 T细胞",
+    "#OX40",
+    "#免疫联合治疗"
+   ],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Differentiation of stem-like CD4\n                    <sup>+</sup>\n                    T cells modulates early effector responses in colorectal cancer",
+     "url": "https://doi.org/10.1126/science.ady7788",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.ady7788",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    39
+   ],
+   "title_en": "A cellular atlas of the preinvasive breast cancer microenvironment",
+   "headline_zh": "159 例样本、85 万细胞的 ER⁺ DCIS 微环境图谱，揭示环绕导管的重塑与免疫抑制",
+   "summary_zh": "构建 ER⁺ 导管原位癌（DCIS）肿瘤微环境的综合图谱，样本取自正常乳腺组织、DCIS 与浸润性乳腺癌。对 159 例患者的 854,911 个细胞做单细胞 RNA 测序，39 例样本做空间转录组，鉴定出 9 种细胞类型与 60 种细胞状态。数据显示成纤维细胞、血管与基底细胞在 DCIS 区域周围发生重塑，并形成支持侵袭前癌细胞生长的免疫抑制性导管。许多改变在浸润进展中持续存在。",
+   "why_it_matters_zh": "DCIS 的过度治疗与治疗不足是临床难题，核心在于无法判断哪些病变会进展。本研究指出微环境重塑在侵袭前已经发生且部分持续，为进展风险分层提供了细胞状态层面的候选标志。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "#DCIS",
+    "#肿瘤微环境",
+    "#单细胞",
+    "#空间转录组"
+   ],
+   "records": [
+    {
+     "ref": 39,
+     "channel": "paper",
+     "title": "A cellular atlas of the preinvasive breast cancer microenvironment",
+     "url": "https://doi.org/10.1126/science.aef4622",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aef4622",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "HOPO 14-1, an Oral Actinide Chelator: A Phase 1 Nonrandomized Clinical Trial",
+   "headline_zh": "首个免静脉、货架稳定的广谱口服锕系螯合剂完成 I 期：42 名健康成人、7 个剂量组",
+   "summary_zh": "现有 FDA 批准的内污染锕系促排药需静脉注射或雾化吸入、需医务人员监督、核素覆盖有限。HOPO 14-1 是 3,4,3-LI(1,2-HOPO) 的口服剂型，为临床开发中首个货架稳定、广谱、无需静脉通路或受训人员的锕系螯合剂。本 I 期非随机试验在单一美国中心纳入 42 名健康成人（每剂量组 6 人），单次口服 100–7500 mg 共 7 个剂量水平，给药后随访 14 天。主要终点为不良事件、药物相关不良事件与严重不良事件的发生率与严重程度；次要终点为血浆药代动力学参数与尿、粪累积排泄。",
+   "why_it_matters_zh": "核应急医学的瓶颈不在药效而在给药方式——静脉/雾化方案在大规模暴露场景下不可扩展。口服、货架稳定、无需受训人员，是把促排治疗从医院推向现场的前提条件。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "#螯合剂",
+    "#锕系",
+    "#I期试验",
+    "#核应急"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "paper",
+     "title": "HOPO 14-1, an Oral Actinide Chelator: A Phase 1 Nonrandomized Clinical Trial",
+     "url": "https://doi.org/10.1001/jama.2026.19809",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.19809",
+     "published": "2026-11-11T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "Novel gene therapy lets drug dampen brain cell activity, reducing seizures",
+   "headline_zh": "中国团队用“化学遗传学”策略治疗三名癫痫患者以控制发作",
+   "summary_zh": "据 Science 报道，中国一个团队采用化学遗传学（chemogenetic）策略治疗了三名患者以控制癫痫，这是该策略的首次临床结果。候选材料仅给出这一概述，未披露载体、靶点、给药方案与疗效数据。",
+   "why_it_matters_zh": "化学遗传学（如 DREADD）在动物实验中用外源小分子控制神经元兴奋性已近二十年，进入人体意味着“用药物开关调控特定神经元群”从工具技术变为可临床评估的干预方式。具体数据需查原文，本简报不做推断。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "#化学遗传学",
+    "#癫痫",
+    "#首次人体",
+    "#基因治疗"
+   ],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "paper",
+     "title": "Novel gene therapy lets drug dampen brain cell activity, reducing seizures",
+     "url": "https://doi.org/10.1126/science.aeo0640",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeo0640",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    48
+   ],
+   "title_en": "Carbon dioxide and amorphous water ices in the debris disk around β Pictoris",
+   "headline_zh": "JWST 近红外光谱在 β Pictoris 碎片盘探测到非晶水冰（结晶度 <7%）与 CO₂ 冰，比例约 1:10",
+   "summary_zh": "用詹姆斯·韦布空间望远镜在近红外波段观测 β Pictoris 碎片盘。光谱显示非晶水冰（结晶度低于 7%）以及 ¹²CO₂ 与 ¹³CO₂ 两种同位素体的 CO₂ 冰特征。推断 CO₂ 冰与水冰紧密混合，比例约 1:10，意味着这些冰在低温条件下形成，很可能源自星际介质。解释观测到的冰尘颗粒均匀分布需要碎片盘内频繁碰撞。",
+   "why_it_matters_zh": "直接测定碎片盘中挥发物的冰相与同位素组成，把行星形成区域的化学条件从推断变为观测。非晶态（而非结晶）水冰是判断这些冰未经受显著热处理的直接证据。",
+   "discipline": "综合",
+   "importance": 7,
+   "tags": [
+    "#JWST",
+    "#碎片盘",
+    "#水冰",
+    "#行星形成"
+   ],
+   "records": [
+    {
+     "ref": 48,
+     "channel": "paper",
+     "title": "Carbon dioxide and amorphous water ices in the debris disk around β Pictoris",
+     "url": "https://doi.org/10.1126/science.adw7770",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adw7770",
+     "published": "2026-11-12T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[20] DeepMind 基因组图谱 AI 引发科学家关注（Nature 报道）。候选材料仅有标题，无方法与数据细节。若涉及变异效应预测或调控基因组注释，将与本期 BICAN 图谱的变异解读框架直接竞争/互补，值得追踪原文。",
+  "[21] 阿尔茨海默病早期：血脑屏障阻挡保护性蛋白（Nature 报道）。同样仅有标题。若属实，将把 AD 早期机制从“清除障碍”转向“入脑递送障碍”，对治疗策略影响大，但需核实具体蛋白与模型系统。",
+  "[44] 安第斯病毒在北巴塔哥尼亚的长期本地循环与邮轮暴发关联。与 [15] 构成同一暴发的两篇配套分析，但感染源“以现有信息无法解决”，且指示需要扩大地方性流行区病毒监测。这是具有公共卫生政策含义的未决问题。",
+  "[40] 冰冻圈已越出行星安全运行空间。提出冰冻圈安全运行空间概念并系统评估，结论为已突破。属框架性主张，影响面广但争议可能较大，建议关注后续同行评议反应。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 203,
+   "dup_in_run": 0,
+   "already_seen": 74,
+   "dropped_by_penalty": 6,
+   "dropped_by_window": 16,
+   "unique": 107,
+   "candidates": 50
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 164,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 128,
+   "unique": 36,
+   "candidates": 36
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 5,
+   "dup_in_run": 0,
+   "already_seen": 5,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 88,
+   "kept": 87,
+   "elapsed_s": 0.94,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.44,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 27,
+   "kept": 27,
+   "elapsed_s": 0.53,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 13,
+   "kept": 0,
+   "elapsed_s": 0.6,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.23,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 2.7,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 48,
+   "kept": 48,
+   "elapsed_s": 1.0,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 0.76,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 4,
+   "kept": 4,
+   "elapsed_s": 0.42,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.29,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 5,
+   "elapsed_s": 0.61,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.11,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.41,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.13,
+   "error": ""
+  }
+ ]
+}
