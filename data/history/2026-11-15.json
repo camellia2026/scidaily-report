@@ -1,0 +1,647 @@
+{
+ "date": "2026-11-15",
+ "generated_at": "2026-11-15 09:09 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选中最值得关注的是两项方法学工作：一项系统刻画了物理信息神经网络（PINN）在近不可压缩弹性问题中的「锁定」失效，并给出基于分解的稳健训练框架；另一项提出无拟合界面罚 DG-FE 方法，使离散系统条件数与界面位置无关。视觉基础模型方面，SpaRRTa 基准质疑现有模型是否真正具备空间方位感知，而非仅对特定 3D 目标过拟合。此外，一项覆盖近 10 万个样点的全球生物多样性影响元分析，对「生物同质化」这一长期预期提出了反例。医学与科学要闻通道多为新闻简讯，信息量有限，仅择要收录。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "The global human impact on biodiversity",
+   "headline_zh": "全球 36 万余组对比揭示：人类压力普遍降低局域多样性，但未造成普遍同质化",
+   "summary_zh": "汇编 2,133 篇文献、97,783 个受影响与参照样点，构建 3,667 组独立对比，覆盖所有主要生物类群、生境与五类主要人类压力。对每组对比量化三项多样性指标，分别刻画群落组成位移、空间同质化与局域多样性变化。结果显示，在陆地、淡水与海洋生态系统中，人类压力一致地改变群落组成并降低局域多样性；但与长期预期相反，并未发现清晰的普遍同质化信号。变化的方与幅度随压力类型、生物类群和研究尺度而异。",
+   "why_it_matters_zh": "把「人类活动是否让生物群落越来越像」这一争论从个案提升到可检验的全球尺度，并指出同质化并非普适规律——保护策略的基准应随压力类型与尺度分别设定，而非套用单一同质化叙事。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "元分析",
+    "生物多样性",
+    "同质化",
+    "人类压力"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "hot",
+     "title": "The global human impact on biodiversity",
+     "url": "https://doi.org/10.1038/s41586-025-08752-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-08752-2",
+     "published": "2025-03-26T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models",
+   "headline_zh": "新基准 SpaRRTa：用可控合成场景检验视觉基础模型是否真懂方位关系",
+   "summary_zh": "针对 DINO、CLIP 等视觉基础模型语义强、空间弱的问题，提出空间关系识别任务基准 SpaRRTa，要求模型判断可见物体之间的静态方位关系。与表面法线估计等精确度量型 3D 目标不同，该任务探测的是更接近人类空间理解的基础能力。基准可生成任意数量、场景多样、物体排布完全可控的逼真图像及空间标注。对多种先进 VFM 的评测显示，其编码方位关系的能力差异显著；作者进一步分析了支撑或阻碍这种空间感知的机制。",
+   "why_it_matters_zh": "为「VFM 是否具备空间感知，还是只对特定 3D 训练目标过拟合」提供了可复现的判别工具，也为具身系统选用视觉骨干时提供了一个此前缺失的评测维度。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "视觉基础模型",
+    "空间推理",
+    "基准测试",
+    "具身智能"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models",
+     "url": "https://doi.org/10.1007/s11263-026-03112-7",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03112-7",
+     "published": "2026-11-13T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "An Unfitted Interface Penalty DG-FE Method for Elliptic Interface Problems",
+   "headline_zh": "界面附近用 DG、远处用 FE：条件数与界面位置无关的无拟合界面罚方法",
+   "summary_zh": "提出 UIPDG-FEM 混合方法：界面附近用内罚间断 Galerkin 项、以 Nitsche 方法施加跳跃条件，远离界面处用标准有限元，从而保留 IPDG 简化复杂界面网格生成的灵活性，同时避免其全局自由度过多的缺陷。作者导出与界面位置无关的最优收敛阶，并建立对间断系数稳健的通量误差估计。针对小切割单元带来的条件数问题，设计二维合并算法将其完全消除，并给出将小切割阈值与最大界面曲率乘局部网格尺寸相挂钩的量化判据。数值实验验证了理论结果；论文获 SIAM 可复现性徽章。",
+   "why_it_matters_zh": "把无拟合方法的条件数从「依赖界面如何切割网格」变为「与界面位置无关」，使复杂界面问题不必再为网格质量付出代价；曲率—网格尺寸判据也为工程实现提供了可操作的阈值规则。",
+   "discipline": "数学与计算数学",
+   "importance": 5,
+   "tags": [
+    "无拟合有限元",
+    "间断 Galerkin",
+    "界面问题",
+    "条件数"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "An Unfitted Interface Penalty DG-FE Method for Elliptic Interface Problems",
+     "url": "https://doi.org/10.1137/25m1763160",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1763160",
+     "published": "2026-11-13T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "A Decomposition-Based Robust Training of Physics-Informed Neural Networks for Nearly Incompressible Linear Elasticity",
+   "headline_zh": "PINN 也会「锁定」：分解式重构使近不可压缩弹性训练不再随泊松比退化",
+   "summary_zh": "系统研究了经典有限元中众所周知的锁定现象在 PINN 中的对应表现，证明标准 PINN 在近不可压缩区间同样出现「PINN 锁定」，逼近质量与优化性能严重退化。核心贡献是一种基于分解的 PINN 形式：将弹性方程改写为平衡的子系统，得到对锁定稳健的训练框架，性能不随 Lamé 系数增大而下降。框架适用于正问题与反问题，可处理常数、变系数与参数化 Lamé 系数，并配有先验误差分析。数值实验在广泛的近不可压缩设定下，于解的精度与参数反演两方面均一致且显著优于标准 PINN；论文获 SIAM 可复现性徽章。",
+   "why_it_matters_zh": "首次把「锁定」这一数值分析概念移植到 PINN 语境并给出诊断，意味着此前用 PINN 处理橡胶类、生物软组织类近不可压缩材料时观察到的精度骤降有了明确解释与结构性修正方案，而非靠调参掩盖。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "PINN",
+    "锁定现象",
+    "近不可压缩弹性",
+    "误差分析"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "A Decomposition-Based Robust Training of Physics-Informed Neural Networks for Nearly Incompressible Linear Elasticity",
+     "url": "https://doi.org/10.1137/25m1817601",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1817601",
+     "published": "2026-11-13T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "Block-Wise Variable Conditional Diffusion for High-Fidelity Text-to-4D Generation",
+   "headline_zh": "Swin4D：分块可变条件扩散 + 全局—局部对齐，降低文本生成 4D 的显存门槛",
+   "summary_zh": "针对文本到 4D 场景生成的三个瓶颈——高维扩散模型训练显存开销过大、文本条件未解耦静态物体身份与动态运动导致语义错位、高质量配对数据稀缺——提出端到端框架 Swin4D。方法上引入分块可变条件扩散策略，训练中动态重构空间依赖以缓解显存约束并抑制过拟合；提出全局—局部对齐，用独立的 T5 与 CLIP 编码器分别解耦全局场景上下文与局部主体—动作语义，使长提示下仍保持时空一致性与细粒度语义保真。数据侧构建 RealSynth4D，混合 108k 真实采集与 72k AI 合成场景。",
+   "why_it_matters_zh": "将显存约束转化为训练时的结构重配置问题，并用双编码器分工解决「谁在动、在哪动」的语义纠缠；配套数据集同时回应了该方向长期缺乏主体—动作—环境三元对应数据的问题。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "文本到4D",
+    "扩散模型",
+    "语义对齐",
+    "合成数据集"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "paper",
+     "title": "Block-Wise Variable Conditional Diffusion for High-Fidelity Text-to-4D Generation",
+     "url": "https://doi.org/10.1007/s11263-026-03119-0",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03119-0",
+     "published": "2026-11-13T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "Urban expansion causes ecological collapse in streams in the São Paulo Metropolitan Area",
+   "headline_zh": "圣保罗都市区溪流食物网从 190 条连接塌缩至 3 条",
+   "summary_zh": "报道一项发表于 Nature Cities 的研究：巴西圣保罗都市区的城市化推进正导致当地溪流食物网崩溃。影响不止于物种数减少——退化按体型选择性地淘汰生物，并简化生态相互作用，使包含 190 条连接的网络骤降至仅 3 条。",
+   "why_it_matters_zh": "把城市化的生态后果从「物种数量」指标推进到「相互作用网络结构」，并指出体型是选择性过滤维度；这意味着仅以物种丰富度评估城市溪流健康会严重低估实际退化程度。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "城市化",
+    "食物网",
+    "溪流生态",
+    "体型选择性"
+   ],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "news",
+     "title": "Urban expansion causes ecological collapse in streams in the São Paulo Metropolitan Area",
+     "url": "https://phys.org/news/2026-11-urban-expansion-ecological-collapse-streams.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-14T22:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
+   "headline_zh": "每 8 分钟闪一次的射电暂现源，伴星酷似太阳",
+   "summary_zh": "自 2022 年起，天文学家一直在研究一类被称为长周期射电暂现源的天体，它们每隔几分钟到几小时向太空发出明亮射电爆发。部分已被追溯至由红矮星与白矮星组成的双星系统。本条报道的这一天体闪变周期为 8 分钟，其伴星特征与太阳相似。",
+   "why_it_matters_zh": "若伴星确为类太阳恒星而非红矮星，则长周期射电暂现源的双星构型范围将超出此前样本，对现有辐射机制解释构成约束。注：报道未给出该天体的正式名称与文献出处。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "射电暂现源",
+    "双星系统",
+    "白矮星"
+   ],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "news",
+     "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
+     "url": "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-14T21:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+   "headline_zh": "引力透镜预言：同一颗超新星约 70 年后还将再亮相两次",
+   "summary_zh": "借助大质量星系团的引力透镜效应与 JWST 高分辨率图像，天文学家发现了宇宙年龄 49 亿岁时爆发的一颗恒星，命名为 SN Ares。发现论文于 10 月 23 日发布在 arXiv 预印本服务器上，并给出该超新星其余畸变图像到达时间的预测：约 70 年后还将出现两次。该工作尚未经过同行评审。",
+   "why_it_matters_zh": "把强透镜的时间延迟从「事后解释」变为「事前预言」——若预测兑现，将获得同一超新星的多次独立观测，可用于检验透镜模型与超新星演化时间尺度。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "引力透镜",
+    "超新星",
+    "JWST",
+    "预印本"
+   ],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "news",
+     "title": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+     "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-14T18:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Some of the oldest rocks ever discovered shed light on Earth's early history",
+   "headline_zh": "中国北方发现 39.5 亿年岩石，提供地壳形成新线索",
+   "summary_zh": "地球年龄约 45 亿年，但保留至今的极早期岩石极为罕见。在中国北方发现了已知最古老岩石之一，年龄达 39.5 亿年。这些岩石正在揭示有关地壳如何形成与演化的新线索。",
+   "why_it_matters_zh": "每新增一处 40 亿年前后的岩石记录，都直接扩展了可用来约束早期地壳形成与演化模型的实物样本库；其价值在于样本本身的可获得性，而非某项具体结论。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "早期地壳",
+    "太古宙岩石",
+    "地球演化"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "news",
+     "title": "Some of the oldest rocks ever discovered shed light on Earth's early history",
+     "url": "https://phys.org/news/2026-11-oldest-earth-early-history.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-14T17:00:33+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    31
+   ],
+   "title_en": "World's largest freshwater lake is recovering after decades of decline",
+   "headline_zh": "贝加尔湖在数十年退化后出现恢复迹象",
+   "summary_zh": "西伯利亚贝加尔湖储存约全球 20% 的地表淡水，是体积最大的淡水湖（面积最大者为苏必利尔湖），1996 年因生物多样性价值被列为世界遗产。过去一个世纪湖泊显著退化，同时东亚干旱化范围扩张。报道称该湖目前正在恢复。",
+   "why_it_matters_zh": "作为占全球地表淡水约五分之一的单一水体，其趋势反转对区域水资源与特有生物区系意义重大；但报道未给出恢复的驱动因素与量化指标，需查原文核实。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "贝加尔湖",
+    "淡水",
+    "干旱化",
+    "世界遗产"
+   ],
+   "records": [
+    {
+     "ref": 31,
+     "channel": "news",
+     "title": "World's largest freshwater lake is recovering after decades of decline",
+     "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-14T15:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    39
+   ],
+   "title_en": "Scientists capture electrons making seemingly impossible quantum jumps",
+   "headline_zh": "石墨烯中观测到跨越禁带、概率达 100% 的电子跃迁",
+   "summary_zh": "科学家在石墨烯中捕捉到电子跨越禁戒能隙的跃迁，部分跃迁发生概率高达 100%。报道称这一结果为量子行为提供了前所未有的观测窗口，并可能推动超快光控电子学的发展。",
+   "why_it_matters_zh": "若跃迁概率确可达 100%，则意味着该过程已不是微扰意义上的「禁戒」，而可作为确定性光控开关的物理基础；对超快光电子器件的设计规则构成直接约束。注：报道未给出能隙类型与实验条件细节。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "石墨烯",
+    "量子跃迁",
+    "光控电子学"
+   ],
+   "records": [
+    {
+     "ref": 39,
+     "channel": "news",
+     "title": "Scientists capture electrons making seemingly impossible quantum jumps",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-14T01:13:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    41
+   ],
+   "title_en": "Stanford scientists discover hidden brain signals that predict Alzheimer's years before symptoms",
+   "headline_zh": "脑活动模式可在记忆症状出现前数年预测阿尔茨海默风险",
+   "summary_zh": "斯坦福研究人员发现，隐藏的脑活动模式可在记忆问题出现前数年预测阿尔茨海默风险，可能比传统生物标志物更早发出预警。同样的模式还能识别出对衰老异常抵抗的大脑。",
+   "why_it_matters_zh": "把预警时点前移到症状前期，并同时给出「抵抗衰老」的正向表型，为未来干预试验的受试者分层提供了双向筛选思路；但报道未说明信号来源模态与预测精度。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "阿尔茨海默病",
+    "早期预测",
+    "脑活动",
+    "认知衰老"
+   ],
+   "records": [
+    {
+     "ref": 41,
+     "channel": "news",
+     "title": "Stanford scientists discover hidden brain signals that predict Alzheimer’s years before symptoms",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-14T12:25:05+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    42
+   ],
+   "title_en": "A giant icy world hiding beyond Pluto could be our sixth dwarf planet",
+   "headline_zh": "冥王星之外疑似发现巨型冰质天体 2026 ED138",
+   "summary_zh": "天文学家在海王星之外、夜空最拥挤的区域之一发现了一个此前长期隐藏的潜在巨型矮行星 2026 ED138。若获确认，将扩充太阳系官方矮行星家族，并暗示海王星之外可能还有更多未知天体。",
+   "why_it_matters_zh": "该天体位于观测受背景星场严重干扰的区域，其发现本身说明现有巡天在该天区的探测盲区正在被填补；确认后将直接影响外太阳系天体族群的尺寸分布统计。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "矮行星",
+    "柯伊伯带",
+    "巡天"
+   ],
+   "records": [
+    {
+     "ref": 42,
+     "channel": "news",
+     "title": "A giant icy world hiding beyond Pluto could be our sixth dwarf planet",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-14T11:58:42+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    46
+   ],
+   "title_en": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+   "headline_zh": "46 具 5000 年前头骨中 18 具显示致命颅伤，支持殉葬假说",
+   "summary_zh": "科学家重新检查 46 具古埃及早期王陵出土的 5000 年前头骨，在 18 具上发现可能致命的头部损伤，提示所研究对象中至少 39% 可能系被故意杀害。这一结果支持已有百年历史的假说：国王去世时，王室侍从被殉葬，以便在来世继续服侍。",
+   "why_it_matters_zh": "把殉葬假说从文献推测推进到可计数的骨骼损伤证据，并给出比例估计；对早期国家权力运作与人口代价的讨论提供了实物依据。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "古埃及",
+    "殉葬",
+    "颅骨创伤",
+    "生物考古"
+   ],
+   "records": [
+    {
+     "ref": 46,
+     "channel": "news",
+     "title": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-14T02:59:05+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[2] Personalized mRNA Cancer Vaccine Reduces Melanoma Recurrence Risk（JAMA）：个体化 mRNA 癌症疫苗降低黑色素瘤复发风险，临床相关性高，但候选行仅有标题、无摘要，暂不展开，建议追踪原文的随访时长与风险比。",
+  "[3] This AI 'mechanic' can peer inside the black box of other neural networks（Nature）：神经网络可解释性工具，与 SpaRRTa 的 VFM 空间能力评测形成呼应，待补充材料后评估。",
+  "[35] A common food emulsifier could solve one of rocketry's oldest fuel problems（Phys.org）：凝胶推进剂的老问题与新思路，工程价值明确，但报道未给出乳化剂种类与比冲数据。",
+  "[32] James Webb telescope finds ice older than the star it orbits（Ars Technica Science）：星际冰继承性观测，涉及行星建材来源，值得跟进原始文献。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 190,
+   "dup_in_run": 0,
+   "already_seen": 46,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 121,
+   "unique": 23,
+   "candidates": 23
+  },
+  "hot": {
+   "fetched": 55,
+   "dup_in_run": 0,
+   "already_seen": 54,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 1,
+   "candidates": 1
+  },
+  "news": {
+   "fetched": 164,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 142,
+   "unique": 22,
+   "candidates": 22
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 5,
+   "dup_in_run": 0,
+   "already_seen": 5,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 93,
+   "kept": 90,
+   "elapsed_s": 1.06,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.2,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 27,
+   "kept": 27,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.33,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 3,
+   "kept": 0,
+   "elapsed_s": 0.55,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 2.61,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 48,
+   "kept": 48,
+   "elapsed_s": 0.98,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.53,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 0.38,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 9,
+   "kept": 9,
+   "elapsed_s": 0.52,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 2,
+   "kept": 2,
+   "elapsed_s": 0.41,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.4,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 1.19,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 5,
+   "elapsed_s": 0.82,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.17,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.08,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.44,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.24,
+   "error": ""
+  }
+ ]
+}
