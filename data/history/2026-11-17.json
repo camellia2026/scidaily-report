@@ -1,0 +1,842 @@
+{
+ "date": "2026-11-17",
+ "generated_at": "2026-11-17 12:01 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选中最值得关注的是两项量子硬件进展：光镊阵列把中性原子量子比特规模推到 6,100 个并同时刷新相干时间与成像存活率，硅光量子计算平台则给出可制造模块的完整保真度基准。AI for Science 方向出现两条互补路线——端到端自动生成论文的 The AI Scientist，以及由 AI agent 团队设计 SARS-CoV-2 纳米抗体的 Virtual Lab。医学侧由两项减重药物 III 期试验主导（替尔泊肽用于青少年、ribupatide 用于中国成人）。计算数学方向有三篇 SIAM SISC 论文，其中整数算术矩阵乘法的误差分析对混合精度硬件使用者有直接参考价值。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Towards end-to-end automation of AI research",
+   "headline_zh": "从选题到同行评审全自动：The AI Scientist 生成的论文通过顶会 workshop 首轮评审",
+   "summary_zh": "作者构建了一条覆盖完整科研生命周期的流水线：系统自行提出研究想法、编写代码、运行实验、绘图与数据分析、撰写完整稿件，并对自己的稿件做同行评审。系统基于现代基础模型搭建为复杂 agent 体系，在两种模式下评测——以人类提供的代码模板作初始脚手架的主题聚焦模式，以及无模板、依赖 agentic search 做开放式探索的模式；两种模式都能产出多样想法并自动测试、报告与评估。生成的稿件通过了某顶级机器学习会议一个 workshop 的首轮评审，该 workshop 接收率为 70%。摘要同时提示风险，包括对已不堪重负的评审系统造成压力。",
+   "why_it_matters_zh": "把「AI 做科研」的评测单位从单个环节（写代码、做实验）提升到完整稿件并通过真实评审流程，为后续讨论「AI 产出的论文如何评审、如何署名、评审系统如何承受」提供了可引用的具体案例。70% 接收率这一数字也提示：通过 workshop 首轮不等于达到顶会主会水准，读者需自行判断其能力边界。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "AI Scientist",
+    "agent",
+    "自动科研",
+    "同行评审"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "hot",
+     "title": "Towards end-to-end automation of AI research",
+     "url": "https://doi.org/10.1038/s41586-026-10265-5",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-10265-5",
+     "published": "2026-03-25T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "A tweezer array with 6,100 highly coherent atomic qubits",
+   "headline_zh": "6,100 个原子量子比特的光镊阵列，超精细相干时间 12.6 秒",
+   "summary_zh": "在约 12,000 个光镊位点中囚禁超过 6,100 个中性原子，同时在多项支撑该平台的关键指标上超过此前水平：超精细量子比特相干时间 12.6(1) 秒（光镊阵列中的纪录），室温囚禁寿命约 23 分钟，成像存活率 99.98952(1)%、成像保真度超过 99.99%。作者给出基于分区的量子计算方案，并在大空间尺度上演示保持相干性的量子比特输运与取放操作，用交错随机基准表征。",
+   "why_it_matters_zh": "此前千原子量级系统多未定义量子比特或未演示相干控制；这里把「数千量子比特 + 长相干 + 低损耗 + 高保真成像」放在同一平台上，并补上纠错所需的输运与取放操作，使光镊路线向千—万级量子比特纠错的目标推进了一步。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "光镊阵列",
+    "中性原子",
+    "相干时间",
+    "量子纠错"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "hot",
+     "title": "A tweezer array with 6,100 highly coherent atomic qubits",
+     "url": "https://doi.org/10.1038/s41586-025-09641-4",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-09641-4",
+     "published": "2025-09-24T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
+   "headline_zh": "AI agent 虚拟实验室设计出新型 SARS-CoV-2 纳米抗体",
+   "summary_zh": "候选材料仅提供标题，未给出摘要，无法说明其方法细节与实验验证程度。",
+   "why_it_matters_zh": "若按标题所述，这是把多 agent 协作用于抗体设计的案例；但具体设计流程、亲和力数据与湿实验验证情况本简报无法依据现有材料判断，建议读者直接查阅原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "AI agent",
+    "纳米抗体",
+    "蛋白质设计"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "hot",
+     "title": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
+     "url": "https://doi.org/10.1038/s41586-025-09442-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-09442-9",
+     "published": "2025-07-29T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "A manufacturable platform for photonic quantum computing",
+   "headline_zh": "可制造的硅光量子计算平台，给出全套模块保真度基准",
+   "summary_zh": "作者用单片集成的硅光模块完成光子量子比特的产生、操控、联网与探测，并报告一组基准：双轨光子量子比特态制备与测量保真度 99.98%±0.01%，独立光子源之间的 Hong–Ou–Mandel 干涉可见度 99.50%±0.25%，双量子比特 fusion 保真度 99.22%±0.12%，芯片间量子比特互连保真度 99.72%±0.04%（均以光子探测为条件、不计损耗）。文中还预告了面向损耗、光源、探测与高速开关的下一代技术，包括低损耗氮化硅波导、高效光子数分辨探测器、低损耗芯片—光纤耦合与钛酸钡电光移相器。",
+   "why_it_matters_zh": "光子量子计算长期受制于「需要超越现有工艺水平、且要百万级量产」的元件；这篇把讨论从单点演示转到可制造模块的成套指标上，并明确把损耗列为主要待解问题（上述保真度均未计入损耗），为判断该路线离实用还有多远提供了可比较的基准。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "硅光子",
+    "光子量子计算",
+    "fusion",
+    "可制造性"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "hot",
+     "title": "A manufacturable platform for photonic quantum computing",
+     "url": "https://doi.org/10.1038/s41586-025-08820-7",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-025-08820-7",
+     "published": "2025-02-26T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "BEVFormer: Learning Bird’s-Eye-View Representation From LiDAR-Camera via Spatiotemporal Transformers",
+   "headline_zh": "BEVFormer：用时空 Transformer 统一融合激光雷达与相机的 BEV 表征",
+   "summary_zh": "以预定义的网格状 BEV query 为核心，通过空间交叉注意力让每个 BEV query 从点云与相机输入中提取空间特征，从而在 BEV 空间完成多模态融合；通过时间自注意力循环融合历史 BEV 信息。nuScenes 测试集 NDS 达 74.1%，并扩展到目标跟踪、矢量化建图、占据预测与端到端自动驾驶等任务。代码已开源。",
+   "why_it_matters_zh": "把多模态融合与时序融合统一到同一组 BEV query 上，方法结构简洁，且已被后续大量自动驾驶感知工作作为基线采用；对做 BEV 感知的读者，这是一篇需要了解其融合范式与扩展边界的参考论文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "BEV",
+    "多模态融合",
+    "Transformer",
+    "nuScenes"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "hot",
+     "title": "BEVFormer: Learning Bird’s-Eye-View Representation From LiDAR-Camera via Spatiotemporal Transformers",
+     "url": "https://doi.org/10.1109/tpami.2024.3515454",
+     "journal": "IEEE TPAMI",
+     "tier": "T1",
+     "doi": "10.1109/tpami.2024.3515454",
+     "published": "2024-12-10T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Tirzepatide in Adolescents With Obesity: The SURMOUNT-ADOLESCENTS Randomized Clinical Trial",
+   "headline_zh": "替尔泊肽用于青少年肥胖：72 周 III 期随机试验",
+   "summary_zh": "III 期随机双盲 72 周试验，在加拿大、捷克、以色列、意大利、波兰和美国的 31 个中心开展，纳入 12 岁至不满 18 岁、患有肥胖或超重且至少合并 1 项肥胖相关并发症的青少年，按 2:1 随机接受每周一次皮下替尔泊肽（递增至最大耐受剂量 5/10/15 mg）或安慰剂，均叠加健康生活方式干预。主要终点为基线至第 72 周 BMI 百分比变化；关键次要终点包括 BMI 下降 ≥5%/≥10%/≥15%/≥20% 的比例、BMI SD 评分、BMI 占第 95 百分位的比例，以及体重、腰围与身体功能变化；安全性终点为治疗中出现的不良事件等。候选材料未给出结果数值。",
+   "why_it_matters_zh": "替尔泊肽已在成人肥胖中获批，但青少年数据有限；这项试验补上的正是青少年人群的疗效与安全性证据，直接关系到该药在儿科肥胖治疗中的定位。具体结果需查原文。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "替尔泊肽",
+    "青少年肥胖",
+    "GIP/GLP-1 受体激动剂",
+    "III 期试验"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "Tirzepatide in Adolescents With Obesity: The SURMOUNT-ADOLESCENTS Randomized Clinical Trial",
+     "url": "https://doi.org/10.1001/jama.2026.23420",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.23420",
+     "published": "2026-11-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "Once-Weekly Ribupatide for Weight Loss in Adults in China With Overweight or Obesity: The GEMINI-1 Randomized Clinical Trial",
+   "headline_zh": "每周一次 ribupatide 用于中国超重/肥胖成人减重：GEMINI-1 III 期试验",
+   "summary_zh": "多中心、随机、双盲、安慰剂对照 III 期试验，中国 55 个中心开展，2024 年 5–6 月入组无糖尿病的成人（BMI≥28，或 BMI≥24 且至少 1 项体重相关合并症），随机接受每周一次皮下 ribupatide（目标剂量 2/4/6 mg）或安慰剂共 48 周，剂量递增期最长 20 周，并叠加生活方式干预。567 例随机受试者中 514 例（90.7%）完成 48 周治疗；第 48 周体重最小二乘均值百分比变化在 2、4、6 mg 组分别为 −10.7%、−16.4%、−17.7%。",
+   "why_it_matters_zh": "这是在中国人群中完成的双靶点（GIP/GLP-1）减重药物 III 期试验，为国内长期体重管理的药物选择补充了本土随机证据；剂量—效应关系清晰，但摘要截断处未给出 ≥5% 减重比例等次要终点与安全性数据。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "ribupatide",
+    "GIP/GLP-1",
+    "肥胖",
+    "中国人群",
+    "III 期试验"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "Once-Weekly Ribupatide for Weight Loss in Adults in China With Overweight or Obesity: The GEMINI-1 Randomized Clinical Trial",
+     "url": "https://doi.org/10.1001/jama.2026.24796",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.24796",
+     "published": "2026-11-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Architecture of a portal complex embedded in the poxvirus core",
+   "headline_zh": "痘病毒核心内嵌入口复合体的结构",
+   "summary_zh": "候选材料仅提供标题与上线信息，无摘要，无法说明其结构解析方法与分辨率。",
+   "why_it_matters_zh": "痘病毒核心的入口复合体与其基因组释放机制相关，但本简报无法依据现有材料判断该工作具体解决了什么，建议查阅原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "痘病毒",
+    "portal 复合体",
+    "结构生物学"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Architecture of a portal complex embedded in the poxvirus core",
+     "url": "https://www.nature.com/articles/s41586-026-11399-2",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11399-2",
+     "published": "2026-11-16T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Analysis of Floating-Point Matrix Multiplication Computed via Integer Arithmetic",
+   "headline_zh": "用整数算术计算浮点矩阵乘法的误差分析",
+   "summary_zh": "针对 Ootomo、Ozaki、Yokota（2024）提出的策略——把浮点矩阵乘法的因子拆成整数切片、精确计算切片乘积、再以浮点累加近似原乘积——给出误差分析。作者提出一种低成本方法，用于估计达到给定精度所需的最少乘法次数；分析表明，当矩阵行或列缩放严重失衡时，该算法可能变得不准确或低效。在模拟环境与最新 NVIDIA GPU 上做了数值实验，验证分析并展示算法的优缺点。论文获 SIAM 可复现性徽章（代码与数据公开）。",
+   "why_it_matters_zh": "该策略正适合带整数支持的混合精度矩阵乘加单元（如 NVIDIA tensor cores、AMD matrix cores），切片数是精度与性能之间的旋钮。这篇给出了选切片数的依据和失效条件（缩放失衡），对在 GPU 上做低精度/整数化 GEMM 的实践者是可以直接使用的判据。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "混合精度",
+    "整数算术",
+    "矩阵乘法",
+    "误差分析",
+    "tensor core"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Analysis of Floating-Point Matrix Multiplication Computed via Integer Arithmetic",
+     "url": "https://doi.org/10.1137/25m1768539",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1768539",
+     "published": "2026-11-16T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Tale of Two Estimands: Distinguishing What Is Observed From What Is Inferred",
+   "headline_zh": "两种估计目标：区分「观测到的」与「推断出的」",
+   "summary_zh": "候选材料仅提供标题，无摘要，无法说明其论证内容与举例。",
+   "why_it_matters_zh": "估计目标（estimand）框架是近年临床试验设计与分析讨论的核心议题之一；但本条材料不足以判断其具体贡献，建议查阅原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "estimand",
+    "临床试验方法学"
+   ],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "Tale of Two Estimands: Distinguishing What Is Observed From What Is Inferred",
+     "url": "https://doi.org/10.1001/jama.2026.24386",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.24386",
+     "published": "2026-11-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "Once-Weekly Ribupatide for Weight Loss in Adults in China With Overweight or Obesity: Research Summary",
+   "headline_zh": "ribupatide 中国减重试验的研究摘要（配套说明）",
+   "summary_zh": "本条为 GEMINI-1 主论文的配套研究摘要，候选材料无摘要内容。",
+   "why_it_matters_zh": "面向非专业读者的配套说明，不含新数据；研究者应直接阅读主论文 [7]。",
+   "discipline": "综合",
+   "importance": 1,
+   "tags": [
+    "ribupatide",
+    "研究摘要"
+   ],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "paper",
+     "title": "Once-Weekly Ribupatide for Weight Loss in Adults in China With Overweight or Obesity: Research Summary",
+     "url": "https://doi.org/10.1001/jama.2026.24848",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.24848",
+     "published": "2026-11-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    12
+   ],
+   "title_en": "Pediatric Obesity Pharmacotherapy: From Therapeutic Scarcity to Therapeutic Choice",
+   "headline_zh": "儿童肥胖药物治疗：从「无药可选」到「多种选择」",
+   "summary_zh": "候选材料仅提供标题，无摘要。",
+   "why_it_matters_zh": "若作为观点文章，其价值在于把 [6] 等儿科减重药物试验放进「治疗选择增多后如何选、如何用」的框架中讨论；具体论点需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "儿童肥胖",
+    "药物治疗",
+    "观点"
+   ],
+   "records": [
+    {
+     "ref": 12,
+     "channel": "paper",
+     "title": "Pediatric Obesity Pharmacotherapy: From Therapeutic Scarcity to Therapeutic Choice",
+     "url": "https://doi.org/10.1001/jama.2026.22895",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.22895",
+     "published": "2026-11-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Tirzepatide in Adolescents With Obesity: Research Summary",
+   "headline_zh": "替尔泊肽青少年肥胖试验的研究摘要（配套说明）",
+   "summary_zh": "本条为 SURMOUNT-ADOLESCENTS 主论文的配套研究摘要，候选材料无摘要内容。",
+   "why_it_matters_zh": "不含新数据；研究者应直接阅读主论文 [6]。",
+   "discipline": "综合",
+   "importance": 1,
+   "tags": [
+    "替尔泊肽",
+    "研究摘要"
+   ],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Tirzepatide in Adolescents With Obesity: Research Summary",
+     "url": "https://doi.org/10.1001/jama.2026.23448",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.23448",
+     "published": "2026-11-15T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "High-Order Integral Methods for the Neumann Green’s Function: Applications to Capture and Signaling Problems in Two Dimensions",
+   "headline_zh": "二维 Neumann Green 函数的高阶积分方法及其在捕获与信号问题中的应用",
+   "summary_zh": "针对一般闭合平面曲线，方法同时求解内部与外部 Green 函数，源可位于体内或表面，共四种情形。通过分解奇异部分与正则部分精确表示 Green 函数的奇异性；对内部函数，显式施加 Neumann 边界条件下唯一解所需的积分约束。实现基于对 Green 函数正则部分的快速积分方法，可在一般区域上做快速高阶离散。在圆、椭圆等有闭式解的几何上验证精度，并用于若干开放问题：小陷阱或边界窗口应如何布置以最大化 Brownian 粒子的捕获速率。论文获 SIAM 可复现性徽章。",
+   "why_it_matters_zh": "把二维 Neumann Green 函数的高阶、快速、通用区域求解做成可用工具，并直接用于优化捕获几何；对做扩散捕获、信号传导与边界积分方法的读者有直接复用价值。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "Green 函数",
+    "边界积分",
+    "Brownian 捕获",
+    "高阶方法"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "paper",
+     "title": "High-Order Integral Methods for the Neumann Green’s Function: Applications to Capture and Signaling Problems in Two Dimensions",
+     "url": "https://doi.org/10.1137/25m1822988",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1822988",
+     "published": "2026-11-16T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "FMint-SDE: A Multimodal Foundation Model for Accelerating Numerical Simulation of SDEs via Error Correction",
+   "headline_zh": "FMint-SDE：以误差修正加速 SDE 数值模拟的多模态基础模型",
+   "summary_zh": "针对传统积分器精度—效率折中、以及现有神经网络方法通常需为每个问题单独训练模型的局限，提出基于 decoder-only Transformer、具备上下文学习能力的多模态基础模型，同时利用数值与文本模态学习通用误差修正方案。训练数据为常规求解器生成的粗解提示序列，从而跨系统泛化。在覆盖分子动力学、机械系统、金融与生物学的 SDE 基准上评测，报告了优于经典求解器的精度—效率折中。论文获 SIAM 可复现性徽章。",
+   "why_it_matters_zh": "把「基础模型 + 上下文学习」用于 SDE 求解器的通用误差修正，而不是一问题一模型，这是该方法与既有 neural solver 的关键差别；若泛化性成立，可作为一种即插即用的加速层。具体加速比与失效情形需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "SDE",
+    "基础模型",
+    "误差修正",
+    "in-context learning"
+   ],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "FMint-SDE: A Multimodal Foundation Model for Accelerating Numerical Simulation of SDEs via Error Correction",
+     "url": "https://doi.org/10.1137/25m1817170",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1817170",
+     "published": "2026-11-16T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Tigers, zebras, quantum dots: Nanoparticles assemble into patterns",
+   "headline_zh": "纳米颗粒自组装成斑纹图案",
+   "summary_zh": "报道 Cornell 工程团队研究纳米颗粒形成醒目图案的驱动机制，候选材料仅有一句引子，无方法与结果细节。",
+   "why_it_matters_zh": "材料不足，无法判断其与既有斑图形成研究的差别。",
+   "discipline": "综合",
+   "importance": 1,
+   "tags": [
+    "纳米颗粒",
+    "自组装",
+    "斑图"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "news",
+     "title": "Tigers, zebras, quantum dots: Nanoparticles assemble into patterns",
+     "url": "https://phys.org/news/2026-11-tigers-zebras-quantum-dots-nanoparticles.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-17T00:20:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Capping nanovials that trap cells and their secretions for analysis enables new bioscience experiments",
+   "headline_zh": "给捕获细胞及其分泌物的 nanovial 加盖，拓展单细胞分析实验",
+   "summary_zh": "报道 UCLA 开发的细胞尺度「试管」技术的新进展，候选材料仅说明该技术此前已用于癌症、心脏病及细胞释放蛋白的遗传调控机制等发现，未给出加盖设计的具体做法与数据。",
+   "why_it_matters_zh": "单细胞分泌组分析的关键限制在于捕获后分泌物扩散丢失；「加盖」若确实解决这一点，会扩展可做的实验类型，但本条材料不足以评估。",
+   "discipline": "综合",
+   "importance": 1,
+   "tags": [
+    "单细胞分析",
+    "nanovial",
+    "分泌组"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "news",
+     "title": "Capping nanovials that trap cells and their secretions for analysis enables new bioscience experiments",
+     "url": "https://phys.org/news/2026-11-capping-nanovials-cells-secretions-analysis.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-17T00:00:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "Ultracold diamond microwave laser amplifies quantum signals 1,000-fold",
+   "headline_zh": "超冷金刚石微波激光器把量子信号放大逾千倍",
+   "summary_zh": "OIST 团队做出近绝对零度工作的自旋基微波放大器，信号放大超过 1,000 倍，附加噪声接近物理定律允许的下限。报道称相较现有最先进器件，该器件能承受更强信号并可在磁场中工作。",
+   "why_it_matters_zh": "量子计算读出与高分辨率传感都受限于放大器噪声与动态范围；能在磁场中工作且动态范围更大，意味着它可能用于现有器件难以覆盖的场景。具体噪声温度与带宽需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "微波放大器",
+    "自旋",
+    "金刚石",
+    "量子读出"
+   ],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "news",
+     "title": "Ultracold diamond microwave laser amplifies quantum signals 1,000-fold",
+     "url": "https://phys.org/news/2026-11-ultracold-diamond-microwave-laser-amplifies.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-16T22:40:10+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "Can AI replace college advisers? Research says not yet",
+   "headline_zh": "AI 能否替代高校学业顾问：研究认为尚不能",
+   "summary_zh": "报道 Princeton Engineering 的研究，指出帮助学生需要超出算法的判断与专业经验；候选材料未给出研究设计与数据。",
+   "why_it_matters_zh": "对把 AI 用于高风险个体决策（如学业预警与指导）的实践者是提醒，但本条材料过简，无法评估其证据强度。",
+   "discipline": "综合",
+   "importance": 1,
+   "tags": [
+    "AI 应用",
+    "教育",
+    "学业指导"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "news",
+     "title": "Can AI replace college advisers? Research says not yet",
+     "url": "https://phys.org/news/2026-11-ai-college.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-16T22:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "Measurements reveal link between quantum spin and sound-carrying vibrations in an ultrathin semiconductor",
+   "headline_zh": "在超薄半导体中测得量子自旋与载声振动的关联",
+   "summary_zh": "UCLA 与 Auburn 团队首次测量承载热与声波的原子振动，并将其与自旋这一量子属性联系起来；候选材料未给出材料体系、测量手段与定量结果。",
+   "why_it_matters_zh": "自旋—声子耦合的定量测量是自旋声子学与热管理交叉领域的基础数据，但本条材料不足以判断其具体贡献。",
+   "discipline": "综合",
+   "importance": 1,
+   "tags": [
+    "自旋",
+    "声子",
+    "超薄半导体"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "news",
+     "title": "Measurements reveal link between quantum spin and sound-carrying vibrations in an ultrathin semiconductor",
+     "url": "https://phys.org/news/2026-11-reveal-link-quantum-vibrations-ultrathin.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-16T21:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Flip side: Upside-down atomic layers could steer heat in stacked computer chips",
+   "headline_zh": "翻转原子层可引导堆叠芯片中的热量",
+   "summary_zh": "日本研究团队发现，把原子级薄层翻转过来即可帮助把热量导向所需方向，针对的是三维堆叠芯片的散热问题；候选材料未给出材料体系与定量导热数据。",
+   "why_it_matters_zh": "三维堆叠是延续芯片性能提升的主要路径之一，热管理是其瓶颈；「翻转即改变热输运方向」若成立，是一种不增加额外结构的被动散热设计自由度，但需原文数据支撑。",
+   "discipline": "综合",
+   "importance": 1,
+   "tags": [
+    "热输运",
+    "二维材料",
+    "三维堆叠"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "news",
+     "title": "Flip side: Upside-down atomic layers could steer heat in stacked computer chips",
+     "url": "https://phys.org/news/2026-11-flip-side-upside-atomic-layers.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-17T00:40:01+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[32] Quanta 报道：一项长达二十年的星系巡天发布最终结果，与主流宇宙学理论不完全吻合。若该张力成立，将影响暗物质/暗能量组分的约束；目前仅有媒体报道，需等论文与宇宙学界的独立复核。",
+  "[52] ScienceDaily 报道：检查 244 个多金属结核，在其中发现 4,100 多只动物及与周围海底泥不同的独特群落。这与深海采矿的环境评估直接相关，值得跟踪其分类学与连通性数据。",
+  "[50] ScienceDaily 报道：Hera 探测器在抵达 Didymos 前揭示其布满撞击坑的一面，用于评估 2022 年 DART 撞击后果；行星防御的后续观测值得持续关注。",
+  "[9][15] SIAM SISC 两篇可复现徽章论文——整数算术 GEMM 的误差判据与 SDE 基础模型误差修正，均附公开代码，适合直接复现验证后再决定是否纳入工作流。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 111,
+   "dup_in_run": 0,
+   "already_seen": 47,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 54,
+   "unique": 10,
+   "candidates": 10
+  },
+  "hot": {
+   "fetched": 55,
+   "dup_in_run": 0,
+   "already_seen": 50,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 5,
+   "candidates": 5
+  },
+  "news": {
+   "fetched": 166,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 129,
+   "unique": 37,
+   "candidates": 37
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 4,
+   "dup_in_run": 0,
+   "already_seen": 4,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 13,
+   "kept": 13,
+   "elapsed_s": 0.52,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.12,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.58,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 27,
+   "kept": 27,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.1,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.37,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.32,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.37,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.94,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 0.28,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 3,
+   "kept": 3,
+   "elapsed_s": 0.17,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 3,
+   "kept": 3,
+   "elapsed_s": 0.51,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.58,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 59,
+   "elapsed_s": 0.88,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 4,
+   "elapsed_s": 0.45,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.07,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.23,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.26,
+   "error": ""
+  }
+ ]
+}
