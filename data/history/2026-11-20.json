@@ -1,0 +1,794 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20 10:27 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日顶刊条目以量子技术、结构生物学与材料化学为主轴：超导处理器上用测量上下文性给出有界资源任务的量子—经典分离，并首次把上下文性算法做成处理器基准；RXFP1 受体的三套冷冻电镜结构揭示蛋白类与小分子激动剂走的是不同激活路径。材料侧，本征介孔—微孔沸石、纳米金刚石诱导弹性场重构的钙钛矿电池、分子黏附层大面积组件三条工作分别从扩散限制、晶格软性与界面可靠性切入。生命科学方面，DNA Typewriter 首次给出覆盖小鼠胚胎近两周发育、以受精卵为根的单细胞谱系树。要闻通道多为单点进展，值得关注的是 AI 天气模型在真实飓风个例上的表现与 LLM 气候信息可靠性。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Quantum-classical separation in bounded-resource tasks arising from measurement contextuality",
+   "headline_zh": "用超导量子处理器把“测量上下文性”变成可跑分的量子基准",
+   "summary_zh": "研究在超导量子比特处理器上实现无通信多玩家协同决策任务，用魔方游戏展示量子上下文性，并通过 Bell–Kochen–Specker 不等式违背对其定量。为考察多体上下文性，作者实现 N 玩家 GHZ 游戏，并另行求解二维隐藏线性函数问题，两项任务在保真度与系统规模上均较此前推进。作者据此提出以上下文性算法作为量子处理器的基准测试手段。",
+   "why_it_matters_zh": "把“上下文性”从基础检验对象转为可量化的处理器性能指标，为比较不同量子平台提供了一个不依赖特定硬件架构的任务级标尺。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "量子上下文性",
+    "超导量子比特",
+    "基准测试",
+    "GHZ 游戏"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Quantum-classical separation in bounded-resource tasks arising from measurement contextuality",
+     "url": "https://doi.org/10.1126/science.aec3042",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aec3042",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Divergent activation of the RXFP1 relaxin receptor by protein and small-molecule agonists",
+   "headline_zh": "RXFP1 的蛋白激动剂与小分子激动剂走两条不同的激活路线",
+   "summary_zh": "作者解析了 RXFP1 的三套冷冻电镜结构：无配体状态、结合天然激动剂 relaxin-2、结合小分子候选药 AZD5462。结构显示 relaxin-2 作用于胞外域，AZD5462 则结合跨膜域；结合氢氘交换质谱，relaxin-2 诱导连接区重组为螺旋二级结构，AZD5462 则通过另一组构象重排稳定活性态。",
+   "why_it_matters_zh": "两类激动剂目前均处于中期临床试验，该结果说明它们并非简单“同靶同效”，提示药效与安全性差异可能源于激活机制本身，对后续化合物设计与联用策略有直接参考价值。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "RXFP1",
+    "冷冻电镜",
+    "氢氘交换质谱",
+    "偏向性激活"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Divergent activation of the RXFP1 relaxin receptor by protein and small-molecule agonists",
+     "url": "https://doi.org/10.1126/science.aei0135",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aei0135",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Angular momentum transfer from an optical vortex to an atomic rotor",
+   "headline_zh": "涡旋光把轨道角动量相干地交给囚禁离子转子",
+   "summary_zh": "利用 ⁴⁰Ca⁺ 电四极跃迁的转动边带，作者观测到光轨道角动量向量子化转动的相干转移，并识别出不同转动边带对应的不同选择定则。结果给出光—物质相互作用中角动量转移路径存在尺度相关分离的实验证据，并为此前囚禁离子实验中报道的“被修改的选择定则”提供统一解释框架。",
+   "why_it_matters_zh": "把长期停留在讨论层面的 OAM 作用落到可分辨的量子化转动能级上，为扭曲光与物质相互作用的定量建模提供了基准实验。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "轨道角动量",
+    "囚禁离子",
+    "转动边带",
+    "选择定则"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Angular momentum transfer from an optical vortex to an atomic rotor",
+     "url": "https://doi.org/10.1126/science.aeh0182",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh0182",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Quiet within, chaos without: Turbulence shelters drive selective particle capture and release",
+   "headline_zh": "“湍流庇护所”：单孔空壳借环境涡流做选择性颗粒捕获",
+   "summary_zh": "作者提出“湍流庇护所”——带单一开口的空心壳，按尺度过滤涡旋，在平均流体通量为零的条件下维持脉动强度梯度，从而驱动定向颗粒输运。跨三个数量级的尺寸范围内，壳内外形成颗粒浓度反差，选择性由颗粒几何、惯性、热涨落与静电力调控；在微尺度上可区分相差数十纳米、与材料组成无关的颗粒。",
+   "why_it_matters_zh": "给出了一条不靠膜材料、而靠几何结构“隔断湍流脉动”实现选择性过滤的设计原理，对微尺度分离与颗粒操控有直接可迁移性。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "湍流",
+    "颗粒输运",
+    "选择性过滤",
+    "几何设计"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Quiet within, chaos without: Turbulence shelters drive selective particle capture and release",
+     "url": "https://doi.org/10.1126/science.aee9889",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aee9889",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    5
+   ],
+   "title_en": "A neural code for generative speech production in human Wernicke’s area",
+   "headline_zh": "Wernicke 区内一个离散亚区编码“即将说出的整个词”",
+   "summary_zh": "结合人脑直接记录、皮层电刺激与病灶分析，作者发现左侧颞上回后部（lpSTG）在发声前即激活，对言语产生具因果必要性，且编码的是完整即将说出词的特性，而非低层声学或构音信息。该活动与邻近的听觉反馈反应可区分，并可在瘫痪患者中解码其意图言语。",
+   "why_it_matters_zh": "直接回应“Wernicke 区损伤为何也破坏言语产生”这一经典悖论，把该区从纯感知中枢改写为含专门生成子区的结构，对言语脑机接口的电极定位与解码目标有实际意义。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "Wernicke 区",
+    "言语产生",
+    "颅内记录",
+    "语音解码"
+   ],
+   "records": [
+    {
+     "ref": 5,
+     "channel": "paper",
+     "title": "A neural code for generative speech production in human Wernicke’s area",
+     "url": "https://doi.org/10.1126/science.aef8963",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aef8963",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    7
+   ],
+   "title_en": "The fate of poised pre-mRNAs shapes mitochondrial activity and cellular differentiation",
+   "headline_zh": "核内“待命”pre-mRNA 的去向决定线粒体活性",
+   "summary_zh": "作者描述了一类含内含子的多腺苷酸化 RNA（PIA-RNA）在染色质上的质量控制：其命运取决于结合 NCBP3 还是 anillin——前者对应剪接待定的未成熟 mRNA，后者导向核 RNA 外切体降解。许多受二者反向调控的 PIA-RNA 编码线粒体因子；小鼠中敲低 NCBP3、或人类外切体致病突变，均导致线粒体活性下降、肌无力、小脑髓鞘化不足与运动协调减退。",
+   "why_it_matters_zh": "把“pre-mRNA 是等待剪接还是被降解”这一分支点确立为线粒体功能的调控枢纽，并为外切体突变相关神经疾病提供了一条可解释的机制链。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "pre-mRNA 质量控制",
+    "核 RNA 外切体",
+    "NCBP3",
+    "线粒体"
+   ],
+   "records": [
+    {
+     "ref": 7,
+     "channel": "paper",
+     "title": "The fate of poised pre-mRNAs shapes mitochondrial activity and cellular differentiation",
+     "url": "https://doi.org/10.1126/science.aee8018",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aee8018",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Balancing redox-mediated cytotoxicity and catalysis in natural product biosynthesis",
+   "headline_zh": "微生物如何一边造毒药一边不被自己毒死",
+   "summary_zh": "以抗肿瘤抗生素多柔比星为模型，作者发现邻位氧螯合（VOC）折叠蛋白 DnrV 既能阻止活性氧生成、避免底物降解，又促进 P450 催化，从而在同一体系中协调自我保护、防止底物破坏与后修饰生物合成三件事。作者将这一范式扩展到细菌、真菌与植物中广泛存在的 VOC 折叠蛋白家族，命名为 REACT。",
+   "why_it_matters_zh": "为氧化还原活性天然产物的产量瓶颈提供了明确的蛋白靶点——这类化合物（如多柔比星）的异源生产长期受自毒性与中间体降解困扰。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "多柔比星",
+    "VOC 折叠",
+    "自我耐受",
+    "P450"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Balancing redox-mediated cytotoxicity and catalysis in natural product biosynthesis",
+     "url": "https://doi.org/10.1126/science.aee2641",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aee2641",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Zero-shot de novo design of a metalloenzyme",
+   "headline_zh": "不预设 motif、不用天然模板的零样本金属酶设计",
+   "summary_zh": "作者提出多目标蛋白设计方法 dEVA（基于演化生物学原理的演化算法），用于优化催化金属的配位球，实现零样本 de novo 金属酶设计。所获双锌金属酶对磷酸单酯与磷酸二酯均表现出水解活性，速率提升（(k_cat/K_M)/k_w）最高达 3×10¹³，与已表征的天然磷酸酶相当；X 射线晶体学与吸收谱支持所设计活性位点的成立。",
+   "why_it_matters_zh": "证明 de novo 酶设计可以摆脱“先验 motif + 天然支架”的依赖，把设计空间从模仿天然酶扩展到按配位化学原理直接构造。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "de novo 设计",
+    "金属酶",
+    "多目标优化",
+    "磷酸酶"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Zero-shot de novo design of a metalloenzyme",
+     "url": "https://doi.org/10.1126/science.aej3009",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aej3009",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    11
+   ],
+   "title_en": "A thalamo-amygdalar circuit drives female vulnerability to chronic pain after early-life stress",
+   "headline_zh": "丘脑—杏仁核通路的突触增益状态解释雌性特有的应激后慢性痛",
+   "summary_zh": "在小鼠中，社会隔离与神经损伤相互作用，仅在雌性中放大丘脑室旁核→中央杏仁核通路的活性依赖突触增益与预期性招募，增强成年后的机械超敏与回避行为。化学遗传学抑制该通路可在应激与损伤共存时选择性逆转这些行为；持续激活与相位激活分别触发机械超敏与回避。",
+   "why_it_matters_zh": "识别出一个被后续损伤“揭开”的潜伏突触增益状态，为童年逆境相关慢性疼痛的性别差异提供了可干预的回路靶点，也解释了为何此类共病在女性中更常见。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "早期生活应激",
+    "慢性疼痛",
+    "性别差异",
+    "丘脑—杏仁核"
+   ],
+   "records": [
+    {
+     "ref": 11,
+     "channel": "paper",
+     "title": "A thalamo-amygdalar circuit drives female vulnerability to chronic pain after early-life stress",
+     "url": "https://doi.org/10.1126/science.adx5757",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.adx5757",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    27
+   ],
+   "title_en": "Meso–microporous zeolitic materials with thin walls containing ordered 10-ring channels",
+   "headline_zh": "两原子厚壁、含有序 10 元环孔道的本征介孔—微孔沸石",
+   "summary_zh": "作者报道 NJU120-5 与 NJU120-7 两种本征介孔—微孔铝硅酸盐，将微孔与由两原子厚壁围成的介孔整合为全连通三维孔网络。基于先进电子叠层成像建立骨架模型，显示焙烧后 NJU120-5 具有宽约 12 Å、长 41–162 Å 的准矩形介孔。两种材料兼具高孔隙率与强 Brønsted 酸性，在重油裂化中给出高价值燃料收率并抑制结焦。",
+   "why_it_matters_zh": "直接针对沸石“选择性好但扩散慢”的固有矛盾，在保持 10 元环择形性的同时引入介孔通道，为重油等大分子转化提供了不牺牲选择性的扩散路径。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "沸石",
+    "介孔",
+    "电子叠层成像",
+    "重油裂化"
+   ],
+   "records": [
+    {
+     "ref": 27,
+     "channel": "paper",
+     "title": "Meso–microporous zeolitic materials with thin walls containing ordered 10-ring channels",
+     "url": "https://doi.org/10.1126/science.aei6161",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aei6161",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "A DNA Typewriter records the cell lineage history of a mouse, from zygote to late organogenesis",
+   "headline_zh": "DNA Typewriter 记录小鼠从受精卵到器官发生晚期的谱系史",
+   "summary_zh": "作者用顺序分子记录器 DNA Typewriter 记录小鼠近两周发育的细胞谱系，从单个胚胎重建出以受精卵为根、经时间校准且受简约性支持的系统树，覆盖 128 万个带转录组谱的细胞。第一次卵裂的子代由一次编辑爆发明确标记，可作为内联重复；作者量化了原肠运动期间出现的克隆优势，发现树内同胞细胞的类型共享远高于随机，异型同胞标记终末分化，并通过演化支共现的时间扫描恢复细胞类型耦合的有序层级。",
+   "why_it_matters_zh": "把哺乳动物发育的谱系信息与转录组状态在同一棵树上对齐，使“某类细胞何时从哪个祖先出现”成为可计算问题，这是此前缺乏记录手段而长期无法触及的。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "谱系追踪",
+    "DNA 记录器",
+    "单细胞转录组",
+    "原肠运动"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "paper",
+     "title": "A DNA Typewriter records the cell lineage history of a mouse, from zygote to late organogenesis",
+     "url": "https://doi.org/10.1126/science.ael0508",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.ael0508",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "Elastic-field reorganization stabilizes soft-lattice perovskites for durable solar cells",
+   "headline_zh": "纳米金刚石重构弹性场，稳住软晶格钙钛矿",
+   "summary_zh": "作者将刚性纳米金刚石引入软晶格卤化物钙钛矿，实现体相到晶界的载荷传递，使内部弹性场在晶界处被再分配与耗散而非在晶内累积；抑制晶间滑移从而约束晶格形变、减少运行中的缺陷生成。0.09 cm² 器件获认证效率 27.6%，16.1 cm² 迷你组件达 24.3%；器件在 85°C、最大功率点运行 5000 小时后保持初始效率的 80%，在昼夜光强循环 5000 小时后保持 98%。",
+   "why_it_matters_zh": "把钙钛矿“性能好但晶格软”这一内在矛盾当作力学问题处理，用弹性场工程而非成分工程换取稳定性，且效率与稳定性在同一器件上同时达标。",
+   "discipline": "综合",
+   "importance": 9,
+   "tags": [
+    "钙钛矿",
+    "弹性场",
+    "纳米金刚石",
+    "组件稳定性"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "paper",
+     "title": "Elastic-field reorganization stabilizes soft-lattice perovskites for durable solar cells",
+     "url": "https://doi.org/10.1126/science.aeh3114",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeh3114",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    39
+   ],
+   "title_en": "Molecular adhesion for durable metal halide perovskite modules",
+   "headline_zh": "双位点芳香配体强化埋底界面，900 cm² 组件效率 22.7%",
+   "summary_zh": "作者设计含芳香双位点结合配体的分子界面层，通过配体与空穴选择层间的分子间相互作用及强化学键强化埋底界面，提升钙钛矿黏附并释放界面应变，使器件对热机械应力更具耐受性。900 cm² 子组件（孔径面积 655 cm²）效率 22.7%，7200 cm² 标准组件（孔径面积 6380 cm²）效率 21.3%；冠军 7200 cm² 组件经 PACT 中心独立测量，在 105 天户外测试中性能保持稳定。",
+   "why_it_matters_zh": "把钙钛矿的可靠性问题定位到界面黏附这一具体失效模式，并在接近产业化尺寸上给出第三方独立验证的户外数据。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "钙钛矿组件",
+    "界面黏附",
+    "配体设计",
+    "户外验证"
+   ],
+   "records": [
+    {
+     "ref": 39,
+     "channel": "paper",
+     "title": "Molecular adhesion for durable metal halide perovskite modules",
+     "url": "https://doi.org/10.1126/science.aej5001",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aej5001",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    29
+   ],
+   "title_en": "Telemetric calorimetry for wireless continuous reaction profiling",
+   "headline_zh": "把量热传感器放进反应釜：光供电无线微器件做连续反应监测",
+   "summary_zh": "作者提出“反应遥测”策略：由光供电、以光通信的微型电子器件作为自主传感单元，直接置于运行中的反应容器内，无需专用仪器、定制反应器或侵入式取样。在制药与精细化工相关的多类反应（含光化学与电化学体系）中实现连续量热测量，可在原生操作条件下以亚秒时间分辨率获取反应动力学。",
+   "why_it_matters_zh": "把分析功能嵌入反应容器本身，使光化学、电化学等难以在线取样的体系也能获得动力学数据，对催化剂评价与安全评估是直接可用的工具。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "反应遥测",
+    "量热",
+    "无线传感",
+    "光化学"
+   ],
+   "records": [
+    {
+     "ref": 29,
+     "channel": "paper",
+     "title": "Telemetric calorimetry for wireless continuous reaction profiling",
+     "url": "https://doi.org/10.1126/science.aei7840",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aei7840",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    34
+   ],
+   "title_en": "Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles",
+   "headline_zh": "以季碳为临时枢纽的碳正离子级联重排，构建桥环多环骨架",
+   "summary_zh": "作者提出季碳引导的碳正离子级联重排平台：经过渡金属催化烯丙基化引入的对映富集季碳中心，在酸触发阳离子级联重排中充当临时结构枢纽，一步形成多个键与手性中心。与预先嵌入的季碳中心结合，可得到含多个立体中心、高对映选择性的双环与桥环多环骨架。",
+   "why_it_matters_zh": "碳正离子级联环化长期局限于稠环体系，跨环环化的能垒使其难以扩展到桥环；该工作用可移除的季碳枢纽绕开了这一限制，扩展了教科书反应的适用骨架范围。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "碳正离子",
+    "级联重排",
+    "桥环",
+    "对映选择性"
+   ],
+   "records": [
+    {
+     "ref": 34,
+     "channel": "paper",
+     "title": "Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles",
+     "url": "https://doi.org/10.1126/science.aei2041",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aei2041",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "Atmospheric organic nitrogen is a major nutrient source to global oceans",
+   "headline_zh": "大气有机氮占全球海洋氮沉降的 27%，在贫氮海区可达约一半",
+   "summary_zh": "作者在 21 个航次、跨多个海盆与南北半球高纬度的海洋气溶胶样品中测定有机氮，据此约束并评估一个更新了有机氮源汇的大气化学模型，实现全球有机氮沉降制图。模型估计年沉降 12.8（4.0–22.7）Tg N/yr，占总氮沉降的 27%（11–40%）；海洋排放贡献 3.9 Tg N/yr（30%），陆源贡献 8.9 Tg N/yr（70%）。在中大西洋与印尼海等氮限制海区，有机氮约占总氮沉降的 50%。",
+   "why_it_matters_zh": "把此前量化不足的有机氮组分纳入全球沉降收支，改变了氮限制海区营养输入的构成判断，对海洋生产力模型是结构性修正而非增量补充。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "有机氮",
+    "大气沉降",
+    "氮限制",
+    "全球模型"
+   ],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "paper",
+     "title": "Atmospheric organic nitrogen is a major nutrient source to global oceans",
+     "url": "https://doi.org/10.1126/science.aeg4265",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeg4265",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Widespread marine mammal and seabird reductions are unlikely to benefit salmon due to indirect ecosystem effects",
+   "headline_zh": "端到端模型：大规模猎杀海兽海鸟难救鲑鱼",
+   "summary_zh": "作者用端到端生态系统模型评估海洋环境中大范围扑杀鳍足类与海鸟的效果，发现由于食物网间接效应与顶级捕食者类群生物量本身较低，扑杀不太可能使鲑鱼受益；对海洋鲑鱼影响更大的是更丰富的鱼类捕食者、北扩的竞争者以及对温度敏感的饵料生物。",
+   "why_it_matters_zh": "为正在推进的扑杀政策辩论提供了首个全生态系统层面的定量评估，指出把鲑鱼衰退归因于海兽捕食可能指向错误的干预点。",
+   "discipline": "综合",
+   "importance": 8,
+   "tags": [
+    "鲑鱼恢复",
+    "扑杀政策",
+    "食物网模型",
+    "间接效应"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "paper",
+     "title": "Widespread marine mammal and seabird reductions are unlikely to benefit salmon due to indirect ecosystem effects",
+     "url": "https://doi.org/10.1126/science.aeb1122",
+     "journal": "Science",
+     "tier": "T0",
+     "doi": "10.1126/science.aeb1122",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    59
+   ],
+   "title_en": "Putting Google's AI hurricane model to the test",
+   "headline_zh": "Google DeepMind 的 AI 飓风模型在 Melissa 个例中同时报对路径与五级强度",
+   "summary_zh": "据该报道，去年秋天飓风 Melissa 登陆牙买加前一周，各家预报模式对路径与强度意见不一，而 Google DeepMind 的 AI 模型同时报对了路径和 Category 5 强度。这是单个个例的对比，报道未给出系统性评分。",
+   "why_it_matters_zh": "AI 气象模型此前多在回顾性指标上被评估，真实个例中的“敢不敢报极端强度”是业务化采纳的关键门槛；但单例成功不能替代批量检验，读者应把它当作待验证信号。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "AI 天气预报",
+    "飓风",
+    "个例评估"
+   ],
+   "records": [
+    {
+     "ref": 59,
+     "channel": "news",
+     "title": "Putting Google's AI hurricane model to the test",
+     "url": "https://phys.org/news/2026-11-google-ai-hurricane.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-20T00:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    81
+   ],
+   "title_en": "\"You’re right\"—LLMs will get climate info wrong if you ask",
+   "headline_zh": "LLM 的气候信息可靠性：问法一变，答案就错",
+   "summary_zh": "该报道称，不同大模型在气候信息上表现有差异，但失败方式相似；标题提示模型容易顺着提问者的预设给出附和性回答。原文未在摘要中给出具体模型清单与评测规模。",
+   "why_it_matters_zh": "气候信息的公众传播正快速转向对话式接口，附和性偏差会系统性放大既有误解，这对科研人员参与科普与模型评测设计都是直接问题。",
+   "discipline": "综合",
+   "importance": 6,
+   "tags": [
+    "大语言模型",
+    "气候信息",
+    "附和性偏差"
+   ],
+   "records": [
+    {
+     "ref": 81,
+     "channel": "news",
+     "title": "\"You’re right\"—LLMs will get climate info wrong if you ask",
+     "url": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
+     "journal": "Ars Technica Science",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-19T18:44:39+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[6] 与 [30] 同属一个主题：两套基因组编辑方法生成产前小鼠发育的细胞谱系图谱。建议把 [6] 作为 [30] 的配套评述一并阅读，以判断该技术路线的整体成熟度。",
+  "[13] 量子定位/位置证明方向，仅有标题，无摘要可核，暂不展开，待原文上线后评估。",
+  "[51] 奇异金属线性电阻率是否源于量子统计而非碰撞，属长期争议问题；该报道为二手转述，需回到原始论文核对模型假设。",
+  "[85] 样本为英国市售素食/纯素产品，结论涉及暴露量与实际健康风险，摘要未给出浓度数据，暂不宜作为风险判断依据。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 192,
+   "dup_in_run": 0,
+   "already_seen": 76,
+   "dropped_by_penalty": 3,
+   "dropped_by_window": 44,
+   "unique": 69,
+   "candidates": 50
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 158,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 120,
+   "unique": 38,
+   "candidates": 38
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 5,
+   "dup_in_run": 0,
+   "already_seen": 5,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 81,
+   "kept": 79,
+   "elapsed_s": 0.76,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.1,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.4,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 31,
+   "kept": 31,
+   "elapsed_s": 0.36,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 7,
+   "kept": 0,
+   "elapsed_s": 0.51,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.27,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 2.38,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 38,
+   "kept": 38,
+   "elapsed_s": 0.15,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 0.22,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 4,
+   "kept": 4,
+   "elapsed_s": 0.1,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 1,
+   "kept": 1,
+   "elapsed_s": 0.32,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.1,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 1.0,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 5,
+   "elapsed_s": 0.54,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.09,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.05,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.25,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.17,
+   "error": ""
+  }
+ ]
+}
