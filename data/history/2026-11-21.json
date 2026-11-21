@@ -1,0 +1,714 @@
+{
+ "date": "2026-11-21",
+ "generated_at": "2026-11-21 10:35 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选以医学与生命科学为主，另有计算数学、计算机视觉与若干科学新闻。最值得关注的是结核病二期随机试验：在标准方案之外并行筛选12个16周新方案，以痰培养阳性时间对数斜率作为贝叶斯主要终点，锁定BPMG与BDMT两个进入后续评估的组合，为缩短疗程提供了可操作的候选。JAMA的两项研究分别给出儿童青少年医学影像累积脑剂量与脑肿瘤风险的剂量反应，以及血浆eMTBR-tau与CTE tau缠结病理的关联，均属人群/生物标志物层面的证据积累。计算方法学方面，SIAM Journal on Scientific Computing集中出现三篇关于结构保持特征求解、Darcy–Forchheimer并行多重网格与Jacobian保持非线性预条件的工作。科学新闻中，欧洲XFEL将X射线激光波长推进到约0.04纳米、Deep Venture全海深AUV、以及行星尺度微生物-病毒关联工具值得留意；Anthropic研究员宣称用Claude证明黎曼猜想一条仅有宣称、无方法细节，仅作观察。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Assessing Multiple Treatment Regimens for Tuberculosis",
+   "headline_zh": "结核病12个新方案同台筛选：两个16周组合进入下一轮",
+   "summary_zh": "二期随机对照试验，入组利福平敏感肺结核患者，对照为24周标准四药HRZE，试验组含16周bedaquiline–delamanid–moxifloxacin及10个含ganfeborole、BTZ-043或两者的16周四药组合。主要终点为基线至第12周痰培养阳性时间log10斜率，用贝叶斯后验概率判断优效性，结果用于筛选而非确证疗效。401例随机化，改良意向性治疗371例。BPMG斜率0.129 log10(days)/周（95%可信区间0.112–0.146），BDMT为0.142（0.126–0.160），HRZE为0.118（0.105–0.131）。",
+   "why_it_matters_zh": "把12个候选方案放进同一试验并行比较，而不是逐个做二期，显著压缩了缩短疗程方案的筛选周期；同时以TTP斜率这一早期杀菌替代指标做贝叶斯筛选，为后续三期试验锁定两个明确候选。对结核病治疗领域而言，这意味着16周方案的可行性检验从零散尝试转为系统化筛选。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "结核病",
+    "随机对照试验",
+    "贝叶斯",
+    "缩短疗程",
+    "二期试验"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Assessing Multiple Treatment Regimens for Tuberculosis",
+     "url": "https://doi.org/10.1056/nejmoa2611913",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmoa2611913",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Medical Imaging and Pediatric and Adolescent Brain Tumor Risk",
+   "headline_zh": "370万儿童队列：医学影像脑剂量与脑肿瘤风险呈剂量反应",
+   "summary_zh": "回顾性队列纳入1996–2016年出生、来自美国6个医疗系统与加拿大安大略省的儿童，随访至2017年底（美国）与2024年底（安大略），暴露为滞后2年的医学影像所致脑累积辐射剂量。共3,704,860名儿童、45,671,641人年（平均随访12.3年），诊断1536例脑肿瘤；一次头部CT平均剂量66.2 mGy。相对无暴露，累积剂量>0–<1 mGy的HR为1.12（95%CI 1.01–1.26），5–<50 mGy为1.86（1.16–2.81），50–<75 mGy为2.30（1.64–3.12），75–<100 mGy为2.02；连续剂量用线性模型估计超额相对风险。",
+   "why_it_matters_zh": "这是迄今规模最大的儿童医学影像辐射与脑肿瘤风险队列之一，给出了从低剂量段即开始上升的剂量反应曲线，直接关系到儿科CT的正当性判断与低剂量协议推广；对临床决策而言，它把“是否有风险”推进到“风险随剂量如何变化”的定量层面。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "儿童",
+    "CT",
+    "辐射剂量",
+    "脑肿瘤",
+    "队列研究"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Medical Imaging and Pediatric and Adolescent Brain Tumor Risk",
+     "url": "https://doi.org/10.1001/jama.2026.20441",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.20441",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "Plasma eMTBR-tau as a Biomarker for Chronic Traumatic Encephalopathy Tau Tangle Neuropathology",
+   "headline_zh": "血浆eMTBR-tau与CTE tau缠结病理相关：21例尸检验证",
+   "summary_zh": "病例系列纳入21名生前在波士顿大学参与临床研究并完成采血、死后捐献脑组织并完成尸检的美式橄榄球运动员。检测血浆内源性切割微管结合区tau（eMTBR-tau，核酸连接免疫夹心单重免疫分析）与p-tau217。21名男性供者中18例神经病理诊断为CTE，其中16例为高分期（IV期8例、III期8例），2例低分期；5例CTE阳性者合并中/高度阿尔茨海默病神经病理改变。CTE阳性者血浆eMTBR-tau中位数0.019 pg/mL（IQR 0.004–0.030），显著高于CTE阴性者；累积tau负荷评分范围0–33。",
+   "why_it_matters_zh": "CTE目前只能靠死后病理诊断，缺乏生前生物标志物。该研究首次在尸检确诊队列中把血浆eMTBR-tau与CTE tau缠结病理及分期挂钩，提示抽血即可提示CTE病理负荷；但样本仅21例、且为运动员富集队列，距离临床诊断工具仍有距离。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "CTE",
+    "tau",
+    "血浆生物标志物",
+    "尸检验证",
+    "重复撞击"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "paper",
+     "title": "Plasma eMTBR-tau as a Biomarker for Chronic Traumatic Encephalopathy Tau Tangle Neuropathology",
+     "url": "https://doi.org/10.1001/jama.2026.24780",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.24780",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "A Biorthogonal Structure-Preserving Eigensolver for Large-Scale Linear Response Eigenvalue Problem",
+   "headline_zh": "双正交结构保持子空间迭代：大规模线性响应特征值问题的稳定解法",
+   "summary_zh": "针对线性响应特征值问题（尤其含零特征值、大规模稀疏/稠密系统）的数值困难，作者基于双正交不变子空间的直和分解与双正交补空间上的极小化原理，利用广义零空间结构提出双正交结构保持子空间迭代求解器。双正交性由改进的Gram–Schmidt双正交化算法构造；已收敛特征向量在双正交补空间中自然收缩，无需引入人工参数；请求特征对较多时采用分批移动机制，使投影矩阵规模小且与请求数无关。大规模情形只需提供矩阵-向量乘积，免除显式存储，并可用并行计算加速。",
+   "why_it_matters_zh": "线性响应特征值问题在含零特征值时数值上很棘手，该工作把零空间结构显式纳入分解，使迭代在双正交意义下保持结构，并让投影规模不随请求特征对数增长——这直接决定了该方法能否用于需要大量本征对的大体系计算。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "特征值求解",
+    "双正交",
+    "结构保持",
+    "子空间迭代",
+    "并行计算"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "A Biorthogonal Structure-Preserving Eigensolver for Large-Scale Linear Response Eigenvalue Problem",
+     "url": "https://doi.org/10.1137/25m1782157",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1782157",
+     "published": "2026-11-20T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    25
+   ],
+   "title_en": "Comparison of Jacobian-preserving Nonlinear Preconditioning Techniques",
+   "headline_zh": "NEINA与SNEINA：用非线性消去处理局部强非线性",
+   "summary_zh": "作者提出基于非线性消去的不精确牛顿算法NEINA及其简化变体SNEINA，针对局部强非线性问题：通过非线性消去的子空间校正机制，隐式更新最严重阻碍全局收敛的分量，从而为全局牛顿迭代生成修正方向。在火焰面燃烧、顶盖驱动方腔流与后台阶流等基准问题上，将NEINA/SNEINA与另外五种Jacobian保持的非线性预条件不精确牛顿算法进行数值比较，显示在既有算法收敛缓慢或完全不收敛的情形下，新算法能减少牛顿迭代次数。",
+   "why_it_matters_zh": "局部强非线性（如燃烧、分离流）常使牛顿法停滞，该工作把“哪部分分量在拖后腿”变成可自动识别并隐式更新的子空间校正，且保持Jacobian结构不被破坏；对依赖牛顿型求解器的CFD与燃烧计算，这是一条可直接替换预条件策略的路径。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "非线性预条件",
+    "不精确牛顿",
+    "非线性消去",
+    "燃烧",
+    "CFD"
+   ],
+   "records": [
+    {
+     "ref": 25,
+     "channel": "paper",
+     "title": "Comparison of Jacobian-preserving Nonlinear Preconditioning Techniques",
+     "url": "https://doi.org/10.1137/25m1740188",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1740188",
+     "published": "2026-11-20T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    24
+   ],
+   "title_en": "Parallel Multilevel Methods for Solving the Darcy–Forchheimer Model Based on a Nearly Semicoercive Formulation",
+   "headline_zh": "近半 coercive 重构下的Darcy–Forchheimer并行多重网格",
+   "summary_zh": "针对多孔介质高速渗流的Darcy–Forchheimer方程，作者先用增广Lagrange方法把模型重构为近半 coercive 凸优化问题，再在子空间校正框架下构造并行多重网格（多重网格加性Schwarz）方法，给出收敛性分析并证明其对增广Lagrange参数的鲁棒性。为进一步改善收敛，引入回溯线搜索与全近似格式（FAS），数值结果支持理论结论。",
+   "why_it_matters_zh": "Darcy–Forchheimer模型因非线性与约束结构，缺少带理论保证的可扩展并行求解器；该工作把问题转化为近半 coercive 凸形式后，使多重网格加性Schwarz的收敛分析成为可能，并给出对关键参数鲁棒的算法，对油藏与地下水大规模模拟有直接意义。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "Darcy–Forchheimer",
+    "多重网格",
+    "加性Schwarz",
+    "增广Lagrange",
+    "并行求解"
+   ],
+   "records": [
+    {
+     "ref": 24,
+     "channel": "paper",
+     "title": "Parallel Multilevel Methods for Solving the Darcy–Forchheimer Model Based on a Nearly Semicoercive Formulation",
+     "url": "https://doi.org/10.1137/25m1774872",
+     "journal": "SIAM Journal on Scientific Computing",
+     "tier": "T2",
+     "doi": "10.1137/25m1774872",
+     "published": "2026-11-20T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    40
+   ],
+   "title_en": "Record-setting X-ray laser reliably generates flashes with wavelengths shorter than distances between atoms",
+   "headline_zh": "欧洲XFEL把X射线激光波长推到约0.04纳米并实现稳定输出",
+   "summary_zh": "DESY与European XFEL的研究人员报告，在European XFEL上实现了波长约0.04纳米（光子能量30,000电子伏特）的X射线激光脉冲的可靠产生与传输，刷新了自身此前的世界纪录。该波长明显短于固体中相邻原子的典型间距。",
+   "why_it_matters_zh": "波长短于原子间距意味着衍射与成像的分辨率上限被进一步推开，使材料研究可以在更高空间分辨率下进行；而“可靠产生与传输”这一工程性表述，说明该能力已从单次演示走向可用光源。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "XFEL",
+    "X射线激光",
+    "波长纪录",
+    "材料表征"
+   ],
+   "records": [
+    {
+     "ref": 40,
+     "channel": "news",
+     "title": "Record-setting X-ray laser reliably generates flashes with wavelengths shorter than distances between atoms",
+     "url": "https://phys.org/news/2026-11-ray-laser-reliably-generates-wavelengths.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-20T21:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    59
+   ],
+   "title_en": "Deep Venture: A new class of ocean exploration vehicle developed",
+   "headline_zh": "WHOI与JPL推出全海深AUV Deep Venture",
+   "summary_zh": "伍兹霍尔海洋研究所（WHOI）与NASA喷气推进实验室（JPL）合作开发了新一代自主水下航行器Deep Venture，定位为面向深海研究的下一代AUV，可支持从浅海沿岸到地球最深处的多种科学任务，耐压等级达11,000米（约6.83英里），即全海深。",
+   "why_it_matters_zh": "全海深自主航行能力把此前依赖载人潜水器或缆控设备的深渊科考，转为可重复、可编队的AUV作业；对深海探测而言，关键变化是作业成本与覆盖范围，而非单次下潜深度本身。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "AUV",
+    "全海深",
+    "深海探测",
+    "WHOI",
+    "JPL"
+   ],
+   "records": [
+    {
+     "ref": 59,
+     "channel": "news",
+     "title": "Deep Venture: A new class of ocean exploration vehicle developed",
+     "url": "https://phys.org/news/2026-11-deep-venture-class-ocean-exploration.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-20T17:50:03+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    50
+   ],
+   "title_en": "Mapping the microbes' arms race with viruses at planetary scale",
+   "headline_zh": "行星尺度绘制微生物与病毒的军备竞赛",
+   "summary_zh": "微生物组中细菌与古菌持续与病毒感染互动，病毒不仅杀死宿主，有时还临时赋予宿主额外能力；由于大量病毒尚未在实验室培养，将其与自然宿主对应一直困难。该报道介绍了一套新的生物信息学工具与数据库，可在前所未有的规模上帮助研究者建立病毒-宿主关联。",
+   "why_it_matters_zh": "病毒-宿主关联是理解微生物组功能与病毒对生物地球化学过程影响的前提；把这一关联从个案培养验证扩展到行星尺度数据库，使未培养病毒的生态角色可以被系统推断。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "病毒-宿主关联",
+    "微生物组",
+    "生物信息学工具",
+    "未培养病毒"
+   ],
+   "records": [
+    {
+     "ref": 50,
+     "channel": "news",
+     "title": "Mapping the microbes' arms race with viruses at planetary scale",
+     "url": "https://phys.org/news/2026-11-microbes-arms-viruses-planetary-scale.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-20T19:00:27+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    21
+   ],
+   "title_en": "GRAIL: Granularity Adaptive Representation for Class-Incremental Learning with Granular-Ball",
+   "headline_zh": "GRAIL：用粒度球做类增量学习的自适应粒度表示",
+   "summary_zh": "候选材料仅给出标题与期刊信息，摘要未提供，无法确认其具体方法、实验设置与结果。",
+   "why_it_matters_zh": "类增量学习的核心矛盾是稳定性与可塑性；标题提示以粒度球（granular-ball）做自适应粒度表示，若成立，可能为增量过程中的表示粒度选择提供新机制，但缺少摘要，暂无法判断其实际贡献。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "类增量学习",
+    "粒度球",
+    "表示学习",
+    "IJCV"
+   ],
+   "records": [
+    {
+     "ref": 21,
+     "channel": "paper",
+     "title": "GRAIL: Granularity Adaptive Representation for Class-Incremental Learning with Granular-Ball",
+     "url": "https://doi.org/10.1007/s11263-026-03091-9",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03091-9",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    22
+   ],
+   "title_en": "APEX: Exploiting Anatomical and Pathological Insights for Context-Aware Gaze Estimation",
+   "headline_zh": "APEX：融合解剖与病理线索的上下文感知注视估计",
+   "summary_zh": "候选材料仅给出标题与期刊信息，摘要未提供，无法确认其方法细节、数据集与量化结果。",
+   "why_it_matters_zh": "标题显示其把解剖与病理先验引入注视估计的上下文建模；若用于临床场景，可能改善异常眼动条件下的估计鲁棒性，但缺少摘要，无法进一步判断。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "注视估计",
+    "上下文感知",
+    "解剖先验",
+    "IJCV"
+   ],
+   "records": [
+    {
+     "ref": 22,
+     "channel": "paper",
+     "title": "APEX: Exploiting Anatomical and Pathological Insights for Context-Aware Gaze Estimation",
+     "url": "https://doi.org/10.1007/s11263-026-03127-0",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03127-0",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Bacteria and viruses team up to hasten the demise of algal blooms",
+   "headline_zh": "细菌与病毒联手加速藻华消亡",
+   "summary_zh": "藻华是驱动碳固定并支撑海洋食物网的重要生态现象，病毒感染常使其突然终结。该报道指出，一些细菌能够感知被感染的藻细胞，并与病毒协同作用，加快藻华的崩溃。",
+   "why_it_matters_zh": "藻华终结的时机关乎碳输出与食物网脉冲；把细菌的感知行为纳入解释，意味着藻华消亡不只是病毒单方面裂解的结果，而是有细菌参与的协同过程。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "藻华",
+    "病毒",
+    "细菌协同",
+    "海洋生态"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Bacteria and viruses team up to hasten the demise of algal blooms",
+     "url": "https://doi.org/10.1038/d41586-026-03606-x",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/d41586-026-03606-x",
+     "published": "2026-11-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    30
+   ],
+   "title_en": "Watching as a giant star swallowed its neighbor and exploded",
+   "headline_zh": "一颗巨星吞并伴星后爆发",
+   "summary_zh": "该报道称，近期一次增亮事件被判定来自一颗在另一颗恒星内部轨道运行的恒星，即巨星吞并伴星后发生的爆发。候选材料未提供观测设备、波段与建模细节。",
+   "why_it_matters_zh": "恒星并合长期多为理论预期，若该事件确为伴星在巨星包层内轨道运行并引发爆发，则为并合过程提供了直接的观测样本；具体证据强度需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "恒星并合",
+    "爆发",
+    "观测"
+   ],
+   "records": [
+    {
+     "ref": 30,
+     "channel": "news",
+     "title": "Watching as a giant star swallowed its neighbor and exploded",
+     "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+     "journal": "Ars Technica Science",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-20T20:41:17+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    63
+   ],
+   "title_en": "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
+   "headline_zh": "一对大质量恒星可能在为银河系中心黑洞供料",
+   "summary_zh": "天文学家把银河系中心超大质量黑洞附近的神秘气体云追溯到一对大质量恒星，其碰撞星风似乎产生了致密团块；这些云团最终可能落入黑洞。",
+   "why_it_matters_zh": "把黑洞附近气体云的来源指向恒星活动，提示恒星层面的星风碰撞可以影响超大质量黑洞的吸积供给，为理解黑洞生长与恒星活动之间的联系提供了新链条。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "银心黑洞",
+    "星风碰撞",
+    "气体云",
+    "吸积"
+   ],
+   "records": [
+    {
+     "ref": 63,
+     "channel": "news",
+     "title": "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-20T05:41:16+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    64
+   ],
+   "title_en": "A 3-million-year-old child just made human evolution far more complicated",
+   "headline_zh": "300万年前的Taung幼儿化石提示人类演化树更复杂",
+   "summary_zh": "一项对300万年前Taung幼儿化石的研究提出，若干此前被认为属于同一物种的古老人类祖先，可能实际代表人类演化树上的不同分支；报道称这一结论挑战了延续百年的假设，并将之与剧烈气候变化联系起来。候选材料未给出具体形态学指标或分析方法。",
+   "why_it_matters_zh": "若同一物种被拆分为多个分支，则南方古猿类的多样性被低估，气候波动与演化分化的对应关系需要重写；但该结论依赖具体形态学论证，需核对原文证据。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "Taung幼儿",
+    "人类演化",
+    "物种多样性",
+    "气候变化"
+   ],
+   "records": [
+    {
+     "ref": 64,
+     "channel": "news",
+     "title": "A 3-million-year-old child just made human evolution far more complicated",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261118065531.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-20T03:17:52+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    60
+   ],
+   "title_en": "Anthropic researcher says he and Claude proved the Riemann hypothesis, first posed in 1859",
+   "headline_zh": "Anthropic研究员宣称与Claude证明黎曼猜想",
+   "summary_zh": "据Phys.org报道，Anthropic公司一名研究员称其使用该公司的Claude聊天机器人证明了黎曼猜想。候选材料仅为宣称，未提供证明文本、验证过程或同行评议信息。",
+   "why_it_matters_zh": "黎曼猜想自1859年提出至今未解，任何宣称都需数学界严格审读；在缺乏可检验证明的情况下，该条目的意义主要在于观察AI辅助数学研究的宣称如何被验证，而非结论本身。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "黎曼猜想",
+    "AI辅助证明",
+    "未验证宣称"
+   ],
+   "records": [
+    {
+     "ref": 60,
+     "channel": "news",
+     "title": "Anthropic researcher says he and Claude proved the Riemann hypothesis, first posed in 1859",
+     "url": "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-20T17:50:01+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "BPMG与BDMT两个16周方案已进入后续评估（refs 1），需跟踪其三期设计与是否纳入更广泛人群；同时关注ganfeborole与BTZ-043这两个新骨架的独立安全性数据。",
+  "eMTBR-tau目前仅21例尸检队列（refs 20），需等待更大规模、非运动员人群中的重复验证与检测标准化，才能判断其作为CTE生前标志物的实际可用性。",
+  "黎曼猜想证明宣称尚无任何可检验材料（refs 60），应等待证明文本公开与数学界审读，不宜在验证前赋予其结论性意义。",
+  "0.04纳米波长已实现可靠产生与传输（refs 40），下一步关注该能力是否开放为用户常规实验条件，以及在材料成像中的实际分辨率收益。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 202,
+   "dup_in_run": 0,
+   "already_seen": 86,
+   "dropped_by_penalty": 4,
+   "dropped_by_window": 87,
+   "unique": 25,
+   "candidates": 25
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 56,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 158,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 119,
+   "unique": 39,
+   "candidates": 39
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 3,
+   "dup_in_run": 0,
+   "already_seen": 3,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 131,
+   "kept": 130,
+   "elapsed_s": 1.21,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.2,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.36,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 31,
+   "kept": 31,
+   "elapsed_s": 0.44,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 7,
+   "kept": 0,
+   "elapsed_s": 0.64,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 7,
+   "kept": 0,
+   "elapsed_s": 0.9,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.29,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "ok",
+   "fetched": 38,
+   "kept": 38,
+   "elapsed_s": 0.33,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.23,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 0.26,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 3,
+   "kept": 3,
+   "elapsed_s": 0.3,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 4,
+   "kept": 4,
+   "elapsed_s": 1.12,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 1.08,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 3,
+   "elapsed_s": 0.98,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.19,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.1,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.38,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.13,
+   "error": ""
+  }
+ ]
+}
