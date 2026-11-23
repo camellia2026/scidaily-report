@@ -1,0 +1,675 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23 09:52 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今天最值得关注的是 Nature 上线的 Robin 多智能体系统，它把假设生成、实验建议、结果解读串成闭环，并在干性年龄相关性黄斑变性（dAMD）上提出了此前未被用于该病的候选药物 ripasudil，且完成了体外验证——这是 AI 系统首次自主发现并验证新治疗候选物。方法学侧，Sound2Vision 用声源定位筛选强相关的音视频对、再把音频特征映射进预训练图像生成器的潜空间，为跨模态生成提供了一个可解释、与具体架构解耦的路线。科学要闻中，银河系模拟做到单星分辨率、257 个黑洞并合事件中浮现的质量空隙、以及常用药物在肠道菌群留下的多年“指纹”，是三条信息量较高的结果。NEJM 本期多为评论与临床图像，研究性内容有限。",
+ "items": [
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "A multi-agent system for automating scientific discovery",
+   "headline_zh": "多智能体系统自主提出并体外验证 dAMD 新治疗候选物",
+   "summary_zh": "作者构建了 Robin，将文献检索智能体与数据分析智能体整合，使其能生成假设、提出实验、解读实验结果并据此更新假设，覆盖观察—假设—实验—分析这一迭代链条。应用于干性年龄相关性黄斑变性时，Robin 提出以增强视网膜色素上皮细胞吞噬能力为治疗策略，并锁定 ripasudil 与 KL001，在体外确认了二者效力；其中 ripasudil 是已临床使用的 ROCK 抑制剂，此前从未被提出用于 dAMD。为解释机制，Robin 自行提出并分析了后续 RNA-seq 实验，指向脂质外排泵 ABCA1 的上调作为可能的新靶点。文中所有假设、实验方向、数据分析与数据图均由 Robin 产出。",
+   "why_it_matters_zh": "过去 AI 在生物学中的落地多集中在单一环节（如分子筛选或图像判读），Robin 的贡献在于把“提出什么假设”和“如何解读数据”接成闭环，并让系统自己决定下一步做什么实验。对做药物发现的研究者，这意味着 AI 的角色从工具变为可提出可证伪策略的合作者；同时它也把评价标准推到台面上——如何审计一个自主系统给出的实验方向，将成为比模型能力更紧迫的问题。",
+   "discipline": "综合",
+   "importance": 5,
+   "tags": [
+    "多智能体",
+    "自主实验设计",
+    "药物重定位",
+    "dAMD",
+    "干实验闭环"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "hot",
+     "title": "A multi-agent system for automating scientific discovery",
+     "url": "https://doi.org/10.1038/s41586-026-10652-y",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-10652-y",
+     "published": "2026-05-19T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    2
+   ],
+   "title_en": "Sound2Vision: Generating Diverse Visuals from Audio through Cross-Modal Latent Alignment",
+   "headline_zh": "借声源定位筛选音视频对，把音频特征送入预训练图像生成器",
+   "summary_zh": "针对听觉与视觉信号之间信息鸿沟大的难题，作者设计模型用视觉信息丰富音频特征，并将其翻译到视觉潜空间，再送入预训练图像生成器出图。训练数据质量通过声源定位来筛选跨模态相关性强的音视频对。在 VEGAS 与 VGGSound 上结果显著优于此前工作，并可通过扰动输入波形或潜空间实现对生成过程的控制。作者进一步分析所学嵌入空间的几何性质，表明该对齐方式确实把音视频信号拉到一起，且方法对具体设计选择不敏感——换用不同模型架构与不同类型音视频数据均可工作。",
+   "why_it_matters_zh": "跨模态生成的一个常见弱点是结果高度依赖某个特定生成器或数据清洗启发式，难以判断性能提升来自方法还是工程。这里把“数据筛选”（声源定位）与“表征对齐”分开处理，并用嵌入空间几何分析论证对齐有效性，给出了可迁移到其他模态对的诊断思路。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "音频到图像",
+    "潜空间对齐",
+    "声源定位",
+    "生成模型"
+   ],
+   "records": [
+    {
+     "ref": 2,
+     "channel": "paper",
+     "title": "Sound2Vision: Generating Diverse Visuals from Audio through Cross-Modal Latent Alignment",
+     "url": "https://doi.org/10.1007/s11263-026-03106-5",
+     "journal": "International Journal of Computer Vision",
+     "tier": "T1",
+     "doi": "10.1007/s11263-026-03106-5",
+     "published": "2026-11-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    15
+   ],
+   "title_en": "Milky Way simulation reaches record resolution with the help of three supercomputers",
+   "headline_zh": "三台超算联合运行 AI 加速模型，把银河系模拟细化到单颗恒星",
+   "summary_zh": "包括东京大学在内的团队开发了新的银河系建模方式，借助 AI 加速模型整合多台世界最强超算的算力，模拟精度达到单个恒星尺度，且该模型可跨不同硬件平台运行。",
+   "why_it_matters_zh": "星系模拟长期在分辨率与物理完备性之间取舍，单星尺度意味着恒星族群、旋臂结构与动力学扰动可以在同一套模拟中直接对照观测，而不必依赖亚网格近似。跨硬件可移植这一点，则决定了这类模拟能否被更多团队复现而非只有少数拥有特定机器的机构能做。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "银河系模拟",
+    "单星分辨率",
+    "AI 加速",
+    "超算"
+   ],
+   "records": [
+    {
+     "ref": 15,
+     "channel": "news",
+     "title": "Milky Way simulation reaches record resolution with the help of three supercomputers",
+     "url": "https://phys.org/news/2026-11-milky-simulation-resolution-supercomputers.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T14:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    18
+   ],
+   "title_en": "A mysterious gap hints at black holes born from stars that never exploded",
+   "headline_zh": "黑洞并合样本中的异常分布，暗示大质量恒星静默坍缩",
+   "summary_zh": "报道称 257 个黑洞并合事件呈现出一种意外的分布模式，作者据此提出：部分大质量恒星可能未经超新星爆发便直接坍缩为黑洞，这类“静默消失”可解释宇宙中大量黑洞的来源。",
+   "why_it_matters_zh": "若成立，则超新星遗迹与中子星/黑洞形成之间并非一一对应，用超新星率反推黑洞形成率的标准做法需要修正。这是基于并合统计的间接推断，需引力波事件的独立样本检验。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "黑洞并合",
+    "直接坍缩",
+    "超新星",
+    "质量空隙"
+   ],
+   "records": [
+    {
+     "ref": 18,
+     "channel": "news",
+     "title": "A mysterious gap hints at black holes born from stars that never exploded",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261121221126.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T11:46:42+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Common medications may secretly rewire your gut, with effects lasting for years",
+   "headline_zh": "2500 余人队列显示抗抑郁药、降压药等留下长期菌群印记",
+   "summary_zh": "基于 2500 余人的研究显示，抗抑郁药、降压药与抗焦虑药等常用药物可在患者停药很久之后仍在肠道微生物组中留下可识别的印记；部分抗焦虑药的影响幅度与广谱抗生素相当。",
+   "why_it_matters_zh": "这提示微生物组关联研究必须把用药史作为长期协变量而非即时变量处理，否则药物效应会被误读为疾病或饮食效应。对临床而言，也提出了停药后菌群是否可逆的问题——原文未给出答案。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "肠道菌群",
+    "药物副作用",
+    "长期效应",
+    "队列研究"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "news",
+     "title": "Common medications may secretly rewire your gut, with effects lasting for years",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120071501.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T21:35:19+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    10
+   ],
+   "title_en": "Atmospheric organic nitrogen emerges as a major nutrient source for global oceans",
+   "headline_zh": "研究团队量化了全球氮循环中大气有机氮这一组分",
+   "summary_zh": "报道称一个研究团队对全球氮循环中的一个重要组分——大气来源的有机氮——完成了量化，并将其定位为全球海洋的主要营养来源之一。",
+   "why_it_matters_zh": "氮循环收支中大气有机氮长期是难以定量的项，若其通量确实可观，则海洋初级生产力模型与氮沉降政策的评估基准都需要重算。具体通量与不确定性范围需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "氮循环",
+    "大气沉降",
+    "海洋营养盐"
+   ],
+   "records": [
+    {
+     "ref": 10,
+     "channel": "news",
+     "title": "Atmospheric organic nitrogen emerges as a major nutrient source for global oceans",
+     "url": "https://phys.org/news/2026-11-atmospheric-nitrogen-emerges-major-nutrient.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T18:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8
+   ],
+   "title_en": "Silver briefly forms a rare crystal structure seen in radioactive polonium",
+   "headline_zh": "北海道大学报道银的一种高化学活性新晶相",
+   "summary_zh": "北海道大学研究人员发现银的一种新晶体结构，化学活性异常高，该结构此前主要在放射性钋中见到，且只能短暂存在。成果发表于 Nano Letters。",
+   "why_it_matters_zh": "原子排布方式决定材料性质是材料学的核心杠杆，一种在常温条件下难以稳定存在的高活性金属相，为催化与表面反应提供了新的结构起点；其短暂性本身也提示需要原位表征手段才能捕捉。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "晶体结构",
+    "银",
+    "亚稳相",
+    "化学反应性"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "news",
+     "title": "Silver briefly forms a rare crystal structure seen in radioactive polonium",
+     "url": "https://phys.org/news/2026-11-silver-briefly-rare-crystal-radioactive.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T20:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    14
+   ],
+   "title_en": "Hybrid nanocrystal surface reveals new way to tune interactions with infrared light",
+   "headline_zh": "两种纳米晶混液成膜，红外响应超出两者简单叠加",
+   "summary_zh": "由两种纳米晶在溶液中混合制成的一层单晶厚薄片，对红外光可产生放大或抑制效果，且该效果超出两种组分各自贡献之和。",
+   "why_it_matters_zh": "“超出简单加和”意味着界面耦合带来了新的可调自由度，若能稳定复现，红外光学元件（滤波、增强）的设计将不再局限于单组分材料参数。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "纳米晶",
+    "红外光学",
+    "界面耦合"
+   ],
+   "records": [
+    {
+     "ref": 14,
+     "channel": "news",
+     "title": "Hybrid nanocrystal surface reveals new way to tune interactions with infrared light",
+     "url": "https://phys.org/news/2026-11-hybrid-nanocrystal-surface-reveals-tune.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T15:00:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    16
+   ],
+   "title_en": "Parasite makes mice more attractive to blood-feeding bugs, which may aid its spread",
+   "headline_zh": "锥虫感染改变宿主对猎蝽的吸引力，或促进传播",
+   "summary_zh": "报道聚焦 Trypanosoma rangeli 与 Trypanosoma cruzi 在哺乳动物与锥蝽之间的传递：昆虫吸血时获得寄生虫，哺乳动物也可通过接触受感染昆虫而感染。研究显示寄生虫使小鼠对吸血昆虫更具吸引力，从而可能有利于其传播。",
+   "why_it_matters_zh": "若寄生虫能主动改变宿主气味或体温信号来“招募”媒介，则传播动力学模型需要纳入宿主—媒介相互作用的双向调制，而不只是接触率常数。这对病媒控制策略的着力点有直接影响。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "锥虫",
+    "锥蝽",
+    "宿主操纵",
+    "传播动力学"
+   ],
+   "records": [
+    {
+     "ref": 16,
+     "channel": "news",
+     "title": "Parasite makes mice more attractive to blood-feeding bugs, which may aid its spread",
+     "url": "https://phys.org/news/2026-11-parasite-mice-blood-bugs-aid.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T13:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    17
+   ],
+   "title_en": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
+   "headline_zh": "极端速度下散射光反而产生阻力",
+   "summary_zh": "科学家发现，当航天器达到光速的 75% 左右时，部分被散射的光会开始产生阻力，而非继续提供推力，构成星际太阳帆推进的一个意外障碍。",
+   "why_it_matters_zh": "光帆方案的速度上限此前多按“推力随速度衰减”讨论，这里指出存在一个由散射导致的净阻力区，直接约束了以光帆实现星际航行的可行速度窗口。该结论依赖具体散射模型，需看原文假设。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "光帆",
+    "星际航行",
+    "光散射",
+    "阻力"
+   ],
+   "records": [
+    {
+     "ref": 17,
+     "channel": "news",
+     "title": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120071305.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T11:59:29+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    19
+   ],
+   "title_en": "DNA's secret sunscreen may have helped life survive on early Earth",
+   "headline_zh": "DNA 关键组分把紫外损伤转化为更易修复的形式",
+   "summary_zh": "研究提出，DNA 的一个关键组分可将潜在的破坏性紫外损伤转变为更易修复的形式，从而可能解释早期生命如何在强紫外辐射下存活，并被认为与一个悬置数十年的演化谜题相关。",
+   "why_it_matters_zh": "这把紫外辐射从“早期生命的筛选压力”部分改写为“可被分子内机制缓冲的压力”，对前生命化学与早期演化时间线的约束条件有影响。具体分子机制与实验体系需查原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "紫外损伤",
+    "DNA 修复",
+    "早期生命"
+   ],
+   "records": [
+    {
+     "ref": 19,
+     "channel": "news",
+     "title": "DNA’s secret sunscreen may have helped life survive on early Earth",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261121221128.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T11:31:14+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    20
+   ],
+   "title_en": "A 194-year-old tortoise has a remarkable anti-aging secret hidden in its DNA",
+   "headline_zh": "乔纳森巨龟基因组中与 DNA 修复、炎症、胰岛素和抑癌相关的变异",
+   "summary_zh": "研究人员在世界最长寿陆生动物、194 岁的巨龟乔纳森身上鉴定出 287 个独特遗传变异，涉及 DNA 损伤修复、炎症控制、胰岛素调节与肿瘤抑制等过程。",
+   "why_it_matters_zh": "单一个体的基因组关联只能生成假说，不能证明因果；其价值在于为长寿物种比较基因组学提供候选位点集合，供跨物种验证。解读时应避免把变异直接等同于抗衰老机制。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "长寿",
+    "比较基因组",
+    "DNA 修复",
+    "单样本"
+   ],
+   "records": [
+    {
+     "ref": 20,
+     "channel": "news",
+     "title": "A 194-year-old tortoise has a remarkable anti-aging secret hidden in its DNA",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261121221130.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-22T11:04:06+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "From Cold War Politics to Hot Domestic Politics — The Epidemic Intelligence Service at 75",
+   "headline_zh": "NEJM 评论：流行病学情报服务成立 75 年之际的处境",
+   "summary_zh": "文章回顾美国流行病学情报服务（EIS）长期在传染病威胁与公共卫生危机应对中的作用，并指出流行病学工作的政治化正在危及它的未来。",
+   "why_it_matters_zh": "这是观点评论而非研究。对公共卫生研究者而言，值得注意的点是：一个以现场响应为核心能力的机构，其有效性依赖政治环境对其独立性的容忍度。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "观点评论",
+    "公共卫生体系",
+    "EIS"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "From Cold War Politics to Hot Domestic Politics — The Epidemic Intelligence Service at 75",
+     "url": "https://doi.org/10.1056/nejmp2606018",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2606018",
+     "published": "2026-11-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    4
+   ],
+   "title_en": "Declining Fertility Rates — The Role of Assisted Reproductive Technology",
+   "headline_zh": "评论：人口层面的目标不应取代生殖自主",
+   "summary_zh": "文章讨论部分国家为鼓励生育而扩大对生育治疗公共支持的现状，主张人口层面的目标不应取代个体的生殖自主。",
+   "why_it_matters_zh": "观点评论。对生殖医学与卫生政策研究者，它提出的问题是如何在补贴扩大的同时避免把技术使用导向人口指标。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "观点评论",
+    "辅助生殖",
+    "生殖自主"
+   ],
+   "records": [
+    {
+     "ref": 4,
+     "channel": "paper",
+     "title": "Declining Fertility Rates — The Role of Assisted Reproductive Technology",
+     "url": "https://doi.org/10.1056/nejmp2611049",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmp2611049",
+     "published": "2026-11-21T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    6
+   ],
+   "title_en": "Papulopustular Rosacea Associated with Demodex Mites",
+   "headline_zh": "27 岁男性面部红斑伴反复丘疹脓疱，皮肤表面活检见大量螨虫",
+   "summary_zh": "一例 27 岁男性，面部红斑伴反复丘疹与脓疱 2 年；颊部标准化皮肤表面活检显示大量螨虫，相关影像以视频形式呈现。",
+   "why_it_matters_zh": "临床图像，价值在于把蠕形螨负荷作为丘疹脓疱型玫瑰痤疮的可视化诊断线索呈现，提示对常规治疗反应不佳者应考虑寄生虫因素。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "临床图像",
+    "玫瑰痤疮",
+    "蠕形螨"
+   ],
+   "records": [
+    {
+     "ref": 6,
+     "channel": "paper",
+     "title": "Papulopustular Rosacea Associated with Demodex Mites",
+     "url": "https://doi.org/10.1056/nejmicm2609236",
+     "journal": "New England Journal of Medicine",
+     "tier": "T0",
+     "doi": "10.1056/nejmicm2609236",
+     "published": "2026-11-21T00:00:00+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "[1] Robin 的可审计性：文中所有假设、实验方向与数据图均由系统产出，后续值得追踪的是独立团队能否复现 ripasudil 这一候选，以及如何对自主系统提出的实验方向做同行评议。",
+  "[18] 黑洞“静默坍缩”假说：结论建立在 257 个并合事件的分布模式上，属间接推断；下一批引力波观测数据能否重现该质量分布是关键检验点。",
+  "[9] 药物—菌群长期印记：停药多年后仍可检出，提示现有微生物组关联研究可能存在系统性混杂，值得关注是否有干预性研究检验其可逆性。",
+  "[13] COP31 未达成协议：报道称欧盟等国拒绝认可一份未提及化石燃料的协议，会议进入创纪录延时后走向失败；后续谈判进程值得跟踪。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 133,
+   "dup_in_run": 0,
+   "already_seen": 46,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 82,
+   "unique": 5,
+   "candidates": 5
+  },
+  "hot": {
+   "fetched": 56,
+   "dup_in_run": 0,
+   "already_seen": 55,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 1,
+   "candidates": 1
+  },
+  "news": {
+   "fetched": 158,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 144,
+   "unique": 14,
+   "candidates": 14
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 3,
+   "dup_in_run": 0,
+   "already_seen": 3,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 32,
+   "kept": 31,
+   "elapsed_s": 1.43,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.13,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.08,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 31,
+   "kept": 31,
+   "elapsed_s": 0.21,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.39,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.18,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.49,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.49,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.42,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 0.41,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 1,
+   "kept": 1,
+   "elapsed_s": 0.49,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 3,
+   "kept": 3,
+   "elapsed_s": 0.77,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.47,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 1.62,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 3,
+   "elapsed_s": 1.21,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.11,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.15,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.32,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.25,
+   "error": ""
+  }
+ ]
+}
