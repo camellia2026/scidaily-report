@@ -1,0 +1,779 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25 12:23 CST",
+ "backend": "deepseek",
+ "sent": true,
+ "window_hours": {
+  "news": 24.0,
+  "paper": 72.0
+ },
+ "overview_zh": "今日候选以顶刊综述、观点与新闻为主，真正具备方法学新意的研究性条目集中在化学合成、基因编辑递送与植物染色体工程三个方向。Nature 同日上线两项合成化学工作：连续 N→C 肽合成与非经典碳正离子构建六取代苯，均属方法学层面的推进。递送与编辑方面，自组装超分子纳米载体实现了 CRISPR/Cas9 核糖核蛋白的体内递送并在小鼠肿瘤中显示编辑活性，中科院遗传发育所则发布了植物可编程染色体编辑的完整实验流程。医学侧以 JAMA 的肥厚型心肌病综述信息量最大，另有麻醉方式与术后恢复的争议性通讯值得追踪。",
+ "items": [
+  {
+   "refs": [
+    3
+   ],
+   "title_en": "Continuous N-to-C Peptide Synthesis",
+   "headline_zh": "连续 N→C 方向的肽合成路线",
+   "summary_zh": "Nature 在线发表的这项工作提出按 N→C 方向连续延伸的肽合成策略。候选材料仅提供标题与上线信息，摘要正文未给出，因此具体化学设计、偶联试剂、收率与可及序列长度均无法在此确认。",
+   "why_it_matters_zh": "固相肽合成长期以 C→N 方向为主流，若 N→C 连续路线在效率与差向异构控制上成立，将为肽类药物与蛋白质化学提供一条方向相反的构建逻辑，并可能改变长肽合成的工艺选择。具体影响需待原文方法细节公布后判断。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "肽合成",
+    "固相合成",
+    "方法学"
+   ],
+   "records": [
+    {
+     "ref": 3,
+     "channel": "paper",
+     "title": "Continuous N-to-C Peptide Synthesis",
+     "url": "https://www.nature.com/articles/s41586-026-11448-w",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11448-w",
+     "published": "2026-11-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    9
+   ],
+   "title_en": "Hexa-substituted benzene synthesis with non-classical carbocations",
+   "headline_zh": "用非经典碳正离子构建六取代苯",
+   "summary_zh": "该 Nature 工作以非经典碳正离子为关键中间体实现六取代苯的合成。六取代苯因六个取代基的空间拥挤，常规芳香取代路线难以逐一引入，候选材料未披露具体底物范围与产率，仅可确认其策略核心是借助非经典碳正离子完成多取代组装。",
+   "why_it_matters_zh": "全取代芳环是多类天然产物与功能材料的骨架，但合成长期受制于位阻。把非经典碳正离子作为成环/取代的中间体，等于为这类拥挤骨架打开一条不依赖逐步官能团化的路径；其实际适用范围仍需原文数据检验。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "碳正离子",
+    "多取代芳烃",
+    "合成方法"
+   ],
+   "records": [
+    {
+     "ref": 9,
+     "channel": "paper",
+     "title": "Hexa-substituted benzene synthesis with non-classical carbocations",
+     "url": "https://www.nature.com/articles/s41586-026-11449-9",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11449-9",
+     "published": "2026-11-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    26
+   ],
+   "title_en": "Self-assembling nanocarriers show promise for delivering CRISPR to tumors and slowing growth",
+   "headline_zh": "自组装超分子纳米载体实现 CRISPR 的肿瘤内递送",
+   "summary_zh": "东京科学研究所团队开发的自组装超分子纳米载体用于包裹 Cas9 核糖核蛋白，保护其免于降解，改善全身给药后的递送效率并倾向在肿瘤中富集，随后通过 pH 响应在细胞内释放。在小鼠 HeLa-Luc 肿瘤组织中，该平台在荧光素酶靶位点实现 37.2% 的 indel 频率，游离 RNP 仅为 1.5%；在另外的小鼠模型中观察到肿瘤生长受抑。",
+   "why_it_matters_zh": "Cas9 蛋白复合物在体内的稳定性与靶向富集一直是 CRISPR 治疗落地的瓶颈。37.2% 对 1.5% 的编辑效率差距说明载体本身而非编辑工具是限速环节，pH 响应释放则提供了肿瘤微环境特异性的控制手段。这是临床前数据，距离系统给药的人体应用仍有距离。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "CRISPR",
+    "纳米载体",
+    "肿瘤",
+    "临床前"
+   ],
+   "records": [
+    {
+     "ref": 26,
+     "channel": "news",
+     "title": "Self-assembling nanocarriers show promise for delivering CRISPR to tumors and slowing growth",
+     "url": "https://phys.org/news/2026-11-nanocarriers-crispr-tumors-growth.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-24T23:00:02+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    39
+   ],
+   "title_en": "New workflow advances programmable chromosome editing in plants",
+   "headline_zh": "植物可编程染色体编辑的实验流程发布",
+   "summary_zh": "中科院遗传发育所高彩霞团队在 Nature Protocols 发表植物可编程染色体操作的系统实验流程，论文于 11 月 17 日刊出。候选材料未提供流程的具体步骤、适用物种与效率数据，仅说明其为一套完整的操作方案。",
+   "why_it_matters_zh": "染色体级别的重排（如倒位、易位、片段删除）在植物中一直缺乏可复用的标准流程，Protocols 形式的发表意味着其他实验室可以按步骤复现，这对作物性状改造与合成生物学中的染色体设计是基础设施层面的补充。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "染色体编辑",
+    "植物",
+    "实验流程"
+   ],
+   "records": [
+    {
+     "ref": 39,
+     "channel": "news",
+     "title": "New workflow advances programmable chromosome editing in plants",
+     "url": "https://phys.org/news/2026-11-workflow-advances-programmable-chromosome.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-25T00:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    35
+   ],
+   "title_en": "New chemical route delivers first synthesis of plant compound with cough-suppressing potential",
+   "headline_zh": "镇咳生物碱 neotuberostemonine 的首次全合成",
+   "summary_zh": "百部属来源生物碱 neotuberostemonine 具有潜在镇咳活性，近三十年来一直是合成难题。研究团队完成其首次全合成，同时合成 neostenine 以及 tuberostemonine L 的推定结构。工作还指出这类生物碱中氮原子的近平面几何构型是其氧化不稳定的原因，为后续结构修饰提供了依据。",
+   "why_it_matters_zh": "天然产物供应受限是镇咳候选分子开发的直接障碍，全合成打通了获取途径。更值得注意的是把氧化不稳定性归因于氮原子几何构型这一结构层面的解释，它提示了在保持活性的前提下改造分子的具体位点。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "全合成",
+    "生物碱",
+    "镇咳",
+    "药物化学"
+   ],
+   "records": [
+    {
+     "ref": 35,
+     "channel": "news",
+     "title": "New chemical route delivers first synthesis of plant compound with cough-suppressing potential",
+     "url": "https://phys.org/news/2026-11-chemical-route-synthesis-compound-suppressing.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-25T01:20:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    33
+   ],
+   "title_en": "How alfalfa forms root nodules without rhizobia",
+   "headline_zh": "苜蓿不依赖根瘤菌形成根瘤的调控模块",
+   "summary_zh": "中科院遗传发育所冯健团队鉴定出一个细胞分裂素–NODULE INCEPTION（NIN）调控模块，与苜蓿（Medicago sativa）的自发根瘤形成相关。候选材料未给出该模块的上下游组分、突变表型或自发结瘤的诱导条件。",
+   "why_it_matters_zh": "根瘤通常被视为豆科与根瘤菌共生信号触发的产物，自发结瘤意味着植物自身具备一套可被独立激活的结瘤程序。若能厘清该模块与共生信号通路的关系，将有助于理解结瘤能力的进化起源，也可能为不依赖接种的固氮改良提供靶点。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "根瘤",
+    "细胞分裂素",
+    "NIN",
+    "苜蓿"
+   ],
+   "records": [
+    {
+     "ref": 33,
+     "channel": "news",
+     "title": "How alfalfa forms root nodules without rhizobia",
+     "url": "https://phys.org/news/2026-11-alfalfa-root-nodules-rhizobia.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-25T01:40:01+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    13
+   ],
+   "title_en": "Architecture of the poxvirus early-transcription machinery and portal complex",
+   "headline_zh": "痘病毒早期转录机器与门户复合物的结构解析",
+   "summary_zh": "Nature 在线发表痘病毒早期转录机器及门户复合物的结构工作。候选材料仅提供标题，未披露所用技术（如冷冻电镜分辨率）、复合物组分构成或构象状态，具体结构发现无法在此展开。",
+   "why_it_matters_zh": "痘病毒在胞质内完成复制与转录，其转录机器与门户装置是病毒颗粒组装和基因组入壳的关键节点，也是抗痘病毒药物的潜在靶标。原子层面的结构信息通常能直接指向可成药的界面，但需以原文结构细节为准。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "痘病毒",
+    "转录机器",
+    "门户复合物",
+    "结构"
+   ],
+   "records": [
+    {
+     "ref": 13,
+     "channel": "paper",
+     "title": "Architecture of the poxvirus early-transcription machinery and portal complex",
+     "url": "https://www.nature.com/articles/s41586-026-11458-8",
+     "journal": "Nature",
+     "tier": "T0",
+     "doi": "10.1038/s41586-026-11458-8",
+     "published": "2026-11-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    1
+   ],
+   "title_en": "Hypertrophic Cardiomyopathy: A Review",
+   "headline_zh": "肥厚型心肌病综述：流行病学、遗传基础与诊疗框架",
+   "summary_zh": "该 JAMA 综述将肥厚型心肌病定义为排除瓣膜病、未控制高血压、心脏淀粉样变等继发因素后，左室壁任一部位厚度超过 15 mm。全球患病率约 0.2%（美国逾 60 万人），多经超声心动图诊断；约 35%–40% 患者有劳力性呼吸困难、胸痛或头晕，心脏性猝死年发生率 0.8%。约 30%–40% 携带编码肌节蛋白的致病变异（以肌球蛋白结合蛋白 C、肌球蛋白重链、肌钙蛋白为主），其余可能为多基因易感或非遗传因素；肌节变异导致心肌肌节过度收缩与舒张延迟。约 60%–70% 为梗阻性，由基底段室间隔肥厚造成动态左室流出道梗阻。",
+   "why_it_matters_zh": "把 0.8% 的年猝死率、30%–40% 的肌节变异检出率和 60%–70% 的梗阻比例放在同一框架下，为风险分层与家系筛查提供了可操作的量化锚点；同时明确区分肌节变异型与多基因/非遗传型，提示基因检测阴性并不能排除诊断。",
+   "discipline": "综合",
+   "importance": 4,
+   "tags": [
+    "肥厚型心肌病",
+    "肌节变异",
+    "猝死风险",
+    "综述"
+   ],
+   "records": [
+    {
+     "ref": 1,
+     "channel": "paper",
+     "title": "Hypertrophic Cardiomyopathy: A Review",
+     "url": "https://doi.org/10.1001/jama.2026.21415",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21415",
+     "published": "2026-11-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    8,
+    10,
+    15,
+    16,
+    18
+   ],
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery",
+   "headline_zh": "全静脉与挥发性吸入麻醉在大手术术后恢复上的争议",
+   "summary_zh": "JAMA 就全静脉麻醉与挥发性吸入麻醉对非心脏大手术术后恢复的影响刊出多篇讨论，包括原始研究及一篇回复（Reply），候选列表中出现多个重复条目。材料未提供研究设计、样本量、主要终点或效应量，因此无法判断两种麻醉方式在恢复质量上的差异方向与幅度。",
+   "why_it_matters_zh": "麻醉维持药物的选择涉及术后恶心呕吐、认知恢复与出院时间等实际结局，属于高频临床决策。同一主题在短期内出现研究加通讯的密集讨论，通常意味着结果与既往证据或临床直觉存在张力；在读到具体终点数据前不宜下结论。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "全静脉麻醉",
+    "吸入麻醉",
+    "术后恢复",
+    "争议"
+   ],
+   "records": [
+    {
+     "ref": 8,
+     "channel": "paper",
+     "title": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery",
+     "url": "https://doi.org/10.1001/jama.2026.21850",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21850",
+     "published": "2026-11-23T00:00:00+00:00"
+    },
+    {
+     "ref": 10,
+     "channel": "paper",
+     "title": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery",
+     "url": "https://doi.org/10.1001/jama.2026.21841",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21841",
+     "published": "2026-11-23T00:00:00+00:00"
+    },
+    {
+     "ref": 15,
+     "channel": "paper",
+     "title": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery",
+     "url": "https://doi.org/10.1001/jama.2026.21847",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21847",
+     "published": "2026-11-23T00:00:00+00:00"
+    },
+    {
+     "ref": 16,
+     "channel": "paper",
+     "title": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery",
+     "url": "https://doi.org/10.1001/jama.2026.21844",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21844",
+     "published": "2026-11-23T00:00:00+00:00"
+    },
+    {
+     "ref": 18,
+     "channel": "paper",
+     "title": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery—Reply",
+     "url": "https://doi.org/10.1001/jama.2026.21838",
+     "journal": "JAMA",
+     "tier": "T0",
+     "doi": "10.1001/jama.2026.21838",
+     "published": "2026-11-23T00:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    28
+   ],
+   "title_en": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
+   "headline_zh": "鼻滴 mRNA 类疗法在老年小鼠中恢复记忆表现",
+   "summary_zh": "研究采用与 COVID-19 mRNA 疫苗类似的技术，经鼻给药刺激一种脑保护蛋白的产生，从而强化神经元并支持记忆。在衰老小鼠中恢复了学习与记忆表现，在阿尔茨海默样病理小鼠中预防了严重认知衰退；值得注意的是，治疗保留了脑功能但并未清除阿尔茨海默相关斑块。",
+   "why_it_matters_zh": "结果指向一条不依赖清除淀粉样斑块的作用路径，与当前以斑块为靶的主流策略形成对照。若该保护蛋白机制在更接近人类的模型中成立，认知衰退的干预窗口可能前移到斑块负荷尚不严重的阶段。目前仅为小鼠数据。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "阿尔茨海默病",
+    "mRNA",
+    "鼻内给药",
+    "小鼠"
+   ],
+   "records": [
+    {
+     "ref": 28,
+     "channel": "news",
+     "title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-24T23:31:52+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    52
+   ],
+   "title_en": "A new reason for magic numbers: Scientists discover the secret behind an unusually stable molecular cluster",
+   "headline_zh": "甘氨酸六聚体的“魔数”稳定性来源",
+   "summary_zh": "巴伊兰大学团队发现，恰好含六个甘氨酸分子的团簇异常稳定，构成一个“魔数”。其原因在于分子聚集时发生结构转变，转为两性离子形式，从而在分子间形成更强的键合。",
+   "why_it_matters_zh": "团簇魔数此前多从几何堆积或电子壳层闭合解释，这里给出的是一条化学态转变（中性→两性离子）的机制。对理解氨基酸在气相/溶液界面的成核与自组装有直接意义，也可能影响气溶胶化学与 prebiotic 化学中肽键形成前体的稳定性讨论。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "魔数",
+    "甘氨酸",
+    "两性离子",
+    "团簇"
+   ],
+   "records": [
+    {
+     "ref": 52,
+     "channel": "news",
+     "title": "A new reason for magic numbers: Scientists discover the secret behind an unusually stable molecular cluster",
+     "url": "https://phys.org/news/2026-11-magic-scientists-secret-unusually-stable.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-24T22:00:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    59
+   ],
+   "title_en": "Ancient rocks from the Moon’s far side rewrite the Solar System’s violent past",
+   "headline_zh": "月球背面古老岩石改写撞击通量历史",
+   "summary_zh": "对月球背面古老岩石的分析给出了与数十年来主流认识不同的证据：小行星撞击并非一次灾难性的集中轰击，而是随数十亿年逐渐衰减。候选材料未说明样品来源任务、同位素体系或定年方法。",
+   "why_it_matters_zh": "撞击通量的时间曲线直接约束地球早期表面环境与生命起源窗口。若“单一灾变轰击”被渐进衰减取代，早期地球可能更早进入相对稳定的阶段，这对早期演化时间尺度的推算影响不小。该结论依赖具体定年数据，需核对原文。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "月球背面",
+    "撞击通量",
+    "早期地球",
+    "样品分析"
+   ],
+   "records": [
+    {
+     "ref": 59,
+     "channel": "news",
+     "title": "Ancient rocks from the Moon’s far side rewrite the Solar System’s violent past",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-24T10:24:43+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    60
+   ],
+   "title_en": "Earth's next ice age may have already begun. Global warming stopped it",
+   "headline_zh": "下一次冰期或已启动，被升温逆转",
+   "summary_zh": "研究通过加拿大北极 Barnes 冰盖下保存的古植物，发现约 2000 年前一处大型冰盖残余开始重新扩张，可能标志新冰期的开端；到 1960 年代，升温使这一扩张逆转，冰体转为收缩。",
+   "why_it_matters_zh": "把冰期旋回的起点定位在人类活动显著改变气候之前，意味着自然轨道强迫本应把地球推向变冷方向，而观测到的是相反趋势。这为“人类活动已覆盖自然冰期旋回”提供了一个具体的地质证据点，也提示冰盖对升温的响应存在滞后。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "冰期",
+    "Barnes 冰盖",
+    "古植物",
+    "气候变化"
+   ],
+   "records": [
+    {
+     "ref": 60,
+     "channel": "news",
+     "title": "Earth's next ice age may have already begun. Global warming stopped it",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-24T09:29:15+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    58
+   ],
+   "title_en": "A black hole the size of an atom could destroy an entire star",
+   "headline_zh": "原子尺度原初黑洞可自内部吞噬恒星",
+   "summary_zh": "MIT 团队提出，宇宙早期遗留的微小原初黑洞可缓慢从内部吞噬恒星，最终触发可在星系尺度观测到的爆发。探测这类事件可作为原初黑洞存在的间接证据，并关联暗物质之谜。",
+   "why_it_matters_zh": "原初黑洞是暗物质候选之一，但一直缺乏可观测的确认途径。把恒星内部吞噬与可观测爆发联系起来，等于给出一个可搜索的天文信号通道；其可行性取决于事件发生率与现有巡天能否捕捉到这类瞬变。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "原初黑洞",
+    "暗物质",
+    "恒星",
+    "瞬变"
+   ],
+   "records": [
+    {
+     "ref": 58,
+     "channel": "news",
+     "title": "A black hole the size of an atom could destroy an entire star",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
+     "journal": "ScienceDaily",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-24T20:58:15+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    38
+   ],
+   "title_en": "Myanmar earthquake reveals how fault history could help anticipate future slip",
+   "headline_zh": "缅甸地震：断层历史可用于预判未来滑动",
+   "summary_zh": "研究结合超级计算机模拟与持续积累的观测数据，以缅甸地震为例说明断层的既有历史能够为下一次大地震的某些特征提供预判依据。候选材料未给出模拟的断层模型参数、所预判的具体滑动特征或验证方式。",
+   "why_it_matters_zh": "地震预测在时间与地点上仍不可行，但若断层历史能约束破裂的滑动分布与量级，对震害情景构建与抗震设计就有直接价值。这条路径的意义在于把“不可预测”缩小为“部分可约束”。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "断层",
+    "地震模拟",
+    "震害",
+    "缅甸"
+   ],
+   "records": [
+    {
+     "ref": 38,
+     "channel": "news",
+     "title": "Myanmar earthquake reveals how fault history could help anticipate future slip",
+     "url": "https://phys.org/news/2026-11-myanmar-earthquake-reveals-fault-history.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-25T00:20:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    44
+   ],
+   "title_en": "Blind sample test reveals how BepiColombo could decode Mercury's mineral makeup",
+   "headline_zh": "盲样测试验证 BepiColombo 可辨识水星矿物组成",
+   "summary_zh": "国际团队（含行星科学研究所）通过盲样测试证明 BepiColombo 搭载的仪器可协同工作，识别水星表面矿物组成，针对的是行星科学中长期存在的矿物反演难题。结果发表于 Planetary and Space Science，恰逢 ESA 与 JAXA 联合任务本周进入水星轨道。",
+   "why_it_matters_zh": "在探测器入轨前用盲样验证仪器组合的矿物辨识能力，等于提前标定了数据的解释边界，避免入轨后才发现反演歧义。对水星表面成分与形成历史的判读而言，这是数据可信度的前置保障。",
+   "discipline": "综合",
+   "importance": 3,
+   "tags": [
+    "BepiColombo",
+    "水星",
+    "矿物反演",
+    "盲样测试"
+   ],
+   "records": [
+    {
+     "ref": 44,
+     "channel": "news",
+     "title": "Blind sample test reveals how BepiColombo could decode Mercury's mineral makeup",
+     "url": "https://phys.org/news/2026-11-sample-reveals-bepicolombo-decode-mercury.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-24T23:20:08+00:00"
+    }
+   ]
+  },
+  {
+   "refs": [
+    37
+   ],
+   "title_en": "Underwater robots reveal first salp species known to live exclusively in deep sea",
+   "headline_zh": "首个已知专居于深海的樽海鞘物种",
+   "summary_zh": "研究基于 MBARI 水下机器人采集的标本与数据，在 Marine Biodiversity 发表对玻璃樽海鞘 Vitriosalpa gemini 的详细描述。该物种二十多年前已在蒙特雷湾深水被观察到，是首个已知仅生活在深海的樽海鞘。",
+   "why_it_matters_zh": "樽海鞘在海洋碳循环中通过粪粒与遗体沉降输送碳，深海专属物种的确认意味着这一通量中可能存在此前未被计入的深层组分。也说明深海机器人长期观测在发现隐存多样性上的作用。",
+   "discipline": "综合",
+   "importance": 2,
+   "tags": [
+    "樽海鞘",
+    "深海",
+    "新物种",
+    "碳循环"
+   ],
+   "records": [
+    {
+     "ref": 37,
+     "channel": "news",
+     "title": "Underwater robots reveal first salp species known to live exclusively in deep sea",
+     "url": "https://phys.org/news/2026-11-underwater-robots-reveal-salp-species.html",
+     "journal": "Phys.org",
+     "tier": "",
+     "doi": "",
+     "published": "2026-11-25T00:40:01+00:00"
+    }
+   ]
+  }
+ ],
+ "watchlist": [
+  "麻醉主题（refs 8/10/15/16/18）：同一标题在 JAMA 出现原始研究加多篇通讯与回复，候选列表内条目重复。需核对哪一条为原始研究、主要终点是什么，再判断是否值得单独成条。",
+  "NASA 火星舰队半数离线（ref 34）：Perseverance 对地传输受阻，Odyssey 燃料快速消耗。若后续确认任务影响范围，值得作为航天基础设施风险单独报告。",
+  "巨型星座的空间碎片监测盲区（ref 51）：地面可跟踪的仅 3 万余个较大物体，子弹大小碎片估计上百万，2030 年代初在轨航天器或达 10 万。涉及监测能力与轨道治理，待有具体数据支撑时展开。",
+  "直立人与丹尼索瓦人在雨林共存（ref 57）：证据来自少量牙齿。若年代与地点信息明确，对东亚古人类生态位重叠的讨论有实质意义。"
+ ],
+ "grounding": {
+  "ok": true,
+  "problems": [],
+  "out_of_range": [],
+  "url_leaks": []
+ },
+ "stats": {
+  "paper": {
+   "fetched": 105,
+   "dup_in_run": 0,
+   "already_seen": 51,
+   "dropped_by_penalty": 1,
+   "dropped_by_window": 31,
+   "unique": 22,
+   "candidates": 22
+  },
+  "hot": {
+   "fetched": 55,
+   "dup_in_run": 0,
+   "already_seen": 55,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "news": {
+   "fetched": 179,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 141,
+   "unique": 38,
+   "candidates": 38
+  },
+  "upgrade": {
+   "fetched": 0,
+   "dup_in_run": 0,
+   "already_seen": 0,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  },
+  "preprint": {
+   "fetched": 2,
+   "dup_in_run": 0,
+   "already_seen": 2,
+   "dropped_by_penalty": 0,
+   "dropped_by_window": 0,
+   "unique": 0,
+   "candidates": 0
+  }
+ },
+ "sources": [
+  {
+   "id": "openalex_journals",
+   "name": "OpenAlex · 期刊",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.73,
+   "error": ""
+  },
+  {
+   "id": "rss_nature",
+   "name": "Nature TOC",
+   "status": "ok",
+   "fetched": 75,
+   "kept": 75,
+   "elapsed_s": 0.12,
+   "error": ""
+  },
+  {
+   "id": "rss_cell",
+   "name": "Cell TOC",
+   "status": "ok",
+   "fetched": 24,
+   "kept": 24,
+   "elapsed_s": 0.34,
+   "error": ""
+  },
+  {
+   "id": "rss_lancet",
+   "name": "The Lancet TOC",
+   "status": "ok",
+   "fetched": 31,
+   "kept": 31,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "pubmed_nejm",
+   "name": "New England Journal of Medicine (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.12,
+   "error": ""
+  },
+  {
+   "id": "pubmed_lancet",
+   "name": "The Lancet (PubMed)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.35,
+   "error": ""
+  },
+  {
+   "id": "pubmed_jama",
+   "name": "JAMA (PubMed)",
+   "status": "empty",
+   "fetched": 1,
+   "kept": 0,
+   "elapsed_s": 0.91,
+   "error": ""
+  },
+  {
+   "id": "crossref_science",
+   "name": "Science (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.31,
+   "error": ""
+  },
+  {
+   "id": "crossref_tpami",
+   "name": "IEEE TPAMI (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.42,
+   "error": ""
+  },
+  {
+   "id": "crossref_ieee_tc",
+   "name": "IEEE Transactions on Computers (Crossref)",
+   "status": "ok",
+   "fetched": 46,
+   "kept": 46,
+   "elapsed_s": 0.43,
+   "error": ""
+  },
+  {
+   "id": "crossref_ijcv",
+   "name": "International Journal of Computer Vision (Crossref)",
+   "status": "ok",
+   "fetched": 1,
+   "kept": 1,
+   "elapsed_s": 0.94,
+   "error": ""
+  },
+  {
+   "id": "crossref_sisc",
+   "name": "SIAM Journal on Scientific Computing (Crossref)",
+   "status": "ok",
+   "fetched": 4,
+   "kept": 4,
+   "elapsed_s": 0.93,
+   "error": ""
+  },
+  {
+   "id": "crossref_acta_numerica",
+   "name": "Acta Numerica (Crossref)",
+   "status": "empty",
+   "fetched": 0,
+   "kept": 0,
+   "elapsed_s": 0.91,
+   "error": ""
+  },
+  {
+   "id": "openalex_hot",
+   "name": "OpenAlex · 热文候选",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.85,
+   "error": ""
+  },
+  {
+   "id": "openalex_preprints",
+   "name": "OpenAlex · arXiv 重点预印本",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 2,
+   "elapsed_s": 0.54,
+   "error": ""
+  },
+  {
+   "id": "phys_org",
+   "name": "Phys.org",
+   "status": "ok",
+   "fetched": 30,
+   "kept": 30,
+   "elapsed_s": 0.1,
+   "error": ""
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "status": "ok",
+   "fetched": 5,
+   "kept": 5,
+   "elapsed_s": 0.15,
+   "error": ""
+  },
+  {
+   "id": "ars_science",
+   "name": "Ars Technica Science",
+   "status": "ok",
+   "fetched": 20,
+   "kept": 20,
+   "elapsed_s": 0.24,
+   "error": ""
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "status": "ok",
+   "fetched": 60,
+   "kept": 60,
+   "elapsed_s": 0.24,
+   "error": ""
+  }
+ ]
+}
